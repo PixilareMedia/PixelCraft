@@ -1,0 +1,19 @@
+[13:41:48] [Server thread/INFO]: Loading properties
+[13:41:48] [Server thread/INFO]: Default game type: SPECTATOR
+[13:41:48] [Server thread/INFO]: Generating keypair
+[13:41:48] [Server thread/INFO]: Starting Minecraft server on *:25566
+[13:41:48] [Server thread/INFO]: Using default channel type
+[13:41:49] [Server thread/INFO]: Preparing level "PixelCraft"
+[13:41:50] [Server thread/INFO]: Loaded 583 advancements
+[13:41:50] [Server thread/INFO]: Loaded 3 custom command functions
+[13:41:50] [Server thread/INFO]: Preparing start region for level 0
+[13:41:51] [Server thread/INFO]: Preparing spawn area: 50%
+[13:41:52] [Server thread/INFO]: Done (2.749s)! For help, type "help" or "?"
+[13:41:59] [Server thread/INFO]: Stopping the server
+[13:41:59] [Server thread/INFO]: Stopping server
+[13:41:59] [Server thread/INFO]: Saving players
+[13:41:59] [Server thread/INFO]: Saving worlds
+[13:41:59] [Server thread/INFO]: Saving chunks for level 'PixelCraft'/overworld
+[13:41:59] [Server thread/INFO]: Saving chunks for level 'PixelCraft'/the_nether
+[13:41:59] [Server thread/INFO]: Saving chunks for level 'PixelCraft'/the_end
+[13:41:59] [Server Shutdown Thread/INFO]: Stopping server
