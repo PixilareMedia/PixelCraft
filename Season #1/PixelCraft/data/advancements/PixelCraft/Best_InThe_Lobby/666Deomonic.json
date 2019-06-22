@@ -1,0 +1,23 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull",
+			"data": 2
+        },
+        "title": {
+            "text": "666 Demonic Murders Achieved"
+        },
+        "description": ["",{"text":"You MURDERED 666 People, Hail Sitain!!!"},{"text":"\nBest_InThe_Lobby","color":"dark_gray","italic":true}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:Best_InThe_Lobby/420MURDERIT",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

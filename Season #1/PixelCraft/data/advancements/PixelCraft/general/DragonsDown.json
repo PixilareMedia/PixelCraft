@@ -1,0 +1,23 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull",
+			"data": 5
+        },
+        "title": {
+            "text": "5 Dragons Down"
+        },
+        "description": ["",{"text":"That Also Took Some Time"}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:general/WithersDown",
+	"criteria":{
+		"example": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

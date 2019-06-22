@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {
+            "text": "Xp Machine"
+        },
+        "description": ["",{"text":"Thats A Lot Of XP"}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:root",
+	"criteria":{
+		"example": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:start_general"
+	}
+}

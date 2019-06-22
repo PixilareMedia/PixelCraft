@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "title": {
+            "text": "Its The Gaurdian"
+        },
+        "description": ["",{"text":"No The Elder Gaurdian!!!"},{"text":"\nMapleSquid","color":"dark_gray","italic":true}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:MapleSquid/WhoLivesInA",
+	"criteria":{
+		"mine_coal": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

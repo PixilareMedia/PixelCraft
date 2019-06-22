@@ -1,0 +1,43 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "title": {
+            "text": "King of the Rare Blocks"
+        },
+        "description": ["",{"text":"Again get back to the mines!"},{"text":"\nHerobrain_gamer","color":"dark_gray","italic":true}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:Herobrain_gamer/king_of_the_quartz",
+	"criteria":{
+		"coal_block": {
+               "trigger": "minecraft:impossible"
+           },
+		"iron_block":{
+			"trigger": "minecraft:impossible"
+		},
+		"gold_block":{
+			"trigger": "minecraft:impossible"
+		},
+		"lapis_block":{
+			"trigger": "minecraft:impossible"
+		},
+		"redstone_block":{
+			"trigger": "minecraft:impossible"
+		},
+		"diamond_block":{
+			"trigger": "minecraft:impossible"
+		},
+		"emerald_block":{
+			"trigger": "minecraft:impossible"
+		},
+		"quartz_block":{
+			"trigger": "minecraft:impossible"
+		}
+       }
+   },
+	"rewards":  {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

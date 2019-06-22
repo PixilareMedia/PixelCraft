@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull"
+        },
+        "title": {
+            "text": "16 Deaths"
+        },
+        "description": ["",{"text":"This is Your 16th Death Are You Ok?"},{"text":"\nmidna_87","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:midna_87/FirstDeath",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

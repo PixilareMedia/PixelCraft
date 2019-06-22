@@ -1,0 +1,10 @@
+Notice Board = X : -106, Y : 103, Z : 66
+Skeleton Spawner = X : -95, Y : 36, Z : 40
+Deep Point = X : -433, Y : 62, Z : 365
+Mountain Top = X : -108, Y : 191, Z : 31
+Mushroom Cave = X : 101, Y : 19, Z : -101
+Zombie Spawner = X : -169, Y : 68, Z : -31
+Spider Spawner = X : -41, Y : 59, Z : 68
+Sunken Ship = ?
+Ice Cave = -62 19 111
+Gaurdian Spawner = -194 67 -180

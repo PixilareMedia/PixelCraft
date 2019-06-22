@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:totem_of_undying"
+        },
+        "title": {
+            "text": "Try Me!"
+        },
+        "description": ["",{"text":"Not Today Bitch"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:SkyPixels21/Bow",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

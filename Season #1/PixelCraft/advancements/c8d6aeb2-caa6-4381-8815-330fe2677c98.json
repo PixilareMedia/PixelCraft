@@ -1,0 +1,854 @@
+{
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2018-01-07 09:08:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:general/things_and_stuff": {
+    "criteria": {
+      "place_cobblestone": "2018-01-06 23:12:44 -0800",
+      "place_wheat": "2018-01-06 22:43:34 -0800",
+      "place_dirt": "2018-01-06 21:23:42 -0800",
+      "place_ladder": "2018-01-07 08:15:47 -0800",
+      "place_crafting_table": "2018-01-06 21:21:44 -0800",
+      "place_oak_log": "2018-01-06 20:38:27 -0800",
+      "place_standing_sign": "2018-01-06 22:18:19 -0800",
+      "place_orange_bed": "2018-01-06 21:19:11 -0800",
+      "place_torch": "2018-01-06 21:33:04 -0800",
+      "place_yellow_bed": "2018-01-06 21:19:10 -0800",
+      "place_chest": "2018-01-07 09:13:23 -0800",
+      "place_clay": "2018-02-09 17:33:51 -0800",
+      "place_furnace": "2018-01-07 09:13:29 -0800",
+      "place_wall_sign": "2018-01-06 20:43:05 -0800",
+      "place_poppy": "2018-01-07 08:55:40 -0800",
+      "place_purple_bed": "2018-01-06 21:19:12 -0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/cyan_dye": {
+    "criteria": {
+      "has_lapis": "2018-01-06 23:03:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_red_flower": "2018-01-20 18:34:46 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2018-01-06 22:44:28 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_the_recipe": "2018-01-06 22:43:42 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2018-01-06 22:44:28 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_red_pink": {
+    "criteria": {
+      "has_lapis": "2018-01-06 23:03:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:root": {
+    "criteria": {
+      "instant": "2018-01-06 20:31:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_the_recipe": "2018-01-06 21:21:34 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:best_inthe_lobby/murder": {
+    "criteria": {
+      "die1": "2018-01-06 22:20:05 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2018-01-06 22:43:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2018-01-06 22:44:28 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2018-01-07 08:04:16 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:skypixels21/bow": {
+    "criteria": {
+      "die1": "2018-01-06 20:42:19 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2018-01-06 20:42:21 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/iron_block": {
+    "criteria": {
+      "has_at_least_9_iron_ingot": "2018-01-07 08:02:24 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2018-01-06 20:58:04 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2018-01-06 21:29:46 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/shears": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_the_recipe": "2018-01-06 21:21:51 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_at_least_9_coal": "2018-01-06 22:37:50 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2018-01-20 18:40:15 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2018-02-09 17:33:47 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2018-01-06 20:31:17 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:midna_87/root": {
+    "criteria": {
+      "empty": "2018-01-06 20:31:19 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:electicity/root": {
+    "criteria": {
+      "empty": "2018-01-06 20:31:19 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2018-01-06 20:36:52 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2018-01-06 20:42:21 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2018-01-06 22:44:28 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:herobrain_gamer/king_of_the_iron": {
+    "criteria": {
+      "mine_iron": "2018-01-07 08:16:59 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2018-01-06 22:48:23 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:grassfang99/root": {
+    "criteria": {
+      "empty": "2018-01-06 20:31:19 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fence": {
+    "criteria": {
+      "has_planks": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_beef": "2018-01-06 20:42:08 -0800",
+      "apple": "2018-01-07 08:18:12 -0800",
+      "bread": "2018-01-06 22:44:09 -0800",
+      "rotten_flesh": "2018-01-06 22:41:52 -0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/iron_axe": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2018-01-07 08:18:03 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/shield": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2018-01-07 09:08:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/speckled_melon": {
+    "criteria": {
+      "has_melon": "2018-01-07 08:04:16 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_block": {
+    "criteria": {
+      "has_the_recipe": "2018-01-07 08:02:24 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/hopper": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2018-01-06 22:40:24 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:general/a_true_pixel": {
+    "criteria": {
+      "start_midna_87": "2018-01-06 20:31:17 -0800",
+      "start_maplesquid": "2018-01-06 20:31:17 -0800",
+      "finish_herobrain_gamer2": "2018-01-07 08:16:59 -0800",
+      "start_herobrain_gamer": "2018-01-06 20:31:17 -0800",
+      "finish_maplesquid8": "2018-01-06 23:18:12 -0800",
+      "finish_maplesquid2": "2018-01-06 20:53:10 -0800",
+      "finish_maplesquid1": "2018-01-06 20:41:26 -0800",
+      "finish_maplesquid4": "2018-01-06 22:39:41 -0800",
+      "finish_maplesquid3": "2018-03-08 20:25:36 -0800",
+      "start_pixelcraft": "2018-01-06 20:31:17 -0800",
+      "start_general": "2018-01-06 20:31:17 -0800",
+      "finish_skypixels218": "2018-01-06 20:42:19 -0800",
+      "start_best_inthe_lobby": "2018-01-06 20:31:17 -0800",
+      "start_electicty": "2018-01-06 20:31:17 -0800",
+      "start_iruka77": "2018-01-06 20:31:17 -0800",
+      "start_skypixels21": "2018-01-06 20:31:17 -0800",
+      "finish_electicity2": "2018-01-06 21:15:10 -0800",
+      "start_grassfang99": "2018-01-06 20:31:17 -0800",
+      "finish_best_inthe_lobby1": "2018-01-06 22:20:05 -0800",
+      "finish_midna_871": "2018-01-06 23:15:35 -0800"
+    },
+    "done": false
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2018-01-07 08:09:12 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/fence_gate": {
+    "criteria": {
+      "has_planks": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2018-01-06 21:21:34 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_chestplate": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_the_recipe": "2018-01-06 22:37:50 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_bonemeal": "2018-01-06 22:44:28 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_at_least_9_wheat": "2018-01-06 22:43:42 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:iruka77/root": {
+    "criteria": {
+      "empty": "2018-01-06 20:31:19 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_helmet": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2018-01-07 09:08:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2018-01-06 22:36:19 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2018-01-07 09:08:31 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:midna_87/firstdeath": {
+    "criteria": {
+      "die1": "2018-01-06 23:15:35 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2018-01-06 21:59:31 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "creeper": "2018-01-06 22:36:15 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:electicity/1hour": {
+    "criteria": {
+      "mine_quartz": "2018-01-06 21:15:10 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:best_inthe_lobby/root": {
+    "criteria": {
+      "empty": "2018-01-06 20:31:19 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:maplesquid/noticeboard": {
+    "criteria": {
+      "mine_coal": "2018-01-06 20:41:26 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_boots": "2018-01-07 09:21:44 -0800",
+      "iron_leggings": "2018-01-07 09:21:44 -0800",
+      "iron_helmet": "2018-01-07 09:21:44 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:maplesquid/root": {
+    "criteria": {
+      "empty": "2018-01-06 20:31:19 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2018-01-06 20:50:43 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_bonemeal": "2018-01-06 22:44:28 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2018-01-06 20:31:19 -0800"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2018-01-06 20:43:25 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_hoe": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2018-01-06 20:42:08 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:maplesquid/wellthen": {
+    "criteria": {
+      "mine_coal": "2018-03-08 20:25:36 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:herobrain_gamer/root": {
+    "criteria": {
+      "empty": "2018-01-06 20:31:19 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2018-01-06 20:31:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2018-01-06 22:44:28 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2018-01-06 20:31:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_shovel": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/iron_trapdoor": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2018-01-06 22:20:05 -0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2018-01-06 22:43:34 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2018-01-06 20:31:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_lapis": "2018-01-06 23:03:48 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2018-01-06 20:31:17 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:skypixels21/root": {
+    "criteria": {
+      "empty": "2018-01-06 20:31:19 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2018-01-07 08:12:25 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2018-01-06 22:36:09 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2018-01-06 20:31:17 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2018-01-07 08:04:33 -0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "skeleton": "2018-01-06 22:40:08 -0800",
+      "zombie": "2018-01-06 22:38:05 -0800",
+      "spider": "2018-01-07 09:08:06 -0800",
+      "creeper": "2018-01-06 22:36:15 -0800"
+    },
+    "done": false
+  },
+  "pixelcraft:maplesquid/niceview": {
+    "criteria": {
+      "mine_coal": "2018-01-06 20:53:10 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_at_least_9_lapis": "2018-01-06 23:14:46 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_stone": "2018-01-07 08:14:09 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:electicity/goodchoice": {
+    "criteria": {
+      "mine_quartz": "2018-01-07 08:24:30 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon_block": {
+    "criteria": {
+      "has_melon": "2018-01-07 08:04:16 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:maplesquid/ifoundabone": {
+    "criteria": {
+      "mine_coal": "2018-01-06 22:39:41 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_the_recipe": "2018-01-06 23:14:46 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_block": {
+    "criteria": {
+      "has_the_recipe": "2018-01-06 22:44:28 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2018-01-07 08:18:03 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2018-01-06 21:29:46 -0800"
+    },
+    "done": true
+  },
+  "pixelcraft:maplesquid/whatmushroomcows": {
+    "criteria": {
+      "mine_coal": "2018-01-06 23:18:12 -0800"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2018-01-06 23:11:14 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2018-01-06 20:50:45 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_door": {
+    "criteria": {
+      "has_planks": "2018-01-06 21:21:54 -0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2018-01-06 22:44:28 -0800"
+    },
+    "done": true
+  }
+}

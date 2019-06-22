@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:packed_ice"
+        },
+        "title": {
+            "text": "This Is Really Cold"
+        },
+        "description": ["",{"text":"Well Thats Prety Cool"},{"text":"\nMapleSquid","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:MapleSquid/WhatMushroomCows",
+	"criteria":{
+		"mine_coal": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

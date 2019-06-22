@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:mycelium"
+        },
+        "title": {
+            "text": "What Mushroom Cows???"
+        },
+        "description": ["",{"text":"Awsome Mushroom Cows I Think"},{"text":"\nMapleSquid","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:MapleSquid/WhyDoesThisPlaceSemll",
+	"criteria":{
+		"mine_coal": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

@@ -1,0 +1,2 @@
+#Want To Play Again?
+tellraw @s ["",{"text":"Do you want to play again?","color":"gold"},{"text":"\n"},{"text":"Yes","color":"dark_green","clickEvent":{"action":"run_command","value":"/advancement revoke @p from pixelcraft:root"}},{"text":" or ","color":"gold"},{"text":"NO","color":"dark_red","clickEvent":{"action":"run_command","value":"/tellraw @p {\"text\":\"No Ok\",\"color\":\"red\"}"}}]

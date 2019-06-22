@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:diamond_hoe"
+        },
+        "title": {
+            "text": "Good Luck Breaking That"
+        },
+        "description": ["",{"text":"I'd Like TO See You Try To Break That And BTW Put Mending On It"},{"text":"\nGamerGabriel","color":"dark_gray","italic":true}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:Iruka77/PoisonousPotatoFarm",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

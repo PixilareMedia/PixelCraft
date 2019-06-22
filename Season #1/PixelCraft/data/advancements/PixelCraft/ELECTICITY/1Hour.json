@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:clock"
+        },
+        "title": {
+            "text": "1 Hour Of Play"
+        },
+        "description": ["",{"text":"You've Played For an Hour?"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:ELECTICITY/GoodChoice",
+	"criteria":{
+		"mine_quartz": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

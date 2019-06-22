@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "title": {
+            "text": "5 Elder Gaurdians Down"
+        },
+        "description": ["",{"text":"That Took A Bit Of Time"}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:general/XPMachine",
+	"criteria":{
+		"example": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

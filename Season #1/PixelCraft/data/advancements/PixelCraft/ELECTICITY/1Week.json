@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:clock"
+        },
+        "title": {
+            "text": "1 Week Of Playing"
+        },
+        "description": ["",{"text":"You've Played For 1 Week!!"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:ELECTICITY/1Day",
+	"criteria":{
+		"mine_quartz": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

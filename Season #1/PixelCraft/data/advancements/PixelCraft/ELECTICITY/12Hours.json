@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:clock"
+        },
+        "title": {
+            "text": "12 Hours Of Play"
+        },
+        "description": ["",{"text":"You've Played For 12 Hours!!"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:ELECTICITY/1Hour",
+	"criteria":{
+		"mine_quartz": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}
