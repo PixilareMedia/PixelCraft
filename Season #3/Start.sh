@@ -1,2 +1,2 @@
 #!/bin/bash
-java -Xmx2G -XX:MaxPermSize=256M -jar minecraft_server.1.14.x.jar nogui
+java -Xmx2G -XX:MaxPermSize=256M -jar minecraft_server.1.14.3.jar nogui
