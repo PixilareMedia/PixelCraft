@@ -1,0 +1,31 @@
+menu_title: '&cKick Prefabs'
+open_command: kick
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.staff.Kick
+      deny_commands:
+      - '[message] You dont have permission to open menu: Kick'
+items:
+  '1':
+    material: obsidian
+    slot: 0
+    display_name: '&aKick For Being Annoying'
+    left_click_commands:
+    - '[player] kick <PlayerName> @Annoying'
+    - '[close]'
+    right_click_commands:
+    - '[player] kick <PlayerName> @Annoying'
+    - '[close]'
+  '2':
+    material: barrier
+    slot: 1
+    display_name: '&aKickall'
+    left_click_commands:
+    - '[player] kickall'
+    - '[close]'
+    right_click_commands:
+    - '[player] kickall'
+    - '[close]'

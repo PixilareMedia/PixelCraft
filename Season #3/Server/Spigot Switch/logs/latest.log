@@ -1,0 +1,527 @@
+[07:00:19] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[07:00:19] [Server thread/INFO]: Loading properties
+[07:00:19] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-798ea6a-2012f1e (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[07:00:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:00:20] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:00:20] [Server thread/INFO]: Debug logging is disabled
+[07:00:20] [Server thread/INFO]: Default game type: SURVIVAL
+[07:00:20] [Server thread/INFO]: Generating keypair
+[07:00:21] [Server thread/INFO]: Starting Minecraft server on 66.70.132.128:25594
+[07:00:21] [Server thread/INFO]: Using epoll channel type
+[07:00:30] [Server thread/WARN]: Plugin dynmap v3.0-beta-5-218 does not specify an api-version.
+[07:00:30] [Server thread/WARN]: Plugin OpenInv v4.0.3 does not specify an api-version.
+[07:00:30] [Server thread/WARN]: Plugin PlaceholderAPI v2.10.3 does not specify an api-version.
+[07:00:30] [Server thread/WARN]: Plugin SuperStaffChat v1.1 does not specify an api-version.
+[07:00:30] [Server thread/WARN]: Plugin AdvancedBan v2.1.5-RELEASE does not specify an api-version.
+[07:00:30] [Server thread/WARN]: Plugin WorldBorder v1.8.7 does not specify an api-version.
+[07:00:30] [Server thread/WARN]: Plugin DeluxeTags v1.7.1 does not specify an api-version.
+[07:00:30] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[07:00:30] [Server thread/WARN]: Plugin Dynmap-WorldGuard v1.1-beta-3 does not specify an api-version.
+[07:00:32] [Server thread/WARN]: Plugin VanishNoPacket v3.20.1 does not specify an api-version.
+[07:00:32] [Server thread/WARN]: Plugin Dynmap-GriefPrevention v0.80 does not specify an api-version.
+[07:00:32] [Server thread/WARN]: Plugin CommandNPC v1.9.1 does not specify an api-version.
+[07:00:32] [Server thread/WARN]: Plugin Dynmap-Essentials v0.91-SNAPSHOT does not specify an api-version.
+[07:00:32] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.17.5
+[07:00:32] [Server thread/INFO]: [dynmap] Loading dynmap v3.0-beta-5-218
+[07:00:32] [Server thread/INFO]: [dynmap] version=git-Spigot-798ea6a-2012f1e (MC: 1.14.4)
+[07:00:32] [Server thread/INFO]: [dynmap] Unload queue not found - default to unload all chunks
+[07:00:32] [Server thread/INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
+[07:00:32] [Server thread/INFO]: [dynmap] Mod Support API available
+[07:00:32] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.1;61bc012
+[07:00:33] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3ad57c9]
+[07:00:33] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.0.3
+[07:00:33] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.3
+[07:00:33] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.14.0
+[07:00:33] [Server thread/INFO]: [SuperStaffChat] Loading SuperStaffChat v1.1
+[07:00:33] [Server thread/INFO]: [AdvancedBan] Loading AdvancedBan v2.1.5-RELEASE
+[07:00:33] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.8.7
+[07:00:33] [Server thread/INFO]: [WorldResourcepacks] Loading WorldResourcepacks v1.6.20-SNAPSHOT (build 278)
+[07:00:33] [Server thread/INFO]: [Horizon] Loading Horizon v1.4.6-Hotfix#8
+[07:00:33] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.1-SNAPSHOT;556b638
+[07:00:33] [Server thread/INFO]: [CommandPrompter] Loading CommandPrompter v0.1.15
+[07:00:33] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags v1.7.1
+[07:00:33] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.12.0
+[07:00:33] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[07:00:33] [Server thread/INFO]: [RFChairs] Loading RFChairs v6.0
+[07:00:33] [Server thread/INFO]: [RFChairs] Found WorldGuard && WorldEdit! Applying Custom Flag...
+[07:00:33] [Server thread/INFO]: [RFChairs] Custom Flag Registered!
+[07:00:33] [Server thread/INFO]: [CraftingStore] Loading CraftingStore v2.2.1
+[07:00:33] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[07:00:33] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.11.6
+[07:00:33] [Server thread/INFO]: [ChestShop] Loading ChestShop v3.10-SNAPSHOT (build 156)
+[07:00:33] [Server thread/INFO]: [ChestShop] WorldGuard version 7.0.1-SNAPSHOT;556b638 loaded.
+[07:00:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.1.13
+[07:00:33] [Server thread/INFO]: [MarriageMaster] Loading MarriageMaster v2.0.12-Release
+[07:00:33] [Server thread/INFO]: at.pcgamingfreaks.MarriageMaster.API.CommandManager
+[07:00:33] [Server thread/INFO]: [MarriageMaster] PCGF-PluginLib not installed. Switching to standalone mode!
+[07:00:33] [Server thread/INFO]: [Dynmap-WorldGuard] Loading Dynmap-WorldGuard v1.1-beta-3
+[07:00:33] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.25-SNAPSHOT (build 1745)
+[07:00:33] [Server thread/INFO]: [TabList] Loading TabList v4.5
+[07:00:33] [Server thread/INFO]: [DiscordSRV] Loading DiscordSRV v1.17.1
+[07:00:33] [Server thread/INFO]: [VanishNoPacket] Loading VanishNoPacket v3.20.1
+[07:00:33] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.1.13
+[07:00:33] [Server thread/INFO]: [Dynmap-GriefPrevention] Loading Dynmap-GriefPrevention v0.80
+[07:00:33] [Server thread/INFO]: [CommandNPC] Loading CommandNPC v1.9.1
+[07:00:33] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.1.13
+[07:00:33] [Server thread/INFO]: [Dynmap-Essentials] Loading Dynmap-Essentials v0.91-SNAPSHOT
+[07:00:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.1;61bc012
+[07:00:33] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[07:00:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R4 as the Bukkit adapter
+[07:00:34] [Server thread/WARN]: [WorldEdit] ====================================================
+[07:00:34] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[07:00:34] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[07:00:34] [Server thread/WARN]: [WorldEdit]   
+[07:00:34] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[07:00:34] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[07:00:34] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[07:00:34] [Server thread/WARN]: [WorldEdit]   
+[07:00:34] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[07:00:34] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[07:00:34] [Server thread/WARN]: [WorldEdit]   
+[07:00:34] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[07:00:34] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[07:00:34] [Server thread/WARN]: [WorldEdit]   
+[07:00:34] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[07:00:34] [Server thread/WARN]: [WorldEdit] ====================================================
+[07:00:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[07:00:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:00:34] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[07:00:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:00:34] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[07:00:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[07:00:34] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[07:00:34] [Server thread/INFO]: Preparing level "Pixel Craft (S3)"
+[07:00:34] [Server thread/INFO]: Reloading ResourceManager: Default, anti enderman grief v1.0.0.zip, custom_crafting.zip, customizable armor stands v2.4.0.zip, double shulker shells v1.0.3.zip, nether portal coords v1.0.0.zip, redstone rotation wrench v1.0.1.zip, silence mobs v1.0.0.zip, spawning spheres v1.0.0.zip, terracotta rotation wrench v1.0.1.zip, track statistics v1.0.0.zip, bible.zip, track raw statistics v1.2.0.zip, dragon drops elytra v1.0.2, more mob heads v2.1.0, thunder shrine v1.0.2, custom_things, coordinates hud v1.1.1.zip, player graves v1.5.1.zip, anti ghast grief v1.0.0.zip, Divinity, bukkit, multiplayer sleep v1.0.1
+[07:00:35] [Server thread/INFO]: Loaded 6 recipes
+[07:00:35] [Server thread/WARN]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[07:00:36] [Server thread/INFO]: Loaded 371 custom command functions
+[07:00:36] [Server thread/INFO]: -------- World Settings For [Pixel Craft (S3)] --------
+[07:00:36] [Server thread/INFO]: Max TNT Explosions: 100
+[07:00:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:00:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:00:36] [Server thread/INFO]: Mob Spawn Range: 6
+[07:00:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:00:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:00:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:00:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[07:00:36] [Server thread/INFO]: View Distance: 10
+[07:00:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:00:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:00:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:00:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:00:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:00:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:00:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:00:36] [Server thread/INFO]: -------- World Settings For [Pixel Craft (S3)_nether] --------
+[07:00:36] [Server thread/INFO]: Max TNT Explosions: 100
+[07:00:36] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:00:36] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:00:36] [Server thread/INFO]: Mob Spawn Range: 6
+[07:00:36] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:00:36] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:00:36] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:00:36] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:00:36] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[07:00:36] [Server thread/INFO]: View Distance: 10
+[07:00:36] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:00:36] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:00:36] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:00:36] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:00:36] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:00:36] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:00:37] [Server thread/INFO]: -------- World Settings For [Pixel Craft (S3)_the_end] --------
+[07:00:37] [Server thread/INFO]: Max TNT Explosions: 100
+[07:00:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[07:00:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[07:00:37] [Server thread/INFO]: Mob Spawn Range: 6
+[07:00:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Potato Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[07:00:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[07:00:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[07:00:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[07:00:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[07:00:37] [Server thread/INFO]: View Distance: 10
+[07:00:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[07:00:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[07:00:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[07:00:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[07:00:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[07:00:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[07:00:37] [Server thread/INFO]: Preparing start region for dimension 'Pixel Craft (S3)'/minecraft:overworld
+[07:00:38] [Server thread/INFO]: Preparing spawn area: 0%
+[07:00:38] [Server thread/INFO]: Preparing spawn area: 0%
+[07:00:38] [Server thread/INFO]: Preparing spawn area: 0%
+[07:00:38] [Server thread/INFO]: Preparing spawn area: 35%
+[07:00:40] [Server thread/INFO]: Preparing spawn area: 46%
+[07:00:40] [Server thread/INFO]: Preparing spawn area: 46%
+[07:00:40] [Server thread/INFO]: Preparing spawn area: 46%
+[07:00:40] [Server thread/INFO]: Preparing spawn area: 100%
+[07:00:41] [Server thread/INFO]: Time elapsed: 3969 ms
+[07:00:41] [Server thread/INFO]: Preparing start region for dimension 'Pixel Craft (S3)_nether'/minecraft:the_nether
+[07:00:41] [Server thread/INFO]: Preparing spawn area: 0%
+[07:00:41] [Server thread/INFO]: Preparing spawn area: 0%
+[07:00:41] [Server thread/INFO]: Time elapsed: 890 ms
+[07:00:41] [Server thread/INFO]: Preparing start region for dimension 'Pixel Craft (S3)_the_end'/minecraft:the_end
+[07:00:42] [Server thread/INFO]: Preparing spawn area: 0%
+[07:00:42] [Server thread/INFO]: Preparing spawn area: 0%
+[07:00:42] [Server thread/INFO]: Preparing spawn area: 0%
+[07:00:43] [Server thread/INFO]: Preparing spawn area: 83%
+[07:00:43] [Server-Worker-3/INFO]: Preparing spawn area: 97%
+[07:00:44] [Server-Worker-1/INFO]: Preparing spawn area: 97%
+[07:00:44] [Server thread/INFO]: Time elapsed: 2645 ms
+[07:00:44] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.17.5
+[07:00:45] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[07:00:45] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[07:00:45] [Server thread/INFO]: [dynmap] Enabling dynmap v3.0-beta-5-218
+[07:00:45] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[07:00:45] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[07:00:45] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[07:00:46] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[07:00:46] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[07:00:46] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[07:00:46] [Server thread/INFO]: [dynmap] Using PermissionsEx 1.23.4 for access control
+[07:00:46] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[07:00:47] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[07:00:47] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[07:00:47] [Server thread/INFO]: [dynmap] Loaded 14 lightings.
+[07:00:48] [Server thread/INFO]: [dynmap] Web server started on address 66.70.132.128:8123
+[07:00:48] [Server thread/INFO]: [dynmap] version 3.0-beta-5-218 is enabled - core version 3.0-beta-5-218
+[07:00:48] [Server thread/INFO]: [dynmap] For support, visit https://forums.dynmap.us
+[07:00:48] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[07:00:48] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'Pixel Craft (S3)'.
+[07:00:48] [Server thread/INFO]: [dynmap] Loaded 5 pending tile renders for world 'Pixel Craft (S3)'
+[07:00:48] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Pixel Craft (S3)_nether'.
+[07:00:48] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'Pixel Craft (S3)_the_end'.
+[07:00:48] [Server thread/WARN]: [dynmap] playermove trigger enabled - this trigger can cause excessive tile updating: use with caution
+[07:00:48] [Server thread/INFO]: [dynmap] Enabled
+[07:00:48] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.0.3
+[07:00:48] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.3
+[07:00:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[07:00:48] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.14.0
+[07:00:48] [Server thread/INFO]: [VeinMiner] Registering events
+[07:00:48] [Server thread/INFO]: [VeinMiner] Registering commands
+[07:00:48] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[07:00:48] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
+[07:00:48] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[07:00:48] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
+[07:00:48] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[07:00:48] [Server thread/INFO]: [SuperStaffChat] Enabling SuperStaffChat v1.1
+[07:00:48] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[07:00:48] [Server thread/INFO]: [SuperStaffChat] SuperStaffChat by PedroJM96
+[07:00:48] [Server thread/INFO]: [SuperStaffChat] Loading configuration...
+[07:00:48] [Server thread/INFO]: [SuperStaffChat] Load config.yml
+[07:00:48] [Server thread/INFO]: [SuperStaffChat] config.yml loaded.
+[07:00:48] [Server thread/INFO]: [SuperStaffChat] Load messages_EN.yml
+[07:00:48] [Server thread/INFO]: [SuperStaffChat] messages_EN.yml loaded.
+[07:00:48] [Server thread/INFO]: [SuperStaffChat] Load chat.yml
+[07:00:48] [Server thread/INFO]: [SuperStaffChat] chat.yml loaded.
+[07:00:48] [Server thread/INFO]: -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[07:00:48] [Server thread/INFO]: [AdvancedBan] Enabling AdvancedBan v2.1.5-RELEASE
+[07:00:49] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Your version of VeinMiner (1.14.0) is up to date!
+[07:00:50] [Server thread/INFO]: 
+ 
+[]=====[Enabling AdvancedBan]=====[]
+| Information:
+|   Name: AdvancedBan
+|   Developer: Leoko
+|   Version: 2.1.5-RELEASE
+|   Storage: HSQLDB (local)
+| Support:
+|   Skype: Leoko33
+|   Mail: Leoko4433@gmail.com
+|   Github: https://github.com/DevLeoko/AdvancedBan/issues
+|   Discord: https://discord.gg/ycDG6rS
+| Update:
+|   There is a new version available! [2.1.5]
+[]================================[]
+ 
+[07:00:50] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.8.7
+[07:00:50] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[07:00:50] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[07:00:50] [Server thread/INFO]: [WorldBorder] [CONFIG] Configuration not present, creating new file.
+[07:00:50] [Server thread/INFO]: [WorldBorder] [CONFIG] Successfully hooked into DynMap for the ability to display borders.
+[07:00:50] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 241.0 Y: 63.0 Z: 67.0
+[07:00:50] [Server thread/INFO]: [WorldResourcepacks] Enabling WorldResourcepacks v1.6.20-SNAPSHOT (build 278)
+[07:00:50] [Server thread/INFO]: [WorldResourcepacks] Loading config!
+[07:00:50] [Server thread/INFO]: [WorldResourcepacks] Debug level: INFO
+[07:00:50] [Server thread/INFO]: [WorldResourcepacks] Found locale en!
+[07:00:50] [Server thread/INFO]: [WorldResourcepacks] Loading packs:
+[07:00:50] [Server thread/INFO]: [WorldResourcepacks] pcs3essentials - https://download.nodecdn.net/containers/nodecraft/minepack/0d1d28f2c9b25607e2504dd03c11664e.zip - 415b70f1d228416ada5737dcd4baa4b195419503
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] pcs3 - https://download.nodecdn.net/containers/nodecraft/minepack/10e07688038cffdf67a5551ee7f77d73.zip - 3e1ad27f7483c55ede9b6071c2366215e75f43aa
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] empty - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] Loading global assignment...
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] Pack: pcs3essentials
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] Send delay: 10
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] Loaded PackAssignment{name=global, pack=pcs3essentials, secondaries=[], sendDelay=10}
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] Loading world assignments...
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world lobby...
+[07:00:51] [Server thread/WARN]: [WorldResourcepacks] No pack with the name lobbypack defined?
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] Loaded PackAssignment{name=lobby, pack=null, secondaries=[], sendDelay=-1}
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] Stored packs override assignments: false
+[07:00:51] [Server thread/INFO]: [WorldResourcepacks] Detected server packformat 4!
+[07:00:51] [Server thread/INFO]: [Horizon] Enabling Horizon v1.4.6-Hotfix#8
+[07:00:51] [Server thread/INFO]: (H-INFO) | Checking server version...
+[07:00:51] [Server thread/INFO]: (H-INFO) | Found server version: v1_14_R1
+[07:00:51] [Server thread/INFO]: (H-INFO) | Loading configuration files...
+[07:00:51] [Server thread/INFO]: (H-INFO) | Registering commands...
+[07:00:51] [Server thread/INFO]: (H-INFO) | Enabling utilities...
+[07:00:51] [Server thread/INFO]: (H-INFO) | Enabling checks...
+[07:00:51] [Server thread/INFO]: (H-INFO) | Horizon(1.4.6-Hotfix#8) is now fully loaded.
+[07:00:51] [Server thread/INFO]: (H-INFO) | Full startup took 0.265 second(s)
+[07:00:51] [Server thread/INFO]: (H-INFO) | Thanks for using Horizon :)
+[07:00:51] [Server thread/INFO]: (H-INFO) | If you think Horizon is good, don't forget to leave a good review!
+[07:00:51] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.1-SNAPSHOT;556b638
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)) TNT ignition is PERMITTED.
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)) Lighters are PERMITTED.
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)) Lava fire is blocked.
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)) Fire spread is UNRESTRICTED.
+[07:00:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Pixel Craft (S3)'
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)_nether) TNT ignition is PERMITTED.
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)_nether) Lighters are PERMITTED.
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)_nether) Lava fire is blocked.
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)_nether) Fire spread is UNRESTRICTED.
+[07:00:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Pixel Craft (S3)_nether'
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)_the_end) TNT ignition is PERMITTED.
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)_the_end) Lighters are PERMITTED.
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)_the_end) Lava fire is blocked.
+[07:00:51] [Server thread/INFO]: [WorldGuard] (Pixel Craft (S3)_the_end) Fire spread is UNRESTRICTED.
+[07:00:51] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Pixel Craft (S3)_the_end'
+[07:00:51] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:00:51] [Server thread/INFO]: [CommandPrompter] Enabling CommandPrompter v0.1.15
+[07:00:51] [Server thread/INFO]: [DeluxeTags] Enabling DeluxeTags v1.7.1
+[07:00:51] [Server thread/INFO]: [DeluxeTags] 34 tags loaded
+[07:00:51] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags messages.yml
+[07:00:51] [Server thread/INFO]: [DeluxeTags] You are not using DeluxeChat!
+[07:00:51] [Server thread/INFO]: [DeluxeTags] DeluxeTags will listen to the AsyncPlayerChatEvent to provide compatibility for some chat plugins.
+[07:00:51] [Server thread/INFO]: ----------------------------
+[07:00:51] [Server thread/INFO]:      DeluxeTags Updater
+[07:00:51] [Server thread/INFO]:  
+[07:00:51] [Server thread/INFO]: Could not connect to spigotmc.org
+[07:00:51] [Server thread/INFO]: to check for updates! 
+[07:00:51] [Server thread/INFO]:  
+[07:00:51] [Server thread/INFO]: ----------------------------
+[07:00:51] [Server thread/INFO]: ----------------------------
+[07:00:51] [Server thread/INFO]:      DeluxeTags Updater
+[07:00:51] [Server thread/INFO]:  
+[07:00:51] [Server thread/INFO]: You are running 1.7.1
+[07:00:51] [Server thread/INFO]: The latest version
+[07:00:51] [Server thread/INFO]: of DeluxeTags!
+[07:00:51] [Server thread/INFO]:  
+[07:00:51] [Server thread/INFO]: ----------------------------
+[07:00:51] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.12.0
+[07:00:51] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[07:00:52] [Server thread/INFO]: [DeluxeMenus] 39 GUI menus loaded!
+[07:00:52] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[07:00:52] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[07:00:52] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup
+[07:00:52] [Server thread/INFO]: [RFChairs] Enabling RFChairs v6.0
+[07:00:52] [Server thread/INFO]: [RFChairs] No fake seats remaining! Proceeding
+[07:00:52] [Server thread/INFO]: [RFChairs] Rifle's Chairs has been enabled!
+[07:00:52] [Server thread/INFO]: [CraftingStore] Enabling CraftingStore v2.2.1
+[07:00:53] [Server thread/INFO]: [CraftingStore] Hooked with PlaceholderAPI
+[07:00:53] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.11.6
+[07:00:53] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[07:00:53] [Server thread/INFO]: [GriefPrevention] 1 total claims loaded.
+[07:00:57] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[07:00:57] [Server thread/INFO]: [GriefPrevention] Successfully hooked into WorldGuard.
+[07:00:57] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[07:00:58] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[07:00:58] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.10-SNAPSHOT (build 156)
+[07:00:58] [Server thread/INFO]: [ChestShop] Using Essentials Economy as the Economy provider now.
+[07:00:58] [Server thread/INFO]: [ChestShop] Vault loaded!
+[07:00:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.1.13
+[07:00:59] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[07:00:59] [Server thread/INFO]: No kits found to migrate.
+[07:00:59] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[07:00:59] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[07:00:59] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[07:00:59] [Server thread/INFO]: Loaded 20977 items from items.json.
+[07:00:59] [Server thread/INFO]: Using locale en_US
+[07:00:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:00:59] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:00:59] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[07:00:59] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[07:00:59] [Server thread/INFO]: [MarriageMaster] Enabling MarriageMaster v2.0.12-Release
+[07:01:00] [Server thread/INFO]: [MarriageMaster] Starting Marriage Master in standalone mode!
+[07:01:00] [Server thread/INFO]: [MarriageMaster] [32mConfig file successfully loaded.[0m
+[07:01:00] [Server thread/INFO]: [MarriageMaster] No compatible backpack plugin found.
+[07:01:00] [Server thread/INFO]: [MarriageMaster] [32mLanguage file successfully loaded. Language: English  Author: GeorgH93[0m
+[07:01:00] [Server thread/INFO]: MarriageMaster-Connection-Pool - Starting...
+[07:01:00] [Server thread/INFO]: MarriageMaster-Connection-Pool - Start completed.
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Loading marriages ...
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Marriages loaded
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Loading priests ...
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Priests loaded
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Loading players ...
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Players loaded
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Writing marriages into cache ...
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Marriages loaded into cache
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Loading homes ...
+[07:01:00] [Thread-27/INFO]: [MarriageMaster] Homes loaded
+[07:01:01] [Server thread/INFO]: [MarriageMaster] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[07:01:01] [Server thread/INFO]: [MarriageMaster] Loading item translations ...
+[07:01:01] [Server thread/INFO]: [MarriageMaster] Finished loading item translations for 830 items.
+[07:01:01] [Server thread/INFO]: [MarriageMaster] [32mPlaceholderAPI hook was successfully registered![0m
+[07:01:01] [Server thread/INFO]: [MarriageMaster] [32m Marriage Master has been enabled! [33m :) [0m
+[07:01:01] [Server thread/INFO]: [Dynmap-WorldGuard] Enabling Dynmap-WorldGuard v1.1-beta-3
+[07:01:01] [Server thread/INFO]: [Dynmap-WorldGuard] initializing
+[07:01:01] [Server thread/INFO]: [Dynmap-WorldGuard] version 1.1-beta-3 is activated
+[07:01:01] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.25-SNAPSHOT (build 1745)
+[07:01:02] [Server thread/INFO]: [TabList] Enabling TabList v4.5
+[07:01:02] [Server thread/INFO]: [TabList] Hooked PlaceholderAPI version: 2.10.3
+[07:01:02] [Server thread/INFO]: [TabList] You're running the latest version.
+[07:01:02] [Server thread/INFO]: [TabList] Metrics enabled.
+[07:01:02] [Server thread/INFO]: [TabList] > The plugin successfully enabled v4.5!
+[07:01:02] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.17.1
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] Enabling VanishNoPacket v3.20.1
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] Detected Essentials. Enabling Essentials hook.
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] Colored nametags enabled, but I couldn't find TagAPI
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] For awesome colored nametags on vanish, visit
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] http://dev.bukkit.org/server-mods/tag/ 
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] and download TagAPI.jar
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] Now hooking into Essentials
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] This is your first startup (or you wiped your config).
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] In future startups, VanishNoPacket will check for updates
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] If you dislike it, disable 'checkupdates' in the config file
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] Note that this plugin also utilizes PluginMetrics with usage tracking
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] If you do not want usage tracking (paranoid) disable in that config
+[07:01:02] [Server thread/INFO]: [VanishNoPacket] 3.20.1 loaded.
+[07:01:02] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.1.13
+[07:01:02] [Server thread/INFO]: [Dynmap-GriefPrevention] Enabling Dynmap-GriefPrevention v0.80
+[07:01:02] [Server thread/INFO]: [Dynmap-GriefPrevention] initializing
+[07:01:02] [Server thread/INFO]: [Dynmap-GriefPrevention] version 0.80 is activated
+[07:01:02] [Server thread/INFO]: [CommandNPC] Enabling CommandNPC v1.9.1
+[07:01:02] [Server thread/INFO]: [CommandNPC] Vault compatible economy found! Economy support for CommandNPC has been enabled.
+[07:01:02] [Server thread/INFO]: [CommandNPC] Initiating Database
+[07:01:02] [Server thread/INFO]: [CommandNPC] Injecting command info into Citizens.
+[07:01:02] [Server thread/INFO]: [CommandNPC] CommandNPC successfully loaded!
+[07:01:02] [Thread-28/INFO]: [CommandNPC] Loading commands complete!
+[07:01:02] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.1.13
+[07:01:02] [Server thread/INFO]: [Dynmap-Essentials] Enabling Dynmap-Essentials v0.91-SNAPSHOT
+[07:01:02] [Server thread/INFO]: [Dynmap-Essentials] initializing
+[07:01:02] [Server thread/INFO]: [Dynmap-Essentials] version 0.91-SNAPSHOT is activated
+[07:01:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:01:03] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[07:01:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[07:01:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: discordsrv
+[07:01:03] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: essentials
+[07:01:04] [Server thread/WARN]: [PlaceholderAPI] File: example.js for javascript placeholder: example is empty
+[07:01:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[07:01:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: objective
+[07:01:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[07:01:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: checkitem
+[07:01:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: statistic
+[07:01:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxetags
+[07:01:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: plugin
+[07:01:04] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[07:01:04] [Server thread/INFO]: Done (30.405s)! For help, type "help"
+[07:01:04] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[07:01:04] [Craft Scheduler Thread - 3/INFO]: [WorldResourcepacks] Generating hashes...
+[07:01:04] [Craft Scheduler Thread - 3/INFO]: [WorldResourcepacks] Downloading pcs3essentials...
+[07:01:05] [Craft Scheduler Thread - 3/INFO]: [WorldResourcepacks] SHA 1 hash of pcs3essentials: 415b70f1d228416ada5737dcd4baa4b195419503
+[07:01:05] [Craft Scheduler Thread - 3/INFO]: [WorldResourcepacks] Downloading pcs3...
+[07:01:06] [Craft Scheduler Thread - 5/INFO]: (H-INFO) | You're using the latest version!
+[07:01:06] [Server thread/INFO]: [Citizens] Loaded 2 NPCs.
+[07:01:06] [Craft Scheduler Thread - 5/INFO]: [Vault] Checking for Updates ... 
+[07:01:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (35bc27bf421604a08ea637646123433ee9794e69)
+[07:01:06] [Craft Scheduler Thread - 5/INFO]: [Vault] No new version available
+[07:01:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Language initialized as English
+[07:01:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §8===============================================================================
+[07:01:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §a         Need a server host? Try PebbleHost! Plans starting at $1/GB!
+[07:01:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §a Use promo code "DISCORDSRV" at checkout for 15% off your first three bills!
+[07:01:06] [DiscordSRV - Initialization/INFO]: [DiscordSRV] §8===============================================================================
+[07:01:06] [Craft Scheduler Thread - 3/INFO]: [WorldResourcepacks] SHA 1 hash of pcs3: 3e1ad27f7483c55ede9b6071c2366215e75f43aa
+[07:01:06] [Craft Scheduler Thread - 3/INFO]: [WorldResourcepacks] Downloading empty...
+[07:01:07] [Craft Scheduler Thread - 3/INFO]: [WorldResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+[07:01:07] [Craft Scheduler Thread - 3/INFO]: [WorldResourcepacks] No hash changed!
+[07:01:08] [Craft Scheduler Thread - 2/INFO]: [PlaceholderAPI] 156 placeholder expansions are available on the cloud.
+[07:01:08] [Craft Scheduler Thread - 2/INFO]: [PlaceholderAPI] 1 installed expansions have updates available.
+[07:01:08] [Craft Scheduler Thread - 5/INFO]: [CommandPrompter] No update was found.
+[07:01:08] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[07:01:09] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[07:01:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[07:01:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5106ms or 102 ticks behind
+[07:01:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Found server G:Pixel Craft(603823306113548289)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:announcements(616416422091948033)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(603823306805870603)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:music-cmds(603837168326148117)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:dev-game-chat(614980680773795875)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:game-chat(617389338883260433)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:general(603835555335110676)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:shop-prices(603835738852818974)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:recipes(604883180729663511)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff(618185353265938443)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mods(616482530673033221)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:dadmins(615425665516437514)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:dev(618185816606507069)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:dev-server-console(614981168357703680)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:server-console(617389415064666122)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:staff(617426322490392599)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:mod(617425634624536576)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:dadmins(603834722728280092)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] - TC:overlord(603835010373386250)
+[07:01:10] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console forwarding assigned to channel 617389415064666122
+[07:01:11] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Not using JDBC, one of host/port/database was default
+[07:01:11] [DiscordSRV - Initialization/INFO]: [DiscordSRV] No chat plugin hooks enabled
+[08:00:00] [Server thread/INFO]: [Server] <> Saving World May Lag A Bit
+[08:00:00] [Server thread/INFO]: [Server] <> Server Saved
+[08:00:00] [Server thread/INFO]: Saving the game (this may take a moment!)
+[08:00:00] [Server thread/INFO]: Saved the game
+[09:00:00] [Server thread/INFO]: [Server] <> Saving World May Lag A Bit
+[09:00:00] [Server thread/INFO]: [Server] <> Server Saved
+[09:00:00] [Server thread/INFO]: Saving the game (this may take a moment!)
+[09:00:00] [Server thread/INFO]: Saved the game
+[10:00:00] [Server thread/INFO]: [Server] <> Saving World May Lag A Bit
+[10:00:00] [Server thread/INFO]: [Server] <> Server Saved
+[10:00:00] [Server thread/INFO]: Saving the game (this may take a moment!)
+[10:00:00] [Server thread/INFO]: Saved the game
+[11:00:00] [Server thread/INFO]: [Server] <> Saving World May Lag A Bit
+[11:00:00] [Server thread/INFO]: [Server] <> Server Saved
+[11:00:00] [Server thread/INFO]: Saving the game (this may take a moment!)
+[11:00:00] [Server thread/INFO]: Saved the game

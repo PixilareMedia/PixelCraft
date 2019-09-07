@@ -1,0 +1,25 @@
+pixels:
+  command: pixelschat
+  alias: pc
+  permission: staffchat.pixels
+  format: '&f[&aPixels Chat&f] &a%player%&f: &e%message%'
+staff:
+  command: staffchat
+  alias: sc
+  permission: staffchat.staff
+  format: '&f[&bStaff Chat&f] &a%player%&f: &e%message%'
+mod:
+  command: modchat
+  alias: mc
+  permission: staffchat.mod
+  format: '&f[&2Mod Chat&f] &a%player%&f: &e%message%'
+dadmin:
+  command: dadminchat
+  alias: dc
+  permission: staffchat.dadmin
+  format: '&f[&cDadmin Chat&f] &a%player%&f: &e%message%'
+dev:
+  command: devchat
+  alias: vc
+  permission: staffchat.dev
+  format: '&f[&5Dev Chat&f] &a%player%&f: &e%message%'

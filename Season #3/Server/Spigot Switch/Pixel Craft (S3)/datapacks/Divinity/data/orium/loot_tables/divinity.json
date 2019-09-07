@@ -1,0 +1,254 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 8,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:soul_of_the_sea\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Soul of the Sea","color":"green","italic":"false"},
+								{"text":"Grants Eternal Water Breathing","color":"dark_green","italic":"false"},
+								{"text":"Apply to Headpiece","color":"light_purple","italic":"false"},
+								{"text":"-Respiration III","color":"dark_purple","italic":"false"},
+								{"text":"-Aqua Affinity","color":"dark_purple","italic":"false"}
+							]
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 8,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:illuminance\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Illuminance","color":"green","italic":"false"},
+								{"text":"Grants the ability to see into the","color":"dark_green","italic":"false"},
+								{"text":"darkness","color":"dark_green","italic":"false"},
+								{"text":"Apply to Headpiece","color":"light_purple","italic":"false"}
+							]
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 4,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:recovery\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Recovery","color":"dark_red","italic":"false"},
+								{"text":"Grants Superior Regeneration","color":"dark_green","italic":"false"},
+								{"text":"Unless Starving","color":"dark_green","italic":"false"},
+								{"text":"Apply to Chestpiece","color":"light_purple","italic":"false"}
+							]
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 8,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:swiftness\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Swiftness","color":"green","italic":"false"},
+								{"text":"Grants Additional Walking Speed","color":"dark_green","italic":"false"},
+								{"text":"Apply to Legwear","color":"light_purple","italic":"false"}
+							]
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 8,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:waverider\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Waverider","color":"green","italic":"false"},
+								{"text":"Grants Additional Swimming Speed","color":"dark_green","italic":"false"},
+								{"text":"Apply to Legwear","color":"light_purple","italic":"false"}
+							]
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 8,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:gravity_magic\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Gravity Magic","color":"green","italic":"false"},
+								{"text":"Grants Additional Jumping Height","color":"dark_green","italic":"false"},
+								{"text":"Apply to Footwear","color":"light_purple","italic":"false"},
+								{"text":"-Feather Falling IV","color":"dark_purple","italic":"false"}
+							]
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 8,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:excavation\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Excavation","color":"green","italic":"false"},
+								{"text":"Grants Mining Proficiency","color":"dark_green","italic":"false"},
+								{"text":"Apply to Mainhand Tool","color":"light_purple","italic":"false"},
+								{"text":"-Efficiency V","color":"dark_purple","italic":"false"}
+							]
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 1,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:luck\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Luck","color":"gold","italic":"false"},
+								{"text":"Grants Infinite Luck V","color":"dark_green","italic":"false"},
+								{"text":"Apply to Handheld Item","color":"light_purple","italic":"false"}
+							]
+						}
+					]
+                },{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 1,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:fortification\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Fortification","color":"gold","italic":"false"},
+								{"text":"Increases Maximum Health","color":"dark_green","italic":"false"},
+								{"text":"Apply to Armour","color":"light_purple","italic":"false"},
+								{"text":"-Protection IV","color":"dark_purple","italic":"false"},
+								{"text":"Apply to Elytra","color":"light_purple","italic":"false"},
+								{"text":"Apply to Shield","color":"light_purple","italic":"false"},
+								{"text":"Apply to Turtle Shell","color":"light_purple","italic":"false"}
+							]
+						}
+					]
+                },
+				{
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 4,
+					"functions":[
+						{
+							"function":"set_nbt",
+							"tag":"{CustomModelData:1,Enchantments:[{}],bookDivinity:{id:\"orium:everlasting\"}}"
+						},
+						{
+							"function":"set_name",
+							"name":{"text":"Divine Book","color":"yellow","italic":"false"}
+						},
+						{
+							"function":"set_lore",
+							"lore": [
+								{"text":"Everlasting","color":"dark_red","italic":"false"},
+								{"text":"Item Can no Longer","color":"dark_green","italic":"false"},
+								{"text":"Break From Usage","color":"dark_green","italic":"false"},
+								{"text":"Apply to Consumable Item","color":"light_purple","italic":"false"},
+								{"text":"-Unbreaking III","color":"dark_purple","italic":"false"},
+								{"text":"-Mending","color":"dark_purple","italic":"false"},
+								{"text":"Apply to Bow","color":"light_purple","italic":"false"},
+								{"text":"-Unbreaking III","color":"dark_purple","italic":"false"},
+								{"text":"-Infinity","color":"dark_purple","italic":"false"}
+							]
+						}
+					]
+                }
+			]
+        }
+	]
+}

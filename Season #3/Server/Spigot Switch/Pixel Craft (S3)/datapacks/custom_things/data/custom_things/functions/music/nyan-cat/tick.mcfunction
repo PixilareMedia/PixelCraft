@@ -1,0 +1,1 @@
+execute as @a[tag=play95846159] run function custom_things:music/nyan-cat/playing

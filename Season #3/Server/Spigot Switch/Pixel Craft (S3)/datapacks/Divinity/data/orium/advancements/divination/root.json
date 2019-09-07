@@ -1,0 +1,37 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:book",
+			"nbt":"{CustomModelData:1}"
+		},
+		"title": {
+			"text": "Divination"
+		},
+		"description": {
+			"text": "The power that every sorcerer and wizard dreams of"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false,
+		"background": "minecraft:textures/block/bookshelf.png"
+	},
+	"criteria": {
+		"divine_book": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:book",
+						"nbt":"{bookDivinity:{}}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"divine_book"
+		]
+	]
+}

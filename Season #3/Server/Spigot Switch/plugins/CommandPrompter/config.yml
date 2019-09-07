@@ -1,0 +1,31 @@
+# +----------------------------------------------------+
+# <                 CPCommand Prompter                 >
+# <                   Configuration                    >
+# +----------------------------------------------------+
+
+# Set the prompter''s prefix
+Prompt-Prefix: '[&3&lPixel Craft Prompter&r] '
+
+# After how many seconds
+# until CommandPrompter cancels
+# a prompt
+Prompt-Timeout: 300
+
+# Word that cancels command
+# prompting.
+Cancel-Keyword: cancel
+
+# Enable permission check
+# before a player can use
+# the prompting feature
+# 
+# Checking for commandprompter.use
+Enable-Permission: false
+
+# This will determine if
+# a part of a command is
+# a prompt.
+# 
+# ONLY CHANGE THE FIRST AND LAST
+# I.E (.*?), {.*?}, or [.*?]
+Argument-Regex: ' <.*?> '

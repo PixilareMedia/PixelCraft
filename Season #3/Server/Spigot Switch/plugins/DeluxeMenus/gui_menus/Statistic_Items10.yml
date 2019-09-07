@@ -1,0 +1,479 @@
+menu_title: '&5Your &6Items Statistics'
+open_command: StatisticItems10
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic_Item'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items9'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items9'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items11'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items11'
+  '10':
+    material: white_concrete
+    slot: 9
+    display_name: '&7White Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:white_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:white_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:white_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:white_concrete%'
+  '11':
+    material: orange_concrete
+    slot: 10
+    display_name: '&7Ornage Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:orange_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:orange_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:orange_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:orange_concrete%'
+  '12':
+    material: magenta_concrete
+    slot: 11
+    display_name: '&7Magenta Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:magenta_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:magenta_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:magenta_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:magenta_concrete%'
+  '13':
+    material: light_blue_concrete
+    slot: 12
+    display_name: '&7Light Blue Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_blue_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_blue_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_blue_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_blue_concrete%'
+  '14':
+    material: yellow_concrete
+    slot: 13
+    display_name: '&7Yellow Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:yellow_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:yellow_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:yellow_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:yellow_concrete%'
+  '15':
+    material: lime_concrete
+    slot: 14
+    display_name: '&7Lime Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:lime_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:lime_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:lime_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:lime_concrete%'
+  '16':
+    material: pink_concrete
+    slot: 15
+    display_name: '&7Pink Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:pink_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:pink_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:pink_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:pink_concrete%'
+  '17':
+    material: gray_concrete
+    slot: 16
+    display_name: '&7Gray Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:gray_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:gray_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:gray_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:gray_concrete%'
+  '18':
+    material: light_gray_concrete
+    slot: 17
+    display_name: '&7Light Gray Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_gray_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_gray_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_gray_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_gray_concrete%'
+  '19':
+    material: cyan_concrete
+    slot: 18
+    display_name: '&7Cyan Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cyan_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cyan_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cyan_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cyan_concrete%'
+  '20':
+    material: purple_concrete
+    slot: 19
+    display_name: '&7Purple Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:purple_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:purple_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:purple_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:purple_concrete%'
+  '21':
+    material: blue_concrete
+    slot: 20
+    display_name: '&7Blue Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:blue_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:blue_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:blue_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:blue_concrete%'
+  '22':
+    material: brown_concrete
+    slot: 21
+    display_name: '&7Brown Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:brown_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:brown_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:brown_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:brown_concrete%'
+  '23':
+    material: green_concrete
+    slot: 22
+    display_name: '&7Green Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:green_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:green_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:green_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:green_concrete%'
+  '24':
+    material: red_concrete
+    slot: 23
+    display_name: '&7Red Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:red_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:red_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:red_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:red_concrete%'
+  '25':
+    material: black_concrete
+    slot: 24
+    display_name: '&7Black Concrete'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:black_concrete%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:black_concrete%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:black_concrete%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:black_concrete%'
+  '26':
+    material: white_concrete_powder
+    slot: 25
+    display_name: '&7White Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:white_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:white_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:white_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:white_concrete_powder%'
+  '27':
+    material: orange_concrete_powder
+    slot: 26
+    display_name: '&7Ornage Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:orange_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:orange_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:orange_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:orange_concrete_powder%'
+  '28':
+    material: magenta_concrete_powder
+    slot: 27
+    display_name: '&7Magenta Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:magenta_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:magenta_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:magenta_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:magenta_concrete_powder%'
+  '29':
+    material: light_blue_concrete_powder
+    slot: 28
+    display_name: '&7Light Blue Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_blue_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_blue_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_blue_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_blue_concrete_powder%'
+  '30':
+    material: yellow_concrete_powder
+    slot: 29
+    display_name: '&7Yellow Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:yellow_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:yellow_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:yellow_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:yellow_concrete_powder%'
+  '31':
+    material: lime_concrete_powder
+    slot: 30
+    display_name: '&7Lime Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:lime_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:lime_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:lime_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:lime_concrete_powder%'
+  '32':
+    material: pink_concrete_powder
+    slot: 31
+    display_name: '&7Pink Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:pink_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:pink_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:pink_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:pink_concrete_powder%'
+  '33':
+    material: gray_concrete_powder
+    slot: 32
+    display_name: '&7Gray Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:gray_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:gray_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:gray_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:gray_concrete_powder%'
+  '34':
+    material: light_gray_concrete_powder
+    slot: 33
+    display_name: '&7Light Gray Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_gray_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_gray_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_gray_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_gray_concrete_powder%'
+  '35':
+    material: cyan_concrete_powder
+    slot: 34
+    display_name: '&7Cyan Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cyan_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cyan_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cyan_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cyan_concrete_powder%'
+  '36':
+    material: purple_concrete_powder
+    slot: 35
+    display_name: '&7Purple Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:purple_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:purple_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:purple_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:purple_concrete_powder%'
+  '37':
+    material: blue_concrete_powder
+    slot: 36
+    display_name: '&7Blue Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:blue_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:blue_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:blue_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:blue_concrete_powder%'
+  '38':
+    material: brown_concrete_powder
+    slot: 37
+    display_name: '&7Brown Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:brown_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:brown_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:brown_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:brown_concrete_powder%'
+  '39':
+    material: green_concrete_powder
+    slot: 38
+    display_name: '&7Green Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:green_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:green_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:green_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:green_concrete_powder%'
+  '40':
+    material: red_concrete_powder
+    slot: 39
+    display_name: '&7Red Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:red_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:red_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:red_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:red_concrete_powder%'
+  '41':
+    material: black_concrete_powder
+    slot: 40
+    display_name: '&7Black Concrete Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:black_concrete_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:black_concrete_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:black_concrete_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:black_concrete_powder%'
+  '42':
+    material: turtle_egg
+    slot: 41
+    display_name: '&7Turtle Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:turtle_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:turtle_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:turtle_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:turtle_egg%'
+  '43':
+    material: dead_tube_coral_block
+    slot: 42
+    display_name: '&7Dead Tube Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dead_tube_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dead_tube_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dead_tube_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dead_tube_coral_block%'
+  '44':
+    material: dead_brain_coral_block
+    slot: 43
+    display_name: '&7Dead Brain Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dead_brain_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dead_brain_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dead_brain_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dead_brain_coral_block%'
+  '45':
+    material: dead_bubble_coral_block
+    slot: 44
+    display_name: '&7Dead Bubble Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dead_bubble_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dead_bubble_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dead_bubble_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dead_bubble_coral_block%'
+  '46':
+    material: dead_fire_coral_block
+    slot: 45
+    display_name: '&7Dead Fire Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dead_fire_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dead_fire_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dead_fire_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dead_fire_coral_block%'
+  '47':
+    material: dead_horn_coral_block
+    slot: 46
+    display_name: '&7Dead Horn Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dead_horn_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dead_horn_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dead_horn_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dead_horn_coral_block%'
+  '48':
+    material: tube_coral_block
+    slot: 47
+    display_name: '&7Tube Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:tube_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:tube_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:tube_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:tube_coral_block%'
+  '49':
+    material: brain_coral_block
+    slot: 48
+    display_name: '&7Brain Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:brain_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:brain_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:brain_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:brain_coral_block%'
+  '50':
+    material: bubble_coral_block
+    slot: 49
+    display_name: '&7Bubble Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:bubble_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:bubble_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:bubble_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:bubble_coral_block%'
+  '51':
+    material: fire_coral_block
+    slot: 50
+    display_name: '&7Fire Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:fire_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:fire_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:fire_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:fire_coral_block%'
+  '52':
+    material: horn_coral_block
+    slot: 51
+    display_name: '&7Horn Coral Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:horn_coral_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:horn_coral_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:horn_coral_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:horn_coral_block%'
+  '53':
+    material: tube_coral
+    slot: 52
+    display_name: '&7Tube Coral'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:tube_coral%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:tube_coral%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:tube_coral%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:tube_coral%'
+  '54':
+    material: brain_coral
+    slot: 53
+    display_name: '&7Brain Coral'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:brain_coral%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:brain_coral%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:brain_coral%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:brain_coral%'

@@ -1,0 +1,1 @@
+scoreboard objectives add song2201060694 dummy

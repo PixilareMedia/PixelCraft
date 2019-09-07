@@ -1,0 +1,523 @@
+{
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/stained_glass": {
+    "criteria": {
+      "has_dye": "2019-07-07 16:16:04 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2019-07-07 16:18:15 -0400"
+    },
+    "done": true
+  },
+  "main:main/dragon_drops_elytra": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2019-07-07 16:12:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2019-07-07 16:19:42 -0400"
+    },
+    "done": true
+  },
+  "main:main/silence_mobs": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2019-07-07 16:18:14 -0400"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/glazed_terracotta": {
+    "criteria": {
+      "has_dye": "2019-07-07 16:16:04 -0400"
+    },
+    "done": false
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2019-07-07 16:22:02 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2019-07-07 16:18:44 -0400"
+    },
+    "done": true
+  },
+  "multiplayer_sleep:sleep": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2019-07-07 16:18:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2019-07-07 16:12:19 -0400"
+    },
+    "done": true
+  },
+  "main:main/as_statue": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2019-07-07 16:18:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2019-07-07 16:21:02 -0400"
+    },
+    "done": true
+  },
+  "main:main/nether_portal_coords": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2019-07-07 16:26:46 -0400",
+      "minecraft:taiga": "2019-07-07 16:08:22 -0400",
+      "minecraft:desert_hills": "2019-07-07 16:21:38 -0400",
+      "minecraft:taiga_hills": "2019-07-07 16:08:34 -0400",
+      "minecraft:desert": "2019-07-07 16:21:40 -0400",
+      "minecraft:jungle": "2019-07-07 16:19:37 -0400",
+      "minecraft:jungle_hills": "2019-07-07 16:11:40 -0400",
+      "minecraft:wooded_hills": "2019-07-07 16:29:04 -0400",
+      "minecraft:swamp": "2019-07-07 16:26:57 -0400",
+      "minecraft:plains": "2019-07-07 16:24:56 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2019-07-07 16:19:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2019-07-07 16:09:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2019-07-07 16:09:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2019-07-07 16:19:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2019-07-07 16:18:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2019-07-07 16:19:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2019-07-07 16:12:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2019-07-07 16:19:42 -0400"
+    },
+    "done": true
+  },
+  "main:main/wrench": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2019-07-07 16:17:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2019-07-07 16:11:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2019-07-07 16:14:23 -0400"
+    },
+    "done": true
+  },
+  "main:main/anti_enderman": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2019-07-07 16:11:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2019-07-07 16:19:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2019-07-07 16:14:23 -0400"
+    },
+    "done": true
+  },
+  "main:main/pt": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2019-07-07 16:12:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2019-07-07 16:09:16 -0400"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/wool": {
+    "criteria": {
+      "has_dye": "2019-07-07 16:16:04 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2019-07-07 16:14:23 -0400"
+    },
+    "done": true
+  },
+  "main:main/track_stats": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "main:main/anti_ghast": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2019-07-07 16:14:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2019-07-07 16:19:42 -0400"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/stained_glass_pane": {
+    "criteria": {
+      "has_dye": "2019-07-07 16:16:04 -0400"
+    },
+    "done": false
+  },
+  "main:main/mmh": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2019-07-07 16:14:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2019-07-07 16:09:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2019-07-07 16:18:44 -0400"
+    },
+    "done": true
+  },
+  "main:main/ts": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2019-07-07 16:24:47 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:creeper": "2019-07-07 16:18:14 -0400"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2019-07-07 16:21:02 -0400"
+    },
+    "done": true
+  },
+  "dropper_to_dispenser:recipes/building_blocks/dropper_to_dispenser/dispenser_alternate": {
+    "criteria": {
+      "has_stick": "2019-07-07 16:19:42 -0400"
+    },
+    "done": true
+  },
+  "main:main/root": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2019-07-07 16:12:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2019-07-07 16:22:02 -0400"
+    },
+    "done": true
+  },
+  "main:main/double_shulkers": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "sweet_berries": "2019-07-07 16:17:33 -0400"
+    },
+    "done": false
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/bed": {
+    "criteria": {
+      "has_dye": "2019-07-07 16:16:04 -0400",
+      "has_block": "2019-07-07 16:09:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2019-07-07 16:19:42 -0400"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/terracotta": {
+    "criteria": {
+      "has_dye": "2019-07-07 16:16:04 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2019-07-07 16:18:44 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2019-07-07 16:09:16 -0400"
+    },
+    "done": true
+  },
+  "orium:divination/divine_enchanter": {
+    "criteria": {
+      "orium:sneak_100": "2019-07-07 16:12:19 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2019-07-07 16:19:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2019-07-07 16:12:01 -0400"
+    },
+    "done": true
+  },
+  "main:main/multiplayer_sleep": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2019-07-07 16:18:44 -0400"
+    },
+    "done": true
+  },
+  "main:main/anti_creeper": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2019-07-07 16:16:04 -0400"
+    },
+    "done": true
+  },
+  "main:main/ss": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_stone": "2019-07-07 16:18:44 -0400"
+    },
+    "done": true
+  },
+  "main:main/afk": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "orium:divination/root": {
+    "criteria": {
+      "divine_book": "2019-07-07 16:12:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2019-07-07 16:19:42 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2019-07-07 16:14:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2019-07-07 16:16:04 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2019-07-07 16:19:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2019-07-07 16:21:58 -0400"
+    },
+    "done": true
+  },
+  "universal_dyeing:recipes/building_blocks/universal_dyeing/concrete_powder": {
+    "criteria": {
+      "has_dye": "2019-07-07 16:16:04 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2019-07-07 16:09:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2019-07-07 16:18:44 -0400"
+    },
+    "done": true
+  },
+  "main:main/redstone_wrench": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "main:main/track_raw_stats": {
+    "criteria": {
+      "tick": "2019-07-07 16:08:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2019-07-07 16:28:06 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 1968
+}

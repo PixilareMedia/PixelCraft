@@ -1,0 +1,41 @@
+menu_title: '&5Shop &d|| &2Balance &6$%vault_eco_balance_commas%'
+open_command: Shop
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Shop
+      deny_commands:
+      - '[message] You dont have permission to open menu: Shop'
+items:
+  '3':
+    material: diamond_ore
+    slot: 2
+    display_name: '&9Buy'
+    lore:
+    - '&aBuy Items From The'
+    - '&aServer For Money'
+    left_click_commands:
+    - '[openguimenu] Shop_Buy'
+    right_click_commands:
+    - '[openguimenu] Shop_Buy'
+  '5':
+    material: redstone_lamp
+    slot: 4
+    display_name: '&6Close'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '7':
+    material: diamond
+    slot: 6
+    display_name: '&bConversion'
+    lore:
+    - '&aConvert Diamonds + Emeralds'
+    - '&aInto Money That Follows You'
+    left_click_commands:
+    - '[openguimenu] Shop_Conversion'
+    right_click_commands:
+    - '[openguimenu] Shop_Conversion'

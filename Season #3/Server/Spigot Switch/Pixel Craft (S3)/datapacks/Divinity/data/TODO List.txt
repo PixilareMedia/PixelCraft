@@ -1,0 +1,13 @@
+--Definite Changes--
+Single lens for lazer drill, affects ore gain
+Reintroduce Obtaining Rod
+
+--Definite Additions--
+Planter / Harvester
+Lava Generator
+Scrolls
+obtaining rod gives <type> spawner, instead of spawner+egg
+
+--Possible Additions--
+item repairer
+make divinities craftable

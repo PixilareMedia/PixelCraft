@@ -1,0 +1,7 @@
+prefix: '&6Group Chats &e>&7 '
+update-check: true
+chat-color: true
+messages: EN
+join-staff-messages: true
+staff-online-permission: staff.online
+staff-join-permission: staff.join

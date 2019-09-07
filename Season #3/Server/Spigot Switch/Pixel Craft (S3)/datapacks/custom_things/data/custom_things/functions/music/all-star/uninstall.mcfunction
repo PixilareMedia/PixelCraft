@@ -1,0 +1,1 @@
+scoreboard objectives remove song2811014499

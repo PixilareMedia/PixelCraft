@@ -1,0 +1,42 @@
+lastAccountName: Butterminer200
+timestamps:
+  login: 1567737417166
+  lastteleport: 1567737544094
+  logout: 1567737735122
+ipAddress: 24.70.44.112
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 602.2657424331524
+    y: 72.0
+    z: 63.297868475273674
+    yaw: -177.78424
+    pitch: 16.349958
+  base:
+    world: Pixel Craft (S3)
+    x: 602.1176646630777
+    y: 72.0
+    z: 61.35563609046878
+    yaw: -170.73512
+    pitch: 20.849903
+  out:
+    world: Pixel Craft (S3)
+    x: 602.4444170489401
+    y: 63.0
+    z: 38.477024905335035
+    yaw: -177.78476
+    pitch: 24.59985
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 602.4722213375674
+  y: 56.0
+  z: 55.13574459823724
+  yaw: -1.5352783
+  pitch: 8.099958
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 602.4698253454691
+  y: 72.0
+  z: 62.18700408868088
+  yaw: -186.93695
+  pitch: 10.199841

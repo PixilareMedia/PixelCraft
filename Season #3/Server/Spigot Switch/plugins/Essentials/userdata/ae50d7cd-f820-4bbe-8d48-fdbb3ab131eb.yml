@@ -1,0 +1,33 @@
+lastAccountName: willongnose
+timestamps:
+  login: 1567731946272
+  lastteleport: 1567732129939
+  logout: 1567736150858
+  command-cooldowns:
+  - pattern: feed( .*)?
+    expiry: 1567732406327
+  - pattern: heal( .*)?
+    expiry: 1567732440865
+  - pattern: ext( .*)?
+    expiry: 1567732423417
+  - pattern: repair( .*)?
+    expiry: 1567732460067
+  lastheal: 1567732376329
+ipAddress: 24.67.57.114
+afk: false
+lastlocation:
+  world: Pixel Craft (S3)
+  x: -8881.483696731644
+  y: 71.51679409440437
+  z: -943.6883898013762
+  yaw: 95.40006
+  pitch: 24.299988
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: -8871.43148595157
+  y: 64.875
+  z: -952.0364488093409
+  yaw: 194.85045
+  pitch: 2.249974
+money: '200'
+godmode: true

@@ -1,0 +1,344 @@
+menu_title: '&5Your &6General Statistics'
+open_command: StatisticGeneral
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic_General'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic'
+    right_click_commands:
+    - '[openguimenu] Statistic'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_General2'
+    right_click_commands:
+    - '[openguimenu] Statistic_General2'
+  '10':
+    material: stone
+    slot: 9
+    display_name: '&7Mine Block'
+    lore:
+    - '&8* &a%statistic_mine_block%'
+  '11':
+    material: bucket
+    slot: 10
+    display_name: '&7Use Item'
+    lore:
+    - '&8* &a%statistic_use_item%'
+  '12':
+    material: stick
+    slot: 11
+    display_name: '&7Break Item'
+    lore:
+    - '&8* &a%statistic_break_item%'
+  '13':
+    material: crafting_table
+    slot: 12
+    display_name: '&7Craft Item'
+    lore:
+    - '&8* &a%statistic_craft_item%'
+  '14':
+    material: clock
+    slot: 13
+    display_name: '&7Seconds Played'
+    lore:
+    - '&8* &a%statistic_seconds_played%'
+  '15':
+    material: clock
+    slot: 14
+    display_name: '&7Minutes Played'
+    lore:
+    - '&8* &a%statistic_minutes_played%'
+  '16':
+    material: clock
+    slot: 15
+    display_name: '&7Hours Played'
+    lore:
+    - '&8* &a%statistic_hours_played%'
+  '17':
+    material: clock
+    slot: 16
+    display_name: '&7Days Played'
+    lore:
+    - '&8* &a%statistic_days_played%'
+  '18':
+    material: clock
+    slot: 17
+    display_name: '&7Time Played'
+    lore:
+    - '&8* &a%statistic_time_played%'
+  '19':
+    material: wheat
+    slot: 18
+    display_name: '&7Animals Bread'
+    lore:
+    - '&8* &a%statistic_animals_bred%'
+  '20':
+    material: leather_boots
+    slot: 19
+    display_name: '&7Armor Cleaned'
+    lore:
+    - '&8* &a%statistic_armor_cleaned%'
+  '21':
+    material: white_banner
+    slot: 20
+    display_name: '&7Banner Cleaned'
+    lore:
+    - '&8* &a%statistic_banner_cleaned%'
+  '22':
+    material: oak_boat
+    slot: 21
+    display_name: '&7Boat One cm'
+    lore:
+    - '&8* &a%statistic_boat_one_cm%'
+  '23':
+    material: brewing_stand
+    slot: 22
+    display_name: '&7Brewing Stand Interaction'
+    lore:
+    - '&8* &a%statistic_brewingstand_interaction%'
+  '24':
+    material: cake
+    slot: 23
+    display_name: '&7Cake Slices Eaten'
+    lore:
+    - '&8* &a%statistic_cake_slices_eaten%'
+  '25':
+    material: cauldron
+    slot: 24
+    display_name: '&7Cauldron Filled'
+    lore:
+    - '&8* &a%statistic_cauldron_filled%'
+  '26':
+    material: cauldron
+    slot: 25
+    display_name: '&7Cauldron Used'
+    lore:
+    - '&8* &a%statistic_cauldron_used%'
+  '27':
+    material: chest
+    slot: 26
+    display_name: '&7Chest Opened'
+    lore:
+    - '&8* &a%statistic_chest_opened%'
+  '28':
+    material: ladder
+    slot: 27
+    display_name: '&7Climb One cm'
+    lore:
+    - '&8* &a%statistic_climb_one_cm%'
+  '29':
+    material: crafting_table
+    slot: 28
+    display_name: '&7Crafting Table Interaction'
+    lore:
+    - '&8* &a%statistic_crafting_table_interaction%'
+  '30':
+    material: oak_slab
+    slot: 29
+    display_name: '&7Crouch One cm'
+    lore:
+    - '&8* &a%statistic_crouch_one_cm%'
+  '31':
+    material: iron_sword
+    slot: 30
+    display_name: '&7Damage Dealt'
+    lore:
+    - '&8* &a%statistic_damage_dealt%'
+  '32':
+    material: diamond_sword
+    slot: 31
+    display_name: '&7Damage Taken'
+    lore:
+    - '&8* &a%statistic_damage_taken%'
+  '33':
+    material: wither_rose
+    slot: 32
+    display_name: '&7Deaths'
+    lore:
+    - '&8* &a%statistic_deaths%'
+  '34':
+    material: dispenser
+    slot: 33
+    display_name: '&7Dispenser Inspected'
+    lore:
+    - '&8* &a%statistic_dispenser_inspected%'
+  '35':
+    material: dropper
+    slot: 34
+    display_name: '&7Dropper Inspected'
+    lore:
+    - '&8* &a%statistic_dropper_inspected%'
+  '36':
+    material: ender_chest
+    slot: 35
+    display_name: '&7Ender Chest Opened'
+    lore:
+    - '&8* &a%statistic_enderchest_opened%'
+  '37':
+    material: oak_stairs
+    slot: 36
+    display_name: '&7Fall One cm'
+    lore:
+    - '&8* &a%statistic_fall_one_cm%'
+  '38':
+    material: cod
+    slot: 37
+    display_name: '&7Fish Caught'
+    lore:
+    - '&8* &a%statistic_fish_caught%'
+  '39':
+    material: poppy
+    slot: 38
+    display_name: '&7Flower Potted'
+    lore:
+    - '&8* &a%statistic_flower_potted%'
+  '40':
+    material: elytra
+    slot: 39
+    display_name: '&7Fly One cm'
+    lore:
+    - '&8* &a%statistic_fly_one_cm%'
+  '41':
+    material: furnace
+    slot: 40
+    display_name: '&7Furnace Interaction'
+    lore:
+    - '&8* &a%statistic_furnace_interaction%'
+  '42':
+    material: hopper
+    slot: 41
+    display_name: '&7Hopper Inspected'
+    lore:
+    - '&8* &a%statistic_hopper_inspected%'
+  '43':
+    material: saddle
+    slot: 42
+    display_name: '&7Horse One cm'
+    lore:
+    - '&8* &a%statistic_horse_one_cm%'
+  '44':
+    material: enchanted_book
+    slot: 43
+    display_name: '&7Item Enchanted'
+    lore:
+    - '&8* &a%statistic_item_enchanted%'
+  '45':
+    material: andesite
+    slot: 44
+    display_name: '&7Jump'
+    lore:
+    - '&8* &a%statistic_jump%'
+  '46':
+    material: white_bed
+    slot: 45
+    display_name: '&7Leave Game'
+    lore:
+    - '&8* &a%statistic_leave_game%'
+  '47':
+    material: minecart
+    slot: 46
+    display_name: '&7Minecart One cm'
+    lore:
+    - '&8* &a%statistic_minecart_one_cm%'
+  '48':
+    material: note_block
+    slot: 47
+    display_name: '&7Noteblock Played'
+    lore:
+    - '&8* &a%statistic_noteblock_played%'
+  '49':
+    material: note_block
+    slot: 48
+    display_name: '&7Noteblock Tuned'
+    lore:
+    - '&8* &a%statistic_noteblock_tuned%'
+  '50':
+    material: carrot
+    slot: 49
+    display_name: '&7Pig One cm'
+    lore:
+    - '&8* &a%statistic_pig_one_cm%'
+  '51':
+    material: diamond_axe
+    slot: 50
+    display_name: '&7Player Kills'
+    lore:
+    - '&8* &a%statistic_player_kills%'
+  '52':
+    material: music_disc_11
+    slot: 51
+    display_name: '&7Record Played'
+    lore:
+    - '&8* &a%statistic_record_played%'
+  '53':
+    material: golden_carrot
+    slot: 52
+    display_name: '&7Sprint One cm'
+    lore:
+    - '&8* &a%statistic_sprint_one_cm%'
+  '54':
+    material: water_bucket
+    slot: 53
+    display_name: '&7Swim One cm'
+    lore:
+    - '&8* &a%statistic_swim_one_cm%'

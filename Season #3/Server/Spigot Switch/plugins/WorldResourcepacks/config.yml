@@ -1,0 +1,47 @@
+debug: true
+# Default language
+default-language: en
+# Disable all metrics included in this plugin.
+disable-metrics: false
+# Whether or not resourcepack file hashes should be generated on startup:
+autogeneratehashes: true
+# Whether /usepack should apply packs temporary or permanent when run without any argument:
+usepack-is-temporary: true
+# Whether packs that a player has stored will override a matched assignments
+stored-packs-override-assignments: false
+# When manually setting a permanent pack then it will be reset if the user disconnects in under x amount of seconds.
+# 0 or anything below will disable this functionality
+permanent-pack-remove-time: 30
+packs:
+  PCS3Essentials: 
+    url: https://download.nodecdn.net/containers/nodecraft/minepack/0d1d28f2c9b25607e2504dd03c11664e.zip
+    hash: 415b70f1d228416ada5737dcd4baa4b195419503
+    format: 4
+    restricted: false
+    permission: worldresourcepacks.pack.PCS3Essentials
+  PCS3: 
+    url: https://download.nodecdn.net/containers/nodecraft/minepack/10e07688038cffdf67a5551ee7f77d73.zip
+    hash: 3e1ad27f7483c55ede9b6071c2366215e75f43aa
+    format: 4
+    restricted: false
+    permission: worldresourcepacks.pack.pixelcraftseason3
+# Empty pack to reset the pack to the default one
+empty:
+  url: http://cdn.moep.tv/files/Empty.zip
+  hash: 01517226212d27586ea0c5d6aff1aa5492dd2484
+global:
+  pack: PCS3Essentials
+  # List of packs to not replace if the user already has them
+  # If no main pack is set the first one also gets used to reset 
+  # the pack if the user has a non secondary one
+  # Also this list will be used to select a pack if a user does not have the permission
+  # or the right version to use that pack. (From top to bottom)
+  #secondary:
+  #- lobbypack
+  # Delay in ticks before sending the pack to a player after he logs in/switches to the world
+  send-delay: 10
+worlds:
+  lobby:
+    pack: lobbypack
+    #secondary:
+    #- gamepack

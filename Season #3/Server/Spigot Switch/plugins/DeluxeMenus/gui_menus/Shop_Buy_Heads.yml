@@ -1,0 +1,27 @@
+menu_title: '&5Buy Heads &d|| &2Balance &6$%vault_eco_balance_commas%'
+open_command: buyshopheads
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Shop
+      deny_commands:
+      - '[message] You dont have permission to open menu: Shop_Buy_Heads'
+items:
+  '1':
+    material: head-Herobrain_gamer
+    slot: 0
+    display_name: '&5Pixels'
+    left_click_commands:
+    - '[openguimenu] Shop_Buy_Heads_Pixels'
+    right_click_commands:
+    - '[openguimenu] Shop_Buy_Heads_Pixels'
+  '5':
+    material: redstone_lamp
+    slot: 4
+    display_name: '&6Close'
+    left_click_commands:
+    - '[openguimenu] Shop_Buy'
+    right_click_commands:
+    - '[openguimenu] Shop_Buy'

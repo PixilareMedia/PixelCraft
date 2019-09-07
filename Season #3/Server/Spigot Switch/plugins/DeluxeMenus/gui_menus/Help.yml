@@ -1,0 +1,603 @@
+menu_title: '&2Help &aThe Cmds You Have'
+open_command: help
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Help
+      deny_commands:
+      - '[message] You dont have permission to open menu: Help'
+items:
+  '1':
+    material: dirt
+    slot: 0
+    display_name: '&a/afk'
+    lore:
+    - '&8* &7Allows you to state to everyone that you are not here'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '2':
+    material: dirt
+    slot: 1
+    display_name: '&a/back'
+    lore:
+    - '&8* &7Allows you to go back to where you just were'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '3':
+    material: dirt
+    slot: 2
+    display_name: '&a/bal'
+    lore:
+    - '&8* &7Allows you to see your balance'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '4':
+    material: dirt
+    slot: 3
+    display_name: '&a/bal <playername>'
+    lore:
+    - '&8* &7Allows you to see the balance of a specific person'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '5':
+    material: dirt
+    slot: 4
+    display_name: '&a/baltop'
+    lore:
+    - '&8* &7Allows you to see who is the richest'
+    - '&8* &7(bar any assets that are not digitalized)'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '6':
+    material: dirt
+    slot: 5
+    display_name: '&a/delhome <homename>'
+    lore:
+    - '&8* &7Allows you to remove a home'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '7':
+    material: dirt
+    slot: 6
+    display_name: '&a/helpop'
+    lore:
+    - '&8* &7Allows you to get some help from a staff member'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '8':
+    material: dirt
+    slot: 7
+    display_name: '&a/home <homename>'
+    lore:
+    - '&8* &7Allows you to tp to a home you set'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '9':
+    material: dirt
+    slot: 8
+    display_name: '&a/ignore <playername>'
+    lore:
+    - '&8* &7Allows you to ignore a player'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '10':
+    material: dirt
+    slot: 9
+    display_name: '&a/kit'
+    lore:
+    - '&8* &7Allows you to pick up a kit'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '11':
+    material: dirt
+    slot: 10
+    display_name: '&a/list'
+    lore:
+    - '&8* &7Allows you to see who is on right now'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '12':
+    material: dirt
+    slot: 11
+    display_name: '&a/mail'
+    lore:
+    - '&8* &7Allows you to send mail to someone who is offline or online with msgs off'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '13':
+    material: dirt
+    slot: 12
+    display_name: '&a/me'
+    lore:
+    - '&8* &7Allows you to express your fealings'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '14':
+    material: dirt
+    slot: 13
+    display_name: '&a/motd'
+    lore:
+    - '&8* &7Allows you to see the text when you join'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '15':
+    material: dirt
+    slot: 14
+    display_name: '&a/msg'
+    lore:
+    - '&8* &7Allows you to privately message a player'
+    - '&8* &7(Staff who have socialspy on can see these)'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '16':
+    material: dirt
+    slot: 15
+    display_name: '&a/near'
+    lore:
+    - '&8* &7Allows you to see whos near'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '17':
+    material: dirt
+    slot: 16
+    display_name: '&a/pay <playername>'
+    lore:
+    - '&8* &7Allows you to pay another player'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '18':
+    material: dirt
+    slot: 17
+    display_name: '&a/ping'
+    lore:
+    - '&8* &7Pong'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '19':
+    material: dirt
+    slot: 18
+    display_name: '&a/r'
+    lore:
+    - '&8* &7Allows you to replay to a msg'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '20':
+    material: dirt
+    slot: 19
+    display_name: '&a/rules'
+    lore:
+    - '&8* &7Allows you to read the rules'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '21':
+    material: dirt
+    slot: 20
+    display_name: '&a/seen'
+    lore:
+    - '&8* &7Allows you to to see when a person was last on'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '22':
+    material: dirt
+    slot: 21
+    display_name: '&a/sethome <homename>'
+    lore:
+    - '&8* &7Allows you to set a home somewhere'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '23':
+    material: dirt
+    slot: 22
+    display_name: '&a/spawn'
+    lore:
+    - '&8* &7Allows you to get back to the world spawn'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '24':
+    material: dirt
+    slot: 23
+    display_name: '&a/suicide'
+    lore:
+    - '&8* &7Can''t take it no more'
+    - '&8* &71-833-456-4566'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '25':
+    material: dirt
+    slot: 24
+    display_name: '&a/tpa'
+    lore:
+    - '&8* &7Allows you to request to tp to someone'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '26':
+    material: dirt
+    slot: 25
+    display_name: '&a/tpaccept'
+    lore:
+    - '&8* &7Allows you to accept a tpa'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '27':
+    material: dirt
+    slot: 26
+    display_name: '&a/tpahere'
+    lore:
+    - '&8* &7Allows you to tpa someone here'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '28':
+    material: dirt
+    slot: 27
+    display_name: '&a/tpadeny'
+    lore:
+    - '&8* &7Allows you to deny tpas'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '29':
+    material: dirt
+    slot: 28
+    display_name: '&a/warp'
+    lore:
+    - '&8* &7Allows you to brings up a list of warps'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '30':
+    material: dirt
+    slot: 29
+    display_name: '&a/exp'
+    lore:
+    - '&8* &7Allows you to shows how much exp you have'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '31':
+    material: dirt
+    slot: 30
+    display_name: '&a/gc'
+    lore:
+    - '&8* &7Allows you to see how the server is doing'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '32':
+    material: dirt
+    slot: 31
+    display_name: '&a/tptoggle'
+    lore:
+    - '&8* &7Allows you to toggle tps from others'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '33':
+    material: dirt
+    slot: 32
+    display_name: '&a/msgtoggle'
+    lore:
+    - '&8* &7Allows you to toggle if you can be msged by others'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '34':
+    material: dirt
+    slot: 33
+    display_name: '&a/paytoggle'
+    lore:
+    - '&8* &7Allows you to toggle if you can be payed by others'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '35':
+    material: dirt
+    slot: 34
+    display_name: '&a/book'
+    lore:
+    - '&8* &7Allows you to edit a book that you accidentally signed'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '36':
+    material: dirt
+    slot: 35
+    display_name: '&a/discord'
+    lore:
+    - '&8* &7Allows you to link your discord to minecraft'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '37':
+    material: dirt
+    slot: 36
+    display_name: '&a/marry'
+    lore:
+    - '&8* &7Allows you to marry someone in game'
+    - '&8* &7(If you look at the sub cmds for this)'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '38':
+    material: dirt
+    slot: 37
+    display_name: '&a/tags'
+    lore:
+    - '&8* &7Allows you to to apply neat tags from the store'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '39':
+    material: dirt
+    slot: 38
+    display_name: '&a/horizon notify'
+    lore:
+    - '&8* &7Allows you to report a player for cheating'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '40':
+    material: dirt
+    slot: 39
+    display_name: '&a/music'
+    lore:
+    - '&8* &7Allows you to play note block music anywhere to anyone near by'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '41':
+    material: dirt
+    slot: 40
+    display_name: '&a/shop'
+    lore:
+    - '&8* &7Allows you to mostly just acts as a bank'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '42':
+    material: dirt
+    slot: 41
+    display_name: '&a/statistic'
+    lore:
+    - '&8* &7Allows you to see the statistics without hitting esc'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '43':
+    material: dirt
+    slot: 42
+    display_name: '&a/staff'
+    lore:
+    - '&8* &7Allows you to see who the staff are'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '44':
+    material: dirt
+    slot: 43
+    display_name: '&a/help'
+    lore:
+    - '&8* &7Allows you to see all the cmds you have'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '45':
+    material: dirt
+    slot: 44
+    display_name: '&a/craft'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.workbench
+    lore:
+    - '&8* &7Allows you to /craft anywhere'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '46':
+    material: dirt
+    slot: 45
+    display_name: '&a/ec'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.enderchest
+    lore:
+    - '&8* &7Allows you to open your ender chest from anywhere'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '47':
+    material: dirt
+    slot: 46
+    display_name: '&a/ext'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.ext
+    lore:
+    - '&8* &7Allows you to /ext Your Self'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '48':
+    material: dirt
+    slot: 47
+    display_name: '&a/feed'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.feed
+    lore:
+    - '&8* &7Allows you to /feed your self'
+    - '&8* &7& other if place name after /feed'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '49':
+    material: dirt
+    slot: 48
+    display_name: '&a/heal'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.heal
+    lore:
+    - '&8* &7Allows you to /heal your self'
+    - '&8* &7& others if place name after /heal'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '50':
+    material: dirt
+    slot: 49
+    display_name: '&a/repair'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.repair
+    lore:
+    - '&8* &7Allows you to /repair your main hand item'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '51':
+    material: dirt
+    slot: 50
+    display_name: '&a/tpaall'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.tpaall
+    lore:
+    - '&8* &7Allows you to request everyone to tp to you'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '52':
+    material: dirt
+    slot: 51
+    display_name: '&a/nick'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.nick
+    lore:
+    - '&8* &7Allows you to /nick <nickname>'
+    - '&8* &7(colour codes supported)'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '53':
+    material: dirt
+    slot: 52
+    display_name: '&a/pc'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: staffchat.pixels
+    lore:
+    - '&8* &7Allows you to speak to other OG members'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '54':
+    material: torch
+    slot: 53
+    display_name: '&aHelp 2'
+    lore:
+    - '&8* &7More cmds that you may have possibly'
+    left_click_commands:
+    - '[openguimenu] Help2'
+    right_click_commands:
+    - '[openguimenu] Help2'

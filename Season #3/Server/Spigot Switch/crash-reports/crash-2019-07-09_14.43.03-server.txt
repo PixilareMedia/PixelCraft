@@ -1,0 +1,32 @@
+---- Minecraft Crash Report ----
+// I bet Cylons wouldn't have this problem.
+
+Time: 7/9/19 2:43 PM
+Description: Exception in server tick loop
+
+java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(ArrayList.java:909)
+	at java.util.ArrayList$Itr.next(ArrayList.java:859)
+	at rf.e(SourceFile:79)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:809)
+	at ui.b(SourceFile:343)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:763)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:631)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.14.3
+	Operating System: Linux (amd64) version 5.1.5-1.el7.elrepo.x86_64
+	Java Version: 1.8.0_212, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 476299832 bytes (454 MB) / 1461714944 bytes (1394 MB) up to 1461714944 bytes (1394 MB)
+	JVM Flags: 5 total; -Xmx1400M -Xms128M -XX:+UnlockExperimentalVMOptions -XX:MaxMetaspaceSize=712M -XX:MetaspaceSize=32M
+	Player Count: 2 / 15; [vj['Herobrain_gamer'/1195153, l='Pixel Craft (S3)', x=-8871.70, y=67.88, z=-946.30], vj['TheTrueDuality'/1025431, l='Pixel Craft (S3)', x=802.38, y=11.00, z=-749.50]]
+	Data Packs: vanilla, file/afk display v1.0.1.zip (incompatible), file/anti creeper grief v1.0.0.zip (incompatible), file/anti enderman grief v1.0.0.zip (incompatible), file/anti ghast grief v1.0.0.zip (incompatible), file/custom_crafting.zip (incompatible), file/customizable armor stands v2.4.0.zip (incompatible), file/double shulker shells v1.0.3.zip (incompatible), file/multiplayer sleep v1.0.1.zip (incompatible), file/nether portal coords v1.0.0.zip (incompatible), file/pillager tools v1.0.1.zip (incompatible), file/redstone rotation wrench v1.0.1.zip (incompatible), file/silence mobs v1.0.0.zip (incompatible), file/spawning spheres v1.0.0.zip (incompatible), file/terracotta rotation wrench v1.0.1.zip (incompatible), file/thunder shrine v1.0.2.zip (incompatible), file/track statistics v1.0.0.zip (incompatible), file/bible.zip, file/track raw statistics v1.2.0.zip (incompatible), file/dragon drops elytra v1.0.2 (incompatible), file/Divinity (incompatible), file/more mob heads v2.1.0 (incompatible), file/custom_things (incompatible)
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)

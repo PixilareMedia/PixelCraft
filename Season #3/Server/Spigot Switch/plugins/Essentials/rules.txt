@@ -1,0 +1,5 @@
+[1] Be respectful
+[2] Be ethical
+[3] Use common sense
+[4] No hacking please
+[5] Try not to crash the server

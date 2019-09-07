@@ -1,0 +1,259 @@
+menu_title: '&5Sell Shop &d|| &2Balance &6$%vault_eco_balance_commas%'
+open_command: conversionshop
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Shop
+      deny_commands:
+      - '[message] You dont have permission to open menu: Shop_Sell'
+items:
+  '1':
+    material: diamond_block
+    slot: 0
+    display_name: '&fDiamond Block'
+    lore:
+    - '&8* &7Sell 1 for: &a$&f900'
+    - '&8* &7Sell 32 for: &a$&f28800'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: string equals
+          input: '%checkitem_mat:diamond_block%'
+          output: 'yes'
+          deny_commands:
+          - '[message] &4Shop &8> &fYou don''t have &c1 x Diamond Block &fto sell.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: string equals
+          input: '%checkitem_mat:diamond_block,amt:32%'
+          output: 'yes'
+          deny_commands:
+          - '[message] &4Shop &8> &fYou don''t have &c32 x Diamond Block &fto sell.'
+    left_click_commands:
+    - '[console] eco give %player_name% 900'
+    - '[console] clear %player_name% diamond_block:1 1'
+    - '[message] &2Shop &8> &fyou sold &a1 x Diamond Block &ffor &a$900&f.'
+    right_click_commands:
+    - '[console] eco give %player_name% 28800'
+    - '[console] clear %player_name% diamond_block:1 32'
+    - '[message] &2Shop &8> &fyou sold &a32 x Diamond Block &ffor &a$28800&f.'
+  '2':
+    material: diamond
+    slot: 1
+    display_name: '&fDiamond'
+    lore:
+    - '&8* &7Sell 1 for: &a$&f100'
+    - '&8* &7Sell 32 for: &a$&f3200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: string equals
+          input: '%checkitem_mat:diamond%'
+          output: 'yes'
+          deny_commands:
+          - '[message] &4Shop &8> &fYou don''t have &c1 x Diamond &fto sell.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: string equals
+          input: '%checkitem_mat:diamond,amt:32%'
+          output: 'yes'
+          deny_commands:
+          - '[message] &4Shop &8> &fYou don''t have &c32 x Diamond &fto sell.'
+    left_click_commands:
+    - '[console] eco give %player_name% 100'
+    - '[console] clear %player_name% diamond:1 1'
+    - '[message] &2Shop &8> &fyou sold &a1 x Diamond &ffor &a$100&f.'
+    right_click_commands:
+    - '[console] eco give %player_name% 3200'
+    - '[console] clear %player_name% diamond:1 32'
+    - '[message] &2Shop &8> &fyou sold &a32 x Diamond &ffor &a$3200&f.'
+  '3':
+    material: diamond
+    slot: 2
+    display_name: '&fDiamond'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f100'
+    - '&8* &7Buy 32 for: &a$&f3200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 100
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$100 &fto buy &c1 x Diamond&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 3200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$3200 &fto buy &c32 x Diamond&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 100'
+    - '[console] give %player_name% diamond 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Diamond &ffor &a$100&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 3200'
+    - '[console] give %player_name% diamond 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Diamond &ffor &a$3200&f.'
+  '4':
+    material: diamond_block
+    slot: 3
+    display_name: '&fDiamond Block'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f100'
+    - '&8* &7Buy 32 for: &a$&f3200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 900
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$900 &fto buy &c1 x Diamond Block&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 28800
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$28800 &fto buy &c32 x Diamond Block&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 900'
+    - '[console] give %player_name% diamond_block 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Diamond Block &ffor &a$900&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 28800'
+    - '[console] give %player_name% diamond_block 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Diamond Block &ffor &a$28800&f.'
+  '5':
+    material: redstone_lamp
+    slot: 4
+    display_name: '&6Close'
+    left_click_commands:
+    - '[openguimenu] Shop'
+    right_click_commands:
+    - '[openguimenu] Shop'
+  '6':
+    material: emerald_block
+    slot: 5
+    display_name: '&fEmerald Block'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f100'
+    - '&8* &7Buy 32 for: &a$&f3200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 900
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$900 &fto buy &c1 x Emerald Block&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 28800
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$28800 &fto buy &c32 x Emerald Block&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 900'
+    - '[console] give %player_name% emerald_block 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Emerald Block &ffor &a$900&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 28800'
+    - '[console] give %player_name% emerald_block 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Emerald Block &ffor &a$28800&f.'
+  '7':
+    material: emerald
+    slot: 6
+    display_name: '&fEmerald'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f100'
+    - '&8* &7Buy 32 for: &a$&f3200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 100
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$100 &fto buy &c1 x Emerald&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 3200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$3200 &fto buy &c32 x Emerald&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 100'
+    - '[console] give %player_name% emerald 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Emerald &ffor &a$100&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 3200'
+    - '[console] give %player_name% emerald 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Emerald &ffor &a$3200&f.'
+  '8':
+    material: emerald
+    slot: 7
+    display_name: '&fEmerald'
+    lore:
+    - '&8* &7Sell 1 for: &a$&f100'
+    - '&8* &7Sell 32 for: &a$&f3200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: string equals
+          input: '%checkitem_mat:emerald%'
+          output: 'yes'
+          deny_commands:
+          - '[message] &4Shop &8> &fYou don''t have &c1 x Emerald &fto sell.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: string equals
+          input: '%checkitem_mat:emerald,amt:32%'
+          output: 'yes'
+          deny_commands:
+          - '[message] &4Shop &8> &fYou don''t have &c32 x Emerald &fto sell.'
+    left_click_commands:
+    - '[console] eco give %player_name% 100'
+    - '[console] clear %player_name% emerald:1 1'
+    - '[message] &2Shop &8> &fyou sold &a1 x Emerald &ffor &a$100&f.'
+    right_click_commands:
+    - '[console] eco give %player_name% 3200'
+    - '[console] clear %player_name% emerald:1 32'
+    - '[message] &2Shop &8> &fyou sold &a32 x Emerald &ffor &a$3200&f.'
+  '9':
+    material: emerald_block
+    slot: 8
+    display_name: '&fEmerald Block'
+    lore:
+    - '&8* &7Sell 1 for: &a$&f900'
+    - '&8* &7Sell 32 for: &a$&f28800'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: string equals
+          input: '%checkitem_mat:emerald_block%'
+          output: 'yes'
+          deny_commands:
+          - '[message] &4Shop &8> &fYou don''t have &c1 x Emerald Block &fto sell.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: string equals
+          input: '%checkitem_mat:emerald_block,amt:32%'
+          output: 'yes'
+          deny_commands:
+          - '[message] &4Shop &8> &fYou don''t have &c32 x Emerald Block &fto sell.'
+    left_click_commands:
+    - '[console] eco give %player_name% 900'
+    - '[console] clear %player_name% emerald_block:1 1'
+    - '[message] &2Shop &8> &fyou sold &a1 x Emerald Block &ffor &a$900&f.'
+    right_click_commands:
+    - '[console] eco give %player_name% 28800'
+    - '[console] clear %player_name% emerald_block:1 32'
+    - '[message] &2Shop &8> &fyou sold &a32 x Emerald Block &ffor &a$28800&f.'

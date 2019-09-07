@@ -1,0 +1,1 @@
+execute as @a[tag=play2820124046] run function custom_things:music/all-star/playing

@@ -1,0 +1,479 @@
+menu_title: '&5Your &6Items Statistics'
+open_command: StatisticItems19
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic_Item'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items18'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items18'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items20'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items20'
+  '10':
+    material: firework_rocket
+    slot: 9
+    display_name: '&7Firework Rocket'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:firework_rocket%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:firework_rocket%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:firework_rocket%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:firework_rocket%'
+  '11':
+    material: dragon_breath
+    slot: 10
+    display_name: '&7Dragon''s Breath'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dragon_breath%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dragon_breath%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dragon_breath%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dragon_breath%'
+  '12':
+    material: splash_potion
+    slot: 11
+    display_name: '&7Splash Water Bottle'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:splash_potion%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:splash_potion%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:splash_potion%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:splash_potion%'
+  '13':
+    material: spectral_arrow
+    slot: 12
+    display_name: '&7Spectral Arrow'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:spectral_arrow%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:spectral_arrow%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:spectral_arrow%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:spectral_arrow%'
+  '14':
+    material: tipped_arrow
+    slot: 13
+    display_name: '&7Tipped Arrow'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:tipped_arrow%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:tipped_arrow%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:tipped_arrow%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:tipped_arrow%'
+  '15':
+    material: lingering_potion
+    slot: 14
+    display_name: '&7Lingering Water Bottle'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:lingering_potion%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:lingering_potion%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:lingering_potion%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:lingering_potion%'
+  '16':
+    material: shield
+    slot: 15
+    display_name: '&7Shield'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:shield%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:shield%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:shield%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:shield%'
+  '17':
+    material: elytra
+    slot: 16
+    display_name: '&7Elytra'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:elytra%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:elytra%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:elytra%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:elytra%'
+  '18':
+    material: spruce_boat
+    slot: 17
+    display_name: '&7Spruce Boat'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:spruce_boat%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:spruce_boat%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:spruce_boat%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:spruce_boat%'
+  '19':
+    material: birch_boat
+    slot: 18
+    display_name: '&7Birch Boat'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:birch_boat%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:birch_boat%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:birch_boat%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:birch_boat%'
+  '20':
+    material: jungle_boat
+    slot: 19
+    display_name: '&7jungle Boat'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:jungle_boat%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:jungle_boat%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:jungle_boat%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:jungle_boat%'
+  '21':
+    material: acacia_boat
+    slot: 20
+    display_name: '&7Acacia Boat'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:acacia_boat%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:acacia_boat%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:acacia_boat%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:acacia_boat%'
+  '22':
+    material: dark_oak_boat
+    slot: 21
+    display_name: '&7Dark Oak Boat'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dark_oak_boat%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dark_oak_boat%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dark_oak_boat%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dark_oak_boat%'
+  '23':
+    material: totem_of_undying
+    slot: 22
+    display_name: '&7Totem of Undying'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:totem_of_undying%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:totem_of_undying%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:totem_of_undying%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:totem_of_undying%'
+  '24':
+    material: shulker_shell
+    slot: 23
+    display_name: '&7Shulker Shell'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:shulker_shell%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:shulker_shell%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:shulker_shell%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:shulker_shell%'
+  '25':
+    material: iron_nugget
+    slot: 24
+    display_name: '&7Iron Nugget'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:iron_nugget%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:iron_nugget%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:iron_nugget%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:iron_nugget%'
+  '26':
+    material: music_disc_13
+    slot: 25
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_13%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_13%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_13%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_13%'
+  '27':
+    material: music_disc_cat
+    slot: 26
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_cat%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_cat%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_cat%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_cat%'
+  '28':
+    material: music_disc_blocks
+    slot: 27
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_blocks%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_blocks%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_blocks%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_blocks%'
+  '29':
+    material: music_disc_chirp
+    slot: 28
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_chirp%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_chirp%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_chirp%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_chirp%'
+  '30':
+    material: music_disc_far
+    slot: 29
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_far%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_far%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_far%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_far%'
+  '31':
+    material: music_disc_mall
+    slot: 30
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_mall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_mall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_mall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_mall%'
+  '32':
+    material: music_disc_mellohi
+    slot: 31
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_mellohi%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_mellohi%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_mellohi%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_mellohi%'
+  '33':
+    material: music_disc_stal
+    slot: 32
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_stal%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_stal%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_stal%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_stal%'
+  '34':
+    material: music_disc_strad
+    slot: 33
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_strad%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_strad%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_strad%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_strad%'
+  '35':
+    material: music_disc_ward
+    slot: 34
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_ward%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_ward%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_ward%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_ward%'
+  '36':
+    material: music_disc_11
+    slot: 35
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_11%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_11%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_11%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_11%'
+  '37':
+    material: music_disc_wait
+    slot: 36
+    display_name: '&7Music Disc'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:music_disc_wait%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:music_disc_wait%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:music_disc_wait%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:music_disc_wait%'
+  '38':
+    material: trident
+    slot: 37
+    display_name: '&7Trident'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:trident%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:trident%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:trident%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:trident%'
+  '39':
+    material: phantom_membrane
+    slot: 38
+    display_name: '&7Phantom Membrane'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:phantom_membrane%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:phantom_membrane%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:phantom_membrane%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:phantom_membrane%'
+  '40':
+    material: nautilus_shell
+    slot: 39
+    display_name: '&7Nautilus Shell'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:nautilus_shell%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:nautilus_shell%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:nautilus_shell%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:nautilus_shell%'
+  '41':
+    material: heart_of_the_sea
+    slot: 40
+    display_name: '&7Heart of the Sea'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:heart_of_the_sea%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:heart_of_the_sea%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:heart_of_the_sea%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:heart_of_the_sea%'
+  '42':
+    material: crossbow
+    slot: 41
+    display_name: '&7Crossbow'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:crossbow%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:crossbow%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:crossbow%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:crossbow%'
+  '43':
+    material: loom
+    slot: 42
+    display_name: '&7Loom'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:loom%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:loom%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:loom%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:loom%'
+  '44':
+    material: flower_banner_pattern
+    slot: 43
+    display_name: '&7Banner Pattern'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:flower_banner_pattern%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:flower_banner_pattern%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:flower_banner_pattern%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:flower_banner_pattern%'
+  '45':
+    material: creeper_banner_pattern
+    slot: 44
+    display_name: '&7Banner Pattern'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:creeper_banner_pattern%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:creeper_banner_pattern%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:creeper_banner_pattern%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:creeper_banner_pattern%'
+  '46':
+    material: skull_banner_pattern
+    slot: 45
+    display_name: '&7Banner Pattern'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:skull_banner_pattern%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:skull_banner_pattern%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:skull_banner_pattern%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:skull_banner_pattern%'
+  '47':
+    material: mojang_banner_pattern
+    slot: 46
+    display_name: '&7Banner Pattern'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:mojang_banner_pattern%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:mojang_banner_pattern%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:mojang_banner_pattern%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:mojang_banner_pattern%'
+  '48':
+    material: globe_banner_pattern
+    slot: 47
+    display_name: '&7Banner Pattern'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:globe_banner_pattern%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:globe_banner_pattern%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:globe_banner_pattern%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:globe_banner_pattern%'
+  '49':
+    material: barrel
+    slot: 48
+    display_name: '&7Barrel'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:barrel%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:barrel%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:barrel%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:barrel%'
+  '50':
+    material: smoker
+    slot: 49
+    display_name: '&7Smoker'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:smoker%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:smoker%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:smoker%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:smoker%'
+  '51':
+    material: blast_furnace
+    slot: 50
+    display_name: '&7Blast Furnace'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:blast_furnace%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:blast_furnace%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:blast_furnace%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:blast_furnace%'
+  '52':
+    material: cartography_table
+    slot: 51
+    display_name: '&7Cartography Table'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cartography_table%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cartography_table%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cartography_table%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cartography_table%'
+  '53':
+    material: fletching_table
+    slot: 52
+    display_name: '&7Fletching Table'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:fletching_table%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:fletching_table%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:fletching_table%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:fletching_table%'
+  '54':
+    material: grindstone
+    slot: 53
+    display_name: '&7Grindstone'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:grindstone%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:grindstone%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:grindstone%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:grindstone%'

@@ -1,0 +1,8 @@
+tag @s[tag=craftedSilverfishSpawnEgg] add alreadyCrafted
+tag @s[tag=craftedSilverfishSpawnEgg] remove craftedSilverfishSpawnEgg
+execute if block ~ ~ ~ minecraft:dropper{Items:[{Slot:0b,id:"minecraft:stone",Count:1b},{Slot:1b,id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"30a4cd5c-5754-4db8-8960-18022a74627d",Name:"Silverfish",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ=="}]}}}},{Slot:2b,id:"minecraft:stone",Count:1b},{Slot:3b,id:"minecraft:stone",Count:1b},{Slot:4b,id:"minecraft:egg",Count:1b,tag:{display:{Name:"{\"text\":\"Base Spawn Egg\"}"},CustomModelData:1}},{Slot:5b,id:"minecraft:stone",Count:1b},{Slot:6b,id:"minecraft:stone",Count:1b},{Slot:7b,id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"30a4cd5c-5754-4db8-8960-18022a74627d",Name:"Silverfish",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE5MWRhYjgzOTFhZjVmZGE1NGFjZDJjMGIxOGZiZDgxOWI4NjVlMWE4ZjFkNjIzODEzZmE3NjFlOTI0NTQwIn19fQ=="}]}}}},{Slot:8b,id:"minecraft:stone",Count:1b}]} run tag @s add craftedSilverfishSpawnEgg
+execute as @s[tag=craftedSilverfishSpawnEgg,tag=!alreadyCrafted] run playsound minecraft:block.end_portal_frame.fill block @a ~ ~ ~
+tag @s[tag=craftedSilverfishSpawnEgg,tag=!alreadyCrafted] add alreadyCrafted
+execute as @s[tag=craftedSilverfishSpawnEgg] run function custom_things:workbench_recipes/spawn_eggs/silverfish_spawn_egg_success
+execute as @s[tag=craftedSilverfishSpawnEgg] run function custom_things:workbench_recipes/spawn_eggs/silverfish_spawn_egg
+tag @s[tag=alreadyCrafted] remove alreadyCrafted

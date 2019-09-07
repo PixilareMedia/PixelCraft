@@ -1,0 +1,3 @@
+execute at @e[type=minecraft:armor_stand,tag=Mob-Invinciblity] run data merge entity @e[type=!minecraft:player,type=!minecraft:armor_stand,distance=0..5,limit=1] {Invulnerable:1b,Tags:["Is-Invincible"]}
+execute at @e[type=minecraft:armor_stand,tag=Mob-Invinciblity] if entity @e[distance=0..5,tag=Is-Invincible] run scoreboard players set @p[distance=0..3] mi_counter 0
+execute at @e[type=minecraft:armor_stand,tag=Mob-Invinciblity] if entity @e[distance=0..5,tag=Is-Invincible] run summon minecraft:lightning_bolt ~ ~ ~

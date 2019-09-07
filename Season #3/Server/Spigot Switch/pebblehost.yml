@@ -1,0 +1,60 @@
+# Version 1.3
+# This is the settings file for the PebbleHost server loader.
+# Got a suggestion for this file? Join our discord and suggest it using '-suggest'
+
+# THESE SETTINGS CAN BREAK PARTS OF YOUR SERVER, BE CAREFUL WHEN EDITING THEM
+
+# If you break this file, Please delete it and it will automatically regenerate.
+
+### Automatic reboot / restart on crash settings
+#
+# Possible Settings: true, false
+# Default: false
+#
+# This will enable and create a start.sh file which is required for both using the /restart commnad
+# and is required for a server to restart if it crashes.
+# Please ensure your server supports this file format and it is setup within spigot.yml
+#
+autoreboot=false
+
+### Server URL redirection
+#
+# This setting allows you to redirect any URL reqests to your servers IP to your own website
+# For example, if your servers IP is 1.25.6.54:25567 you can redirect 1.25.6.54 in your browser to your website
+# You need a domain for this to work!
+#
+# Your servers IP Address (must be a domain!)
+redirect-from=
+# The website you would like users to be redirected to
+redirect-to=
+
+### Heaplimiter Settings
+#
+# If your server is running out of metaspace memory frequently we suggest enabling this option, You may read more @ https://help.pebblehost.com/en/article/1lsc8ad/
+# 
+# Possible Settings: 1,2,3
+# Default: 1
+# 1. 0MB 
+# 2. 300MB
+# 3. 600MB
+heaplimited=3
+
+### Startup flag options
+#
+# The following option enables UTF-8 encoding in your servers startup settings
+#
+# Possible Settings: true, false
+# Default: false
+#
+utf8=true
+
+# This option removes the 20 second wait time by adding the '-DIKnowWhatImDoingISwear' flag to your servers startup command
+#
+# Possible Settings: true, false
+# Default: false
+#
+waitremoval=true
+
+#
+# Please keep in mind, Any changes made to this will take up to 60 seconds to update and will require a server reboot. 
+auto-reboot=true

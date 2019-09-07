@@ -1,0 +1,480 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - -minecraft.command.op
+    - -bukkit.command.op.give
+    - -bukkit.command.plugins
+    - -bukkit.command.version
+    - modifyworld.*
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.back
+    - essentials.back.ondeath
+    - essentials.balance
+    - essentials.balance.others
+    - essentials.balancetop
+    - essentials.build
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.shout
+    - essentials.chat.question
+    - essentials.chat.url
+    - essentials.chat.magic
+    - essentials.delhome
+    - essentials.helpop
+    - essentials.home
+    - essentials.home.bed
+    - essentials.ignore
+    - essentials.kit
+    - essentials.kits.tools
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.me
+    - essentials.motd
+    - essentials.msg
+    - essentials.msg.color
+    - essentials.near
+    - essentials.pay
+    - essentials.pay.multiple
+    - essentials.ping
+    - essentials.r
+    - essentials.rules
+    - essentials.seen
+    - essentials.sethome
+    - essentials.spawn
+    - essentials.suicide
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.exp
+    - essentials.gc
+    - essentials.tptoggle
+    - essentials.msgtoggle
+    - essentials.paytoggle
+    - essentials.keepxp
+    - essentials.book
+    - essentials.book.title
+    - essentials.sethome.multiple
+    - essentials.sethome.multiple.default
+    - essentials.help.griefprevention
+    - essentials.eco.loan
+    - essentials.warps.endermanfarm
+    - essentials.warps.minigames
+    - essentials.warps.witherskeletonfarm
+    - essentials.warps.zombiepigmanfarm
+    - discordsrv.player
+    - marry.user
+    - marry.chat.*
+    - marry.list
+    - marry.pvpon
+    - marry.pvpoff
+    - marry.tp
+    - marry.home
+    - marry.kiss
+    - marry.gift
+    - marry.backpack
+    - marry.changesurname
+    - deluxetags.gui
+    - deluxetags.tag.Season3
+    - pixelcraft.player.Warps
+    - pixelcraft.player.Music
+    - pixelcraft.player.Shop
+    - pixelcraft.player.Statistic
+    - pixelcraft.player.Staff
+    - pixelcraft.player.Help
+    - ab.kick.notify
+    - ab.ban.notify
+    - ab.tempban.notify
+    - ab.ipban.notify
+    - ab.tempipban.notify
+    - ab.mute.notify
+    - ab.tempmute.notify
+    - ab.warn.notify
+    - ab.tempwarn.notify
+    - ab.systemprefs
+    - horizon.command.notify
+    - ChestShop.shop.*
+    - minecraft.autocraft
+    - veinminer.veinmine.*
+    - veinminer.toggle
+    - veinminer.pattern
+  Pixels:
+    options:
+      default: false
+      prefix: '[&2Pixels&r] '
+    inheritance:
+    - default
+    permissions:
+    - essentials.workbench
+    - essentials.enderchest
+    - essentials.ext
+    - essentials.feed
+    - essentials.feed.others
+    - essentials.heal
+    - essentials.heal.others
+    - essentials.repair
+    - essentials.repair.armor
+    - essentials.repair.enchanted
+    - essentials.fly
+    - essentials.tpaall
+    - essentials.sethome.multiple.Pixels
+    - essentials.nick
+    - essentials.nick.color
+    - essentials.nick.magic
+    - essentials.nick.format
+    - essentials.teleport.timer.move
+    - OpenInv.exempt
+    - discordsrv.silentjoin
+    - discordsrv.silentquit
+    - staffchat.pixels
+  Mod:
+    options:
+      default: false
+      prefix: '&0[&2Mod&0] &c'
+    inheritance:
+    - Pixels
+    permissions:
+    - essentials.tp.others
+    - essentials.tpo
+    - essentials.vanish
+    - pixelcraft.staff.Mute
+    - pixelcraft.staff.Kick
+    - pixelcraft.staff.Server
+    - ab.kick.use
+    - ab.mute.temp
+    - ab.mute.undo
+    - ab.history
+    - ab.help
+    - OpenInv.openinv
+    - OpenInv.openender
+    - OpenInv.openenderall
+    - OpenInv.crossword
+    - OpenInv.anychest
+    - OpenInv.silent
+    - horizon.notification
+    - staff.online
+    - staff.join
+    - staffchat.mod
+    - staffchat.staff
+    - minecraft.command.selector
+  Dadmin:
+    options:
+      default: false
+      prefix: '&0[&cDadmin&0] &c'
+    inheritance:
+    - Mod
+    permissions:
+    - bukkit.command.plugins
+    - bukkit.command.version
+    - OpenInv.editinv
+    - OpenInv.editender
+    - minecraft.command.whitelist
+    - essentials.god
+    - essentials.gamemode
+    - essentials.gamemode.all
+    - essentials.gamemode.survival
+    - essentials.gamemode.spectator
+    - essentials.gamemode.creative
+    - essentials.gamemode.adventure
+    - essentials.kickall
+    - essentials.msgtoggle.bypass
+    - essentials.tophere
+    - essentials.lightning
+    - essentials.lightning.others
+    - essentials.powertool
+    - essentials.powertooltoggle
+    - essentials.vanish.see
+    - essentials.vanish.pvp
+    - essentials.vanish.interact
+    - pixelcraft.staff.Ban
+    - ab.ban.temp
+    - ab.ban.undo
+    - ab.banlist
+    - ab.changeReason
+    - ab.check
+    - marry.priest
+    - staffchat.dadmin
+    - horizon.command.verbose
+    - horizon.command.chkupd
+    - horizon.command.reload
+    - horizon.command.kick
+    - -ChestShop.admin
+    - coreprotect.*
+  Dev:
+    options:
+      default: false
+      prefix: '&0[&5Dev&0] &4'
+    inheritance:
+    - Dadmin
+    permissions:
+    - essentials.*
+    - permissions.*
+    - placeholderapi.*
+    - OpenInv.*
+    - worldedit.*
+    - worldguard.*
+    - discordsrv.*
+    - ab.reload
+    - ab.check.ip
+    - ab.all.undo
+    - staffchat.dev
+schema-version: 1
+users:
+  c8d6aeb2-caa6-4381-8815-330fe2677c98:
+    group:
+    - Dev
+    options:
+      name: Herobrain_gamer
+    permissions:
+    - minecraft.command.op
+    - bukkit.command.op.give
+    - bukkit.command.plugins
+    - bukkit.command.version
+    - -essentials.balancetop.exclude
+    - -essentials.vanish.effect
+    - deluxetags.tag.Season1
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+    - deluxetags.tag.OutOfIdeas
+  ae50d7cd-f820-4bbe-8d48-fdbb3ab131eb:
+    group:
+    - Dadmin
+    options:
+      name: willongnose
+    permissions:
+    - minecraft.command.op
+    - bukkit.command.op.give
+    - bukkit.command.plugins
+    - bukkit.command.version
+    - deluxetags.tag.Season1
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+    - deluxetags.tag.OutOfIdeas
+  1f5a8782-79f2-4314-bd16-17fc3b084490:
+    group:
+    - Dadmin
+    options:
+      name: GamerGabriel
+    permissions:
+    - deluxetags.tag.Season1
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  e157ae19-db7d-4600-aeea-b2220b60ffa3:
+    group:
+    - Pixels
+    options:
+      name: midna_87
+    permissions:
+    - deluxetags.tag.Season1
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  8d87c4e6-7a31-4d2c-b07e-11ed8c4ed870:
+    group:
+    - Pixels
+    options:
+      name: EggyLadd
+    permissions:
+    - deluxetags.tag.Season1
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  9763f232-29d8-48b9-a2b0-8eba73033778:
+    group:
+    - Pixels
+    options:
+      name: FiddleWorm
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  8895c3c2-5c10-484e-bcf2-cacf971cecef:
+    group:
+    - Mod
+    - Pixels
+    options:
+      name: TheTrueDuality
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  802383cc-cb04-40ea-9587-4fec91de2133:
+    group:
+    - Pixels
+    options:
+      name: Butterminer200
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  2ca5a0dc-ed41-4567-9b98-dab608e794a1:
+    group:
+    - Pixels
+    options:
+      name: IItsBradyy
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  497c2831-4d6b-49e7-a6c9-181c95840fea:
+    group:
+    - Pixels
+    options:
+      name: _Blaze_
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  f42b4c98-a6c3-43d0-b225-b4ce98d5aa75:
+    group:
+    - Pixels
+    options:
+      name: SkyPixels21
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  b9cb97d7-fefc-46f7-a7d1-a6600439dd8b:
+    group:
+    - Pixels
+    options:
+      name: sparklevamp02
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  46671793-2693-4345-a1db-e0c58f198ba0:
+    group:
+    - Pixels
+    options:
+      name: Livvie24
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  706ef746-4c6c-4643-ba65-ed4f4c51836b:
+    group:
+    - Pixels
+    options:
+      name: Marco_Lillian
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  a6128257-d54b-4050-b0e3-659398331b8a:
+    group:
+    - Pixels
+    options:
+      name: CatSandWich999
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  fc19ba96-638c-4cbb-99a6-2e681dd802c8:
+    group:
+    - Pixels
+    options:
+      name: Iruka77
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  d027a9f7-666d-4cf1-91f7-63457606b4ed:
+    group:
+    - Pixels
+    options:
+      name: dieing
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  e6883d30-2a3e-471c-9842-00348ba128c4:
+    group:
+    - Pixels
+    options:
+      name: iSkygraphics
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  3e56daf4-979e-4670-9fdc-60e813437dfb:
+    group:
+    - Pixels
+    options:
+      name: BurningOrphans
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  63752156-f40b-4853-9199-847dcddedcd5:
+    group:
+    - Pixels
+    options:
+      name: ZeroFang666
+    permissions:
+    - deluxetags.tag.Season2
+    - deluxetags.tag.Season3
+  91983e64-aca1-4cc9-a0fb-fdfbdee94513:
+    group:
+    - Pixels
+    options:
+      name: AnnyongB
+    permissions:
+    - deluxetags.tag.Season3
+  6440d46c-1bc3-4305-9819-d9da36699ce8:
+    group:
+    - Pixels
+    options:
+      name: _Pengu__
+    permissions:
+    - deluxetags.tag.Season3
+  1983dc35-375d-4392-9e6f-deac0ce543d5:
+    group:
+    - Pixels
+    options:
+      name: IDontToggle__
+    permissions:
+    - deluxetags.tag.Season3
+  f191626b-ff3a-455a-84dc-e4acee7a6fae:
+    group:
+    - Pixels
+    options:
+      name: WolvesWing
+    permissions:
+    - deluxetags.tag.Season3
+  f367c16c-aa99-406f-879c-92712cd0c646:
+    group:
+    - Pixels
+    options:
+      name: UBAF_Inferno
+    permissions:
+    - deluxetags.tag.Season3
+  603f9ea4-a88f-439c-9e85-8c670a310d4a:
+    group:
+    - Pixels
+    options:
+      name: SW_MC
+    permissions:
+    - deluxetags.tag.Season3
+  42eb5aef-7300-41e9-b8cc-66287ce874ed:
+    group:
+    - Pixels
+    options:
+      name: igomigo
+    permissions:
+    - deluxetags.tag.Season3
+  5e7dafca-ac46-47b0-a6f2-c0fd2ccfff60:
+    group:
+    - Pixels
+    options:
+      name: Frost780
+    permissions:
+    - deluxetags.tag.Season3
+  2f45e605-ce5f-4db6-a5f9-c27b190705e4:
+    group:
+    - Pixels
+    options:
+      name: Quintal2012
+    permissions:
+    - deluxetags.tag.Season3
+  3ea62c30-e9a7-4baa-80af-924a497cb37d:
+    group:
+    - Pixels
+    options:
+      name: MikesPrivateHoez
+    permissions:
+    - deluxetags.tag.Season3
+  b0a3ad29-e68c-49f5-9664-b8009394fb68:
+    group: []
+    options:
+      name: wolfcat01

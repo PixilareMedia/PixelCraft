@@ -1,0 +1,479 @@
+menu_title: '&5Your &6Items Statistics'
+open_command: StatisticItems6
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic_Item'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items5'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items5'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items7'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items7'
+  '10':
+    material: nether_brick_fence
+    slot: 9
+    display_name: '&7Nether Brick Fence'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:nether_brick_fence%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:nether_brick_fence%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:nether_brick_fence%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:nether_brick_fence%'
+  '11':
+    material: nether_brick_stairs
+    slot: 10
+    display_name: '&7Nether Brick Stairs'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:nether_brick_stairs%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:nether_brick_stairs%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:nether_brick_stairs%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:nether_brick_stairs%'
+  '12':
+    material: enchanting_table
+    slot: 11
+    display_name: '&7Enchanting Table'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:enchanting_table%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:enchanting_table%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:enchanting_table%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:enchanting_table%'
+  '13':
+    material: end_portal_frame
+    slot: 12
+    display_name: '&7End Portal Frame'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:end_portal_frame%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:end_portal_frame%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:end_portal_frame%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:end_portal_frame%'
+  '14':
+    material: end_stone
+    slot: 13
+    display_name: '&7End Stone'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:end_stone%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:end_stone%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:end_stone%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:end_stone%'
+  '15':
+    material: end_stone_bricks
+    slot: 14
+    display_name: '&7End Stone Bricks'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:end_stone_bricks%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:end_stone_bricks%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:end_stone_bricks%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:end_stone_bricks%'
+  '16':
+    material: redstone_lamp
+    slot: 15
+    display_name: '&7Redstone Lamp'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:redstone_lamp%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:redstone_lamp%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:redstone_lamp%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:redstone_lamp%'
+  '17':
+    material: sandstone_stairs
+    slot: 16
+    display_name: '&7Sandstone Stairs'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:sandstone_stairs%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:sandstone_stairs%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:sandstone_stairs%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:sandstone_stairs%'
+  '18':
+    material: emerald_ore
+    slot: 17
+    display_name: '&7Emerald Ore'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:emerald_ore%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:emerald_ore%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:emerald_ore%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:emerald_ore%'
+  '19':
+    material: ender_chest
+    slot: 18
+    display_name: '&7Ender Chest'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:ender_chest%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:ender_chest%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:ender_chest%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:ender_chest%'
+  '20':
+    material: tripwire_hook
+    slot: 19
+    display_name: '&7Tripwire Hook'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:tripwire_hook%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:tripwire_hook%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:tripwire_hook%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:tripwire_hook%'
+  '21':
+    material: emerald_block
+    slot: 20
+    display_name: '&7Emerald Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:emerald_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:emerald_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:emerald_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:emerald_block%'
+  '22':
+    material: spruce_stairs
+    slot: 21
+    display_name: '&7Spruce Stairs'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:spruce_stairs%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:spruce_stairs%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:spruce_stairs%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:spruce_stairs%'
+  '23':
+    material: birch_stairs
+    slot: 22
+    display_name: '&7Birch Stairs'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:birch_stairs%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:birch_stairs%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:birch_stairs%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:birch_stairs%'
+  '24':
+    material: jungle_stairs
+    slot: 23
+    display_name: '&7Jungle Stairs'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:jungle_stairs%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:jungle_stairs%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:jungle_stairs%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:jungle_stairs%'
+  '25':
+    material: beacon
+    slot: 24
+    display_name: '&7Beacon'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:beacon%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:beacon%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:beacon%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:beacon%'
+  '26':
+    material: cobblestone_wall
+    slot: 25
+    display_name: '&7Cobblestone Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cobblestone_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cobblestone_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cobblestone_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cobblestone_wall%'
+  '27':
+    material: mossy_cobblestone_wall
+    slot: 26
+    display_name: '&7Mossy Cobblestone Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:mossy_cobblestone_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:mossy_cobblestone_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:mossy_cobblestone_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:mossy_cobblestone_wall%'
+  '28':
+    material: brick_wall
+    slot: 27
+    display_name: '&7Brick Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:brick_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:brick_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:brick_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:brick_wall%'
+  '29':
+    material: prismarine_wall
+    slot: 28
+    display_name: '&7Prismarine Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:prismarine_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:prismarine_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:prismarine_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:prismarine_wall%'
+  '30':
+    material: red_sandstone_wall
+    slot: 29
+    display_name: '&7Red Sandstone Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:red_sandstone_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:red_sandstone_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:red_sandstone_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:red_sandstone_wall%'
+  '31':
+    material: mossy_stone_brick_wall
+    slot: 30
+    display_name: '&7Mossy Stone Brick Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:mossy_stone_brick_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:mossy_stone_brick_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:mossy_stone_brick_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:mossy_stone_brick_wall%'
+  '32':
+    material: granite_wall
+    slot: 31
+    display_name: '&7Granite Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:granite_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:granite_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:granite_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:granite_wall%'
+  '33':
+    material: stone_brick_wall
+    slot: 32
+    display_name: '&7Stone Brick Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:stone_brick_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:stone_brick_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:stone_brick_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:stone_brick_wall%'
+  '34':
+    material: nether_brick_wall
+    slot: 33
+    display_name: '&7Nether Brick Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:nether_brick_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:nether_brick_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:nether_brick_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:nether_brick_wall%'
+  '35':
+    material: andesite_wall
+    slot: 34
+    display_name: '&7Andesite Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:andesite_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:andesite_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:andesite_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:andesite_wall%'
+  '36':
+    material: red_nether_brick_wall
+    slot: 35
+    display_name: '&7Red Nether Brick Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:red_nether_brick_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:red_nether_brick_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:red_nether_brick_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:red_nether_brick_wall%'
+  '37':
+    material: sandstone_wall
+    slot: 36
+    display_name: '&7Sandstone Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:sandstone_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:sandstone_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:sandstone_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:sandstone_wall%'
+  '38':
+    material: end_stone_brick_wall
+    slot: 37
+    display_name: '&7End Stone brick Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:end_stone_brick_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:end_stone_brick_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:end_stone_brick_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:end_stone_brick_wall%'
+  '39':
+    material: diorite_wall
+    slot: 38
+    display_name: '&7Diorite Wall'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:diorite_wall%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:diorite_wall%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:diorite_wall%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:diorite_wall%'
+  '40':
+    material: oak_button
+    slot: 39
+    display_name: '&7Oak Button'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:oak_button%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:oak_button%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:oak_button%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:oak_button%'
+  '41':
+    material: spruce_button
+    slot: 40
+    display_name: '&7Spruce Button'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:spruce_button%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:spruce_button%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:spruce_button%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:spruce_button%'
+  '42':
+    material: birch_button
+    slot: 41
+    display_name: '&7Birch Button'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:birch_button%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:birch_button%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:birch_button%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:birch_button%'
+  '43':
+    material: jungle_button
+    slot: 42
+    display_name: '&7Jungle Button'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:jungle_button%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:jungle_button%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:jungle_button%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:jungle_button%'
+  '44':
+    material: acacia_button
+    slot: 43
+    display_name: '&7Acacia Button'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:acacia_button%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:acacia_button%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:acacia_button%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:acacia_button%'
+  '45':
+    material: dark_oak_button
+    slot: 44
+    display_name: '&7Dark Oak Button'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dark_oak_button%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dark_oak_button%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dark_oak_button%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dark_oak_button%'
+  '46':
+    material: anvil
+    slot: 45
+    display_name: '&7Anvil'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:anvil%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:anvil%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:anvil%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:anvil%'
+  '47':
+    material: chipped_anvil
+    slot: 46
+    display_name: '&7Chipped Anvil'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:chipped_anvil%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:chipped_anvil%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:chipped_anvil%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:chipped_anvil%'
+  '48':
+    material: damaged_anvil
+    slot: 47
+    display_name: '&7Damaged Anvil'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:damaged_anvil%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:damaged_anvil%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:damaged_anvil%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:damaged_anvil%'
+  '49':
+    material: trapped_chest
+    slot: 48
+    display_name: '&7Trapped Chest'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:trapped_chest%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:trapped_chest%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:trapped_chest%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:trapped_chest%'
+  '50':
+    material: light_weighted_pressure_plate
+    slot: 49
+    display_name: '&7Light Weighted Pressure Plate'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_weighted_pressure_plate%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_weighted_pressure_plate%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_weighted_pressure_plate%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_weighted_pressure_plate%'
+  '51':
+    material: heavy_weighted_pressure_plate
+    slot: 50
+    display_name: '&7Heavy Weighted Pressure Plate'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:heavy_weighted_pressure_plate%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:heavy_weighted_pressure_plate%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:heavy_weighted_pressure_plate%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:heavy_weighted_pressure_plate%'
+  '52':
+    material: daylight_detector
+    slot: 51
+    display_name: '&7Daylight Detector'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:daylight_detector%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:daylight_detector%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:daylight_detector%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:daylight_detector%'
+  '53':
+    material: redstone_block
+    slot: 52
+    display_name: '&7Redstone Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:redstone_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:redstone_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:redstone_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:redstone_block%'
+  '54':
+    material: nether_quartz_ore
+    slot: 53
+    display_name: '&7Nether Quartz Ore'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:nether_quartz_ore%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:nether_quartz_ore%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:nether_quartz_ore%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:nether_quartz_ore%'

@@ -1,0 +1,41 @@
+menu_title: '&cBan Prefabs'
+open_command: ban
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.staff.Ban
+      deny_commands:
+      - '[message] You dont have permission to open menu: Ban'
+items:
+  '1':
+    material: diamond_ore
+    slot: 0
+    display_name: '&aBan For X-Ray'
+    left_click_commands:
+    - '[player] tempban <PlayerName> #XRay @XRay'
+    - '[close]'
+    right_click_commands:
+    - '[player] tempban <PlayerName> #XRay @XRay'
+    - '[close]'
+  '2':
+    material: diamond_sword
+    slot: 1
+    display_name: '&aBan For PvP Hacks'
+    left_click_commands:
+    - '[player] tempban <PlayerName> #PvPHacks @PvPHacks'
+    - '[close]'
+    right_click_commands:
+    - '[player] tempban <PlayerName> #PvPHacks @PvPHacks'
+    - '[close]'
+  '3':
+    material: sponge
+    slot: 2
+    display_name: '&aBan For Non-Malicious'
+    left_click_commands:
+    - '[player] tempban <PlayerName> #NonMalicious @NonMalicious'
+    - '[close]'
+    right_click_commands:
+    - '[player] tempban <PlayerName> #NonMalicious @NonMalicious'
+    - '[close]'

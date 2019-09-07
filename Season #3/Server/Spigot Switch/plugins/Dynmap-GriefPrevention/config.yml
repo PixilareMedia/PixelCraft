@@ -1,0 +1,29 @@
+# Dynmap-GriefPrevention configuration
+update:
+  period: 300
+layer:
+  name: GriefPrevention
+  hidebydefault: false
+  layerprio: 0
+  minzoom: 0
+use3dregions: false
+infowindow: '<div class=\"infowindow\">Claim Owner: <span style=\"font-weight:bold;\">%owner%</span><br/>Permission
+  Trust: <span style=\"font-weight:bold;\">%managers%</span><br/>Trust: <span style=\"font-weight:bold;\">%builders%</span><br/>Container
+  Trust: <span style=\"font-weight:bold;\">%containers%</span><br/>Access Trust: <span
+  style=\"font-weight:bold;\">%accessors%</span></div>'
+adminclaiminfowindow: '<div class=\"infowindow\"><span style=\"font-weight:bold;\">Administrator
+  Claim</span><br/>Permission Trust: <span style=\"font-weight:bold;\">%managers%</span><br/>Trust:
+  <span style=\"font-weight:bold;\">%builders%</span><br/>Container Trust: <span style=\"font-weight:bold;\">%containers%</span><br/>Access
+  Trust: <span style=\"font-weight:bold;\">%accessors%</span></div>'
+regionstyle:
+  strokeColor: '#FF0000'
+  strokeOpacity: 0.8
+  strokeWeight: 3
+  fillColor: '#FF0000'
+  fillOpacity: 0.35
+visibleregions: []
+hiddenregions: []
+ownerstyle:
+  administrator:
+    strokeColor: '#0000FF'
+    fillColor: '#0000FF'

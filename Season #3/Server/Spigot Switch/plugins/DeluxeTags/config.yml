@@ -1,0 +1,199 @@
+# DeluxeTags version: 1.7.1 Main Configuration
+# 
+# Create your tags using the following format:
+# 
+# deluxetags:
+#   VIP: 
+#     order: 1
+#     tag: '&7[&eVIP&7]'
+#     description: 'This tag is awarded by getting VIP'
+# 
+# Placeholders for your DeluxeChat formats config:
+# 
+# %deluxetags_identifier% - display the players active tag identifier
+# %deluxetags_tag% - display the players active tag
+# %deluxetags_description% - display the players active tag description
+# %deluxetags_amount% - display the amount of tags a player has access to
+# 
+# Placeholders for your essentials/chat handling formats config:
+# 
+# {deluxetags_identifier} - display the players active tag identifier
+# {deluxetags_tag} - display the players active tag
+# {deluxetags_description} - display the players active tag description
+# {deluxetags_amount} - display the amount of tags a player has access to
+force_tags: false
+check_updates: true
+deluxe_chat: false
+format_chat:
+  enabled: false
+  format: '{deluxetags_tag} <%1$s> %2$s'
+gui:
+  name: '&6Available tags&f: &6{deluxetags_amount}'
+  tag_select_item:
+    material: NAME_TAG
+    data: 0
+    displayname: '&6Tag&f: &6{deluxetags_identifier}'
+    lore:
+    - '{deluxetags_tag}'
+    - '{deluxetags_description}'
+  divider_item:
+    material: STAINED_GLASS_PANE
+    data: 15
+    displayname: ''
+    lore: []
+  has_tag_item:
+    material: SKULL_ITEM
+    data: 3
+    displayname: '&eCurrent tag&f: &6{deluxetags_identifier}'
+    lore:
+    - '{deluxetags_tag}'
+    - Click to remove your current tag
+  no_tag_item:
+    material: SKULL_ITEM
+    data: 3
+    displayname: '&cYou don''t have a tag set!'
+    lore:
+    - '&7Click a tag above to select one!'
+  exit_item:
+    material: IRON_DOOR
+    data: 0
+    displayname: '&cClick to exit'
+    lore:
+    - '&7Exit the tags menu'
+deluxetags:
+  Survivor:
+    order: 1
+    tag: '&f[&2Survivor&f]'
+    description: '&aPurchased In The Donation Store'
+  Caveman:
+    order: 2
+    tag: '&f[&7CaveMan&f]'
+    description: '&aPurchased In The Donation Store'
+  Quintella:
+    order: 3
+    tag: '&f[&6Quintella&f]'
+    description: '&aPurchased In The Donation Store'
+  Gamer:
+    order: 4
+    tag: '&f[&0G&5A&0M&5E&0R&f]'
+    description: '&aPurchased In The Donation Store'
+  TheMidnight:
+    order: 5
+    tag: '&f[&7The &6Midnight&f]'
+    description: '&aPurchased In The Donation Store'
+  Electric:
+    order: 6
+    tag: '&f[&0E&cLECTRI&0C&f]'
+    description: '&aPurchased In The Donation Store'
+  MayThe4thBeWithYou:
+    order: 7
+    tag: '&f[&2May&5The&44th&6Be&1With&3You&f]'
+    description: '&aPurchased In The Donation Store'
+  Doantor:
+    order: 8
+    tag: '&f[&1D&2o&1n&2a&1t&2o&1r&f]'
+    description: '&aPurchased In The Donation Store'
+  SkypeWars:
+    order: 9
+    tag: '&f[&1Skype&4Wars&f]'
+    description: '&aPurchased In The Donation Store'
+  DisWars:
+    order: 10
+    tag: '&f[&3Dis&4Wars&f]'
+    description: '&aPurchased In The Donation Store'
+  LeveledUp:
+    order: 11
+    tag: '&f[&6Leveled&9Up&f]'
+    description: '&aPurchased In The Donation Store'
+  Overpowered:
+    order: 12
+    tag: '&f[&4Over&5Powered&f]'
+    description: '&aPurchased In The Donation Store'
+  Money:
+    order: 13
+    tag: '&f[&6$&2MONEY&6$&f]'
+    description: '&aPurchased In The Donation Store'
+  Fire:
+    order: 14
+    tag: '&f[&4F&6I&4R&6E&f]'
+    description: '&aPurchased In The Donation Store'
+  Herobrine:
+    order: 15
+    tag: '&f[&5Hero&4brine&f]'
+    description: '&aPurchased In The Donation Store'
+  God:
+    order: 16
+    tag: '&f[&5GOD&f]'
+    description: '&aPurchased In The Donation Store'
+  Enderdragon:
+    order: 17
+    tag: '&f[&5En&0de&5r D&0ra&5go&0n&f]'
+    description: '&aPurchased In The Donation Store'
+  BlockMaster:
+    order: 18
+    tag: '&f[&7BlockMaster&f]'
+    description: '&aPurchased In The Donation Store'
+  JustDigIt:
+    order: 19
+    tag: '&f[&cJust&6Dig&9It&f]'
+    description: '&aPurchased In The Donation Store'
+  BlameTheRain:
+    order: 20
+    tag: '&f[&2#&4Blame&cThe&9Rain&f]'
+    description: '&aPurchased In The Donation Store'
+  WhenWillItBeMorning:
+    order: 21
+    tag: '&f[&bWhen&5Will&4It&3Be&2Morning&6???&f]'
+    description: '&aPurchased In The Donation Store'
+  Spider:
+    order: 22
+    tag: '&f[&8SPIDER&f]'
+    description: '&aPurchased In The Donation Store'
+  HerpSkerpDerpSherp:
+    order: 23
+    tag: '&f[&6Herp&4Skerp&5Derp&bSherp&f]'
+    description: '&aPurchased In The Donation Store'
+  BorkBorkBork:
+    order: 24
+    tag: '&f[&6Bork&bBork&3Bork&f]'
+    description: '&aPurchased In The Donation Store'
+  AllMyFriendsAreDead:
+    order: 25
+    tag: '&f[&1All &9My &aFriends &3Are &8Dead&f]'
+    description: '&aPurchased In The Donation Store'
+  TheWang:
+    order: 26
+    tag: '&f[&2The &6Wang&f]'
+    description: '&aPurchased In The Donation Store'
+  BuyTheWangTag:
+    order: 27
+    tag: '&f[&4Buy &2The &6Wang &5Tag&f]'
+    description: '&aPurchased In The Donation Store'
+  TatsFluffedUp:
+    order: 28
+    tag: '&f[&6Tats&aFluffed&9Up&f]'
+    description: '&aPurchased In The Donation Store'
+  BlameNotch:
+    order: 29
+    tag: '&f[&2#&4Blame&cNotch&f]'
+    description: '&aPurchased In The Donation Store'
+  Time2Win:
+    order: 30
+    tag: '&f[&4TIME&52&6WIN&f]'
+    description: '&aPurchased In The Donation Store'
+  OutOfIdeas:
+    order: 1000
+    tag: '&f[&6#&5OUT&4OF&2IDEAS&f]'
+    description: '&cAwarded Somehow We Do Not Know'
+  Season1:
+    order: 1001
+    tag: '&f[&aPixel &9Craft &5Season &61&f]'
+    description: '&cAwarded For Playing Season 1'
+  Season2:
+    order: 1002
+    tag: '&f[&aPixel &9Craft &5Season &62&f]'
+    description: '&cAwarded For Playing Season 2'
+  Season3:
+    order: 1003
+    tag: '&f[&aPixel &9Craft &5Season &63&f]'
+    description: '&cAwarded For Playing Season 3'

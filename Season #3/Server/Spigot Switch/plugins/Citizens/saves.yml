@@ -1,0 +1,85 @@
+# Citizens NPC Storage
+
+
+last-created-npc-id: 1
+npc:
+  '1':
+    name: §eConversion
+    uuid: 57df2324-e757-479a-acb9-f312be6528ab
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      type: VILLAGER
+      villagertrait:
+        level: 5
+        type: JUNGLE
+      location:
+        world: Pixel Craft (S3)
+        x: '175.5'
+        y: '66.0625'
+        z: '91.5'
+        yaw: '-115.46723175048828'
+        pitch: '0.0'
+      profession: CLERIC
+      owner:
+        owner: Herobrain_gamer
+        uuid: c8d6aeb2-caa6-4381-8815-330fe2677c98
+    traitnames: owner,age,type,location,mounttrait,profession,spawned,villagertrait,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    name: §ePixel Heads
+    uuid: e2bb4c78-d15f-4496-9bed-ec4f3c18e433
+    traits:
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        randomPitchRange:
+        - -10.0
+        - 0.0
+        randomYawRange:
+        - 0.0
+        - 360.0
+        realisticlooking: false
+      spawned: true
+      age:
+        age: 0
+        locked: true
+      type: VILLAGER
+      villagertrait:
+        level: 5
+        type: JUNGLE
+      location:
+        world: Pixel Craft (S3)
+        x: '175.5'
+        y: '66.0625'
+        z: '89.5'
+        yaw: '-79.79581451416016'
+        pitch: '0.0'
+      profession: CLERIC
+      owner:
+        owner: Herobrain_gamer
+        uuid: c8d6aeb2-caa6-4381-8815-330fe2677c98
+    traitnames: owner,age,type,location,mounttrait,profession,spawned,villagertrait,lookclose
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

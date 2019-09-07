@@ -1,0 +1,71 @@
+menu_title: '&2Warps'
+open_command: warp
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Warps
+      deny_commands:
+      - '[message] You dont have permission to open menu: Warps'
+items:
+  '1':
+    material: beacon
+    slot: 0
+    display_name: '&aSpawn'
+    lore:
+    - '&aWarp to spawn'
+    left_click_commands:
+    - '[player] spawn'
+    - '[close]'
+    right_click_commands:
+    - '[player] spawn'
+    - '[close]'
+  '2':
+    material: gold_nugget
+    slot: 1
+    display_name: '&aPigman Farm'
+    lore:
+    - '&aWarp to Pigman Farm'
+    left_click_commands:
+    - '[player] warps ZombiePigmanFarm'
+    - '[close]'
+    right_click_commands:
+    - '[player] warps ZombiePigmanFarm'
+    - '[close]'
+  '3':
+    material: wither_skeleton_skull
+    slot: 2
+    display_name: '&aWither Skeleton Farm'
+    lore:
+    - '&aWarp to Wither Skeleton Farm'
+    left_click_commands:
+    - '[player] warps WitherSkeletonFarm'
+    - '[close]'
+    right_click_commands:
+    - '[player] warps WitherSkeletonFarm'
+    - '[close]'
+  '4':
+    material: ender_pearl
+    slot: 3
+    display_name: '&aEnderman Farm'
+    lore:
+    - '&aWarp to Enderman Farm'
+    left_click_commands:
+    - '[player] warps EndermanFarm'
+    - '[close]'
+    right_click_commands:
+    - '[player] warps EndermanFarm'
+    - '[close]'
+  '5':
+    material: diamond
+    slot: 4
+    display_name: '&aMini Games'
+    lore:
+    - '&aWarp to the Mini Game Area'
+    left_click_commands:
+    - '[player] warps MiniGames'
+    - '[close]'
+    right_click_commands:
+    - '[player] warps MiniGames'
+    - '[close]'

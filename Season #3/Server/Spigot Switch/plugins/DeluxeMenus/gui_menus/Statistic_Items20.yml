@@ -1,0 +1,137 @@
+menu_title: '&5Your &6Items Statistics'
+open_command: StatisticItems20
+size: 18
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic_Item'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items19'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items19'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '10':
+    material: lectern
+    slot: 9
+    display_name: '&7Lectern'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:lectern%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:lectern%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:lectern%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:lectern%'
+  '11':
+    material: smithing_table
+    slot: 10
+    display_name: '&7Smithing Table'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:smithing_table%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:smithing_table%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:smithing_table%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:smithing_table%'
+  '12':
+    material: stonecutter
+    slot: 11
+    display_name: '&7Stonecutter'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:stonecutter%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:stonecutter%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:stonecutter%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:stonecutter%'
+  '13':
+    material: bell
+    slot: 12
+    display_name: '&7Bell'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:bell%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:bell%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:bell%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:bell%'
+  '14':
+    material: lantern
+    slot: 13
+    display_name: '&7Lantern'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:lantern%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:lantern%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:lantern%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:lantern%'
+  '15':
+    material: sweet_berries
+    slot: 14
+    display_name: '&7Sweet Berries'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:sweet_berries%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:sweet_berries%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:sweet_berries%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:sweet_berries%'
+  '16':
+    material: campfire
+    slot: 15
+    display_name: '&7Campfire'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:campfire%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:campfire%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:campfire%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:campfire%'

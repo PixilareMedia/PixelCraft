@@ -1,0 +1,148 @@
+{
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2019-06-29 18:56:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2019-06-29 18:56:25 -0400"
+    },
+    "done": true
+  },
+  "main:main/anti_creeper": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/dragon_drops_elytra": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/mmh": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/wrench": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/ss": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/anti_enderman": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/silence_mobs": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/ts": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/afk": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/root": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "multiplayer_sleep:sleep": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": false
+  },
+  "main:main/as_statue": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/double_shulkers": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/pt": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2019-06-29 18:56:25 -0400"
+    },
+    "done": true
+  },
+  "main:main/redstone_wrench": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/nether_portal_coords": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/track_stats": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/multiplayer_sleep": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/anti_ghast": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "main:main/track_raw_stats": {
+    "criteria": {
+      "tick": "2019-06-29 18:56:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2019-06-29 18:56:09 -0400",
+      "minecraft:taiga_hills": "2019-06-29 18:57:10 -0400"
+    },
+    "done": false
+  },
+  "DataVersion": 1968
+}

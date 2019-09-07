@@ -1,0 +1,138 @@
+# The default layouts are in the Message.yml file!
+
+# Message-Layouts can not only be used for bans but also for mutes and warns
+# Currently available variables:
+#   %OPERATOR% - The user who dealt the punishment.
+#   %REASON% - Reason for punishment.
+#   %PREFIX% - Prefix set in Message.yml.
+#   %DURATION% - Amount of time left before a punishment expires (will be -1 for permanent punishments).
+#   %DATE% - Date punishment was issued on.
+#   %ID% - Displays the punishment ID (i.e. first punishment = 0, second punishment = 1, third punishment = 2, etc.)
+#   %HEXID% - Displays the punishment ID in base 16. 
+# For warns you have also the variable %COUNT% which will be
+# replaced with the current amount of warns the player already received
+# Example usage: /ban Leoko @ExampleLayout
+Message:
+  default:
+    - '%PREFIX% &7The Ban Hammer Has Spoken'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&cIt seems like you are using a"
+    - "&cracked client please disable it!"
+    - "&cUnban in &8\xbb &7%DURATION%"
+    - '&7'
+    - '&8Unban application in Discord'
+    - "&eDiscord &8\xbb &c&ndiscord.gg/hjVVGCr"
+  XRay:
+    - '%PREFIX% &7Banned for X-Raying'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&cIt seems like you are using a"
+    - "&cracked client please disable it!"
+    - "&cUnban in &8\xbb &7%DURATION%"
+    - '&7'
+    - '&8Unban application in Discord'
+    - "&eDiscord &8\xbb &c&ndiscord.gg/hjVVGCr"
+  PvPHacks:
+    - '%PREFIX% &7Banned for PvP Hacks'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&cIt seems like you are using a"
+    - "&cracked client please disable it!"
+    - "&cUnban in &8\xbb &7%DURATION%"
+    - '&7'
+    - '&8Unban application in Discord'
+    - "&eDiscord &8\xbb &c&ndiscord.gg/hjVVGCr"
+  NonMalicious:
+    - '%PREFIX% &7Banned for Non-Malicious Hacks'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&cIt seems like you are using a"
+    - "&cracked client please disable it!"
+    - "&cUnban in &8\xbb &7%DURATION%"
+    - '&7'
+    - '&8Unban application in Discord'
+    - "&eDiscord &8\xbb &c&ndiscord.gg/hjVVGCr"
+  StoreChargeBack:
+    - '%PREFIX% &7Banned for Store Charge Back'
+    - '&c&oBanned by %OPERATOR%'
+    - '&7'
+    - "&cIt seems like you charged back"
+    - "&cthe store after we told you all"
+    - "&cpurchases are FINAL!"
+    - "&cUnban in &8\xbb &7%DURATION%"
+    - '&7'
+    - '&8Unban application in Discord'
+    - "&eDiscord &8\xbb &c&ndiscord.gg/hjVVGCr"
+  Advertising:
+    - '%PREFIX% &7Mutted for Advertising'
+    - '&c&oMutted by %OPERATOR%'
+    - '&7'
+    - '&8Stop Advertising Plz'
+  Spaming:
+    - '%PREFIX% &7Mutted for Spaming'
+    - '&c&oMutted by %OPERATOR%'
+    - '&7'
+    - '&8Stop Spaming Plz'
+  Annoying:
+    - '%PREFIX% &7Kicked for being Annoying'
+    - '&c&oKicked by %OPERATOR%'
+    - '&7'
+    - '&8Stop Being Annoying Plz'
+
+# You would use this time-layout for example like this: "/tempban Leoko #ExampleLayout Hacking in FFA"
+# Or with "/tempwarn Leoko #ExampleLayout Advertising" or even "/tempwarn Leoko #ExampleLayout No capslock please"
+# You can also combine this with MessageLayouts like "/tempban Leoko #ExampleLayout @Hacking"
+Time:
+  default:
+    - '30m'
+    - '2h'
+    - '1d'
+    - '1w'
+    - '1mo'
+    - '2mo'
+    - '4mo'
+    - 'perma'
+  XRay:
+    - '1d'
+    - '4d'
+    - '1w'
+    - '1mo'
+    - '2mo'
+    - '4mo'
+    - '6mo'
+    - 'perma'
+  PvPHacks:
+    - '3d'
+    - '1w'
+    - '1mo'
+    - '2mo'
+  NonMalicious:
+    - '1h'
+    - '3h'
+    - '1d'
+    - '1w'
+    - '2w'
+    - '1mo'
+    - '3mo'
+    - 'perma'
+  StoreChargeBack:
+    - 'perma'
+  Advertising:
+    - '30m'
+    - '2h'
+    - '1d'
+    - '1w'
+    - '1mo'
+    - '2mo'
+    - '4mo'
+    - 'perma'
+  Spaming:
+    - '30m'
+    - '2h'
+    - '1d'
+    - '1w'
+    - '1mo'
+    - '2mo'
+    - '4mo'
+    - 'perma'

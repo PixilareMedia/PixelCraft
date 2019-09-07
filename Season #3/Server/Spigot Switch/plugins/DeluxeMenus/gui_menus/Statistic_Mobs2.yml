@@ -1,0 +1,194 @@
+menu_title: '&5Your &6Mobs Statistics'
+open_command: StatisticMobs2
+size: 27
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '10':
+    material: tropical_fish_spawn_egg
+    slot: 9
+    display_name: '&7Tropical Fish'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:tropical_fish%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:tropical_fish%'
+  '11':
+    material: turtle_spawn_egg
+    slot: 10
+    display_name: '&7Turtle'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:turtle%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:turtle%'
+  '12':
+    material: vex_spawn_egg
+    slot: 11
+    display_name: '&7Vex'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:vex%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:vex%'
+  '13':
+    material: villager_spawn_egg
+    slot: 12
+    display_name: '&7Villager'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:villager%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:villager%'
+  '14':
+    material: vindicator_spawn_egg
+    slot: 13
+    display_name: '&7Vindicator'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:vindicator%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:vindicator%'
+  '15':
+    material: wandering_trader_spawn_egg
+    slot: 14
+    display_name: '&7Wandering Trader'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:wandering_trader%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:wandering_trader%'
+  '16':
+    material: witch_spawn_egg
+    slot: 15
+    display_name: '&7Witch'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:witch%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:witch%'
+  '17':
+    material: wither_skeleton_spawn_egg
+    slot: 16
+    display_name: '&7Wither Skeleton'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:wither_skeleton%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:wither_skeleton%'
+  '18':
+    material: wolf_spawn_egg
+    slot: 17
+    display_name: '&7Wolf'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:wolf%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:wolf%'
+  '19':
+    material: zombie_spawn_egg
+    slot: 18
+    display_name: '&7Zombie'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:zombie%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:zombie%'
+  '20':
+    material: zombie_horse_spawn_egg
+    slot: 19
+    display_name: '&7Zombie Horse'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:zombie_horse%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:zombie_horse%'
+  '21':
+    material: zombie_pigman_spawn_egg
+    slot: 20
+    display_name: '&7Zombie Pigman'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:zombie_pigman%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:zombie_pigman%'
+  '22':
+    material: zombie_villager_spawn_egg
+    slot: 21
+    display_name: '&7Zombie Villager'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:zombie_villager%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:zombie_villager%'
+  '23':
+    material: iron_block
+    slot: 22
+    display_name: '&7Iron Golem'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:iron_golem%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:iron_golem%'
+  '24':
+    material: snow_block
+    slot: 23
+    display_name: '&7Snow Golem'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:snowman%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:snowman%'
+  '25':
+    material: nether_star
+    slot: 24
+    display_name: '&7Wither'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:wither%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:wither%'
+  '26':
+    material: dragon_egg
+    slot: 25
+    display_name: '&7Ender Dragon'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:ender_dragon%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:ender_dragon%'
+    

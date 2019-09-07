@@ -1,0 +1,1 @@
+execute as @a[tag=play850012177] run function custom_things:music/viva-la-vida/playing
