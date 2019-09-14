@@ -1,2 +1,0 @@
-execute if score @s vm_material matches 365 run function vm:blockstate/logs/stripped_oak_wood/xyzspread
-execute if score @s vm_material matches 366 run function vm:blockstate/logs/stripped_spruce_wood/xyzspread

@@ -1,2 +1,0 @@
-execute if score @s vm_material matches 381 run function vm:blockstate/pressure_plates/heavy_weighted/xzspread
-execute if score @s vm_material matches 382 run function vm:blockstate/buttons/acacia/xyzspread

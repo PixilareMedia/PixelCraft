@@ -1,8 +1,0 @@
-What there is here
-
-Resource Pack
-The PCRP is the main resourcepack that build off of what vanilla has
-The PCRP(Essentials) has the texture for things that are custom that you need and is compatible with other packs as well
-
-Clients
-The PixelCraft Fabric Client is a MultiMC instance with some mods that we have colected to make life a bit easier

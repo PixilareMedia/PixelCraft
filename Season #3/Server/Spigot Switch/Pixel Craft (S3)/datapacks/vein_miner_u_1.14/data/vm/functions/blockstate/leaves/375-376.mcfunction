@@ -1,2 +1,0 @@
-execute if score @s vm_material matches 375 run function vm:blockstate/pressure_plates/dark_oak/xzspread
-execute if score @s vm_material matches 376 run function vm:blockstate/pressure_plates/jungle/xzspread

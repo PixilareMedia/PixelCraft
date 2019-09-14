@@ -1,2 +1,0 @@
-execute if score @s vm_material matches 341 run function vm:blockstate/stairs/andesite/xyzspread
-execute if score @s vm_material matches 342 run function vm:blockstate/stairs/red_nether_brick/xyzspread

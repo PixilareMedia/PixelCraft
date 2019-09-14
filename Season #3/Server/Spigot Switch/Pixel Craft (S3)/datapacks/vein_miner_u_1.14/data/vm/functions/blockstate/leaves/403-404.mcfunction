@@ -1,2 +1,0 @@
-execute if score @s vm_material matches 403 run function vm:blockstate/randoms/jack_o_lantern/xyzspread
-execute if score @s vm_material matches 404 run function vm:blockstate/randoms/observer/xyzspread
