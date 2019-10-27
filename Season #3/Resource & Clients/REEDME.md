@@ -8,6 +8,5 @@ Clients
 The PixelCraft Fabric Client is a MultiMC instance with some mods that we have collected to make life a bit easier
 The PixelCraft Forge Client is a zip file that holds the following folders that must be placed into your game instance
  - config
- - CustomSkinLoader
  - mods
-those folders need to be placed into were ever your game stores its data you also need to make sure that forge 28.1.1 or newer is installed
+those folders need to be placed into were ever your game stores its data you also need to make sure that forge 28.1.60 or newer is installed
