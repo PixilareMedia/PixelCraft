@@ -1,0 +1,130 @@
+{
+  "main:main/dragon_drops_elytra": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/mmh": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/wrench": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/ss": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/anti_enderman": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/silence_mobs": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/ts": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/root": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "multiplayer_sleep:sleep": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": false
+  },
+  "main:main/as_statue": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/double_shulkers": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "custom_things:root": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/player_graves": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/ch": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/redstone_wrench": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/nether_portal_coords": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/track_stats": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/multiplayer_sleep": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/anti_ghast": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "main:main/track_raw_stats": {
+    "criteria": {
+      "tick": "2020-03-22 01:12:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2020-03-22 01:12:58 +0000",
+      "minecraft:taiga_hills": "2020-03-22 01:13:11 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2230
+}

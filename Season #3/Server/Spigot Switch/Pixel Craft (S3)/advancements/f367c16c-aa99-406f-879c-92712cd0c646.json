@@ -11,12 +11,6 @@
     },
     "done": true
   },
-  "main:main/anti_creeper": {
-    "criteria": {
-      "tick": "2019-06-29 18:56:11 -0400"
-    },
-    "done": true
-  },
   "main:main/dragon_drops_elytra": {
     "criteria": {
       "tick": "2019-06-29 18:56:11 -0400"
@@ -41,12 +35,6 @@
     },
     "done": true
   },
-  "main:main/anti_enderman": {
-    "criteria": {
-      "tick": "2019-06-29 18:56:11 -0400"
-    },
-    "done": true
-  },
   "main:main/silence_mobs": {
     "criteria": {
       "tick": "2019-06-29 18:56:11 -0400"
@@ -59,7 +47,7 @@
     },
     "done": true
   },
-  "main:main/afk": {
+  "main:main/anti_enderman": {
     "criteria": {
       "tick": "2019-06-29 18:56:11 -0400"
     },
@@ -89,9 +77,21 @@
     },
     "done": true
   },
-  "main:main/pt": {
+  "custom_things:root": {
     "criteria": {
-      "tick": "2019-06-29 18:56:11 -0400"
+      "tick": "2019-09-08 02:17:05 -0400"
+    },
+    "done": true
+  },
+  "main:main/player_graves": {
+    "criteria": {
+      "tick": "2019-09-08 02:17:05 -0400"
+    },
+    "done": true
+  },
+  "main:main/ch": {
+    "criteria": {
+      "tick": "2019-09-08 02:17:05 -0400"
     },
     "done": true
   },
@@ -144,5 +144,5 @@
     },
     "done": false
   },
-  "DataVersion": 1968
+  "DataVersion": 1976
 }
