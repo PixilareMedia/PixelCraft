@@ -1,13 +1,60 @@
 lastAccountName: GamerGabriel
 timestamps:
-  login: 1566859118767
-  logout: 1566859714138
-ipAddress: 142.179.35.212
+  login: 1573792312003
+  logout: 1573793021650
+  lastteleport: 1573792339417
+ipAddress: 142.179.35.203
 logoutlocation:
   world: Pixel Craft (S3)
-  x: 781.0085009294669
-  y: 16.0
-  z: -859.0569755360482
-  yaw: 320.02765
-  pitch: 6.312561
-money: '200'
+  x: 625.7536305306364
+  y: 164.0
+  z: 2699.224338314435
+  yaw: -104.911285
+  pitch: 46.68895
+money: '0'
+afk: false
+nickname: MegaBobRoss
+lastlocation:
+  world: Pixel Craft (S3)
+  x: -8868.166159363189
+  y: 10.0
+  z: -973.4460636584148
+  yaw: 254.04922
+  pitch: 5.3081055
+godmode: false
+homes:
+  gamergabriel:
+    world: Pixel Craft (S3)_nether
+    x: -584.7175156283829
+    y: 53.0
+    z: 6.805194447662778
+    yaw: -77.69644
+    pitch: -13.689425
+  home:
+    world: Pixel Craft (S3)_nether
+    x: -590.6089558144402
+    y: 63.5
+    z: -0.8625000119209293
+    yaw: -55.670593
+    pitch: 30.082565
+  reee:
+    world: Pixel Craft (S3)_nether
+    x: 99.68228223362513
+    y: 67.16394624892555
+    z: -73.78936040288049
+    yaw: -193.29346
+    pitch: 31.04422
+  house:
+    world: Pixel Craft (S3)
+    x: 763.3215670553377
+    y: 14.0
+    z: -810.6809332450702
+    yaw: -122.494354
+    pitch: 9.506196
+  bat:
+    world: Pixel Craft (S3)
+    x: 24122.584984015735
+    y: 104.86976015565197
+    z: 23717.562010721915
+    yaw: 358.3493
+    pitch: 39.48807

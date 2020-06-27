@@ -1,0 +1,21 @@
+lastAccountName: awoah
+timestamps:
+  login: 1586232246402
+  lastteleport: 1586231130665
+  logout: 1586232249631
+ipAddress: 154.20.202.243
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 39007.180791966835
+  y: 75.5
+  z: 36757.42795679597
+  yaw: -50.8898
+  pitch: -1.6128281
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 39074.66400325881
+  y: 72.0
+  z: 36886.18758799045
+  yaw: -260.80737
+  pitch: 10.7381315
+afk: false

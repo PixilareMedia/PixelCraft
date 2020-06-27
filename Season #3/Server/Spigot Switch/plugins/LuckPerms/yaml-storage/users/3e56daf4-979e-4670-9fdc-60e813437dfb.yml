@@ -1,0 +1,9 @@
+uuid: 3e56daf4-979e-4670-9fdc-60e813437dfb
+name: BurningOrphans
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

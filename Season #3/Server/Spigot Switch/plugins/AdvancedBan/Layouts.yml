@@ -74,11 +74,32 @@ Message:
     - '&c&oMutted by %OPERATOR%'
     - '&7'
     - '&8Stop Spaming Plz'
+  Swearing:
+    - '%PREFIX% &7Mutted for Swearing'
+    - '&c&oMutted by %OPERATOR%'
+    - '&7'
+    - '&8Stop Swearing Plz'
+  ImpersonatingStaff:
+    - '%PREFIX% &7Mutted for Impersonating Staff'
+    - '&c&oMutted by %OPERATOR%'
+    - '&7'
+    - '&8Stop Impersonating Staff In Chat'
   Annoying:
     - '%PREFIX% &7Kicked for being Annoying'
     - '&c&oKicked by %OPERATOR%'
     - '&7'
     - '&8Stop Being Annoying Plz'
+  Impersonating_Staff:
+    - '%PREFIX% &7Kicked for being Impersonating Staff'
+    - '&c&oKicked by %OPERATOR%'
+    - '&7'
+    - '&8Stop Impersonating Staff'
+  MsgStaffToUnMuteYou:
+    - '%PREFIX% &7Kicked for being Asking To Be Unmutted'
+    - '&c&oKicked by %OPERATOR%'
+    - '&7'
+    - '&8Stop Asking To Have Your Punishment Lifted'
+    - '&8This Just Makes Us Want To Extend It'
 
 # You would use this time-layout for example like this: "/tempban Leoko #ExampleLayout Hacking in FFA"
 # Or with "/tempwarn Leoko #ExampleLayout Advertising" or even "/tempwarn Leoko #ExampleLayout No capslock please"
@@ -135,4 +156,22 @@ Time:
     - '1mo'
     - '2mo'
     - '4mo'
+    - 'perma'
+  Swearing:
+    - '30m'
+    - '2h'
+    - '1d'
+    - '1w'
+    - '1mo'
+    - '2mo'
+    - '4mo'
+    - 'perma'
+  ImpersonatingStaff:
+    - '1h'
+    - '1d'
+    - '1w'
+    - '1mo'
+    - '2mo'
+    - '4mo'
+    - '6mo'
     - 'perma'

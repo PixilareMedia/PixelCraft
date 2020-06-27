@@ -1,7 +1,7 @@
 # Citizens NPC Storage
 
 
-last-created-npc-id: 1
+last-created-npc-id: 5
 npc:
   '1':
     name: §eConversion
@@ -12,13 +12,13 @@ npc:
         enabled: true
         enableRandomLook: false
         randomLookDelay: 60
-        randomPitchRange:
-        - -10.0
-        - 0.0
-        randomYawRange:
-        - 0.0
-        - 360.0
         realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
       spawned: true
       age:
         age: 0
@@ -32,13 +32,13 @@ npc:
         x: '175.5'
         y: '66.0625'
         z: '91.5'
-        yaw: '-115.46723175048828'
+        yaw: '-130.6255'
         pitch: '0.0'
       profession: CLERIC
       owner:
         owner: Herobrain_gamer
         uuid: c8d6aeb2-caa6-4381-8815-330fe2677c98
-    traitnames: owner,age,type,location,mounttrait,profession,spawned,villagertrait,lookclose
+    traitnames: mounttrait,profession,owner,location,type,lookclose,spawned,villagertrait,age
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -52,13 +52,13 @@ npc:
         enabled: true
         enableRandomLook: false
         randomLookDelay: 60
-        randomPitchRange:
-        - -10.0
-        - 0.0
-        randomYawRange:
-        - 0.0
-        - 360.0
         realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
       spawned: true
       age:
         age: 0
@@ -72,13 +72,145 @@ npc:
         x: '175.5'
         y: '66.0625'
         z: '89.5'
-        yaw: '-79.79581451416016'
+        yaw: '-84.1974'
         pitch: '0.0'
       profession: CLERIC
       owner:
         owner: Herobrain_gamer
         uuid: c8d6aeb2-caa6-4381-8815-330fe2677c98
-    traitnames: owner,age,type,location,mounttrait,profession,spawned,villagertrait,lookclose
+    traitnames: mounttrait,profession,owner,location,type,lookclose,spawned,villagertrait,age
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzAxNjk0MjI2MTAsInByb2ZpbGVJZCI6ImY4NGM2YTc5MGE0ZTQ1ZTA4NzliY2Q0OWViZDRjNGUyIiwicHJvZmlsZU5hbWUiOiJIZXJvYnJpbmUiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M0YmJkNTA1MjI3YjJhMmRkYzFhYTgwM2RhMzI3ZDQ3ODRlMDA0YzRiNDA4N2VmODhiYTMxMDJkMmUyNGI1MDQifX19
+      cached-skin-uuid-name: herobrine
+      cached-skin-uuid: f84c6a79-0a4e-45e0-879b-cd49ebd4c4e2
+      nameplate-visible: 'false'
+      player-skin-signature: Y1Jtv39MWSpIpuY4Ol2m/UawshQLPE2p9j/ciyxQdtQg2w295bnLts6HJSqQ1edznqEDiNIpFVc6nJdjfdVgwfj7V6EgzkYruLDcBLRW2BHIEiVNeYhRZtjVQreQ4FatZFt0bmZGBv+4/aGT5/4FJxXdVyHbeKpi4iFxNlUrR6rzxdoAPKhoid/ixtiiYHHBTJbIoRgqW/ZRe1m0dLKRWgqRWnmsRjoxJ8+uMIS5+s92M/ruzNfPgtmPApPoE/MGdapOglBkOspSbYmmnpv/61u1qgCQ7Px2t8Dwqr30VpWt1dz/X17APSLso91Su1A7UCosgOJWx9UIYAyx1TPoAlu81rIhDgtk6FBMyJm1W8Ny/qjHiTMFPQe/X4jx3TyDszb9CbXgx3YPBlXxCP57fR8fqkSb0+JgQMXa/ErmKVZTbSO8Yg+OGyXujQKcOGzBt4A3UjDvguOWx2ZyXpcrNMDJgxJmt5sC58MbQwNsXFLNFeEPaxLER7R1qsklsRAA4Ro4y6r1ke9JVu9tyXjMU8W8rVoevPditzTc3ZWzo9YZCfL5GUrYj67F+SAO0lX1klgap1yykO3/027wooJOaIqrlqStSlFVlPNvssTCDx/njRbnrtPtOGl735v0q14cQolIrTLkEDWkrs0FkVVkE6vgqe8ASpKe6xGMhMtZRqU=
+    name: Herobrine
+    uuid: 3891a457-5c77-469f-bb60-5c5af61b62ff
+    traits:
+      type: PLAYER
+      location:
+        world: Pixel Craft (S3)
+        x: '141.4242'
+        y: '69.0'
+        z: '44.4727'
+        yaw: '-64.9438'
+        pitch: '-2.3051'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+      gravity:
+        enabled: false
+      owner:
+        owner: Herobrain_gamer
+        uuid: c8d6aeb2-caa6-4381-8815-330fe2677c98
+    traitnames: mounttrait,gravity,owner,equipment,location,type,lookclose,spawned,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzAxNjkyNzMwMTAsInByb2ZpbGVJZCI6IjA2OWE3OWY0NDRlOTQ3MjZhNWJlZmNhOTBlMzhhYWY1IiwicHJvZmlsZU5hbWUiOiJOb3RjaCIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkyMDA5YTQ5MjViNThmMDJjNzdkYWRjM2VjZWYwN2VhNGM3NDcyZjY0ZTBmZGMzMmNlNTUyMjQ4OTM2MjY4MCJ9fX0=
+      cached-skin-uuid-name: notch
+      cached-skin-uuid: 069a79f4-44e9-4726-a5be-fca90e38aaf5
+      nameplate-visible: 'false'
+      player-skin-signature: xmZ9itT13jhRuyTZxeZ8f22Fz8swqeztSGOUKciQ+I6xHCD9MxcoVb9mdt7/5YKQgoRjNT+zgcm3wK4TslKWTI7KPbfXwp52rtaQSb+I2lHLL46VwUEa+V/mhq/NyKAh/Wsj01ae69rYC2NHBJhr2R7LB/q+8/JHLxaussGE9Ds1AQLVB1h2pM5Sg1BMHwLDr1Oj/hBVTa8BwIJbS/lGmJfGasGPcO7Nto9WTrPoLMIyoqwi1VYySz2g5GRmxXJvLPhvKkr7V6peMw5tV3NT/rodYi95yzrLRifJ3gTA7q58V7wSTyAiqr5IcW/pC98v+yLeCLFkT3W+a8axnoJrNYTVmrUN4o1zcKu0Gw/YQEM9tkbXXDo3uB/K7BnVJPMk7f18XB4xuyjDhw+E8uTJvkVVSjlVad/pIaFwoIQH6kcymCQy/H72PZ7gg3psJX2p6nDlg2HrYKjOn1acwxGQ6F9wVEixVNz2QKreNnus0kIVP9OKYbkiSODvB+en+rG11tMFcSYt6bMk8vEzRbLV9/fpwxL6rRtmZAlmydjVFcS3+R0RFfcKzZ6UU/kXBE+NzLosB2uvnsqb4pz3yUMu+M063dfd4vXgfF3P1V8mEGb8JScq9K9Z7JSZGuFjid3Ed2cT9IiQKIKGpvh77wrKQZUEiXuaXjk357qSZchukHg=
+    name: Notch
+    uuid: 9fb6868d-c195-4fa6-b9da-4b797fef2b9b
+    traits:
+      type: PLAYER
+      location:
+        world: Pixel Craft (S3)
+        x: '141.3'
+        y: '69.0'
+        z: '49.5765'
+        yaw: '-113.5442'
+        pitch: '-2.35'
+      spawned: true
+      lookclose:
+        range: '5.0'
+        enabled: false
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+      gravity:
+        enabled: false
+      owner:
+        owner: Herobrain_gamer
+        uuid: c8d6aeb2-caa6-4381-8815-330fe2677c98
+    traitnames: mounttrait,gravity,owner,location,equipment,type,lookclose,spawned,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      player-skin-textures: eyJ0aW1lc3RhbXAiOjE1NzAyMDM2MzE1MDEsInByb2ZpbGVJZCI6IjdmMTg0ZDYzOWY5YzQ3YTdiZTAzODM4MjE0NWZiMmMyIiwicHJvZmlsZU5hbWUiOiJfX19QZXdkaWVwaWVfX18iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU2YzJjMTI2NjkzYzM0MTAyMGRjNzc2MzhjMGI4MDNhOTVkNGNjMTc0M2IyOGZiNTI2ZDhlODBkMzIyZjMxZjEifX19
+      cached-skin-uuid-name: ___pewdiepie___
+      cached-skin-uuid: 7f184d63-9f9c-47a7-be03-8382145fb2c2
+      nameplate-visible: 'false'
+      player-skin-signature: JlOsFH7dnASrepRBrhZCrspiponx9wy+ox2zhx3L9H1nnfxVwcW7Gnk/ehWjOvawGFo9Ohyoj31sZZ42e03BrKracz3ppmy77fUx4RY0bVgRGd8cdu4TR5lpci9sJI0rbXsZL+Bhz3b4Ib0Qy5xxIcKe4MeSI7eDWEZWXWsKoT8mVwSTWDgFUaluEghmEEUryDFh2LzOQIvYUVjtBrDSiRm/s/7vABIhN/UaBrFy3sAHvuHfGnQNcLSPWeSUItC+/FlwMRAC0zxZFw/Dty3BQpYv8nOJWtX2mzkaQMlTzQ3T1MazWkgqpxaSwE/2eu7efrdReXesQ860pgDlM9d5YOFiS47hfbduM09yX7o7t38WEgcSNWdJ9CrzDT/43tMZr+Z7KuwBn2XWb4AXZWjcMT1EvnBCr8g8fsdxkRpkfaw6bJqMxybFvx9iFeVQxVTc1YAZKpU09mkKKjYVc+L1Z2UMFh1fT/b/YsEOR+L1xC93UwvYHpRd/fYgdTaMNPHCLjNAW3UbR0+rjLpoxg5qOHQJ+ZnVX3o0tlteo28eoBJ0y4+MAqXzRZW5fhlsg6F4RNZ9SX7dp6IyGPJ79z4qh8XbriEXqxo23iWVHSsUjXNvsuVeqv2ejcx1E8G0+576I0qhclM6+p9h9lfGTzAD5az6z4+aoudOMxhg6HLbHhU=
+    name: ___Pewdiepie___
+    uuid: 0008885e-78b5-463a-9003-8744e0e15146
+    traits:
+      gravity:
+        enabled: false
+      type: PLAYER
+      spawned: true
+      location:
+        world: Pixel Craft (S3)
+        x: '142.0201'
+        y: '71.5'
+        z: '46.9772'
+        yaw: '-89.2819'
+        pitch: '3.1501'
+      owner:
+        owner: Herobrain_gamer
+        uuid: c8d6aeb2-caa6-4381-8815-330fe2677c98
+    traitnames: mounttrait,gravity,owner,location,equipment,type,spawned,inventory,scoreboardtrait
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '5':
+    name: §aOffice §cSecurity
+    uuid: 37ea1eb7-ad5b-4083-b383-b5e3cd9839a2
+    traits:
+      spawned: true
+      location:
+        world: Pixel Craft (S3)
+        x: '224.3779'
+        y: '63.5'
+        z: '11.0119'
+        yaw: '-65.2862'
+        pitch: '0.0'
+      type: IRON_GOLEM
+      lookclose:
+        range: '5.0'
+        enabled: true
+        enableRandomLook: false
+        randomLookDelay: 60
+        realisticlooking: false
+        randomPitchRange:
+          '0': -10.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      owner:
+        owner: Herobrain_gamer
+        uuid: c8d6aeb2-caa6-4381-8815-330fe2677c98
+    traitnames: mounttrait,owner,location,type,lookclose,spawned
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

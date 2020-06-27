@@ -9,33 +9,27 @@ open_requirement:
       deny_commands:
       - '[message] You dont have permission to open menu: Ban'
 items:
-  '1':
-    material: diamond_ore
-    slot: 0
-    display_name: '&aBan For X-Ray'
-    left_click_commands:
-    - '[player] tempban <PlayerName> #XRay @XRay'
-    - '[close]'
-    right_click_commands:
-    - '[player] tempban <PlayerName> #XRay @XRay'
-    - '[close]'
-  '2':
-    material: diamond_sword
-    slot: 1
-    display_name: '&aBan For PvP Hacks'
-    left_click_commands:
-    - '[player] tempban <PlayerName> #PvPHacks @PvPHacks'
-    - '[close]'
-    right_click_commands:
-    - '[player] tempban <PlayerName> #PvPHacks @PvPHacks'
-    - '[close]'
   '3':
-    material: sponge
+    material: bell
     slot: 2
-    display_name: '&aBan For Non-Malicious'
+    display_name: '&aPublic Ban'
     left_click_commands:
-    - '[player] tempban <PlayerName> #NonMalicious @NonMalicious'
+    - '[openguimenu] BanPublic'
+    right_click_commands:
+    - '[openguimenu] BanPublic'
+  '5':
+    material: redstone_lamp
+    slot: 4
+    display_name: '&6Close'
+    left_click_commands:
     - '[close]'
     right_click_commands:
-    - '[player] tempban <PlayerName> #NonMalicious @NonMalicious'
     - '[close]'
+  '7':
+    material: map
+    slot: 6
+    display_name: '&aSilent Ban'
+    left_click_commands:
+    - '[openguimenu] BanSilent'
+    right_click_commands:
+    - '[openguimenu] BanSilent'

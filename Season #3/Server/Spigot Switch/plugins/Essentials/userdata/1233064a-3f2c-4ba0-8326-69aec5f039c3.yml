@@ -1,0 +1,37 @@
+lastAccountName: LukeTheMemeGod
+timestamps:
+  login: 1573957333514
+  lastteleport: 1572654873021
+  logout: 1573958068612
+ipAddress: 207.6.144.77
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 567.2198710255378
+  y: 68.0
+  z: 750.3537037642856
+  yaw: 157.8377
+  pitch: 11.85003
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 5997.547793362181
+  y: 56.0
+  z: 6027.526882253053
+  yaw: -115.801506
+  pitch: 22.80009
+money: '18000.0'
+afk: false
+homes:
+  fortress:
+    world: Pixel Craft (S3)_nether
+    x: 8791.607382929515
+    y: 61.0
+    z: 5243.602995683959
+    yaw: 95.49243
+    pitch: 41.700077
+  village:
+    world: Pixel Craft (S3)
+    x: 1368.6588184953237
+    y: 87.0
+    z: 552.465172733521
+    yaw: 18.456543
+    pitch: 34.49994

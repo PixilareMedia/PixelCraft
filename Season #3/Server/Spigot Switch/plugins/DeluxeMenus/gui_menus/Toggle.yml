@@ -1,0 +1,114 @@
+menu_title: '&aThe Toggles'
+open_command: toggle
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Toggle
+      deny_commands:
+      - '[message] You dont have permission to open menu: Toggles'
+items:
+  '1':
+    material: paper
+    slot: 0
+    display_name: '&aMSG Toggle'
+    left_click_commands:
+    - '[player] msgtoggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] msgtoggle'
+    - '[close]'
+  '2':
+    material: diamond
+    slot: 1
+    display_name: '&aPay Toggle'
+    left_click_commands:
+    - '[player] paytoggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] paytoggle'
+    - '[close]'
+  '3':
+    material: ender_pearl
+    slot: 2
+    display_name: '&aTp Toggle'
+    left_click_commands:
+    - '[player] tptoggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] tptoggle'
+    - '[close]'
+  '4':
+    material: stone_pickaxe
+    slot: 3
+    display_name: '&aVein Mine Toggle'
+    left_click_commands:
+    - '[player] vm toggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] vm toggle'
+    - '[close]'
+  '5':
+    material: diamond_axe
+    slot: 4
+    display_name: '&aPvP Toggle'
+    left_click_commands:
+    - '[player] pvp toggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] pvp toggle'
+    - '[close]'
+  '6':
+    material: redstone_lamp
+    slot: 5
+    display_name: '&6Close'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '7':
+    material: elytra
+    slot: 6
+    display_name: '&aFly Toggle'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.fly
+    left_click_commands:
+    - '[player] fly'
+    - '[close]'
+    right_click_commands:
+    - '[player] fly'
+    - '[close]'
+  '8':
+    material: bedrock
+    slot: 7
+    display_name: '&aGod Toggle'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.god
+    left_click_commands:
+    - '[player] god'
+    - '[close]'
+    right_click_commands:
+    - '[player] god'
+    - '[close]'
+  '9':
+    material: stick
+    slot: 8
+    display_name: '&aPower Tool Toggle'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.powertooltoggle
+    left_click_commands:
+    - '[player] powertooltoggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] powertooltoggle'
+    - '[close]'

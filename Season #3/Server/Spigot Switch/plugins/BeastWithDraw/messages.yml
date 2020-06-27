@@ -1,0 +1,43 @@
+Prefix: '&6[&4Beast&bWithDraw&6] &e'
+Help:
+- '&6&m==============[&f &4Beast&bWithDraw &eHelp &6&m]============='
+- '&e/Xpbottle <xp> or <all> &8- &2Withdraw your xp to bottle!'
+- '&e/bWithdraw <money> or <all> &8- &2Withdraw your money to Cash-Note!'
+- '&6&m=================[&f &eAdmin Help &6&m]=================='
+- '&e/Xpbottle <xp> <player> <amount> <enchanter> &8- &2Give XpBottle to the player.
+  (<amount> and <enchanter> are optional!)'
+- '&e/bWithdraw <money> <player> <amount> <signer> &8- &2Give Cash-Note to the player.
+  (<amount> and <signer> are optional!)'
+- '&e/Xpbottle giveall <xp> <amount> <enchanter> &8- &2Give XpBottle to all players
+  on server. (<amount> and <enchanter> are optional!)'
+- '&e/bWithdraw giveall <money> <amount> <signer> &8- &2Give Cash-Note to all players
+  on server. (<amount> and <signer> are optional!)'
+- '&6&m=============================================='
+Withdraws:
+  XpBottle:
+    NotEnough: '&cYou don''t have %value% Xp! &e(Balance: %xp% Xp)'
+    Xpb: '&2You have %xp% Xp &e(Use /XpBottle <amount>)'
+    Withdraw: '&c-%value% Xp'
+    Redeem: '&2&l+%value% Xp'
+    Min: '&cYou must withdraw at last %minxp% Xp points per bottle.'
+    Max: '&cYou can put %maxxp% Xp to Bottle Max!'
+    BottleReceived: '&bPlayer has recived %value%!'
+    RewardReceived: You have received XpBottle with %value% xp
+    GiveAll: '&bAll players has received XpBottle!'
+  CashNote:
+    NotEnough: '&cYou don''t have $%value%! &e(Balance: $%balance%)'
+    Cash: '&2You have $%balance% &e(Use /Withdraw <amount>)'
+    Withdraw: '&c-$%value%'
+    Redeem: '&2&l+$%value%'
+    Min: '&cYou must withdraw at last $%mincash%!.'
+    Max: '&cYou can withdraw max $%maxcash%!'
+    CashReceived: '&bPlayer has recived $%value%!'
+    RewardReceived: '&bYou have received CashNote $%value%'
+    GiveAll: '&bAll players has received CashNote!'
+  FullInventory: '&cYour Inventory is full please make some space!'
+  CantFind: '&cCan''t find %player%!'
+  NoPermission: '&4You don''t have that permission.'
+  NoNumber: '&4%value% is not a number!'
+  CancleCrafting: '&4Withdraw items can''t be used in crafting recipe!'
+  CancleVillagerTrade: '&4Withdraw items can''t be used for traiding with villager!'
+ConfigVersion: 2.3

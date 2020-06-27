@@ -1,0 +1,40 @@
+lastAccountName: Zoreon_Zen
+timestamps:
+  login: 1585950769453
+  lastteleport: 1585957259979
+  logout: 1585959253902
+ipAddress: 73.153.209.25
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 84.69999998807907
+  y: 12.0
+  z: -1007.3000000119209
+  yaw: 168.86429
+  pitch: 17.477858
+afk: false
+homes:
+  home:
+    world: Pixel Craft (S3)_the_end
+    x: -30.80316747314183
+    y: 58.0
+    z: 483.1442129667339
+    yaw: 312.8188
+    pitch: 7.6523795
+  village:
+    world: Pixel Craft (S3)
+    x: 2178.699999988079
+    y: 71.0
+    z: -1844.100160637533
+    yaw: -31.821045
+    pitch: 23.134613
+logoutlocation:
+  world: Pixel Craft (S3)_the_end
+  x: -25.30000001192093
+  y: 61.0
+  z: 479.30000001192093
+  yaw: -302.19156
+  pitch: 25.602766
+mail:
+- §6[§rServer§6] §rIf You Want To Do A Modded Series With Us PLZ Awnser This Form
+  https://forms.gle/rfAcESm7yazcirf86
+money: '3100.0'

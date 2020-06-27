@@ -1,0 +1,44 @@
+lastAccountName: 7r1
+timestamps:
+  login: 1586230922646
+  lastteleport: 1586232080958
+  logout: 1586232196951
+ipAddress: 173.180.181.62
+lastlocation:
+  world: Pixel Craft (S3)_nether
+  x: -38.56998340839227
+  y: 242.0
+  z: -76.66715456356035
+  yaw: -108.88965
+  pitch: 40.670483
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 242.69248444623446
+  y: 69.5
+  z: 92.32095619455171
+  yaw: -309.14563
+  pitch: 30.745407
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 39045.23165372237
+    y: 79.0
+    z: 36822.15172360012
+    yaw: -68.207214
+    pitch: 17.866886
+  pig:
+    world: Pixel Craft (S3)_nether
+    x: -39.46900657049848
+    y: 240.0
+    z: -75.74990123700367
+    yaw: 68.131226
+    pitch: 39.797817
+  mine:
+    world: Pixel Craft (S3)
+    x: 39096.18786700616
+    y: 8.0
+    z: 36789.47661011845
+    yaw: 16.535484
+    pitch: 10.658418
+afk: false
+money: '500'

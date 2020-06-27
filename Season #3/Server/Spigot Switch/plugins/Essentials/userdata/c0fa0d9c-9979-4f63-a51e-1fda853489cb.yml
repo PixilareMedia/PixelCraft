@@ -1,0 +1,44 @@
+lastAccountName: Diamond_Miner245
+timestamps:
+  login: 1585605439469
+  logout: 1585605447556
+  lastteleport: 1571353350321
+ipAddress: 24.70.44.112
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 188.35654979813876
+  y: 64.0
+  z: 3407.567072396006
+  yaw: -25.200012
+  pitch: 13.350007
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 310.8250771527268
+  y: 64.0
+  z: 3659.23063588576
+  yaw: 289.10403
+  pitch: 13.350132
+afk: false
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 174.92315401336128
+    y: 66.0
+    z: 3401.418981758183
+    yaw: -185.54906
+    pitch: 16.949867
+  blaze:
+    world: Pixel Craft (S3)_nether
+    x: -419.205545149409
+    y: 61.0
+    z: 179.30000001192093
+    yaw: 97.88397
+    pitch: 8.277068
+  villiger:
+    world: Pixel Craft (S3)
+    x: 283.8242402368317
+    y: 67.0
+    z: 3653.8078646139165
+    yaw: -14.193753
+    pitch: 9.931445
+money: '0.0'

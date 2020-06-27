@@ -1,0 +1,48 @@
+lastAccountName: xqcL
+timestamps:
+  login: 1590633298010
+  lastteleport: 1590633698305
+  logout: 1590633754268
+  command-cooldowns: []
+ipAddress: 24.70.149.140
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 97833.15379262186
+  y: 81.0
+  z: 80342.05642838716
+  yaw: 146.39922
+  pitch: 18.20885
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 125.38592805345824
+  y: 63.0
+  z: 212.83599206714257
+  yaw: 230.5929
+  pitch: 30.158575
+money: '602.0'
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 176.30000001192093
+    y: 91.0
+    z: 801.6999999880791
+    yaw: -135.08047
+    pitch: 34.92705
+  newhouse:
+    world: Pixel Craft (S3)
+    x: 97835.7749895341
+    y: 81.0
+    z: 80325.70057931013
+    yaw: -4.2026367
+    pitch: 14.084127
+  a:
+    world: Pixel Craft (S3)
+    x: 99897.79577942255
+    y: 74.0
+    z: 99892.80116762112
+    yaw: 13.300415
+    pitch: 20.352377
+afk: false
+nickname: §3§l§kxxx§b§lTriston§3§l§kxxx
+mail:
+- §6[§rServer§6] §rYour /nick has expired

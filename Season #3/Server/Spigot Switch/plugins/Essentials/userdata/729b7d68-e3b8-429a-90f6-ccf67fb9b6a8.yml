@@ -1,0 +1,46 @@
+lastAccountName: SKstarbreaker
+timestamps:
+  login: 1589084963836
+  lastteleport: 1589088207211
+  logout: 1589088267670
+ipAddress: 50.98.51.72
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 263.5
+  y: 87.0000002
+  z: 776.5
+  yaw: 43.500004
+  pitch: 4.9500003
+money: '3459.0'
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 264.23110102427205
+    y: 87.0
+    z: 779.6689966876925
+    yaw: 192.40118
+    pitch: 14.400127
+  vill:
+    world: Pixel Craft (S3)
+    x: 515.9789531161148
+    y: 64.0
+    z: 601.9518043429458
+    yaw: -112.90918
+    pitch: 45.750023
+  end:
+    world: Pixel Craft (S3)_the_end
+    x: -0.5969784731615069
+    y: 64.0
+    z: -3.045363171253369
+    yaw: -11.967082
+    pitch: 28.211664
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 242.3014479674018
+  y: 70.5
+  z: 82.7906488799465
+  yaw: 172.98698
+  pitch: 28.650146
+mail:
+- §6[§rxqcL§6] §rGay
+afk: false

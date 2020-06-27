@@ -27,7 +27,7 @@
 ops-name-color: '4'
 
 # The character(s) to prefix all nicknames, so that you know they are not true usernames.
-nickname-prefix: '~'
+nickname-prefix: ''
 
 # The maximum length allowed in nicknames. The nickname prefix is included in this.
 max-nick-length: 100
@@ -91,7 +91,7 @@ heal-cooldown: 60
 # Near Radius
 # The default radius with /near
 # Used to use chat radius but we are going to make it separate.
-near-radius: 200
+near-radius: 2000
 
 # What to prevent from /item and /give.
 # e.g item-spawn-blacklist: 10,11,46
@@ -362,8 +362,8 @@ per-warp-permission: true
 list:
     # To merge groups, list the groups you wish to merge
     #Staff: owner admin moderator
-    Staff: Dev Dadmin Mod
-    Pixels: Pixels
+    Staff: Dev Dadmin Admin Mod
+    Pixels: PixelsS1 PixelsS2 PixelsS3
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden
@@ -394,7 +394,7 @@ auto-afk: 300
 # After this timeout in seconds, the user will be kicked from the server.
 # essentials.afk.kickexempt node overrides this feature.
 # Set to -1 for no timeout.
-auto-afk-kick: -1
+auto-afk-kick: 1800
 
 # Set this to true, if you want to freeze the player, if the player is AFK.
 # Other players or monsters can't push the player out of AFK mode then.
@@ -408,7 +408,7 @@ disable-item-pickup-while-afk: false
 
 # This setting controls if a player is marked as active on interaction.
 # When this setting is false, the player would need to manually un-AFK using the /afk command.
-cancel-afk-on-interact: true
+cancel-afk-on-interact: false
 
 # Should we automatically remove afk status when a player moves?
 # Player will be removed from AFK on chat/command regardless of this setting.
@@ -431,7 +431,7 @@ death-messages: true
 # Should players with permissions be able to join and part silently?
 # You can control this with essentials.silentjoin and essentials.silentquit permissions if it is enabled.
 # In addition, people with essentials.silentjoin.vanish will be vanished on join.
-allow-silent-join-quit: false
+allow-silent-join-quit: true
 
 # You can set a custom join message here, set to "none" to disable.
 # You may use color codes, use {USERNAME} the player's name or {PLAYER} for the player's displayname.
@@ -472,7 +472,7 @@ unsafe-enchantments: true
 
 #Do you want Essentials to keep track of previous location for /back in the teleport listener?
 #If you set this to true any plugin that uses teleport will have the previous location registered.
-register-back-in-listener: false
+register-back-in-listener: true
 
 #Delay to wait before people can cause attack damage after logging in.
 login-attack-delay: 5
@@ -549,7 +549,7 @@ delay-motd: 0
 # This is empty by default, for the latest list of valid commands see the latest source config.yml.
 default-enabled-confirm-commands:
 #- pay
-#- clearinventory
+- clearinventory
 
 # Whether or not to teleport a player back to their previous position after they have been freed from jail.
 teleport-back-when-freed-from-jail: true
@@ -602,8 +602,12 @@ sethome-multiple:
   upgrade2: 20
   upgrade3: 30
   upgrade4: 40
-  pixels: 50
-  dadmin: 100
+  pixelss3: 50
+  pixelss2: 60
+  pixelss1: 70
+  mod: 80
+  dadmin: 90
+  dev: 100
 
 # In this example someone with 'essentials.sethome.multiple' and 'essentials.sethome.multiple.vip' will have 5 homes.
 # Remember, they MUST have both permission nodes in order to be able to set multiple homes.
@@ -637,7 +641,7 @@ command-costs:
   # /kit tools costs $1500 PER USE
   #kit-tools: 1500
   # /repair costs $500 PER USE
-  repair: 500
+  #repair: 500
 
 # Set this to a currency symbol you want to use.
 # Remember, if you want to use special characters in this document, 
@@ -646,11 +650,11 @@ currency-symbol: '$'
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
-max-money: 10000000000000
+max-money: 1000000000000000000000000000000000
 
 # Set the minimum amount of money a player can have (must be above the negative of max-money).
 # Setting this to 0, will disable overdrafts/loans completely.  Users need 'essentials.eco.loan' perm to go below 0.
-min-money: -10000
+min-money: -1000000000000000000000000000000000
 
 # Enable this to log all interactions with trade/buy/sell signs and sell command.
 economy-log-enabled: true

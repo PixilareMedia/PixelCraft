@@ -1,0 +1,114 @@
+##Configuration for BeastWithdraw by MrAxe
+##Plugin use intended for MC 1.7 - 1.14
+##Notic all values of withdraw amount are stored as NBT data on items so make sure other plugins for storing items have support for storing NBT data.  
+WithdrawItems:
+##--------------------------------------------------------------------------------------------------------##
+##Expiriance bottle xp storing.
+ XpBottle:
+##Set up your item display name & lores how do you like.
+##This is part of configuration for item which player will get when they withdraw there xp /Xpbottle <xp>.
+  Player:
+   Name: "&a&lExperience-Bottle &7(Throw)"
+   Lore:
+    - "&dValue:&r %value% XP"
+    - "&dEnchanter:&r %player%"
+##This is part of configuration for item withdraw by staff or console /Xpbottle <xp> <player> <bottle-amount>.
+  Server:
+   Name: "&a&lExperience-Bottle &7(Throw)"
+   Lore:
+    - "&dValue:&r %value% XP"
+    - "&dEnchanter:&r Thinkerer"
+##Minimum amount which can be withdraw to bottle.
+  Min: 25
+##Maximum amount which can be withdraw to bottle.
+  Max: 10000
+##Min and Max amount per permissions.
+##Permission should be BeastWithdraw.PermNotes.<name_of_perm>
+##Here is one example: if player has "BeastWithdraw.PermNotes.Tomato" permission there max amount which they will be able to withdraw min 20 and max 50000.
+##You can rename this permissions settings and add new ones how you like.
+##If PermNotes are enabled they will override default min and max setting if player has any of permissions for this groups.
+  PermNotes:
+   Enabled: false
+   Tomato:
+    Min: 20
+    Max: 50000
+   Potato:
+    Min: 10
+    Max: 100000
+##Play a sounds when player withdraw or redeem Xp!
+##Sounds  for 1.9 and above: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+##Sounds for 1.7 and 1.8: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+  Sounds:
+   Withdraw:
+    Sound: "ENTITY_GENERIC_EXPLODE"
+    Enabled: true  
+   Redeem:
+    Sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    Enabled: true
+##Allow droping player xp to XpBottle on there death.
+  DropOnDeath: false
+##Set up procenttage of droped xp in bottle. Min Chance 1 / Max Chance 100 going over it or under it will break plugin! 
+  DropPercentage: 100
+##Set up aliases for /Xpbottle command
+  Aliases: [xpb, beastxpb, bottle]
+##By setting this option to true xp from bottle will be automaticly given to player it won't be dropped on floor.
+  AutoCollect: true
+##--------------------------------------------------------------------------------------------------------##
+ CashNote:
+##Set up your item display name & lores how do you like.
+##This is part of configuration for item which player will get when they withdraw there money /bWithdraw <money>.
+  Player:
+   Name: "&a&lCash-Note &7(Right-Click)"
+   Lore:
+    - "&dValue:&r $%value%"
+    - "&dSigner:&r %player%"
+##This is part of configuration for item withdraw by staff or console /bWithdraw <money> <player> <note-amount>.
+  Server:
+   Name: "&a&lCash-Note &7(Throw)"
+   Lore:
+    - "&dValue:&r $%value%"
+    - "&dSigner:&r Beast Bank"
+##Minimum amount which can be withdraw to cash-note.
+  Min: 25
+##Maximum amount which can be withdraw to cash-note.
+  Max: 10000
+##Min and Max amount per permissions.
+##Permission should be BeastWithdraw.PermNotes.<name_of_perm>
+##Here is one example: if player has "BeastWithdraw.PermNotes.Tomato" permission there max amount which they will be able to withdraw min 20 and max 50000.
+##You can rename this permissions settings and add new ones how you like.
+##If PermNotes are enabled they will override default min and max setting if player has any of permissions for this groups.
+  PermNotes:
+   Enabled: false
+   Tomato:
+    Min: 20
+    Max: 50000
+   Potato:
+    Min: 10
+    Max: 100000
+##Play a sounds when player withdraw or redeem CashNote!
+##Sounds  for 1.9 and above: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+##Sounds for 1.7 and 1.8: http://docs.codelanx.com/Bukkit/1.8/org/bukkit/Sound.html
+  Sounds:
+   Withdraw:
+    Sound: "ENTITY_GENERIC_EXPLODE"
+    Enabled: true  
+   Redeem:
+    Sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+    Enabled: true
+##Set which item you want to use for Cash-Notes.
+##Even if u changed to new item the old withdrawed items by player will be usable because of NBT  data storing.
+  Item: "PAPER"
+##Add enchant glow to item.
+  Glow: true
+##Set up aliases for /bWithdraw command
+  Aliases: [cashnote, withdraw, moneywithdraw, moneynote]
+##--------------------------------------------------------------------------------------------------------##
+##Cancle villager treading with withdraw items.
+ CancleVillagerTrade: true
+##Disable using withdraw items in crafting.
+ CancleCrafting: true
+##Drop withdraw item on floor if there is no space in player inventory
+ WithdrawDropFloor: true
+##Config version (PLEASE DO NOT EDIT)
+ConfigVersion: 2.2
+

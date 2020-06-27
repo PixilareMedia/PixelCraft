@@ -1,0 +1,8 @@
+uuid: 3ea62c30-e9a7-4baa-80af-924a497cb37d
+name: CrustyBird
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss3

@@ -1,0 +1,66 @@
+This is the info thing you really should look at the differnet chapters
+
+#Discord
+&6Join the &3discord &6server
+&ahttp://discord.gg/hjVVGCr
+
+#Store
+&6Buy things like &9/nick &6or &b/repair &6at
+&astore.pixelcraft.club
+
+#ServerRules
+[1] &aBe Polite
+[2] &cDon't Cheat
+[3] &4Don't Crash The Server
+[4] &bSmall Pranks That You Will Help Clean Up
+[5] &cDon't Grief Others
+
+#DiscordRules
+[1] &aBe Polite
+[2] &cDon't Be Hostial To Others
+
+#CMDS
+&6Uesful Command That You Can Use
+&a/tpa
+&a/tpaccept
+&a/spawn
+&a/home
+&a/sethome
+&a/delhome
+&a/warp
+&a/music
+&a/shop
+&a/triggers
+
+#Colors
+Minecraft colors:
+&0 &&0  &1 &&1  &2 &&2  &3 &&3
+&4 &&4  &5 &&5  &6 &&6  &7 &&7
+&8 &&8  &9 &&9  &a &&a  &b &&b
+&c &&c  &d &&d  &e &&e  &f &&f
+&0 
+&&k &kMagic&r   &&l &lBold
+&&m &mStrike&r  &&n &nUline
+&&o &oItalic&r   &&r &rReset
+
+#Tags
+&6Player's Display name:&r {PLAYER}
+&6Player's user name:&r {USERNAME}
+&6IP:&r {IP}
+&6Address:&r {ADDRESS}
+&6Balance:&r {BALANCE}
+&6Unread mails:&r {MAILS}
+&6Current world:&r {WORLD}
+&6Worlds list:&r {WORLDS}
+&6Number of online players:&r {ONLINE}
+&6Number of unique players who joined the server:&r {UNIQUE}
+&6Player list:&r {PLAYERLIST}
+&6Time of server:&r {TIME}
+&6Date of server:&r {DATE}
+&6Time of world PM/AM:&r {WORLDTIME12}
+&6Time of world:&r {WORLDTIME24}
+&6Date of world:&r {WORLDDATE}
+
+#ServerTags
+&6Plugin list:&r {PLUGINS}
+&6Version of CraftBukkit:&r {VERSION}

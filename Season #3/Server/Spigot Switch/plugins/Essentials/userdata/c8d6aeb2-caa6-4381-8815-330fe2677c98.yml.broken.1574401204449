@@ -1,0 +1,145 @@
+lastAccountName: Herobrain_gamer
+timestamps:
+  login: 1574348978367
+  logout: 1574363190811
+  lastteleport: 1574299488099
+  kits:
+    color: 1572067562459
+ipAddress: 24.67.57.114
+lastlocation:
+  world: Pixel Craft (S3)
+  x: -7164.518004340209
+  y: 95.01250004768372
+  z: -795.4875000119209
+  yaw: -1.8179693
+  pitch: 18.449331
+afk: false
+money: '207355.0'
+unlimited:
+- !!org.bukkit.Material 'SEA_PICKLE'
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: -8871.699999988079
+  y: 68.20000004768372
+  z: -946.3000000119209
+  yaw: 225.14038
+  pitch: 23.250145
+godmode: false
+socialspy: true
+homes:
+  afk:
+    world: Pixel Craft (S3)
+    x: -8871.699999988079
+    y: 67.875
+    z: -946.3000000119209
+    yaw: -134.54977
+    pitch: 5.250036
+  storage:
+    world: Pixel Craft (S3)
+    x: -8870.317951692461
+    y: 10.0
+    z: -1011.8949562593036
+    yaw: -245.70003
+    pitch: 6.6000633
+  villagers:
+    world: Pixel Craft (S3)
+    x: -7885.5
+    y: 65.0
+    z: -804.5
+    yaw: -112.951935
+    pitch: 12.150058
+  witch_ink:
+    world: Pixel Craft (S3)
+    x: -7161.9990624004
+    y: 63.0
+    z: -773.2399930809864
+    yaw: -1.3471375
+    pitch: 22.800219
+  guardian:
+    world: Pixel Craft (S3)
+    x: -9424.096017181279
+    y: 28.0
+    z: -1220.3930204716753
+    yaw: 0.29790926
+    pitch: 4.50007
+  desert:
+    world: Pixel Craft (S3)
+    x: -10481.694650579546
+    y: 61.0
+    z: -2933.103456434681
+    yaw: 81.29783
+    pitch: 13.800051
+  ice:
+    world: Pixel Craft (S3)
+    x: -7767.5
+    y: 63.0
+    z: -1877.5
+    yaw: 163.19801
+    pitch: 12.000056
+  outpost:
+    world: Pixel Craft (S3)
+    x: -7301.300000011921
+    y: 39.0
+    z: 280.69999998807907
+    yaw: -267.27975
+    pitch: -0.59074026
+  tempsnow:
+    world: Pixel Craft (S3)
+    x: -6727.910368667847
+    y: 94.0
+    z: -750.406217592998
+    yaw: 277.64896
+    pitch: 6.4496484
+  maps:
+    world: Pixel Craft (S3)
+    x: -10561.699999988079
+    y: 82.0
+    z: -3008.090259577827
+    yaw: 258.14877
+    pitch: 15.300055
+  casino:
+    world: Pixel Craft (S3)
+    x: -8227.228405620908
+    y: 63.0
+    z: -1738.354640465723
+    yaw: -107.17438
+    pitch: -0.3202484
+  gravitydupe:
+    world: Pixel Craft (S3)
+    x: -7875.464543920283
+    y: 24.0
+    z: -1354.4514105723258
+    yaw: -317.56097
+    pitch: 8.999969
+  worldboarder:
+    world: Pixel Craft (S3)
+    x: 100000.4637100333
+    y: 84.0
+    z: 100000.44031439169
+    yaw: 140.59053
+    pitch: 38.549583
+  afk2:
+    world: Pixel Craft (S3)
+    x: -7164.424212950577
+    y: 95.0
+    z: -795.4963765934128
+    yaw: 1.1999772
+    pitch: 29.399738
+  t1:
+    world: Pixel Craft (S3)
+    x: -7711.5
+    y: 82.0
+    z: -636.5
+    yaw: -223.19055
+    pitch: 29.999939
+  t2:
+    world: Pixel Craft (S3)
+    x: -8021.5
+    y: 85.0
+    z: -1179.5
+    yaw: -7.9402976
+    pitch: 16.949959
+powertools: {}
+nickname: §1H§2e§3r§4o§5b§6r§7a§8i§9n§0_§ag§ba§cm§de§er
+teleportenabled: false
+acceptingPay: false

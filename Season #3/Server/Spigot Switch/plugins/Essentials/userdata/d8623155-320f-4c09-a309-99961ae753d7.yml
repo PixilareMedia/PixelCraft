@@ -1,0 +1,29 @@
+lastAccountName: SecretSpy6933
+timestamps:
+  login: 1572407376103
+  command-cooldowns: []
+  lastteleport: 1572408014183
+  logout: 1572408147547
+ipAddress: 68.151.35.120
+lastlocation:
+  world: Pixel Craft (S3)
+  x: -360.65075509476867
+  y: 11.0
+  z: 268.9825650726104
+  yaw: -296.51132
+  pitch: 19.050047
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: -360.65075509476867
+    y: 11.0
+    z: 268.9825650726104
+    yaw: -296.51132
+    pitch: 19.050047
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 97832.45203918198
+  y: 74.0
+  z: 80331.09598665402
+  yaw: 256.66446
+  pitch: 11.249998

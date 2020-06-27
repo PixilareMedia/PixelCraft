@@ -1,0 +1,866 @@
+menu_title: '&aThe Players'
+open_command: player
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Players
+      deny_commands:
+      - '[message] You dont have permission to open menu: Players'
+items:
+  '1':
+    material: head-Herobrain_gamer
+    slot: 0
+    display_name: '&aHerobrain_gamer'
+    lore:
+    - '&7Play Time&8: &6%objective_score_hc_playTimeShow_Herobrain_gamer%'
+    - '&7Elytra Km&8: &6%objective_score_hc_elytraKmShow_Herobrain_gamer%'
+    - '&7Deaths&8: &6%objective_score_ts_Deaths_Herobrain_gamer%'
+    - '&7Total Kills&8: &6%objective_score_ts_TotalKills_Herobrain_gamer%'
+    left_click_commands:
+    - '[player] seen Herobrain_gamer'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Herobrain_gamer'
+    - '[close]'
+  '2':
+    material: head-TheTrueDuality
+    slot: 1
+    display_name: '&aTheTrueDuality'
+    lore:
+    - 'Name: %otherplayer_getname_TheTrueDuality%'
+    - 'Displayname: %otherplayer_displayname_TheTrueDuality%'
+    - 'UUID: %otherplayer_uuid_TheTrueDuality%'
+    - 'Heath: %otherplayer_health_TheTrueDuality%'
+    - 'Ping: %player_ping_TheTrueDuality%'
+    left_click_commands:
+    - '[player] seen TheTrueDuality'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen TheTrueDuality'
+    - '[close]'
+  '3':
+    material: head-GamerGabriel
+    slot: 2
+    display_name: '&aGamerGabriel'
+    lore:
+    - 'Name: %otherplayer_getname_GamerGabriel%'
+    - 'Displayname: %otherplayer_displayname_GamerGabriel%'
+    - 'UUID: %otherplayer_uuid_GamerGabriel%'
+    - 'Heath: %otherplayer_health_GamerGabriel%'
+    - 'Ping: %player_ping_GamerGabriel%'
+    left_click_commands:
+    - '[player] seen GamerGabriel'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen GamerGabriel'
+    - '[close]'
+  '4':
+    material: head-midna_87
+    slot: 3
+    display_name: '&amidna_87'
+    lore:
+    - 'Name: %otherplayer_getname_midna_87%'
+    - 'Displayname: %otherplayer_displayname_midna_87%'
+    - 'UUID: %otherplayer_uuid_midna_87%'
+    - 'Heath: %otherplayer_health_midna_87%'
+    - 'Ping: %player_ping_midna_87%'
+    left_click_commands:
+    - '[player] seen midna_87'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen midna_87'
+    - '[close]'
+  '5':
+    material: head-EggyLadd
+    slot: 4
+    display_name: '&aEggyLadd'
+    lore:
+    - 'Name: %otherplayer_getname_EggyLadd%'
+    - 'Displayname: %otherplayer_displayname_EggyLadd%'
+    - 'UUID: %otherplayer_uuid_EggyLadd%'
+    - 'Heath: %otherplayer_health_EggyLadd%'
+    - 'Ping: %player_ping_EggyLadd%'
+    left_click_commands:
+    - '[player] seen EggyLadd'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen EggyLadd'
+    - '[close]'
+  '6':
+    material: head-FiddleWorm
+    slot: 5
+    display_name: '&aFiddleWorm'
+    lore:
+    - 'Name: %otherplayer_getname_FiddleWorm%'
+    - 'Displayname: %otherplayer_displayname_FiddleWorm%'
+    - 'UUID: %otherplayer_uuid_FiddleWorm%'
+    - 'Heath: %otherplayer_health_FiddleWorm%'
+    - 'Ping: %player_ping_FiddleWorm%'
+    left_click_commands:
+    - '[player] seen FiddleWorm'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen FiddleWorm'
+    - '[close]'
+  '7':
+    material: head-AnnyongB
+    slot: 6
+    display_name: '&aAnnyongB'
+    lore:
+    - 'Name: %otherplayer_getname_AnnyongB%'
+    - 'Displayname: %otherplayer_displayname_AnnyongB%'
+    - 'UUID: %otherplayer_uuid_AnnyongB%'
+    - 'Heath: %otherplayer_health_AnnyongB%'
+    - 'Ping: %player_ping_AnnyongB%'
+    left_click_commands:
+    - '[player] seen AnnyongB'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen AnnyongB'
+    - '[close]'
+  '8':
+    material: head-Butterminer200
+    slot: 7
+    display_name: '&aButterminer200'
+    lore:
+    - 'Name: %otherplayer_getname_Butterminer200%'
+    - 'Displayname: %otherplayer_displayname_Butterminer200%'
+    - 'UUID: %otherplayer_uuid_Butterminer200%'
+    - 'Heath: %otherplayer_health_Butterminer200%'
+    - 'Ping: %player_ping_Butterminer200%'
+    left_click_commands:
+    - '[player] seen Butterminer200'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Butterminer200'
+    - '[close]'
+  '9':
+    material: head-IItsBradyy
+    slot: 8
+    display_name: '&aIItsBradyy'
+    lore:
+    - 'Name: %otherplayer_getname_IItsBradyy%'
+    - 'Displayname: %otherplayer_displayname_IItsBradyy%'
+    - 'UUID: %otherplayer_uuid_IItsBradyy%'
+    - 'Heath: %otherplayer_health_IItsBradyy%'
+    - 'Ping: %player_ping_IItsBradyy%'
+    left_click_commands:
+    - '[player] seen IItsBradyy'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen IItsBradyy'
+    - '[close]'
+  '10':
+    material: head-Zyfur
+    slot: 9
+    display_name: '&aZyfur'
+    lore:
+    - 'Name: %otherplayer_getname_Zyfur%'
+    - 'Displayname: %otherplayer_displayname_Zyfur%'
+    - 'UUID: %otherplayer_uuid_Zyfur%'
+    - 'Heath: %otherplayer_health_Zyfur%'
+    - 'Ping: %player_ping_Zyfur%'
+    left_click_commands:
+    - '[player] seen Zyfur'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Zyfur'
+    - '[close]'
+  '11':
+    material: head-_Pengu__
+    slot: 10
+    display_name: '&a_Pengu__'
+    lore:
+    - 'Name: %otherplayer_getname__Pengu__%'
+    - 'Displayname: %otherplayer_displayname__Pengu__%'
+    - 'UUID: %otherplayer_uuid__Pengu__%'
+    - 'Heath: %otherplayer_health__Pengu__%'
+    - 'Ping: %player_ping__Pengu__%'
+    left_click_commands:
+    - '[player] seen _Pengu__'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen _Pengu__'
+    - '[close]'
+  '12':
+    material: head-Nave1803
+    slot: 11
+    display_name: '&aNave1803'
+    lore:
+    - 'Name: %otherplayer_getname_Nave1803%'
+    - 'Displayname: %otherplayer_displayname_Nave1803%'
+    - 'UUID: %otherplayer_uuid_Nave1803%'
+    - 'Heath: %otherplayer_health_Nave1803%'
+    - 'Ping: %player_ping_Nave1803%'
+    left_click_commands:
+    - '[player] seen Nave1803'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Nave1803'
+    - '[close]'
+  '13':
+    material: head-BurningOrphans
+    slot: 12
+    display_name: '&aBurningOrphans'
+    lore:
+    - 'Name: %otherplayer_getname_BurningOrphans%'
+    - 'Displayname: %otherplayer_displayname_BurningOrphans%'
+    - 'UUID: %otherplayer_uuid_BurningOrphans%'
+    - 'Heath: %otherplayer_health_BurningOrphans%'
+    - 'Ping: %player_ping_BurningOrphans%'
+    left_click_commands:
+    - '[player] seen BurningOrphans'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen BurningOrphans'
+    - '[close]'
+  '14':
+    material: head-willongnose
+    slot: 13
+    display_name: '&awillongnose'
+    lore:
+    - 'Name: %otherplayer_getname_willongnose%'
+    - 'Displayname: %otherplayer_displayname_willongnose%'
+    - 'UUID: %otherplayer_uuid_willongnose%'
+    - 'Heath: %otherplayer_health_willongnose%'
+    - 'Ping: %player_ping_willongnose%'
+    left_click_commands:
+    - '[player] seen willongnose'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen willongnose'
+    - '[close]'
+  '15':
+    material: head-igomigo
+    slot: 14
+    display_name: '&aigomigo'
+    lore:
+    - 'Name: %otherplayer_getname_igomigo%'
+    - 'Displayname: %otherplayer_displayname_igomigo%'
+    - 'UUID: %otherplayer_uuid_igomigo%'
+    - 'Heath: %otherplayer_health_igomigo%'
+    - 'Ping: %player_ping_igomigo%'
+    left_click_commands:
+    - '[player] seen igomigo'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen igomigo'
+    - '[close]'
+  '16':
+    material: head-Frost780
+    slot: 15
+    display_name: '&aFrost780'
+    lore:
+    - 'Name: %otherplayer_getname_Frost780%'
+    - 'Displayname: %otherplayer_displayname_Frost780%'
+    - 'UUID: %otherplayer_uuid_Frost780%'
+    - 'Heath: %otherplayer_health_Frost780%'
+    - 'Ping: %player_ping_Frost780%'
+    left_click_commands:
+    - '[player] seen Frost780'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Frost780'
+    - '[close]'
+  '17':
+    material: head-muttonbuster8
+    slot: 16
+    display_name: '&amuttonbuster8'
+    lore:
+    - 'Name: %otherplayer_getname_muttonbuster8%'
+    - 'Displayname: %otherplayer_displayname_muttonbuster8%'
+    - 'UUID: %otherplayer_uuid_muttonbuster8%'
+    - 'Heath: %otherplayer_health_muttonbuster8%'
+    - 'Ping: %player_ping_muttonbuster8%'
+    left_click_commands:
+    - '[player] seen muttonbuster8'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen muttonbuster8'
+    - '[close]'
+  '18':
+    material: head-Herobrine
+    slot: 17
+    display_name: '&aHerobrine'
+    lore:
+    - 'Name: %otherplayer_getname_Herobrine%'
+    - 'Displayname: %otherplayer_displayname_Herobrine%'
+    - 'UUID: %otherplayer_uuid_Herobrine%'
+    - 'Heath: %otherplayer_health_Herobrine%'
+    - 'Ping: %player_ping_Herobrine%'
+    left_click_commands:
+    - '[player] seen Herobrine'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Herobrine'
+    - '[close]'
+  '19':
+    material: head-LukeTheMemeGod
+    slot: 18
+    display_name: '&aLukeTheMemeGod'
+    lore:
+    - 'Name: %otherplayer_getname_LukeTheMemeGod%'
+    - 'Displayname: %otherplayer_displayname_LukeTheMemeGod%'
+    - 'UUID: %otherplayer_uuid_LukeTheMemeGod%'
+    - 'Heath: %otherplayer_health_LukeTheMemeGod%'
+    - 'Ping: %player_ping_LukeTheMemeGod%'
+    left_click_commands:
+    - '[player] seen LukeTheMemeGod'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen LukeTheMemeGod'
+    - '[close]'
+  '20':
+    material: head-WolvesWing
+    slot: 19
+    display_name: '&aWolvesWing'
+    lore:
+    - 'Name: %otherplayer_getname_WolvesWing%'
+    - 'Displayname: %otherplayer_displayname_WolvesWing%'
+    - 'UUID: %otherplayer_uuid_WolvesWing%'
+    - 'Heath: %otherplayer_health_WolvesWing%'
+    - 'Ping: %player_ping_WolvesWing%'
+    left_click_commands:
+    - '[player] seen WolvesWing'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen WolvesWing'
+    - '[close]'
+  '21':
+    material: head-dieing
+    slot: 20
+    display_name: '&adieing'
+    lore:
+    - 'Name: %otherplayer_getname_dieing%'
+    - 'Displayname: %otherplayer_displayname_dieing%'
+    - 'UUID: %otherplayer_uuid_dieing%'
+    - 'Heath: %otherplayer_health_dieing%'
+    - 'Ping: %player_ping_dieing%'
+    left_click_commands:
+    - '[player] seen dieing'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen dieing'
+    - '[close]'
+  '22':
+    material: head-Foughtful
+    slot: 21
+    display_name: '&aFoughtful'
+    lore:
+    - 'Name: %otherplayer_getname_Foughtful%'
+    - 'Displayname: %otherplayer_displayname_Foughtful%'
+    - 'UUID: %otherplayer_uuid_Foughtful%'
+    - 'Heath: %otherplayer_health_Foughtful%'
+    - 'Ping: %player_ping_Foughtful%'
+    left_click_commands:
+    - '[player] seen Foughtful'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Foughtful'
+    - '[close]'
+  '23':
+    material: head-KigMD
+    slot: 22
+    display_name: '&aKigMD'
+    lore:
+    - 'Name: %otherplayer_getname_KigMD%'
+    - 'Displayname: %otherplayer_displayname_KigMD%'
+    - 'UUID: %otherplayer_uuid_KigMD%'
+    - 'Heath: %otherplayer_health_KigMD%'
+    - 'Ping: %player_ping_KigMD%'
+    left_click_commands:
+    - '[player] seen KigMD'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen KigMD'
+    - '[close]'
+  '24':
+    material: head-awoah
+    slot: 23
+    display_name: '&aawoah'
+    lore:
+    - 'Name: %otherplayer_getname_awoah%'
+    - 'Displayname: %otherplayer_displayname_awoah%'
+    - 'UUID: %otherplayer_uuid_awoah%'
+    - 'Heath: %otherplayer_health_awoah%'
+    - 'Ping: %player_ping_awoah%'
+    left_click_commands:
+    - '[player] seen awoah'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen awoah'
+    - '[close]'
+  '25':
+    material: head-Livvie24
+    slot: 24
+    display_name: '&aLivvie24'
+    lore:
+    - 'Name: %otherplayer_getname_Livvie24%'
+    - 'Displayname: %otherplayer_displayname_Livvie24%'
+    - 'UUID: %otherplayer_uuid_Livvie24%'
+    - 'Heath: %otherplayer_health_Livvie24%'
+    - 'Ping: %player_ping_Livvie24%'
+    left_click_commands:
+    - '[player] seen Livvie24'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Livvie24'
+    - '[close]'
+  '26':
+    material: head-CatSandWich999
+    slot: 25
+    display_name: '&aCatSandWich999'
+    lore:
+    - 'Name: %otherplayer_getname_CatSandWich999%'
+    - 'Displayname: %otherplayer_displayname_CatSandWich999%'
+    - 'UUID: %otherplayer_uuid_CatSandWich999%'
+    - 'Heath: %otherplayer_health_CatSandWich999%'
+    - 'Ping: %player_ping_CatSandWich999%'
+    left_click_commands:
+    - '[player] seen CatSandWich999'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen CatSandWich999'
+    - '[close]'
+  '27':
+    material: head-minecarftepic
+    slot: 26
+    display_name: '&aminecarftepic'
+    lore:
+    - 'Name: %otherplayer_getname_minecarftepic%'
+    - 'Displayname: %otherplayer_displayname_minecarftepic%'
+    - 'UUID: %otherplayer_uuid_minecarftepic%'
+    - 'Heath: %otherplayer_health_minecarftepic%'
+    - 'Ping: %player_ping_minecarftepic%'
+    left_click_commands:
+    - '[player] seen minecarftepic'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen minecarftepic'
+    - '[close]'
+  '28':
+    material: head-TypicalDude
+    slot: 27
+    display_name: '&aTypicalDude'
+    lore:
+    - 'Name: %otherplayer_getname_TypicalDude%'
+    - 'Displayname: %otherplayer_displayname_TypicalDude%'
+    - 'UUID: %otherplayer_uuid_TypicalDude%'
+    - 'Heath: %otherplayer_health_TypicalDude%'
+    - 'Ping: %player_ping_TypicalDude%'
+    left_click_commands:
+    - '[player] seen TypicalDude'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen TypicalDude'
+    - '[close]'
+  '29':
+    material: head-ZeroFang666
+    slot: 28
+    display_name: '&aZeroFang666'
+    lore:
+    - 'Name: %otherplayer_getname_ZeroFang666%'
+    - 'Displayname: %otherplayer_displayname_ZeroFang666%'
+    - 'UUID: %otherplayer_uuid_ZeroFang666%'
+    - 'Heath: %otherplayer_health_ZeroFang666%'
+    - 'Ping: %player_ping_ZeroFang666%'
+    left_click_commands:
+    - '[player] seen ZeroFang666'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen ZeroFang666'
+    - '[close]'
+  '30':
+    material: head-7r1
+    slot: 29
+    display_name: '&a7r1'
+    lore:
+    - 'Name: %otherplayer_getname_7r1%'
+    - 'Displayname: %otherplayer_displayname_7r1%'
+    - 'UUID: %otherplayer_uuid_7r1%'
+    - 'Heath: %otherplayer_health_7r1%'
+    - 'Ping: %player_ping_7r1%'
+    left_click_commands:
+    - '[player] seen 7r1'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen 7r1'
+    - '[close]'
+  '31':
+    material: head-_Blaze_
+    slot: 30
+    display_name: '&a_Blaze_'
+    lore:
+    - 'Name: %otherplayer_getname__Blaze_%'
+    - 'Displayname: %otherplayer_displayname__Blaze_%'
+    - 'UUID: %otherplayer_uuid__Blaze_%'
+    - 'Heath: %otherplayer_health__Blaze_%'
+    - 'Ping: %player_ping__Blaze_%'
+    left_click_commands:
+    - '[player] seen _Blaze_'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen _Blaze_'
+    - '[close]'
+  '32':
+    material: head-Marco_Lillian
+    slot: 31
+    display_name: '&aMarco_Lillian'
+    lore:
+    - 'Name: %otherplayer_getname_Marco_Lillian%'
+    - 'Displayname: %otherplayer_displayname_Marco_Lillian%'
+    - 'UUID: %otherplayer_uuid_Marco_Lillian%'
+    - 'Heath: %otherplayer_health_Marco_Lillian%'
+    - 'Ping: %player_ping_Marco_Lillian%'
+    left_click_commands:
+    - '[player] seen Marco_Lillian'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Marco_Lillian'
+    - '[close]'
+  '33':
+    material: head-Pskett
+    slot: 32
+    display_name: '&aPskett'
+    lore:
+    - 'Name: %otherplayer_getname_Pskett%'
+    - 'Displayname: %otherplayer_displayname_Pskett%'
+    - 'UUID: %otherplayer_uuid_Pskett%'
+    - 'Heath: %otherplayer_health_Pskett%'
+    - 'Ping: %player_ping_Pskett%'
+    left_click_commands:
+    - '[player] seen Pskett'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Pskett'
+    - '[close]'
+  '34':
+    material: head-jamacias19
+    slot: 33
+    display_name: '&ajamacias19'
+    lore:
+    - 'Name: %otherplayer_getname_jamacias19%'
+    - 'Displayname: %otherplayer_displayname_jamacias19%'
+    - 'UUID: %otherplayer_uuid_jamacias19%'
+    - 'Heath: %otherplayer_health_jamacias19%'
+    - 'Ping: %player_ping_jamacias19%'
+    left_click_commands:
+    - '[player] seen jamacias19'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen jamacias19'
+    - '[close]'
+  '35':
+    material: head-SKstarbreaker
+    slot: 34
+    display_name: '&aSKstarbreaker'
+    lore:
+    - 'Name: %otherplayer_getname_SKstarbreaker%'
+    - 'Displayname: %otherplayer_displayname_SKstarbreaker%'
+    - 'UUID: %otherplayer_uuid_SKstarbreaker%'
+    - 'Heath: %otherplayer_health_SKstarbreaker%'
+    - 'Ping: %player_ping_SKstarbreaker%'
+    left_click_commands:
+    - '[player] seen SKstarbreaker'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen SKstarbreaker'
+    - '[close]'
+  '36':
+    material: head-franko27
+    slot: 35
+    display_name: '&afranko27'
+    lore:
+    - 'Name: %otherplayer_getname_franko27%'
+    - 'Displayname: %otherplayer_displayname_franko27%'
+    - 'UUID: %otherplayer_uuid_franko27%'
+    - 'Heath: %otherplayer_health_franko27%'
+    - 'Ping: %player_ping_franko27%'
+    left_click_commands:
+    - '[player] seen franko27'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen franko27'
+    - '[close]'
+  '37':
+    material: head-SecretSpy6933
+    slot: 36
+    display_name: '&aSecretSpy6933'
+    lore:
+    - 'Name: %otherplayer_getname_SecretSpy6933%'
+    - 'Displayname: %otherplayer_displayname_SecretSpy6933%'
+    - 'UUID: %otherplayer_uuid_SecretSpy6933%'
+    - 'Heath: %otherplayer_health_SecretSpy6933%'
+    - 'Ping: %player_ping_SecretSpy6933%'
+    left_click_commands:
+    - '[player] seen SecretSpy6933'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen SecretSpy6933'
+    - '[close]'
+  '38':
+    material: head-Freller
+    slot: 37
+    display_name: '&aFreller'
+    lore:
+    - 'Name: %otherplayer_getname_Freller%'
+    - 'Displayname: %otherplayer_displayname_Freller%'
+    - 'UUID: %otherplayer_uuid_Freller%'
+    - 'Heath: %otherplayer_health_Freller%'
+    - 'Ping: %player_ping_Freller%'
+    left_click_commands:
+    - '[player] seen Freller'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Freller'
+    - '[close]'
+  '39':
+    material: head-sparklevamp02
+    slot: 38
+    display_name: '&asparklevamp02'
+    lore:
+    - 'Name: %otherplayer_getname_sparklevamp02%'
+    - 'Displayname: %otherplayer_displayname_sparklevamp02%'
+    - 'UUID: %otherplayer_uuid_sparklevamp02%'
+    - 'Heath: %otherplayer_health_sparklevamp02%'
+    - 'Ping: %player_ping_sparklevamp02%'
+    left_click_commands:
+    - '[player] seen sparklevamp02'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen sparklevamp02'
+    - '[close]'
+  '40':
+    material: head-ThatOtherPeep
+    slot: 39
+    display_name: '&aThatOtherPeep'
+    lore:
+    - 'Name: %otherplayer_getname_ThatOtherPeep%'
+    - 'Displayname: %otherplayer_displayname_ThatOtherPeep%'
+    - 'UUID: %otherplayer_uuid_ThatOtherPeep%'
+    - 'Heath: %otherplayer_health_ThatOtherPeep%'
+    - 'Ping: %player_ping_ThatOtherPeep%'
+    left_click_commands:
+    - '[player] seen ThatOtherPeep'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen ThatOtherPeep'
+    - '[close]'
+  '41':
+    material: head-Gevans
+    slot: 40
+    display_name: '&aGevans'
+    lore:
+    - 'Name: %otherplayer_getname_Gevans%'
+    - 'Displayname: %otherplayer_displayname_Gevans%'
+    - 'UUID: %otherplayer_uuid_Gevans%'
+    - 'Heath: %otherplayer_health_Gevans%'
+    - 'Ping: %player_ping_Gevans%'
+    left_click_commands:
+    - '[player] seen Gevans'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Gevans'
+    - '[close]'
+  '42':
+    material: head-Iruka77
+    slot: 41
+    display_name: '&aIruka77'
+    lore:
+    - 'Name: %otherplayer_getname_Iruka77%'
+    - 'Displayname: %otherplayer_displayname_Iruka77%'
+    - 'UUID: %otherplayer_uuid_Iruka77%'
+    - 'Heath: %otherplayer_health_Iruka77%'
+    - 'Ping: %player_ping_Iruka77%'
+    left_click_commands:
+    - '[player] seen Iruka77'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Iruka77'
+    - '[close]'
+  '43':
+    material: head-SkyPixels21
+    slot: 42
+    display_name: '&aSkyPixels21'
+    lore:
+    - 'Name: %otherplayer_getname_SkyPixels21%'
+    - 'Displayname: %otherplayer_displayname_SkyPixels21%'
+    - 'UUID: %otherplayer_uuid_SkyPixels21%'
+    - 'Heath: %otherplayer_health_SkyPixels21%'
+    - 'Ping: %player_ping_SkyPixels21%'
+    left_click_commands:
+    - '[player] seen SkyPixels21'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen SkyPixels21'
+    - '[close]'
+  '44':
+    material: head-Diamond_Miner245
+    slot: 43
+    display_name: '&aDiamond_Miner245'
+    lore:
+    - 'Name: %otherplayer_getname_Diamond_Miner245%'
+    - 'Displayname: %otherplayer_displayname_Diamond_Miner245%'
+    - 'UUID: %otherplayer_uuid_Diamond_Miner245%'
+    - 'Heath: %otherplayer_health_Diamond_Miner245%'
+    - 'Ping: %player_ping_Diamond_Miner245%'
+    left_click_commands:
+    - '[player] seen Diamond_Miner245'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Diamond_Miner245'
+    - '[close]'
+  '45':
+    material: head-xqcL
+    slot: 44
+    display_name: '&axqcL'
+    lore:
+    - 'Name: %otherplayer_getname_xqcL%'
+    - 'Displayname: %otherplayer_displayname_xqcL%'
+    - 'UUID: %otherplayer_uuid_xqcL%'
+    - 'Heath: %otherplayer_health_xqcL%'
+    - 'Ping: %player_ping_xqcL%'
+    left_click_commands:
+    - '[player] seen xqcL'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen xqcL'
+    - '[close]'
+  '46':
+    material: head-_Macspy_
+    slot: 45
+    display_name: '&a_Macspy_'
+    lore:
+    - 'Name: %otherplayer_getname__Macspy_%'
+    - 'Displayname: %otherplayer_displayname__Macspy_%'
+    - 'UUID: %otherplayer_uuid__Macspy_%'
+    - 'Heath: %otherplayer_health__Macspy_%'
+    - 'Ping: %player_ping__Macspy_%'
+    left_click_commands:
+    - '[player] seen _Macspy_'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen _Macspy_'
+    - '[close]'
+  '47':
+    material: head-wolfcat01
+    slot: 46
+    display_name: '&awolfcat01'
+    lore:
+    - 'Name: %otherplayer_getname_wolfcat01%'
+    - 'Displayname: %otherplayer_displayname_wolfcat01%'
+    - 'UUID: %otherplayer_uuid_wolfcat01%'
+    - 'Heath: %otherplayer_health_wolfcat01%'
+    - 'Ping: %player_ping_wolfcat01%'
+    left_click_commands:
+    - '[player] seen wolfcat01'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen wolfcat01'
+    - '[close]'
+  '48':
+    material: head-dmanPL
+    slot: 47
+    display_name: '&admanPL'
+    lore:
+    - 'Name: %otherplayer_getname_dmanPL%'
+    - 'Displayname: %otherplayer_displayname_dmanPL%'
+    - 'UUID: %otherplayer_uuid_dmanPL%'
+    - 'Heath: %otherplayer_health_dmanPL%'
+    - 'Ping: %player_ping_dmanPL%'
+    left_click_commands:
+    - '[player] seen dmanPL'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen dmanPL'
+    - '[close]'
+  '49':
+    material: head-GeorgeWBush1946
+    slot: 48
+    display_name: '&aGeorgeWBush1946'
+    lore:
+    - 'Name: %otherplayer_getname_GeorgeWBush1946%'
+    - 'Displayname: %otherplayer_displayname_GeorgeWBush1946%'
+    - 'UUID: %otherplayer_uuid_GeorgeWBush1946%'
+    - 'Heath: %otherplayer_health_GeorgeWBush1946%'
+    - 'Ping: %player_ping_GeorgeWBush1946%'
+    left_click_commands:
+    - '[player] seen GeorgeWBush1946'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen GeorgeWBush1946'
+    - '[close]'
+  '50':
+    material: head-SW_MC
+    slot: 49
+    display_name: '&aSW_MC'
+    lore:
+    - 'Name: %otherplayer_getname_SW_MC%'
+    - 'Displayname: %otherplayer_displayname_SW_MC%'
+    - 'UUID: %otherplayer_uuid_SW_MC%'
+    - 'Heath: %otherplayer_health_SW_MC%'
+    - 'Ping: %player_ping_SW_MC%'
+    left_click_commands:
+    - '[player] seen SW_MC'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen SW_MC'
+    - '[close]'
+  '51':
+    material: head-Quintal2012
+    slot: 50
+    display_name: '&aQuintal2012'
+    lore:
+    - 'Name: %otherplayer_getname_Quintal2012%'
+    - 'Displayname: %otherplayer_displayname_Quintal2012%'
+    - 'UUID: %otherplayer_uuid_Quintal2012%'
+    - 'Heath: %otherplayer_health_Quintal2012%'
+    - 'Ping: %player_ping_Quintal2012%'
+    left_click_commands:
+    - '[player] seen Quintal2012'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Quintal2012'
+    - '[close]'
+  '52':
+    material: head-ShnozGoblin
+    slot: 51
+    display_name: '&aShnozGoblin'
+    lore:
+    - 'Name: %otherplayer_getname_ShnozGoblin%'
+    - 'Displayname: %otherplayer_displayname_ShnozGoblin%'
+    - 'UUID: %otherplayer_uuid_ShnozGoblin%'
+    - 'Heath: %otherplayer_health_ShnozGoblin%'
+    - 'Ping: %player_ping_ShnozGoblin%'
+    left_click_commands:
+    - '[player] seen ShnozGoblin'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen ShnozGoblin'
+    - '[close]'
+  '53':
+    material: head-MikesPrivateHoez
+    slot: 52
+    display_name: '&aMikesPrivateHoez'
+    lore:
+    - 'Name: %otherplayer_getname_MikesPrivateHoez%'
+    - 'Displayname: %otherplayer_displayname_MikesPrivateHoez%'
+    - 'UUID: %otherplayer_uuid_MikesPrivateHoez%'
+    - 'Heath: %otherplayer_health_MikesPrivateHoez%'
+    - 'Ping: %player_ping_MikesPrivateHoez%'
+    left_click_commands:
+    - '[player] seen MikesPrivateHoez'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen MikesPrivateHoez'
+    - '[close]'
+  '54':
+    material: hopper
+    slot: 53
+    display_name: '&aNext Page'
+    left_click_commands:
+    - '[openguimenu] Players2'
+    right_click_commands:
+    - '[openguimenu] Players2'

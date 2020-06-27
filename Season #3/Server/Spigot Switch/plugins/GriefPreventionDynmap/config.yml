@@ -1,0 +1,25 @@
+marker:
+  refreshRateInSeconds: 30
+  claim:
+    showchildren: true
+  style:
+    fill:
+      opacity: 0.35
+      color: FF0000
+    border:
+      color: FF0000
+      weight: 2
+      opacity: 0.8
+  admin:
+    style:
+      border:
+        weight: 2
+        opacity: 0.8
+        color: FF0000
+      fill:
+        opacity: 0.35
+        color: FF0000
+layer:
+  hiddenByDefault: false
+  priority: 10
+  name: Claims

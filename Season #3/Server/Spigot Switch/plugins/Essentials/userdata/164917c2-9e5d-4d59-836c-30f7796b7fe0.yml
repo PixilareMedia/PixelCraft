@@ -1,0 +1,30 @@
+lastAccountName: 2_Ligit_2_Quit
+timestamps:
+  login: 1590632386001
+  lastteleport: 1590632947355
+  logout: 1590633971462
+ipAddress: 24.70.149.140
+lastlocation:
+  world: Pixel Craft (S3)_nether
+  x: 25.69287862462576
+  y: 64.0
+  z: 4.762499988079071
+  yaw: 179.73529
+  pitch: 0.15001114
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 242.8192305972473
+  y: 63.0
+  z: 68.58355091789599
+  yaw: -206.5133
+  pitch: -8.3999
+money: '0'
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 242.8192305972473
+    y: 63.0
+    z: 68.58355091789599
+    yaw: -201.56331
+    pitch: -9.5999
+afk: false

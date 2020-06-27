@@ -1,5 +1,5 @@
 menu_title: '&5Shop &d|| &2Balance &6$%vault_eco_balance_commas%'
-open_command: Shop
+open_command: shop
 size: 9
 open_requirement:
   requirements:

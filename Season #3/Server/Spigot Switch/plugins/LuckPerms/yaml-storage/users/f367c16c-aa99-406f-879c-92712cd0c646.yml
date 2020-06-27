@@ -1,0 +1,8 @@
+uuid: f367c16c-aa99-406f-879c-92712cd0c646
+name: InfernoStrike53
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss3

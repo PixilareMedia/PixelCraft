@@ -1,0 +1,816 @@
+menu_title: '&2Help &aThe Cmds You Have'
+open_command: 3help
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Help
+      deny_commands:
+      - '[message] You dont have permission to open menu: Help3'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&9Back'
+    lore:
+    - '&aThe first page of cmds you may possibly have'
+    left_click_commands:
+    - '[openguimenu] Help2'
+    right_click_commands:
+    - '[openguimenu] Help2'
+  '2':
+    material: dirt
+    slot: 1
+    display_name: '&aMute'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: pixelcraft.staff.Mute
+    left_click_commands:
+    - '[player] mute'
+    - '[close]'
+    right_click_commands:
+    - '[player] mute'
+    - '[close]'
+  '3':
+    material: dirt
+    slot: 2
+    display_name: '&aKick'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: pixelcraft.staff.Kick
+    left_click_commands:
+    - '[player] kick'
+    - '[close]'
+    right_click_commands:
+    - '[player] kick'
+    - '[close]'
+  '4':
+    material: dirt
+    slot: 3
+    display_name: '&aServer'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: pixelcraft.staff.Server
+    left_click_commands:
+    - '[player] server'
+    - '[close]'
+    right_click_commands:
+    - '[player] server'
+    - '[close]'
+  '5':
+    material: dirt
+    slot: 4
+    display_name: '&aKick Use'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.kick.use
+    left_click_commands:
+    - '[player] kick'
+    - '[close]'
+    right_click_commands:
+    - '[player] kick'
+    - '[close]'
+  '6':
+    material: dirt
+    slot: 5
+    display_name: '&aMute Temp Use'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.mute.temp
+    left_click_commands:
+    - '[player] mute'
+    - '[close]'
+    right_click_commands:
+    - '[player] mute'
+    - '[close]'
+  '7':
+    material: dirt
+    slot: 6
+    display_name: '&aMute Undo'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.mute.undo
+    left_click_commands:
+    - '[player] unmute <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] unmute <PlayerName>'
+    - '[close]'
+  '8':
+    material: dirt
+    slot: 7
+    display_name: '&aHistory'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.history
+    left_click_commands:
+    - '[player] history <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] history <PlayerName>'
+    - '[close]'
+  '9':
+    material: dirt
+    slot: 8
+    display_name: '&aAB Help'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.help
+    left_click_commands:
+    - '[player] advancedban help'
+    - '[close]'
+    right_click_commands:
+    - '[player] advancedban help'
+    - '[close]'
+  '10':
+    material: dirt
+    slot: 9
+    display_name: '&aOpen Inv'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: OpenInv.openinv
+    left_click_commands:
+    - '[player] openinv <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] openinv <PlayerName>'
+    - '[close]'
+  '11':
+    material: dirt
+    slot: 10
+    display_name: '&aOpen Ender'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: OpenInv.openender
+    left_click_commands:
+    - '[player] openender <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] openender <PlayerName>'
+    - '[close]'
+  '12':
+    material: dirt
+    slot: 11
+    display_name: '&aOpen Crossword'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: OpenInv.crossword
+    left_click_commands:
+    - '[message] allows crossword opening'
+    - '[close]'
+    right_click_commands:
+    - '[message] allows crossword opening'
+    - '[close]'
+  '13':
+    material: dirt
+    slot: 12
+    display_name: '&aOpen Anychest'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: OpenInv.anychest
+    left_click_commands:
+    - '[message] allows opening of anychest'
+    - '[close]'
+    right_click_commands:
+    - '[message] allows opening of anychest'
+    - '[close]'
+  '14':
+    material: dirt
+    slot: 13
+    display_name: '&aOpen Silent'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: OpenInv.silent
+    left_click_commands:
+    - '[player] silentchest'
+    - '[close]'
+    right_click_commands:
+    - '[player] silentchest'
+    - '[close]'
+  '15':
+    material: dirt
+    slot: 14
+    display_name: '&aStaff Online'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: staff.online
+    left_click_commands:
+    - '[player] staffon'
+    - '[close]'
+    right_click_commands:
+    - '[player] staffon'
+    - '[close]'
+  '16':
+    material: dirt
+    slot: 15
+    display_name: '&aStaff Join'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: staff.join
+    left_click_commands:
+    - '[message] show when a staff person joins'
+    - '[close]'
+    right_click_commands:
+    - '[message] show when a staff person joins'
+    - '[close]'
+  '17':
+    material: dirt
+    slot: 16
+    display_name: '&aMod Chat'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: staffchat.mod
+    left_click_commands:
+    - '[player] mc'
+    - '[close]'
+    right_click_commands:
+    - '[player] mc'
+    - '[close]'
+  '18':
+    material: dirt
+    slot: 17
+    display_name: '&aStaff Chat'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: staffchat.staff
+    left_click_commands:
+    - '[player] sc'
+    - '[close]'
+    right_click_commands:
+    - '[player] sc'
+    - '[close]'
+  '19':
+    material: dirt
+    slot: 18
+    display_name: '&aOpen Inv Edit'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: OpenInv.editinv
+    left_click_commands:
+    - '[player] openinv <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] openinv <PlayerName>'
+    - '[close]'
+  '20':
+    material: dirt
+    slot: 19
+    display_name: '&aOpen Ender Edit'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: OpenInv.editender
+    left_click_commands:
+    - '[player] openender <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] openender <PlayerName>'
+    - '[close]'
+  '21':
+    material: dirt
+    slot: 20
+    display_name: '&aVersion'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: bukkit.command.version
+    left_click_commands:
+    - '[player] version'
+    - '[close]'
+    right_click_commands:
+    - '[player] version'
+    - '[close]'
+  '22':
+    material: dirt
+    slot: 21
+    display_name: '&aPlugins'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: bukkit.command.plugins
+    left_click_commands:
+    - '[player] pl'
+    - '[close]'
+    right_click_commands:
+    - '[player] pl'
+    - '[close]'
+  '23':
+    material: dirt
+    slot: 22
+    display_name: '&aWhitelist'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: minecraft.command.whitelist
+    left_click_commands:
+    - '[player] whitelist'
+    - '[close]'
+    right_click_commands:
+    - '[player] whitelist'
+    - '[close]'
+  '24':
+    material: dirt
+    slot: 23
+    display_name: '&aGod'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.god
+    left_click_commands:
+    - '[player] god'
+    - '[close]'
+    right_click_commands:
+    - '[player] god'
+    - '[close]'
+  '25':
+    material: dirt
+    slot: 24
+    display_name: '&aGamemode'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.gamemode
+    left_click_commands:
+    - '[player] gamemode'
+    - '[close]'
+    right_click_commands:
+    - '[player] gamemode'
+    - '[close]'
+  '26':
+    material: dirt
+    slot: 25
+    display_name: '&aGamemode All'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.gamemode.all
+    left_click_commands:
+    - '[player] gm'
+    - '[close]'
+    right_click_commands:
+    - '[player] gm'
+    - '[close]'
+  '27':
+    material: dirt
+    slot: 26
+    display_name: '&aGamemode Survival'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.gamemode.survival
+    left_click_commands:
+    - '[player] gms'
+    - '[close]'
+    right_click_commands:
+    - '[player] gms'
+    - '[close]'
+  '28':
+    material: dirt
+    slot: 27
+    display_name: '&aGamemode Spectator'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.gamemode.spectator
+    left_click_commands:
+    - '[player] gmsp'
+    - '[close]'
+    right_click_commands:
+    - '[player] gmsp'
+    - '[close]'
+  '29':
+    material: dirt
+    slot: 28
+    display_name: '&aGamemode Creative'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.gamemode.creative
+    left_click_commands:
+    - '[player] gmc'
+    - '[close]'
+    right_click_commands:
+    - '[player] gmc'
+    - '[close]'
+  '30':
+    material: dirt
+    slot: 29
+    display_name: '&aGamemode Adventure'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.gamemode.adventure
+    left_click_commands:
+    - '[player] gma'
+    - '[close]'
+    right_click_commands:
+    - '[player] gma'
+    - '[close]'
+  '31':
+    material: dirt
+    slot: 30
+    display_name: '&aKickall'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.kickall
+    left_click_commands:
+    - '[player] kickall'
+    - '[close]'
+    right_click_commands:
+    - '[player] kickall'
+    - '[close]'
+  '32':
+    material: dirt
+    slot: 31
+    display_name: '&aMsg Toggle Bypass'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.msgtoggle.bypass
+    left_click_commands:
+    - '[player] msg <PlayerName> <Message>'
+    - '[close]'
+    right_click_commands:
+    - '[player] msg <PlayerName> <Message>'
+    - '[close]'
+  '33':
+    material: dirt
+    slot: 32
+    display_name: '&aTpohere'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.tpohere
+    left_click_commands:
+    - '[player] tpohere <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] tpohere <PlayerName>'
+    - '[close]'
+  '34':
+    material: dirt
+    slot: 33
+    display_name: '&aSmite'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.lightning
+    left_click_commands:
+    - '[player] smite'
+    - '[close]'
+    right_click_commands:
+    - '[player] smite'
+    - '[close]'
+  '35':
+    material: dirt
+    slot: 34
+    display_name: '&aSmite Other'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.lightning.others
+    left_click_commands:
+    - '[player] smite <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] smite <PlayerName>'
+    - '[close]'
+  '36':
+    material: dirt
+    slot: 35
+    display_name: '&aPowertool'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.powertool
+    left_click_commands:
+    - '[player] powertool <CMD>'
+    - '[close]'
+    right_click_commands:
+    - '[player] powertool <CMD>'
+    - '[close]'
+  '37':
+    material: dirt
+    slot: 36
+    display_name: '&aPowertool Toggle'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.powertooltoggle
+    left_click_commands:
+    - '[player] powertooltoggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] powertooltoggle'
+    - '[close]'
+  '38':
+    material: dirt
+    slot: 37
+    display_name: '&aVanish See'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.vanish.see
+    left_click_commands:
+    - '[message] allows you to see vanished players'
+    - '[close]'
+    right_click_commands:
+    - '[message] allows you to see vanished players'
+    - '[close]'
+  '39':
+    material: dirt
+    slot: 38
+    display_name: '&aVanish PvP'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.vanish.pvp
+    left_click_commands:
+    - '[message] allow you to attack in vanish'
+    - '[close]'
+    right_click_commands:
+    - '[message] allows you to attack in vanish'
+    - '[close]'
+  '40':
+    material: dirt
+    slot: 39
+    display_name: '&aVanish Interact'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.vanish.interact
+    left_click_commands:
+    - '[message] allows vanished players to interact with stuff'
+    - '[close]'
+    right_click_commands:
+    - '[message] allows vanished players to interact with stuff'
+    - '[close]'
+  '41':
+    material: dirt
+    slot: 40
+    display_name: '&aSethome Multiple Dadmin'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.sethome.multiple.dadmin
+    left_click_commands:
+    - '[message] allows 90 sethomes'
+    - '[close]'
+    right_click_commands:
+    - '[message] allows 90 sethomes'
+    - '[close]'
+  '42':
+    material: dirt
+    slot: 41
+    display_name: '&aBan'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: pixelcraft.staff.Ban
+    left_click_commands:
+    - '[player] ban'
+    - '[close]'
+    right_click_commands:
+    - '[player] ban'
+    - '[close]'
+  '43':
+    material: dirt
+    slot: 42
+    display_name: '&aBan Temp'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.ban.temp
+    left_click_commands:
+    - '[player] ban'
+    - '[close]'
+    right_click_commands:
+    - '[player] ban'
+    - '[close]'
+  '44':
+    material: dirt
+    slot: 43
+    display_name: '&aBan Undo'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.ban.undo
+    left_click_commands:
+    - '[player] unban <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] unban <PlayerName>'
+    - '[close]'
+  '45':
+    material: dirt
+    slot: 44
+    display_name: '&aBanlist'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.banlist
+    left_click_commands:
+    - '[player] banlist'
+    - '[close]'
+    right_click_commands:
+    - '[player] banlist'
+    - '[close]'
+  '46':
+    material: dirt
+    slot: 45
+    display_name: '&aChangereason'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.changeReason
+    left_click_commands:
+    - '[player] change-reason <PlayerName> <NewReason>'
+    - '[close]'
+    right_click_commands:
+    - '[player] change-reason <PlayerName> <NewReason>'
+    - '[close]'
+  '47':
+    material: dirt
+    slot: 46
+    display_name: '&aCheck'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: ab.check
+    left_click_commands:
+    - '[player] check <PlayerName>'
+    - '[close]'
+    right_click_commands:
+    - '[player] check <PlayerName>'
+    - '[close]'
+  '48':
+    material: dirt
+    slot: 47
+    display_name: '&aMarry Priest'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: marry.priest
+    left_click_commands:
+    - '[message] you are a priest who marries people'
+    - '[close]'
+    right_click_commands:
+    - '[message] you are a priest who marries people'
+    - '[close]'
+  '49':
+    material: dirt
+    slot: 48
+    display_name: '&aDadmin Chat'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: staffchat.dadmin
+    left_click_commands:
+    - '[player] dc'
+    - '[close]'
+    right_click_commands:
+    - '[player] dc'
+    - '[close]'
+  '50':
+    material: dirt
+    slot: 49
+    display_name: '&aCo'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: coreprotect.*
+    left_click_commands:
+    - '[player] co'
+    - '[close]'
+    right_click_commands:
+    - '[player] co'
+    - '[close]'
+  '51':
+    material: dirt
+    slot: 50
+    display_name: '&aPvp Bypass'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: pvptoggle.bypass
+    left_click_commands:
+    - '[message] bypass the toggle cooldown'
+    - '[close]'
+    right_click_commands:
+    - '[message] bypass the toggle cooldown'
+    - '[close]'
+  '52':
+    material: dirt
+    slot: 51
+    display_name: '&aPvp Reload'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: pvptoggle.reload
+    left_click_commands:
+    - '[player] pvp reload'
+    - '[close]'
+    right_click_commands:
+    - '[player] pvp reload'
+    - '[close]'
+  '53':
+    material: dirt
+    slot: 52
+    display_name: '&aIgnore Claims'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: griefprevention.ignoreclaims
+    left_click_commands:
+    - '[player] ic'
+    - '[close]'
+    right_click_commands:
+    - '[player] ic'
+    - '[close]'
+  '54':
+    material: dirt
+    slot: 53
+    display_name: '&aDev'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: bukkit.command.reload
+    left_click_commands:
+    - '[message] if you see this than you better be Herobrain_gamer or willongnose'
+    - '[close]'
+    right_click_commands:
+    - '[message] if you see this than you better be Herobrain_gamer or willongnose'
+    - '[close]'

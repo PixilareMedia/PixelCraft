@@ -9,6 +9,7 @@ general:
   color-scheme:
     message-highlight: <e>
     message: <a>
+    message-error: <c>
   translation:
     locale: ''
 npc:

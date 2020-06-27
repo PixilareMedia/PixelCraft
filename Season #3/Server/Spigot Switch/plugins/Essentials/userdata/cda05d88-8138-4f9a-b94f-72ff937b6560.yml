@@ -1,0 +1,31 @@
+lastAccountName: MasterZent
+timestamps:
+  login: 1589340969554
+  lastteleport: 1589344038876
+  logout: 1589344272936
+ipAddress: 24.67.58.1
+lastlocation:
+  world: Pixel Craft (S3)
+  x: -90.93745183646404
+  y: 39.0
+  z: -1081.6306303005683
+  yaw: 290.61484
+  pitch: 54.44994
+godmode: false
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: -130.0034303331047
+    y: 64.0
+    z: -1092.919656649635
+    yaw: -160.73413
+    pitch: 14.099897
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: -132.29259964824422
+  y: 65.0
+  z: -1098.1614351968258
+  yaw: 74.767975
+  pitch: 16.499796
+money: '0.0'
+afk: false

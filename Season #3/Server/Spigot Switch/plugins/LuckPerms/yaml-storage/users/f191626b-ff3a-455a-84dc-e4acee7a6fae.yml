@@ -1,0 +1,8 @@
+uuid: f191626b-ff3a-455a-84dc-e4acee7a6fae
+name: WolvesWing
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss3

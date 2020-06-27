@@ -1,0 +1,44 @@
+lastAccountName: Chroifala
+timestamps:
+  login: 1587428603876
+  lastteleport: 1586535006888
+  logout: 1587428646265
+ipAddress: 72.141.50.170
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 191.94733610424558
+  y: 71.4375
+  z: -374.4766636221148
+  yaw: -89.84848
+  pitch: 53.700066
+afk: false
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 270.74622387406095
+    y: 65.0
+    z: -417.363524025222
+    yaw: -140.57397
+    pitch: 12.750083
+  pig:
+    world: Pixel Craft (S3)
+    x: 387.5
+    y: 79.0
+    z: 1442.5
+    yaw: -6.604725
+    pitch: 32.399418
+  v:
+    world: Pixel Craft (S3)
+    x: 234.62056281814955
+    y: 152.0
+    z: -376.7616329193074
+    yaw: 106.4337
+    pitch: 24.000034
+money: '0.0'
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 181.87305533007174
+  y: 71.0
+  z: -370.43452906906884
+  yaw: -118.354675
+  pitch: 26.54996

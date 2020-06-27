@@ -1,0 +1,29 @@
+lastAccountName: Foughtful
+timestamps:
+  login: 1571604146637
+  logout: 1571604679008
+  lastteleport: 1571604314937
+ipAddress: 154.20.129.144
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 39024.85997465674
+  y: 76.0
+  z: 36742.7248926975
+  yaw: -229.51971
+  pitch: 2.2989786
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 39047.37230955123
+  y: 99.0
+  z: 36798.852725082324
+  yaw: -208.7815
+  pitch: 38.533714
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 39060.738321089455
+    y: 96.0
+    z: 36768.43127370967
+    yaw: -40.640736
+    pitch: 9.300081
+money: '100'

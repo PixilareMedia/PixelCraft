@@ -1,0 +1,30 @@
+lastAccountName: _Macspy_
+timestamps:
+  login: 1572134969020
+  logout: 1572136794833
+  lastteleport: 1572136762524
+ipAddress: 173.183.22.156
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 39149.073144140566
+  y: 115.0
+  z: 36758.50248038085
+  yaw: -0.72577673
+  pitch: 0.0
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 39156.51249998808
+  y: 104.0
+  z: 36807.69999998808
+  yaw: -133.47153
+  pitch: 56.79576
+afk: false
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 39147.278290801856
+    y: 115.0
+    z: 36753.81555644817
+    yaw: -203.58397
+    pitch: 35.9296
+money: '4.0'

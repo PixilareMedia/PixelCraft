@@ -8,3 +8,5 @@ toggles:
   silent-chest:
     c8d6aeb2-caa6-4381-8815-330fe2677c98: false
     ae50d7cd-f820-4bbe-8d48-fdbb3ab131eb: false
+  any-chest:
+    b0a3ad29-e68c-49f5-9664-b8009394fb68: true

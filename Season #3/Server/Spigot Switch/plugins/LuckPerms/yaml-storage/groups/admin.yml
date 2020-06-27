@@ -1,0 +1,16 @@
+name: admin
+permissions:
+- worldedit.*
+- essentials.tpohere
+- essentials.vanish.interact
+- essentials.vanish.pvp
+- griefprevention.ignoreclaims
+- weight.5
+parents:
+- mod
+prefixes:
+- '&0[&cAdmin&0] &c':
+    priority: 5
+meta:
+- default:
+    value: 'false'

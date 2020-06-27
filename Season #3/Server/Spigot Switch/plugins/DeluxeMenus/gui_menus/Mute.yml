@@ -9,23 +9,27 @@ open_requirement:
       deny_commands:
       - '[message] You dont have permission to open menu: Mute'
 items:
-  '1':
-    material: paper
-    slot: 0
-    display_name: '&aMute For Advertising'
+  '3':
+    material: bell
+    slot: 2
+    display_name: '&aPublic Mute'
     left_click_commands:
-    - '[player] tempmute <PlayerName> #Advertising @Advertising'
+    - '[openguimenu] MutePublic'
+    right_click_commands:
+    - '[openguimenu] MutePublic'
+  '5':
+    material: redstone_lamp
+    slot: 4
+    display_name: '&6Close'
+    left_click_commands:
     - '[close]'
     right_click_commands:
-    - '[player] tempmute <PlayerName> #Advertising @Advertising'
     - '[close]'
-  '2':
+  '7':
     material: map
-    slot: 1
-    display_name: '&aMute For Spaming'
+    slot: 6
+    display_name: '&aSilent Mute'
     left_click_commands:
-    - '[player] tempmute <PlayerName> #Spaming @Spaming'
-    - '[close]'
+    - '[openguimenu] MuteSilent'
     right_click_commands:
-    - '[player] tempmute <PlayerName> #Spaming @Spaming'
-    - '[close]'
+    - '[openguimenu] MuteSilent'

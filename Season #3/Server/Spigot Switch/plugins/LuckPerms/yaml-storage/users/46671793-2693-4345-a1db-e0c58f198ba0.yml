@@ -1,0 +1,9 @@
+uuid: 46671793-2693-4345-a1db-e0c58f198ba0
+name: Livvie24
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

@@ -1,5 +1,5 @@
 menu_title: '&5Your &6Statistics'
-open_command: Statistic
+open_command: statistic
 size: 9
 open_requirement:
   requirements:
@@ -22,7 +22,7 @@ items:
     slot: 1
     display_name: '&7'
   '3':
-    material: head;%player_name%
+    material: head-%player_name%
     slot: 2
     display_name: '&aAbout You'
     lore:

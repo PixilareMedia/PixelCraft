@@ -1,13 +1,78 @@
-lastAccountName: TheTrueDuality
+lastAccountName: TheFinalDuality
 timestamps:
-  login: 1567542006230
-  logout: 1567542256522
-ipAddress: 173.183.95.88
+  login: 1590449443610
+  logout: 1590451353052
+  lastteleport: 1590449465409
+  command-cooldowns:
+  - pattern: feed( .*)?
+    expiry: 1590449967883
+  lastheal: 1590449937894
+ipAddress: 173.180.204.164
 logoutlocation:
   world: Pixel Craft (S3)
-  x: 624.5938425627194
-  y: 66.875
-  z: 2643.17012794505
-  yaw: 355.70874
-  pitch: 48.87496
-money: '200'
+  x: 890.15902896722
+  y: 10.0
+  z: 2044.300000011921
+  yaw: -311.859
+  pitch: 15.358609
+money: '220584.0'
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 214.88924313642423
+  y: 67.0
+  z: 126.01006305481417
+  yaw: 266.9226
+  pitch: 15.170483
+afk: false
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 890.4313090506921
+    y: 72.0
+    z: 2054.4643848482947
+    yaw: -16.973743
+    pitch: 68.8284
+  plateau:
+    world: Pixel Craft (S3)
+    x: 376.5337142860899
+    y: 85.0
+    z: 730.4790899754971
+    yaw: 64.00332
+    pitch: 72.99987
+  corn1:
+    world: Pixel Craft (S3)
+    x: 853.4369243484612
+    y: 45.0
+    z: 2626.300000011921
+    yaw: -91.23259
+    pitch: 86.6626
+  corn2:
+    world: Pixel Craft (S3)
+    x: 335.69999998807907
+    y: 37.0
+    z: 3296.699999988079
+    yaw: -44.194984
+    pitch: 53.1834
+  will:
+    world: Pixel Craft (S3)
+    x: -8846.553847341473
+    y: 10.0
+    z: -993.3478290693131
+    yaw: 96.08429
+    pitch: 56.266014
+  hole:
+    world: Pixel Craft (S3)
+    x: 622.3643995129833
+    y: 67.0
+    z: 2640.3498454450983
+    yaw: 26.048004
+    pitch: 67.36962
+  enderhouse:
+    world: Pixel Craft (S3)_the_end
+    x: -29.52046533092984
+    y: 57.0
+    z: 430.834423925524
+    yaw: -1.5752869
+    pitch: 88.131645
+nickname: §0§mS§mA§mT§mA§mN
+godmode: false

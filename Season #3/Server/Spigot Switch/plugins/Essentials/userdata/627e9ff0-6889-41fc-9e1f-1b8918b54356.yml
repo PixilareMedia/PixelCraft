@@ -1,0 +1,29 @@
+lastAccountName: ThatOtherPeep
+timestamps:
+  login: 1571887851187
+  logout: 1571887858461
+  lastteleport: 1571452729452
+ipAddress: 24.70.52.123
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 38689.30000001192
+  y: 11.0
+  z: 36614.04092973822
+  yaw: -226.8761
+  pitch: -25.799772
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 39016.442698935454
+  y: 61.5
+  z: 36886.70500100601
+  yaw: -209.51547
+  pitch: 25.05005
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 39016.370726366826
+    y: 77.0
+    z: 36882.42658639932
+    yaw: 121.68201
+    pitch: 29.549356
+afk: false

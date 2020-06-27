@@ -1,0 +1,30 @@
+lastAccountName: KatieBear88
+timestamps:
+  login: 1589171487194
+  lastteleport: 1587440979081
+  logout: 1589171623691
+ipAddress: 173.183.95.200
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 188.5
+  y: 63.3
+  z: -275.5
+  yaw: -73.826294
+  pitch: 23.99981
+afk: false
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 188.7404240827813
+  y: 71.0
+  z: -229.90484410292316
+  yaw: 342.825
+  pitch: 25.199896
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 191.87473857778716
+    y: 74.0
+    z: -236.6961207295398
+    yaw: 149.34451
+    pitch: 31.499783
+money: '26200.0'

@@ -1,5 +1,5 @@
 menu_title: '&5Buy Heads &d|| &2Balance &6$%vault_eco_balance_commas%'
-open_command: buyshopheads
+open_command: buyheads
 size: 9
 open_requirement:
   requirements:

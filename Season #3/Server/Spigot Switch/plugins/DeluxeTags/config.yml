@@ -185,15 +185,23 @@ deluxetags:
     order: 1000
     tag: '&f[&6#&5OUT&4OF&2IDEAS&f]'
     description: '&cAwarded Somehow We Do Not Know'
-  Season1:
+  BlameTheSystem:
     order: 1001
+    tag: '&f[&6#&5Blame&4The&2System&f]'
+    description: '&cAwarded Somehow Probbly By The System'
+  Abused:
+    order: 1002
+    tag: '&f[&4Abused&f]'
+    description: '&cGetting Abused By The Dadmins'
+  Season1:
+    order: 2000
     tag: '&f[&aPixel &9Craft &5Season &61&f]'
     description: '&cAwarded For Playing Season 1'
   Season2:
-    order: 1002
+    order: 2001
     tag: '&f[&aPixel &9Craft &5Season &62&f]'
     description: '&cAwarded For Playing Season 2'
   Season3:
-    order: 1003
+    order: 2002
     tag: '&f[&aPixel &9Craft &5Season &63&f]'
     description: '&cAwarded For Playing Season 3'

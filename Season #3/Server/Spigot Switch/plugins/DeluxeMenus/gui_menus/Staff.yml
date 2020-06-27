@@ -15,21 +15,46 @@ items:
     display_name: '&5Herobrain_gamer'
     lore:
     - '&8* &5Dev'
+    left_click_commands:
+    - '[player] seen Herobrain_gamer'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Herobrain_gamer'
+    - '[close]'
+
   '2':
     material: head-willongnose
     slot: 1
     display_name: '&dwillongnose'
     lore:
     - '&8* &cDadmin'
+    left_click_commands:
+    - '[player] seen willongnose'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen willongnose'
+    - '[close]'
   '3':
     material: head-GamerGabriel
     slot: 2
     display_name: '&2GamerGabriel'
     lore:
     - '&8* &cDadmin'
+    left_click_commands:
+    - '[player] seen GamerGabriel'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen GamerGabriel'
+    - '[close]'
   '4':
     material: head-TheTrueDuality
     slot: 3
     display_name: '&dTheTrueDuality'
     lore:
     - '&8* &2Mod'
+    left_click_commands:
+    - '[player] seen TheTrueDuality'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen TheTrueDuality'
+    - '[close]'

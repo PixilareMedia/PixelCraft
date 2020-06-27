@@ -1,5 +1,5 @@
 # PlaceholderAPI
-# Version: 2.10.3
+# Version: 2.10.4
 # Created by: extended_clip
 # Contributors: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
 # Issues: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
@@ -26,7 +26,7 @@ expansions:
       high: '&a'
       low: '&c'
       medium: '&e'
-    server_name: A Minecraft Server
+    server_name: Pixel Craft
   vault:
     formatting:
       thousands: k
@@ -36,3 +36,14 @@ expansions:
       millions: M
   javascript:
     engine: javascript
+  griefprevention:
+    formatting:
+      thousands: k
+      trillions: T
+      quadrillions: Q
+      billions: B
+      millions: M
+    coloring:
+      enemy: '&4'
+      neutral: '&7'
+      trusted: '&a'

@@ -1,0 +1,9 @@
+uuid: 706ef746-4c6c-4643-ba65-ed4f4c51836b
+name: Marco_Lillian
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

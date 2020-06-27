@@ -1,0 +1,9 @@
+uuid: 2ca5a0dc-ed41-4567-9b98-dab608e794a1
+name: IItsBradyy
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

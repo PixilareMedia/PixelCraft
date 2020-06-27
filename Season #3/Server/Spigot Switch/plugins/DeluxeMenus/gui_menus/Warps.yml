@@ -58,8 +58,44 @@ items:
     - '[player] warps EndermanFarm'
     - '[close]'
   '5':
-    material: diamond
+    material: bone
     slot: 4
+    display_name: '&aSkeleton Farm'
+    lore:
+    - '&aWarp to Skeleton Farm'
+    left_click_commands:
+    - '[player] warps SkeletonFarm'
+    - '[close]'
+    right_click_commands:
+    - '[player] warps SkeletonFarm'
+    - '[close]'
+  '6':
+    material: rotten_flesh
+    slot: 5
+    display_name: '&aZombie Farm'
+    lore:
+    - '&aWarp to Zombie Farm'
+    left_click_commands:
+    - '[player] warps ZombieFarm'
+    - '[close]'
+    right_click_commands:
+    - '[player] warps ZombieFarm'
+    - '[close]'
+  '8':
+    material: chest
+    slot: 7
+    display_name: '&aPost Office'
+    lore:
+    - '&aWarp to the Post Office'
+    left_click_commands:
+    - '[player] warps PostOffice'
+    - '[close]'
+    right_click_commands:
+    - '[player] warps PostOffice'
+    - '[close]'
+  '9':
+    material: diamond
+    slot: 8
     display_name: '&aMini Games'
     lore:
     - '&aWarp to the Mini Game Area'

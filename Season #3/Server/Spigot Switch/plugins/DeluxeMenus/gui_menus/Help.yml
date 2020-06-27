@@ -12,584 +12,805 @@ items:
   '1':
     material: dirt
     slot: 0
-    display_name: '&a/afk'
-    lore:
-    - '&8* &7Allows you to state to everyone that you are not here'
+    display_name: '&aAfk'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.afk
     left_click_commands:
+    - '[player] afk'
     - '[close]'
     right_click_commands:
+    - '[player] afk'
     - '[close]'
   '2':
     material: dirt
     slot: 1
-    display_name: '&a/back'
-    lore:
-    - '&8* &7Allows you to go back to where you just were'
+    display_name: '&aAfk Auto'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.afk.auto
     left_click_commands:
+    - '[player] afk'
     - '[close]'
     right_click_commands:
+    - '[player] afk'
     - '[close]'
   '3':
     material: dirt
     slot: 2
-    display_name: '&a/bal'
-    lore:
-    - '&8* &7Allows you to see your balance'
+    display_name: '&aBack'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.back
     left_click_commands:
+    - '[player] back'
     - '[close]'
     right_click_commands:
+    - '[player] back'
     - '[close]'
   '4':
     material: dirt
     slot: 3
-    display_name: '&a/bal <playername>'
-    lore:
-    - '&8* &7Allows you to see the balance of a specific person'
+    display_name: '&aBack Ondeath'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.back.ondeath
     left_click_commands:
+    - '[player] back'
     - '[close]'
     right_click_commands:
+    - '[player] back'
     - '[close]'
   '5':
     material: dirt
     slot: 4
-    display_name: '&a/baltop'
-    lore:
-    - '&8* &7Allows you to see who is the richest'
-    - '&8* &7(bar any assets that are not digitalized)'
+    display_name: '&aBal'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.balance
     left_click_commands:
+    - '[player] bal'
     - '[close]'
     right_click_commands:
+    - '[player] bal'
     - '[close]'
   '6':
     material: dirt
     slot: 5
-    display_name: '&a/delhome <homename>'
-    lore:
-    - '&8* &7Allows you to remove a home'
+    display_name: '&aBal <PlayerName>'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.balance.others
     left_click_commands:
+    - '[player] bal <PlayerName>'
     - '[close]'
     right_click_commands:
+    - '[player] bla <PlayerName>'
     - '[close]'
   '7':
     material: dirt
     slot: 6
-    display_name: '&a/helpop'
-    lore:
-    - '&8* &7Allows you to get some help from a staff member'
+    display_name: '&aBaltop'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.balancetop
     left_click_commands:
+    - '[player] baltop'
     - '[close]'
     right_click_commands:
+    - '[player] baltop'
     - '[close]'
   '8':
     material: dirt
     slot: 7
-    display_name: '&a/home <homename>'
-    lore:
-    - '&8* &7Allows you to tp to a home you set'
+    display_name: '&aChat Colour'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.chat.color
     left_click_commands:
+    - '[message] &aallows &buse &cof &dcolour &ecodes'
     - '[close]'
     right_click_commands:
+    - '[message] &aallows &buse &cof &dcolour &ecodes'
     - '[close]'
   '9':
     material: dirt
     slot: 8
-    display_name: '&a/ignore <playername>'
-    lore:
-    - '&8* &7Allows you to ignore a player'
+    display_name: '&aChat Format'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.chat.format
     left_click_commands:
+    - '[message] &lallows &muse &nof &oformatting &kcodes'
     - '[close]'
     right_click_commands:
+    - '[message] &lallows &muse &nof &oformatting &kcodes'
     - '[close]'
   '10':
     material: dirt
     slot: 9
-    display_name: '&a/kit'
-    lore:
-    - '&8* &7Allows you to pick up a kit'
+    display_name: '&aChat Shout'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.chat.shout
     left_click_commands:
+    - '[message] just some chat settings'
     - '[close]'
     right_click_commands:
+    - '[message] just some chat settings'
     - '[close]'
   '11':
     material: dirt
     slot: 10
-    display_name: '&a/list'
-    lore:
-    - '&8* &7Allows you to see who is on right now'
+    display_name: '&aChat Question'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.chat.question
     left_click_commands:
+    - '[message] just some chat settings'
     - '[close]'
     right_click_commands:
+    - '[message] just some chat settings'
     - '[close]'
   '12':
     material: dirt
     slot: 11
-    display_name: '&a/mail'
-    lore:
-    - '&8* &7Allows you to send mail to someone who is offline or online with msgs off'
+    display_name: '&aChat Url'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.chat.url
     left_click_commands:
+    - '[message] allows placing of urls in chat'
     - '[close]'
     right_click_commands:
+    - '[message] allows placing of urls in chat'
     - '[close]'
   '13':
     material: dirt
     slot: 12
-    display_name: '&a/me'
-    lore:
-    - '&8* &7Allows you to express your fealings'
+    display_name: '&aChat Magic'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.chat.magic
     left_click_commands:
+    - '[message] some specific chat formatting'
     - '[close]'
     right_click_commands:
+    - '[message] some specific chat formatting'
     - '[close]'
   '14':
     material: dirt
     slot: 13
-    display_name: '&a/motd'
-    lore:
-    - '&8* &7Allows you to see the text when you join'
+    display_name: '&aDelhome'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.delhome
     left_click_commands:
+    - '[player] delhome <HomeName>'
     - '[close]'
     right_click_commands:
+    - '[player] delhome <HomeName>'
     - '[close]'
   '15':
     material: dirt
     slot: 14
-    display_name: '&a/msg'
-    lore:
-    - '&8* &7Allows you to privately message a player'
-    - '&8* &7(Staff who have socialspy on can see these)'
+    display_name: '&aHelpop'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.helpop
     left_click_commands:
+    - '[player] helpop <Message>'
     - '[close]'
     right_click_commands:
+    - '[player] helpop <Message>'
     - '[close]'
   '16':
     material: dirt
     slot: 15
-    display_name: '&a/near'
-    lore:
-    - '&8* &7Allows you to see whos near'
+    display_name: '&aHome'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.home
     left_click_commands:
+    - '[player] home <HomeName>'
     - '[close]'
     right_click_commands:
+    - '[player] home <HomeName>'
     - '[close]'
   '17':
     material: dirt
     slot: 16
-    display_name: '&a/pay <playername>'
-    lore:
-    - '&8* &7Allows you to pay another player'
+    display_name: '&aHome Bed'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.home.bed
     left_click_commands:
+    - '[player] home Bed'
+    - '[message] allows a home to set at your bed'
     - '[close]'
     right_click_commands:
+    - '[player] home Bed'
+    - '[message] allows a home to set at your bed'
     - '[close]'
   '18':
     material: dirt
     slot: 17
-    display_name: '&a/ping'
-    lore:
-    - '&8* &7Pong'
+    display_name: '&aIgnore'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.ignore
     left_click_commands:
+    - '[player] ignore <PlayerName>'
     - '[close]'
     right_click_commands:
+    - '[player] ignore <PlayerName>'
     - '[close]'
   '19':
     material: dirt
     slot: 18
-    display_name: '&a/r'
-    lore:
-    - '&8* &7Allows you to replay to a msg'
+    display_name: '&aList'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.list
     left_click_commands:
+    - '[player] list'
     - '[close]'
     right_click_commands:
+    - '[player] list'
     - '[close]'
   '20':
     material: dirt
     slot: 19
-    display_name: '&a/rules'
-    lore:
-    - '&8* &7Allows you to read the rules'
+    display_name: '&aMail'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.mail
     left_click_commands:
+    - '[player] mail'
     - '[close]'
     right_click_commands:
+    - '[player] mail'
     - '[close]'
   '21':
     material: dirt
     slot: 20
-    display_name: '&a/seen'
-    lore:
-    - '&8* &7Allows you to to see when a person was last on'
+    display_name: '&aMail Send'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.mail.send
     left_click_commands:
+    - '[player] mail send <PlayerName> <Message>'
     - '[close]'
     right_click_commands:
+    - '[player] mail send <PlayerName> <Message>'
     - '[close]'
   '22':
     material: dirt
     slot: 21
-    display_name: '&a/sethome <homename>'
-    lore:
-    - '&8* &7Allows you to set a home somewhere'
+    display_name: '&aMe'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.me
     left_click_commands:
+    - '[player] me <Message>'
     - '[close]'
     right_click_commands:
+    - '[player] me <Message>'
     - '[close]'
   '23':
     material: dirt
     slot: 22
-    display_name: '&a/spawn'
-    lore:
-    - '&8* &7Allows you to get back to the world spawn'
+    display_name: '&aMotd'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.motd
     left_click_commands:
+    - '[player] motd'
     - '[close]'
     right_click_commands:
+    - '[player] motd'
     - '[close]'
   '24':
     material: dirt
     slot: 23
-    display_name: '&a/suicide'
-    lore:
-    - '&8* &7Can''t take it no more'
-    - '&8* &71-833-456-4566'
+    display_name: '&aMsg'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.msg
     left_click_commands:
+    - '[player] msg <PlayerName> <Message>'
     - '[close]'
     right_click_commands:
+    - '[player] msg <PlayerName> <Message>'
     - '[close]'
   '25':
     material: dirt
     slot: 24
-    display_name: '&a/tpa'
-    lore:
-    - '&8* &7Allows you to request to tp to someone'
+    display_name: '&aMsg Colour'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.msg.color
     left_click_commands:
+    - '[message] &aallows &buse &cof &dcolour &ecodes'
     - '[close]'
     right_click_commands:
+    - '[message] &aallows &buse &cof &dcolour &ecodes'
     - '[close]'
   '26':
     material: dirt
     slot: 25
-    display_name: '&a/tpaccept'
-    lore:
-    - '&8* &7Allows you to accept a tpa'
+    display_name: '&aNear'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.near
     left_click_commands:
+    - '[player] near'
     - '[close]'
     right_click_commands:
+    - '[player] near'
     - '[close]'
   '27':
     material: dirt
     slot: 26
-    display_name: '&a/tpahere'
-    lore:
-    - '&8* &7Allows you to tpa someone here'
+    display_name: '&aPay'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.pay
     left_click_commands:
+    - '[player] pay <PlayerName> <Amount>'
     - '[close]'
     right_click_commands:
+    - '[player] pay <PlayerName> <Amount>'
     - '[close]'
   '28':
     material: dirt
     slot: 27
-    display_name: '&a/tpadeny'
-    lore:
-    - '&8* &7Allows you to deny tpas'
+    display_name: '&aPay Multiple'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.pay.multiple
     left_click_commands:
+    - '[player] pay <PlayerName> <PlayerName2> <Amount>'
     - '[close]'
     right_click_commands:
+    - '[player] pay <PlayerName> <PlayerName2> <Amount>'
     - '[close]'
   '29':
     material: dirt
     slot: 28
-    display_name: '&a/warp'
-    lore:
-    - '&8* &7Allows you to brings up a list of warps'
+    display_name: '&aPing'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.ping
     left_click_commands:
+    - '[player] ping'
     - '[close]'
     right_click_commands:
+    - '[player] ping'
     - '[close]'
   '30':
     material: dirt
     slot: 29
-    display_name: '&a/exp'
-    lore:
-    - '&8* &7Allows you to shows how much exp you have'
+    display_name: '&aR'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.r
     left_click_commands:
+    - '[player] r <Message>'
     - '[close]'
     right_click_commands:
+    - '[player] r <Message>'
     - '[close]'
   '31':
     material: dirt
     slot: 30
-    display_name: '&a/gc'
-    lore:
-    - '&8* &7Allows you to see how the server is doing'
+    display_name: '&aRules'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.rules
     left_click_commands:
+    - '[player] rules'
     - '[close]'
     right_click_commands:
+    - '[player] rules'
     - '[close]'
   '32':
     material: dirt
     slot: 31
-    display_name: '&a/tptoggle'
-    lore:
-    - '&8* &7Allows you to toggle tps from others'
+    display_name: '&aSeen'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.seen
     left_click_commands:
+    - '[player] seen <PlayerName>'
     - '[close]'
     right_click_commands:
+    - '[player] seen <PlayerName>'
     - '[close]'
   '33':
     material: dirt
     slot: 32
-    display_name: '&a/msgtoggle'
-    lore:
-    - '&8* &7Allows you to toggle if you can be msged by others'
+    display_name: '&aSethome'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.sethome
     left_click_commands:
+    - '[player] sethome <HomeName>'
     - '[close]'
     right_click_commands:
+    - '[player] sethome <HomeName>'
     - '[close]'
   '34':
     material: dirt
     slot: 33
-    display_name: '&a/paytoggle'
-    lore:
-    - '&8* &7Allows you to toggle if you can be payed by others'
+    display_name: '&aSpawn'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.spawn
     left_click_commands:
+    - '[player] spawn'
     - '[close]'
     right_click_commands:
+    - '[player] spawn'
     - '[close]'
   '35':
     material: dirt
     slot: 34
-    display_name: '&a/book'
-    lore:
-    - '&8* &7Allows you to edit a book that you accidentally signed'
+    display_name: '&aSucidie'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.suicide
     left_click_commands:
+    - '[player] suicide'
+    - '[message] 1-800-273-8255'
     - '[close]'
     right_click_commands:
+    - '[player] suicide'
+    - '[message] 1-800-273-8255'
     - '[close]'
   '36':
     material: dirt
     slot: 35
-    display_name: '&a/discord'
-    lore:
-    - '&8* &7Allows you to link your discord to minecraft'
+    display_name: '&aTpa'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.tpa
     left_click_commands:
+    - '[player] tpa <PlayerName>'
     - '[close]'
     right_click_commands:
+    - '[player] tap <PlayerName>'
     - '[close]'
   '37':
     material: dirt
     slot: 36
-    display_name: '&a/marry'
-    lore:
-    - '&8* &7Allows you to marry someone in game'
-    - '&8* &7(If you look at the sub cmds for this)'
+    display_name: '&aTpaccept'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.tpaccept
     left_click_commands:
+    - '[player] tpaccept'
     - '[close]'
     right_click_commands:
+    - '[player] tpaccept'
     - '[close]'
   '38':
     material: dirt
     slot: 37
-    display_name: '&a/tags'
-    lore:
-    - '&8* &7Allows you to to apply neat tags from the store'
+    display_name: '&aTpahere'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.tpahere
     left_click_commands:
+    - '[player] tpahere <PlayerName>'
     - '[close]'
     right_click_commands:
+    - '[player] tpahere <PlayerName>'
     - '[close]'
   '39':
     material: dirt
     slot: 38
-    display_name: '&a/horizon notify'
-    lore:
-    - '&8* &7Allows you to report a player for cheating'
+    display_name: '&aTpdeny'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.tpdeny
     left_click_commands:
+    - '[player] tpdeny'
     - '[close]'
     right_click_commands:
+    - '[player] tpdeny'
     - '[close]'
   '40':
     material: dirt
     slot: 39
-    display_name: '&a/music'
-    lore:
-    - '&8* &7Allows you to play note block music anywhere to anyone near by'
+    display_name: '&aWarp'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.warp
     left_click_commands:
+    - '[player] warps'
+    - '[message] allows warping to places'
     - '[close]'
     right_click_commands:
+    - '[player] warps'
+    - '[message] allows warping to places'
     - '[close]'
   '41':
     material: dirt
     slot: 40
-    display_name: '&a/shop'
-    lore:
-    - '&8* &7Allows you to mostly just acts as a bank'
+    display_name: '&aWarps List'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.warp.list
     left_click_commands:
+    - '[player] warps'
+    - '[message] allows you to view the warp list not in a gui'
     - '[close]'
     right_click_commands:
+    - '[player] warps'
+    - '[message] allows you to view the warp list not in a gui'
     - '[close]'
   '42':
     material: dirt
     slot: 41
-    display_name: '&a/statistic'
-    lore:
-    - '&8* &7Allows you to see the statistics without hitting esc'
+    display_name: '&aExp'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.exp
     left_click_commands:
+    - '[player] exp'
     - '[close]'
     right_click_commands:
+    - '[player] exp'
     - '[close]'
   '43':
     material: dirt
     slot: 42
-    display_name: '&a/staff'
-    lore:
-    - '&8* &7Allows you to see who the staff are'
+    display_name: '&aGc'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.gc
     left_click_commands:
+    - '[player] gc'
     - '[close]'
     right_click_commands:
+    - '[player] gc'
     - '[close]'
   '44':
     material: dirt
     slot: 43
-    display_name: '&a/help'
-    lore:
-    - '&8* &7Allows you to see all the cmds you have'
+    display_name: '&aTptoggle'
+    view_requirement:
+      requirements:
+        permission_requirement:
+          type: has permission
+          permission: essentials.tptoggle
     left_click_commands:
+    - '[player] tptoggle'
     - '[close]'
     right_click_commands:
+    - '[player] tptoggle'
     - '[close]'
   '45':
     material: dirt
     slot: 44
-    display_name: '&a/craft'
+    display_name: '&aMsgtoggle'
     view_requirement:
       requirements:
         permission_requirement:
           type: has permission
-          permission: essentials.workbench
-    lore:
-    - '&8* &7Allows you to /craft anywhere'
+          permission: essentials.msgtoggle
     left_click_commands:
+    - '[player] msgtoggle'
     - '[close]'
     right_click_commands:
+    - '[player] msgtoggle'
     - '[close]'
   '46':
     material: dirt
     slot: 45
-    display_name: '&a/ec'
+    display_name: '&aPaytoggle'
     view_requirement:
       requirements:
         permission_requirement:
           type: has permission
-          permission: essentials.enderchest
-    lore:
-    - '&8* &7Allows you to open your ender chest from anywhere'
+          permission: essentials.paytoggle
     left_click_commands:
+    - '[player] paytoggle'
     - '[close]'
     right_click_commands:
+    - '[player] paytoggle'
     - '[close]'
   '47':
     material: dirt
     slot: 46
-    display_name: '&a/ext'
+    display_name: '&aKeepxp'
     view_requirement:
       requirements:
         permission_requirement:
           type: has permission
-          permission: essentials.ext
-    lore:
-    - '&8* &7Allows you to /ext Your Self'
+          permission: essentials.keepxp
     left_click_commands:
+    - '[message] you keep your xp on death'
     - '[close]'
     right_click_commands:
+    - '[message] you keep your xp on death'
     - '[close]'
   '48':
     material: dirt
     slot: 47
-    display_name: '&a/feed'
+    display_name: '&aBook'
     view_requirement:
       requirements:
         permission_requirement:
           type: has permission
-          permission: essentials.feed
-    lore:
-    - '&8* &7Allows you to /feed your self'
-    - '&8* &7& other if place name after /feed'
+          permission: essentials.book
     left_click_commands:
+    - '[player] book'
     - '[close]'
     right_click_commands:
+    - '[player] book'
     - '[close]'
   '49':
     material: dirt
     slot: 48
-    display_name: '&a/heal'
+    display_name: '&aBook Title'
     view_requirement:
       requirements:
         permission_requirement:
           type: has permission
-          permission: essentials.heal
-    lore:
-    - '&8* &7Allows you to /heal your self'
-    - '&8* &7& others if place name after /heal'
+          permission: essentials.book.title
     left_click_commands:
+    - '[player] book title <NewTitle>'
     - '[close]'
     right_click_commands:
+    - '[player] book title <NewTitle>'
     - '[close]'
   '50':
     material: dirt
     slot: 49
-    display_name: '&a/repair'
+    display_name: '&aSethome Multiple'
     view_requirement:
       requirements:
         permission_requirement:
           type: has permission
-          permission: essentials.repair
-    lore:
-    - '&8* &7Allows you to /repair your main hand item'
+          permission: essentials.sethome.multiple
     left_click_commands:
+    - '[message] base permission for multiple homes'
     - '[close]'
     right_click_commands:
+    - '[message] base permission for multiple homes'
     - '[close]'
   '51':
     material: dirt
     slot: 50
-    display_name: '&a/tpaall'
+    display_name: '&aSethome Multiple Default'
     view_requirement:
       requirements:
         permission_requirement:
           type: has permission
-          permission: essentials.tpaall
-    lore:
-    - '&8* &7Allows you to request everyone to tp to you'
+          permission: essentials.sethome.multiple.default
     left_click_commands:
+    - '[message] you have 3 homes by default'
     - '[close]'
     right_click_commands:
+    - '[message] you have 3 homes by default'
     - '[close]'
   '52':
     material: dirt
     slot: 51
-    display_name: '&a/nick'
+    display_name: '&aEco Loan'
     view_requirement:
       requirements:
         permission_requirement:
           type: has permission
-          permission: essentials.nick
-    lore:
-    - '&8* &7Allows you to /nick <nickname>'
-    - '&8* &7(colour codes supported)'
+          permission: essentials.eco.loan
     left_click_commands:
+    - '[message] you can have a - balance'
     - '[close]'
     right_click_commands:
+    - '[message] you can have a - balance'
     - '[close]'
   '53':
     material: dirt
     slot: 52
-    display_name: '&a/pc'
+    display_name: '&aWarp Enderman Farm'
     view_requirement:
       requirements:
         permission_requirement:
           type: has permission
-          permission: staffchat.pixels
-    lore:
-    - '&8* &7Allows you to speak to other OG members'
+          permission: essentials.warps.endermanfarm
     left_click_commands:
+    - '[player] warps endermanfarm'
     - '[close]'
     right_click_commands:
+    - '[player] warps endermanfarm'
     - '[close]'
   '54':
     material: torch

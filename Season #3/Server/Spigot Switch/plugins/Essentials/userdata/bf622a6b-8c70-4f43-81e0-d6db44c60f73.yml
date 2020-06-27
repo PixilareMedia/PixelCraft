@@ -1,0 +1,37 @@
+lastAccountName: epicgamer200569
+timestamps:
+  login: 1585432862746
+  logout: 1585432876135
+  lastteleport: 1572050115844
+ipAddress: 99.199.152.179
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 39009.93134468801
+  y: 66.0
+  z: 36673.09487848772
+  yaw: -51.47177
+  pitch: 19.801632
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 38960.13687285232
+  y: 68.0
+  z: 36629.76715477184
+  yaw: -165.66217
+  pitch: 40.7432
+afk: false
+homes:
+  warp:
+    world: Pixel Craft (S3)_nether
+    x: -36.994912243281114
+    y: 241.0625
+    z: -75.73562715735623
+    yaw: 68.594444
+    pitch: 21.141323
+  home:
+    world: Pixel Craft (S3)
+    x: 38996.18616843093
+    y: 70.0
+    z: 36729.905439803755
+    yaw: -42.902954
+    pitch: 4.394425
+money: '0.0'

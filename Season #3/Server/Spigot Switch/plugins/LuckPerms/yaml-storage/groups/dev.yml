@@ -1,0 +1,24 @@
+name: dev
+permissions:
+- OpenInv.*
+- discordsrv.*
+- essentials.*
+- permissions.*
+- placeholderapi.*
+- worldedit.*
+- worldguard.*
+- ab.all.undo
+- ab.check.ip
+- ab.reload
+- essentials.sethome.multiple.dev
+- pvptoggle.others.set
+- staffchat.dev
+- weight.5
+parents:
+- dadmin
+prefixes:
+- '&0[&5Dev&0] &4':
+    priority: 5
+meta:
+- default:
+    value: 'false'

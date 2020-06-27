@@ -1,0 +1,9 @@
+uuid: 9763f232-29d8-48b9-a2b0-8eba73033778
+name: FiddleWorm
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

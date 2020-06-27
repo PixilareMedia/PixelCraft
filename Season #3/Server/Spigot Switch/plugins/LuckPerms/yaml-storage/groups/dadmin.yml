@@ -1,0 +1,54 @@
+name: dadmin
+permissions:
+- coreprotect.*
+- parties.admin.*
+- ChestShop.admin:
+    value: false
+- OpenInv.editender
+- OpenInv.editinv
+- ab.ban.temp
+- ab.ban.undo
+- ab.banlist
+- ab.changeReason
+- ab.check
+- bukkit.command.plugins
+- bukkit.command.version
+- essentials.gamemode
+- essentials.gamemode.adventure
+- essentials.gamemode.all
+- essentials.gamemode.creative
+- essentials.gamemode.spectator
+- essentials.gamemode.survival
+- essentials.god
+- essentials.kickall
+- essentials.lightning
+- essentials.lightning.others
+- essentials.msgtoggle.bypass
+- essentials.powertool
+- essentials.powertooltoggle
+- essentials.sethome.multiple.dadmin
+- essentials.tpohere
+- essentials.vanish.interact
+- essentials.vanish.pvp
+- griefprevention.ignoreclaims
+- marry.priest
+- minecraft.command.whitelist
+- pixelcraft.staff.Ban
+- pvptoggle.bypass
+- pvptoggle.reload
+- quests.admin
+- skinsrestorer.admincommand.drop
+- skinsrestorer.command.bypassdisabled
+- skinsrestorer.command.clear.other
+- skinsrestorer.command.set.other
+- staffchat.dadmin
+- trade.admin
+- weight.5
+parents:
+- admin
+prefixes:
+- '&0[&cDadmin&0] &c':
+    priority: 5
+meta:
+- default:
+    value: 'false'

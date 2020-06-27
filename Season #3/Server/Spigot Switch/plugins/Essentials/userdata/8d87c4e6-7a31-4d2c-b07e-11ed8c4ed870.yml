@@ -1,0 +1,31 @@
+lastAccountName: EggyLadd
+timestamps:
+  login: 1581477445551
+  lastteleport: 1579063904055
+  logout: 1581477634907
+  command-cooldowns: []
+  lastheal: 1579063563968
+ipAddress: 24.67.32.115
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 390.51405093921534
+    y: 75.0
+    z: -1520.2828541041438
+    yaw: 263.1817
+    pitch: -1.126583
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 325.4659228134173
+  y: 17.25227803901796
+  z: -1620.0427724084832
+  yaw: 20.477112
+  pitch: 18.59151
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 381.69999998807907
+  y: 12.0
+  z: -1411.9179437014363
+  yaw: 99.204254
+  pitch: -8.5552225
+money: '3200'

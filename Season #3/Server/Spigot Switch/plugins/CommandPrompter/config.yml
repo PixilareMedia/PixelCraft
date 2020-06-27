@@ -18,14 +18,16 @@ Cancel-Keyword: cancel
 # Enable permission check
 # before a player can use
 # the prompting feature
-# 
 # Checking for commandprompter.use
 Enable-Permission: false
 
 # This will determine if
 # a part of a command is
 # a prompt.
-# 
 # ONLY CHANGE THE FIRST AND LAST
 # I.E (.*?), {.*?}, or [.*?]
 Argument-Regex: ' <.*?> '
+
+# Allow CommandPrompter to
+# check if it''s up to date.
+Update-Checker: true

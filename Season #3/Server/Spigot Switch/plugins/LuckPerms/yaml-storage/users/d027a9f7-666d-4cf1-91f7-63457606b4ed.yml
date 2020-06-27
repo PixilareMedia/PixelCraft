@@ -1,0 +1,9 @@
+uuid: d027a9f7-666d-4cf1-91f7-63457606b4ed
+name: dieing
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

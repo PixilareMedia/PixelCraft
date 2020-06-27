@@ -1,0 +1,11 @@
+uuid: 8895c3c2-5c10-484e-bcf2-cacf971cecef
+name: TheFinalDuality
+primary-group: default
+permissions:
+- deluxetags.tag.God
+- deluxetags.tag.Money
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- mod

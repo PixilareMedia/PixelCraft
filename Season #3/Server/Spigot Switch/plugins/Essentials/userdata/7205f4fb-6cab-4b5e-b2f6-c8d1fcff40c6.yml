@@ -1,0 +1,43 @@
+lastAccountName: dmanPL
+timestamps:
+  login: 1586708647791
+  lastteleport: 1586708283024
+  logout: 1586708677830
+ipAddress: 207.6.244.155
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 39218.69999998808
+  y: 11.0
+  z: 37115.5346370017
+  yaw: 80.843094
+  pitch: 39.300148
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 39189.68435680961
+    y: 53.0
+    z: 36866.90850726531
+    yaw: 143.0928
+    pitch: 8.100085
+  mine1:
+    world: Pixel Craft (S3)
+    x: 266.69999998807907
+    y: 87.0
+    z: 778.4736384769436
+    yaw: 145.59079
+    pitch: 24.150082
+  fortress:
+    world: Pixel Craft (S3)_nether
+    x: 4789.510255453679
+    y: 63.0
+    z: 4951.185179413614
+    yaw: -40.807358
+    pitch: 18.673786
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 39178.21397044219
+  y: 53.5
+  z: 36864.61208568143
+  yaw: 272.39282
+  pitch: 17.250061
+afk: false

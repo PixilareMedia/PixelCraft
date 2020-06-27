@@ -1,0 +1,9 @@
+database-version: 1
+players:
+  c8d6aeb2-caa6-4381-8815-330fe2677c98:
+    options:
+      spy: true
+  ae50d7cd-f820-4bbe-8d48-fdbb3ab131eb:
+    options:
+      spy: true
+parties: {}

@@ -1,0 +1,11 @@
+uuid: 9c5d9dc3-4ed5-443f-be7f-b981d256bf63
+name: xqcL
+primary-group: default
+permissions:
+- deluxetags.tag.Abused
+- essentials.nick
+- essentials.nick.color
+- essentials.nick.format
+- essentials.nick.magic
+parents:
+- default

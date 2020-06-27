@@ -105,8 +105,8 @@ items:
     slot: 3
     display_name: '&fDiamond Block'
     lore:
-    - '&8* &7Buy 1 for: &a$&f100'
-    - '&8* &7Buy 32 for: &a$&f3200'
+    - '&8* &7Buy 1 for: &a$&f900'
+    - '&8* &7Buy 32 for: &a$&f28800'
     left_click_requirement:
       requirements:
         diamond_sell:
@@ -142,8 +142,8 @@ items:
     slot: 5
     display_name: '&fEmerald Block'
     lore:
-    - '&8* &7Buy 1 for: &a$&f100'
-    - '&8* &7Buy 32 for: &a$&f3200'
+    - '&8* &7Buy 1 for: &a$&f900'
+    - '&8* &7Buy 32 for: &a$&f28800'
     left_click_requirement:
       requirements:
         diamond_sell:

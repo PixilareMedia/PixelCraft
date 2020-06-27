@@ -1,0 +1,38 @@
+lastAccountName: zackman1291
+timestamps:
+  login: 1588833566367
+  lastteleport: 1587021257125
+  logout: 1588833698942
+ipAddress: 64.180.7.254
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 1024.5310056976411
+  y: 83.42159999847412
+  z: -858.3000000119209
+  yaw: -267.15833
+  pitch: 10.049978
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 1026.513355910438
+    y: 80.0
+    z: -854.9645224400067
+    yaw: -2.078247
+    pitch: 35.614178
+  trade:
+    world: Pixel Craft (S3)
+    x: 518.6951587920447
+    y: 66.0
+    z: 613.5667200257554
+    yaw: -358.9154
+    pitch: 17.250023
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 1043.5841251703584
+  y: 75.9375
+  z: -850.6439664633668
+  yaw: -188.83167
+  pitch: 16.35012
+afk: false
+money: '4700.0'
+godmode: false

@@ -1,0 +1,44 @@
+lastAccountName: TypicalDude
+timestamps:
+  login: 1586230750031
+  logout: 1586232190801
+  lastteleport: 1586232181469
+ipAddress: 154.5.102.119
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 39106.33701046669
+  y: 103.0
+  z: 36903.47170124255
+  yaw: 29.999983
+  pitch: 3.1500008
+homes:
+  home:
+    world: Pixel Craft (S3)
+    x: 39087.21187633451
+    y: 108.0
+    z: 36902.47602185911
+    yaw: -273.38965
+    pitch: 7.790195
+  other:
+    world: Pixel Craft (S3)
+    x: 264.7677838189064
+    y: 80.0
+    z: 797.884416040116
+    yaw: 323.01392
+    pitch: 8.250132
+  arena:
+    world: Pixel Craft (S3)
+    x: 39131.49401077469
+    y: 78.0
+    z: 36952.92502862029
+    yaw: 351.65082
+    pitch: 24.899609
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 39078.85454125255
+  y: 72.0
+  z: 36886.64204957113
+  yaw: 265.04688
+  pitch: 18.749956
+money: '98.0'
+afk: false

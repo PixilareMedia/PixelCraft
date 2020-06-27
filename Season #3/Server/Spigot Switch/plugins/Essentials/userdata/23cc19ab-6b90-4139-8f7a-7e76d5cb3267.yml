@@ -1,0 +1,68 @@
+lastAccountName: GeorgeWBush1946
+timestamps:
+  login: 1589118443177
+  logout: 1589121214345
+  lastteleport: 1589120450880
+ipAddress: 209.121.229.24
+lastlocation:
+  world: Pixel Craft (S3)
+  x: 39109.5
+  y: 113.3
+  z: 37166.5
+  yaw: -88.47169
+  pitch: 36.279984
+money: '94522.00'
+logoutlocation:
+  world: Pixel Craft (S3)
+  x: 39941.45171364865
+  y: 68.0
+  z: 37884.75983823581
+  yaw: 72.01833
+  pitch: 32.099617
+homes:
+  base:
+    world: Pixel Craft (S3)
+    x: 39127.41235756615
+    y: 110.0
+    z: 37186.908312406646
+    yaw: 229.98022
+    pitch: 27.579502
+  abovespawner:
+    world: Pixel Craft (S3)
+    x: 47178.30000001192
+    y: 92.0
+    z: 50507.30000001192
+    yaw: 259.69092
+    pitch: 43.95009
+  mesa:
+    world: Pixel Craft (S3)
+    x: 50025.67476144518
+    y: 65.0
+    z: 52587.981488636666
+    yaw: -36.115326
+    pitch: -2.849926
+  100k:
+    world: Pixel Craft (S3)
+    x: 100000.46111151825
+    y: 84.0
+    z: 100000.43445100336
+    yaw: 131.30247
+    pitch: 0.2999289
+  _:
+    world: Pixel Craft (S3)
+    x: -10224.567531438845
+    y: 64.0
+    z: -8421.315577559684
+    yaw: -209.06918
+    pitch: 13.050081
+  newbase:
+    world: Pixel Craft (S3)
+    x: -11760.300000011921
+    y: 68.0
+    z: -11529.977620135518
+    yaw: 65.242294
+    pitch: 1.9245278
+afk: false
+nickname: §cGeorge§fW§9Bush
+mail:
+- §6[§rServer§6] §rYour /nick has expired

@@ -9,23 +9,27 @@ open_requirement:
       deny_commands:
       - '[message] You dont have permission to open menu: Kick'
 items:
-  '1':
-    material: obsidian
-    slot: 0
-    display_name: '&aKick For Being Annoying'
+  '3':
+    material: bell
+    slot: 2
+    display_name: '&aPublic Kick'
     left_click_commands:
-    - '[player] kick <PlayerName> @Annoying'
+    - '[openguimenu] KickPublic'
+    right_click_commands:
+    - '[openguimenu] KickPublic'
+  '5':
+    material: redstone_lamp
+    slot: 4
+    display_name: '&6Close'
+    left_click_commands:
     - '[close]'
     right_click_commands:
-    - '[player] kick <PlayerName> @Annoying'
     - '[close]'
-  '2':
-    material: barrier
-    slot: 1
-    display_name: '&aKickall'
+  '7':
+    material: map
+    slot: 6
+    display_name: '&aSilent kick'
     left_click_commands:
-    - '[player] kickall'
-    - '[close]'
+    - '[openguimenu] KickSilent'
     right_click_commands:
-    - '[player] kickall'
-    - '[close]'
+    - '[openguimenu] KickSilent'

@@ -1,0 +1,8894 @@
+chest_param:
+  date: 00/00/0000 00:00:00
+  rows: 1
+  chest: []
+SecretSpy6933:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3394
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7241
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8085
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9028
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2424
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7906
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4493
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3242
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5870
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1469
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1113
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6659
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9823
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2931
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8513
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-534
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3063
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2000
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3161
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-189
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3734
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-94
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3341
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2779
+willongnose:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5711
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8443
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6637
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6730
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4147
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4851
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4305
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9001
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-691
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6121
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6255
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8714
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1196
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7807
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3965
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1029
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4160
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5973
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4497
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6257
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2266
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3066
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3534
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7932
+AnnyongB:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8816
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4643
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9577
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5294
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2615
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7444
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8213
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3125
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1703
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9967
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5838
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9313
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5714
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4535
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6162
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7437
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6836
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5894
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5838
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7755
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2623
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2227
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7516
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9221
+jamacias19:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7056
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9170
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4777
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-490
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4478
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-752
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5884
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9571
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6938
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7933
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1157
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5791
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8911
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9818
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5935
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-162
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8285
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8023
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6217
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6458
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9862
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4832
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1731
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1521
+Zyfur:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-415
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5668
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4954
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9572
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2543
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9798
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5641
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-790
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1502
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6006
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5823
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7872
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8007
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6772
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5846
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-947
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1631
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9218
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4609
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7210
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3074
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6331
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8664
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7039
+Nave1803:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9664
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7877
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4075
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4090
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6400
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7566
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-995
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9885
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8692
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8319
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3915
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1422
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3888
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1213
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5347
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2944
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3414
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5283
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-97
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9712
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8560
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-460
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7848
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7320
+GeorgeWBush1946:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9112
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4315
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9104
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7397
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7511
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1651
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5827
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9665
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5697
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9212
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2705
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9141
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9775
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3292
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8082
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7142
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1411
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6998
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6116
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1215
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3325
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1945
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3360
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5284
+wolfcat01:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5435
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9628
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7382
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2518
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4987
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3964
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-727
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8484
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-374
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8178
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-895
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-830
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4541
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8604
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5360
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1808
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4915
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6886
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-802
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6230
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2936
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4452
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3618
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1575
+Frost780:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2614
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-368
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3948
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6310
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3341
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3907
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7536
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3289
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6238
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4761
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8780
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2768
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7134
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6246
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6614
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5192
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3282
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6406
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-640
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5784
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8221
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6163
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9547
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8029
+Herobrain_gamer: []
+awoah:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1742
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9840
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8365
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9911
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3203
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6659
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2573
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6454
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6705
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-913
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8702
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-619
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1917
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3144
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4262
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-208
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9140
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4601
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6022
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7309
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2014
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4299
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2259
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3324
+muttonbuster8:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8638
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7160
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9121
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6054
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7872
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1426
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6922
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-639
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6973
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3234
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9745
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8377
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6043
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2568
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9237
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7480
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3517
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-877
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-598
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1577
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7556
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7838
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3825
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4898
+minecarftepic:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-919
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7962
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5217
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9900
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-431
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1510
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5263
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5626
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-63
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6777
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7676
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3213
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3533
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2726
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7984
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3432
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7399
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8576
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3887
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6715
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9223
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7554
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5898
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7788
+WolvesWing:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4523
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9620
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3839
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1370
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7541
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2649
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3473
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4161
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3640
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-844
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4979
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8696
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1540
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-261
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9597
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3851
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3673
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5002
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7275
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6489
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8831
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1836
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8369
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-291
+Foughtful:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2739
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6059
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6843
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6370
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6085
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-582
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7396
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3344
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4943
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8155
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4337
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8624
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5581
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-902
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6106
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6666
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4142
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4160
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3660
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3361
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2244
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7076
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1300
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9627
+_Macspy_:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-699
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2697
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5333
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-294
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5969
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4898
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7001
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8451
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4837
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1766
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2350
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9133
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1167
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1684
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1733
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6714
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2978
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7799
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-946
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9465
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2016
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9505
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5537
+IDontToggle__:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9414
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-952
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1185
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4918
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8715
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9484
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8466
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6268
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6588
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2993
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1761
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5904
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5564
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6403
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1957
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7012
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9430
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2880
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-845
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6700
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6868
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3239
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7699
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6070
+midna_87:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2031
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6537
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3308
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-703
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2033
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9796
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8919
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9965
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-140
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5296
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2184
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-812
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8034
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7982
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-676
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7979
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4273
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3527
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7744
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9996
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6429
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2636
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9526
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3479
+Butterminer200:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9210
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2305
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1183
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2573
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8458
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9565
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3340
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-441
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7617
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4610
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4320
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7986
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6010
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8009
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9532
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-857
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3832
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6709
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1170
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7220
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6456
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9906
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5600
+ShnozGoblin:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8037
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7441
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7151
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3884
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9183
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5984
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-267
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7203
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6919
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3443
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7763
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6345
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4394
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4906
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8191
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3138
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2669
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6150
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-286
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2358
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2278
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7658
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3782
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-37
+xqcL:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8133
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6234
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7412
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9376
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6622
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7602
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4640
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6948
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5291
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6405
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7592
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8337
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6061
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9865
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2658
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2085
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8639
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3948
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5962
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1481
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4918
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7242
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6953
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2112
+KigMD:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9866
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4899
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7024
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3302
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6672
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9760
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1498
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2652
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3604
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9869
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2957
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-43
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3492
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5586
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4570
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9283
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9402
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6307
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1819
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1685
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5813
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5774
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7422
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6155
+LukeTheMemeGod:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-408
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5581
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8939
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-742
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1368
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3198
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2742
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5940
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4526
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6713
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7891
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8058
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-741
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4863
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6244
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5313
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3150
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4877
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1859
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4914
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8940
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7338
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3228
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5437
+ThatOtherPeep:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4237
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5768
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6970
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7733
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9685
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4308
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9667
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9120
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1521
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9682
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1649
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7248
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3305
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-604
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9483
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4812
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5135
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6800
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3607
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1805
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-691
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6003
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7427
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-355
+FiddleWorm:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3864
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9822
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3647
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2549
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1295
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8577
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8533
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8999
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1710
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6400
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5596
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5500
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7011
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4947
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3685
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4705
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-741
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1860
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6186
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1824
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-593
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4064
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8324
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8461
+GamerGabriel:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-721
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-651
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-942
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5941
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4149
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9560
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1468
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4287
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7037
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7274
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1103
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6861
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-465
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9354
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-975
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8935
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4006
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6406
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3263
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8464
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5135
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4196
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3442
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4813
+InfernoStrike53:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1570
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4805
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-178
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4251
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4091
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4810
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8693
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1833
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3796
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6919
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4382
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8114
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2170
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-665
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1747
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2853
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8164
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8167
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7186
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9154
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5368
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8217
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9528
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4997
+TypicalDude:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2078
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4642
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4105
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9004
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8891
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9195
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9881
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6836
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2635
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3596
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3705
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7312
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4903
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2281
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6271
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8947
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4705
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4701
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5661
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1640
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8127
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7206
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6751
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2689
+dmanPL:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9809
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2487
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3756
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8191
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1733
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9943
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8561
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2602
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7945
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3720
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4866
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3643
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-847
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9698
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2226
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1667
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4284
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6411
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7149
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1083
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3352
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6724
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9088
+_Pengu__:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9230
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5406
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7128
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6612
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2559
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4698
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-386
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2075
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2395
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4053
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2790
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5328
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9785
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6992
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9264
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7896
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8586
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2456
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5610
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8658
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-33
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9793
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5832
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3124
+Diamond_Miner245:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1000
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7905
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8651
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-406
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4739
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5884
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4530
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-26
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7427
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2929
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2008
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4452
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-962
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8786
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1812
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9142
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8008
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-695
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5784
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-718
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-469
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5287
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4718
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6870
+EggyLadd: []
+TheTrueDuality: []
+7r1:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-311
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3325
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8716
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1122
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2160
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1491
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4963
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4580
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3191
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-6053
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2114
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3771
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-763
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3868
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7345
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5664
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4791
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4899
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5111
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1148
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9372
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7765
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5787
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4401
+SKstarbreaker:
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ELYTRA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7992
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: POPPED_CHORUS_FRUIT
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7492
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: WITHER_ROSE
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2877
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_EGG
+  amount: 4
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-7977
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NAUTILUS_SHELL
+  amount: 8
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-8043
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_APPLE
+  amount: 16
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4387
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: HEART_OF_THE_SEA
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3524
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: STICK
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5426
+    enchants:
+      KNOCKBACK: 10
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TURTLE_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-240
+    enchants:
+      WATER_WORKER: 1
+      OXYGEN: 3
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: CAKE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9252
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_HELMET
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3438
+    enchants:
+      WATER_WORKER: 1
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      OXYGEN: 3
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4477
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_LEGGINGS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9599
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_BOOTS
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-4963
+    enchants:
+      PROTECTION_EXPLOSIONS: 5
+      DEPTH_STRIDER: 3
+      PROTECTION_FALL: 5
+      FROST_WALKER: 2
+      PROTECTION_PROJECTILE: 5
+      PROTECTION_ENVIRONMENTAL: 5
+      THORNS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2454
+    enchants:
+      DAMAGE_ARTHROPODS: 6
+      FIRE_ASPECT: 2
+      KNOCKBACK: 2
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 6
+      DAMAGE_UNDEAD: 6
+      SWEEPING_EDGE: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EMERALD_BLOCK
+  amount: 2
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5932
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GLASS
+  amount: 5
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-1920
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: OBSIDIAN
+  amount: 3
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2888
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: NETHER_STAR
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9292
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: TOTEM_OF_UNDYING
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-5216
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-3200
+    enchants:
+      DIG_SPEED: 5
+      SILK_TOUCH: 1
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: GOLDEN_PICKAXE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-9948
+    enchants:
+      DIG_SPEED: 5
+      LOOT_BONUS_BLOCKS: 3
+      DURABILITY: 100
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: EXPERIENCE_BOTTLE
+  amount: 64
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-82
+- ==: org.bukkit.inventory.ItemStack
+  v: 2230
+  type: ENCHANTED_GOLDEN_APPLE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    lore:
+    - '§o§8Sent by: §l§cSTAFF'
+    - §o§0-2050
