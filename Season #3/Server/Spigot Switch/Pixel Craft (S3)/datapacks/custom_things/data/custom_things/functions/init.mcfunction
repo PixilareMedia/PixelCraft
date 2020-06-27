@@ -1,3 +1,4 @@
+function custom_things:advancements/init
 #function custom_things:gamemode/init
 function custom_things:mob_invinciblity/init
 function custom_things:music/init

@@ -1,3 +1,4 @@
+function custom_things:advancements/tick
 #function custom_things:gamemode/tick
 function custom_things:mob_invinciblity/tick
 function custom_things:music/tick

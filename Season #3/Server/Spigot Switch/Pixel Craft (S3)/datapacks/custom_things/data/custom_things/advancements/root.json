@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Pixel Craft Season #3"
+        },
+        "description": {
+            "text": "Welcome To Pixel Craft Season #3"
+        },
+        "icon": {
+            "item": "minecraft:golden_apple"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/brain_coral_block.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ]
+}

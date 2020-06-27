@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Sex Number"
+        },
+        "description": {
+            "text": "69 Levels All Of r/dankmemes Is Going Nice"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 69
+    },
+    "parent": "custom_things:enchantingtime"
+}

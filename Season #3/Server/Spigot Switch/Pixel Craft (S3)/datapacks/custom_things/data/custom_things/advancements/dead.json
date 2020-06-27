@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Death"
+        },
+        "description": {
+            "text": "Is That You God? Wait Whats That Appearing Its .. Its.... A Respawn Button?"
+        },
+        "icon": {
+            "item": "minecraft:podzol"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    },
+    "parent": "custom_things:root"
+}

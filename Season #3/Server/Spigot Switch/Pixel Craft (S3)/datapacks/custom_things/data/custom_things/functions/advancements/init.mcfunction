@@ -1,0 +1,1 @@
+scoreboard objectives add ct_xp level {"text":"Levels","color":"green","bold":true,"italic":true}

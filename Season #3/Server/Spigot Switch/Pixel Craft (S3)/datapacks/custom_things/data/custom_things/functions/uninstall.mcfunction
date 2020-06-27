@@ -1,3 +1,4 @@
+function custom_things:advancements/uninstall
 function custom_things:gamemode/uninstall
 function custom_things:mob_invinciblity/uninstall
 function custom_things:music/uninstall

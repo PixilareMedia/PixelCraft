@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Serial Killer"
+        },
+        "description": {
+            "text": "You Have Killed 100 People (You Really Should Retire About Now)"
+        },
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 10000
+    },
+    "parent": "custom_things:massmurder"
+}
