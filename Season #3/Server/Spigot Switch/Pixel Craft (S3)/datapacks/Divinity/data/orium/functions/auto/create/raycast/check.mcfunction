@@ -1,9 +1,0 @@
-execute if block ~ ~ ~ minecraft:furnace{CustomName:"{\"italic\":false,\"text\":\"Thermic Oven\"}"} align xyz positioned ~0.5 ~0 ~0.5 unless entity @e[type=armor_stand,distance=..0.1] run function orium:auto/create/raycast/oven_finish
-execute if block ~ ~ ~ minecraft:furnace run scoreboard players operation @s orm.ray.scanTime += maxFinderAge orm.ray.scanTime
-execute if block ~ ~ ~ minecraft:hopper{CustomName:"{\"italic\":false,\"text\":\"Quarry\"}"} align xyz positioned ~0.5 ~0 ~0.5 unless entity @e[type=armor_stand,distance=..0.1] run function orium:auto/create/raycast/quarry_finish
-execute if block ~ ~ ~ minecraft:hopper{CustomName:"{\"italic\":false,\"text\":\"Deep Storage Unit\"}"} align xyz positioned ~0.5 ~0 ~0.5 unless entity @e[type=armor_stand,distance=..0.1] run function orium:auto/create/raycast/dsu_finish
-execute if block ~ ~ ~ minecraft:hopper{CustomName:"{\"italic\":false,\"text\":\"Mineral Compressor\"}"} align xyz positioned ~0.5 ~0 ~0.5 unless entity @e[type=armor_stand,distance=..0.1] run function orium:auto/create/raycast/infuser_finish
-execute if block ~ ~ ~ minecraft:hopper run scoreboard players operation @s orm.ray.scanTime += maxFinderAge orm.ray.scanTime
-execute if block ~ ~ ~ minecraft:dropper{CustomName:"{\"italic\":false,\"color\":\"dark_red\",\"text\":\"Laser Drill\"}"} align xyz positioned ~0.5 ~0 ~0.5 unless entity @e[type=armor_stand,distance=..0.1] run function orium:auto/create/raycast/drill_finish
-execute if block ~ ~ ~ minecraft:dropper{CustomName:"{\"italic\":false,\"color\":\"dark_red\",\"text\":\"Laser Drill Arc Generator\"}"} align xyz positioned ~0.5 ~0 ~0.5 unless entity @e[type=armor_stand,distance=..0.1] run function orium:auto/create/raycast/drill_charger_finish
-execute if block ~ ~ ~ minecraft:dropper run scoreboard players operation @s orm.ray.scanTime += maxFinderAge orm.ray.scanTime
