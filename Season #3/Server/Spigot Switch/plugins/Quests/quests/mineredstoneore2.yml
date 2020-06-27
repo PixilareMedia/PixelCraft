@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 32
+    block: redstone_ore
+display:
+  name: "&cMine Redstone 2"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 32 redstone ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 32 Redstone Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $200."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/32 redstone ore mined."
+  type: "redstone_ore"
+rewards:
+  - "eco give {player} 200"
+options:
+  category: "Mining"
+  requires:
+    - "mineredstoneore1"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 2

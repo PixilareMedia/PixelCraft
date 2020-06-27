@@ -1,0 +1,21 @@
+05.01.2020 - 23:05:17 - [TAB v2.6.1] Failed to inject Zyfur, packet_handler does not exist
+19.03.2020 - 04:48:01 - [TAB v2.6.4] Failed to unload the plugin
+19.03.2020 - 04:48:01 - net.minecraft.server.v1_15_R1.ReportedException: Sending packet
+19.03.2020 - 04:48:01 -        at net.minecraft.server.v1_15_R1.PlayerConnection.a(PlayerConnection.java:1418)
+19.03.2020 - 04:48:01 -        at net.minecraft.server.v1_15_R1.PlayerConnection.sendPacket(PlayerConnection.java:1383)
+19.03.2020 - 04:48:01 -        at me.neznamy.tab.platforms.bukkit.packets.method.MethodAPI_v1_15_R1.sendPacket(MethodAPI_v1_15_R1.java:75)
+19.03.2020 - 04:48:01 -        at me.neznamy.tab.platforms.bukkit.TabPlayer.sendPacket(TabPlayer.java:146)
+19.03.2020 - 04:48:01 -        at me.neznamy.tab.shared.ITabPlayer.sendCustomPacket(ITabPlayer.java:570)
+19.03.2020 - 04:48:01 -        at me.neznamy.tab.shared.HeaderFooter.clearHeaderFooter(HeaderFooter.java:22)
+19.03.2020 - 04:48:01 -        at me.neznamy.tab.shared.HeaderFooter.unload(HeaderFooter.java:25)
+19.03.2020 - 04:48:01 -        at me.neznamy.tab.shared.Shared.unload(Shared.java:211)
+19.03.2020 - 04:48:01 -        at me.neznamy.tab.platforms.bukkit.Main.onDisable(Main.java:101)
+19.03.2020 - 04:48:01 -        at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265)
+19.03.2020 - 04:48:01 -        at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:377)
+19.03.2020 - 04:48:01 -        at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:438)
+19.03.2020 - 04:48:01 -        at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:430)
+19.03.2020 - 04:48:01 -        at org.bukkit.craftbukkit.v1_15_R1.CraftServer.disablePlugins(CraftServer.java:396)
+19.03.2020 - 04:48:01 -        at net.minecraft.server.v1_15_R1.MinecraftServer.stop(MinecraftServer.java:699)
+19.03.2020 - 04:48:01 -        at net.minecraft.server.v1_15_R1.DedicatedServer.stop(DedicatedServer.java:689)
+19.03.2020 - 04:48:01 -        at net.minecraft.server.v1_15_R1.MinecraftServer.run(MinecraftServer.java:864)
+19.03.2020 - 04:48:01 -        at java.lang.Thread.run(Thread.java:748)

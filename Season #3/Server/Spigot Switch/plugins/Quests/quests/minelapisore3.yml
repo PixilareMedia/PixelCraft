@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 64
+    block: lapis_ore
+display:
+  name: "&9Mine Lapis 3"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 64 lapis ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 64 Lapis Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $350."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/64 lapis ore mined."
+  type: "lapis_ore"
+rewards:
+  - "eco give {player} 350"
+options:
+  category: "Mining"
+  requires:
+    - "minelapisore2"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 3

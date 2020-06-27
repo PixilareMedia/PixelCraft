@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 192
+    block: emerald_ore
+display:
+  name: "&aMine Emerald 5"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 192 emerald ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 192 Emerald Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $1600."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/192 emerald ore mined."
+  type: "emerald_ore"
+rewards:
+  - "eco give {player} 1600"
+options:
+  category: "Mining"
+  requires:
+    - "mineemeraldore4"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 5

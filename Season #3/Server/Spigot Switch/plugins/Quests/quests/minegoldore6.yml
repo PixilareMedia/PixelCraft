@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 256
+    block: gold_ore
+display:
+  name: "&6Mine Gold 6"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 256 gold ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 256 Gold Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $900."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/256 gold ore mined."
+  type: "gold_ore"
+rewards:
+  - "eco give {player} 900"
+options:
+  category: "Mining"
+  requires:
+    - "minegoldore5"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 6

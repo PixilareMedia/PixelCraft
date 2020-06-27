@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 256
+    block: nether_quartz_ore
+display:
+  name: "&fMine Quartz 6"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 256 quartz ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 256 Quartz Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $500."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/256 quartz ore mined."
+  type: "nether_quartz_ore"
+rewards:
+  - "eco give {player} 500"
+options:
+  category: "Mining"
+  requires:
+    - "minequartzore5"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 6

@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 4
+    block: emerald_ore
+display:
+  name: "&aMine Emerald 1"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 4 emerald ore."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 4 Emerald Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $350."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/4 emerald ore mined."
+  type: "emerald_ore"
+rewards:
+  - "eco give {player} 350"
+options:
+  category: "Mining"
+  requires:
+    - ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 1

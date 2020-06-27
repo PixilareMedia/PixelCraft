@@ -3,6 +3,21 @@ pixels:
   alias: pc
   permission: staffchat.pixels
   format: '&f[&aPixels Chat&f] &a%player%&f: &e%message%'
+pixelss1:
+  command: pixelss1chat
+  alias: ps1c
+  permission: staffchat.pixelss1
+  format: '&f[&aPixels S1 Chat&f] &a%player%&f: &e%message%'
+pixelss2:
+  command: pixelss2chat
+  alias: ps2c
+  permission: staffchat.pixelss2
+  format: '&f[&aPixels S2 Chat&f] &a%player%&f: &e%message%'
+pixelss3:
+  command: pixelss3chat
+  alias: ps3c
+  permission: staffchat.pixelss3
+  format: '&f[&aPixels S3 Chat&f] &a%player%&f: &e%message%'
 staff:
   command: staffchat
   alias: sc

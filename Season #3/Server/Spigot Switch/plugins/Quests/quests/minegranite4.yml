@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 128
+    block: granite
+display:
+  name: "&7Mine Granite 4"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 128 granite."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 128 Granite."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $100."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/128 granite mined."
+  type: "granite"
+rewards:
+  - "eco give {player} 100"
+options:
+  category: "Mining"
+  requires:
+    - "minegranite3"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 4

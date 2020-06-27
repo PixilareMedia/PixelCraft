@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 128
+    block: redstone_ore
+display:
+  name: "&cMine Redstone 4"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 128 redstone ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 128 Redstone Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $650."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/128 redstone ore mined."
+  type: "redstone_ore"
+rewards:
+  - "eco give {player} 650"
+options:
+  category: "Mining"
+  requires:
+    - "mineredstoneore3"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 4

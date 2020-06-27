@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 256
+    block: diamond_ore
+display:
+  name: "&bMine Diamond 6"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 256 diamond ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 256 Diamond Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $1500."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/256 diamond ore mined."
+  type: "diamond_ore"
+rewards:
+  - "eco give {player} 1500"
+options:
+  category: "Mining"
+  requires:
+    - "minediamondore5"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 6

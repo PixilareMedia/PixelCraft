@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 64
+    block: coal_ore
+display:
+  name: "&8Mine Coal 3"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 64 coal ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 64 Coal Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $150."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/64 coal ore mined."
+  type: "coal_ore"
+rewards:
+  - "eco give {player} 150"
+options:
+  category: "Mining"
+  requires:
+    - "minecoalore2"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 3

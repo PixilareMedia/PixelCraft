@@ -1,0 +1,37 @@
+quest-progress:
+  minequartzore2:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 22
+  minequartzore1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1571973202488
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  minecoalore2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1571973114488
+    task-progress:
+      mining:
+        completed: true
+        progress: 32
+  minecoalore1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1571973096488
+    task-progress:
+      mining:
+        completed: true
+        progress: 4

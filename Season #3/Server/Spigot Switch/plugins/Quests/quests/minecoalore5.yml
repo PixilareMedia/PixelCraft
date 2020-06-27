@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 192
+    block: coal_ore
+display:
+  name: "&8Mine Coal 5"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 192 coal ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 192 Coal Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $300."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/192 coal ore mined."
+  type: "coal_ore"
+rewards:
+  - "eco give {player} 300"
+options:
+  category: "Mining"
+  requires:
+    - "minecoalore4"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 5

@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 32
+    block: andesite
+display:
+  name: "&7Mine Andesite 2"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 32 andesite."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 32 Andesite."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $25."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/32 andesite mined."
+  type: "andesite"
+rewards:
+  - "eco give {player} 25"
+options:
+  category: "Mining"
+  requires:
+    - "mineandesite1"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 2

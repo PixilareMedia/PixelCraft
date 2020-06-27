@@ -1,0 +1,37 @@
+cfg-version: 11
+message: '&cYou have reached the edge of this world.'
+round-border: false
+debug-mode: false
+whoosh-effect: true
+portal-redirection: true
+knock-back-dist: 3.0
+timer-delay-ticks: 5
+remount-delay-ticks: 0
+dynmap-border-enabled: true
+dynmap-border-message: The border of the world.
+player-killed-bad-spawn: false
+deny-enderpearl: true
+fill-autosave-frequency: 30
+bypass-list-uuids: []
+fill-memory-tolerance: 500
+prevent-block-place: false
+prevent-mob-spawn: false
+worlds:
+  Pixel Craft (S3):
+    x: 0.5
+    z: 0.5
+    radiusX: 100000
+    radiusZ: 100000
+    wrapping: false
+  Pixel Craft (S3)_nether:
+    x: 0.5
+    z: 0.5
+    radiusX: 100000
+    radiusZ: 100000
+    wrapping: false
+  Pixel Craft (S3)_the_end:
+    x: 0.5
+    z: 0.5
+    radiusX: 100000
+    radiusZ: 100000
+    wrapping: false
