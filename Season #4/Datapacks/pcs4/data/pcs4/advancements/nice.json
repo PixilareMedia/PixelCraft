@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "NICE!"
+        },
+        "description": {
+            "text": "Reach 69 Levels. All of r/dankmemes is going Nice right now for you."
+        },
+        "icon": {
+            "item": "minecraft:egg"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "pcs4:enchantment_time"
+}

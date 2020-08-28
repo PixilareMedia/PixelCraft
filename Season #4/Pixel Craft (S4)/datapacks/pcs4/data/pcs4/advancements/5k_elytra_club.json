@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "5k Elytra Club"
+        },
+        "description": {
+            "text": "Travel 5k with the elytra"
+        },
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "pcs4:root"
+}

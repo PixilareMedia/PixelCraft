@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Dead Man Tells No Tail"
+        },
+        "description": {
+            "text": "Is that a Pirates Of The Caribbean reference? Also why did you have to die 500 times!!!!"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "pcs4:how_not_to_die"
+}

@@ -1,0 +1,28 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "The Completionist"
+        },
+        "description": {
+            "text": "Complete every single advancement in the game"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1000,
+        "function": "pcs4:fuckyou"
+    },
+    "parent": "pcs4:root"
+}

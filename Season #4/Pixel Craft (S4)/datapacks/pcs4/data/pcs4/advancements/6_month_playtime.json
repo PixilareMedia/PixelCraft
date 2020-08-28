@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "6 Months of Playing"
+        },
+        "description": {
+            "text": "We take it that you have been enjoying your 6 months of playing on our server?"
+        },
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "pcs4:1_month_playtime"
+}

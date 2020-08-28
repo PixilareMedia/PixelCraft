@@ -1,0 +1,17 @@
+#Test for the counter to be at X advancements completed
+execute if score pcs4_Overall Advancements matches 27 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 50 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 68 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 85 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 135 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 155 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 179 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 203 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 248 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 274 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 297 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 319 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 346 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 371 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 403 run function pcs4:worldboarder/upgrade
+execute if score pcs4_Overall Advancements matches 436 run function pcs4:worldboarder/upgrade

@@ -1,0 +1,111 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Maximum Beacons!!!!!!!"
+        },
+        "description": {
+            "text": "Obtain 276 blocks of netherite, 5 beacons, & 1 purple, orange, blue, green, black stained glass pane"
+        },
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "beacons": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:beacon",
+                        "count": {
+                            "min": 5,
+                            "max": 5
+                        }
+                    }
+                ]
+            }
+        },
+        "green_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:green_stained_glass_pane",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "blue_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blue_stained_glass_pane",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "orange_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:orange_stained_glass_pane",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "black_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:black_stained_glass_pane",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "purple_glass_pane": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:purple_stained_glass_pane",
+                        "count": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                ]
+            }
+        },
+        "netherite_blocks": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "pcs4:valuables_box"
+}

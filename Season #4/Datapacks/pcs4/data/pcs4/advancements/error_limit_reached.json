@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Error Limit Reached"
+        },
+        "description": {
+            "text": "Sorry what how did you. . what? That is a nice 21863 levels you have there it would be a shame if anything happened to it."
+        },
+        "icon": {
+            "item": "minecraft:netherite_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "pcs4:its_over_9000"
+}
