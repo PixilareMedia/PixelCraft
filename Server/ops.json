@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "1f5a8782-79f2-4314-bd16-17fc3b084490",
+    "name": "GamerGabriel",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c8d6aeb2-caa6-4381-8815-330fe2677c98",
+    "name": "Herobrain_gamer",
+    "level": 4,
+    "bypassesPlayerLimit": true
+  }
+]
