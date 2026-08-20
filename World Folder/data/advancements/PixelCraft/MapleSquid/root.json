@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skull",
+			"data": 3
+        },
+        "title": {
+            "text":"MapleSquid"
+        },
+        "description": {
+            "text": "MapleSquid's Challenges"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+	"parent":"PixelCraft:root",
+    "criteria": {
+        "empty": {
+            "trigger": "minecraft:location"
+		}
+	},
+	"rewards": {
+		"function":"PixelCraft:start_herobrain_gamer"
+	}
+}

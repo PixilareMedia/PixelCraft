@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:emerald_ore"
+        },
+        "title": {
+            "text": "King of the Emerald"
+        },
+        "description": ["",{"text":"Again get back to the mines!"},{"text":"\nHerobrain_gamer","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:Herobrain_gamer/king_of_the_diamond",
+	"criteria":{
+		"mine_emerald": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:Herobrain_gamer/king_of_the_emerald"
+	}
+}

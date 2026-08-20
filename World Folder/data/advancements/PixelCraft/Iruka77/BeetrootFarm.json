@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:beetroot"
+        },
+        "title": {
+            "text": "Beetroot"
+        },
+        "description": ["",{"text":"Beetroot Farming"},{"text":"\nIruka77","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:Iruka77/PotatoFarm",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:prismarine_shard"
+        },
+        "title": {
+            "text": "64 Elder Gaurdians Down"
+        },
+        "description": ["",{"text":"Why I'm I Doing This"}],
+		"frame": "challenge"
+	},
+	"parent":"PixelCraft:general/DragonsDown",
+	"criteria":{
+		"example": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

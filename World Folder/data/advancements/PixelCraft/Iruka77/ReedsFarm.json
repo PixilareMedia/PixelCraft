@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:reeds"
+        },
+        "title": {
+            "text": "Reeds"
+        },
+        "description": ["",{"text":"Reeds Farming"},{"text":"\nGamerGabriel","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:Iruka77/BeetrootFarm",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

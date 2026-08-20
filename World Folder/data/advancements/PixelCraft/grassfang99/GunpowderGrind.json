@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:gunpowder"
+        },
+        "title": {
+            "text": "Gunpowder Grind"
+        },
+        "description": ["",{"text":"Well This Is Somewhat Dangerous"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:grassfang99/BeefGrind",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

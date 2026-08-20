@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:snow"
+        },
+        "title": {
+            "text": "Nice View"
+        },
+        "description": ["",{"text":"I Can Show You The World"},{"text":"\nMapleSquid","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:MapleSquid/NoticeBoard",
+	"criteria":{
+		"mine_coal": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

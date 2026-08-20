@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:carrot"
+        },
+        "title": {
+            "text": "Carrot"
+        },
+        "description": ["",{"text":"Carrot Farming"},{"text":"\nGamerGabriel","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:Iruka77/WheatFarm",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

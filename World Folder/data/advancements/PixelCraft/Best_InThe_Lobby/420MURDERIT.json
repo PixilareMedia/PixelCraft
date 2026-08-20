@@ -1,0 +1,23 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull",
+			"data": 2
+        },
+        "title": {
+            "text": "420 MURDER It"
+        },
+        "description": ["",{"text":"420 MURDER IT!!!"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:Best_InThe_Lobby/Fleat222Leader",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

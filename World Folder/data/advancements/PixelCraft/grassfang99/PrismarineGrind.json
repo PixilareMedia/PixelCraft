@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:prismarine_crystals"
+        },
+        "title": {
+            "text": "Prismarine Grind"
+        },
+        "description": ["",{"text":"THis Is A Pain In The Ass"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:grassfang99/NuggetGrind",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

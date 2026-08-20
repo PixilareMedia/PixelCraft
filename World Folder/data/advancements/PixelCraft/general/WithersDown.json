@@ -1,0 +1,23 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull",
+			"data": 1
+        },
+        "title": {
+            "text": "5 Withers Down"
+        },
+        "description": ["",{"text":"That Took Some Time"}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:general/ElderGaurdiansDown",
+	"criteria":{
+		"example": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

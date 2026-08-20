@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:diamond_boots"
+        },
+        "title": {
+            "text": "Shiny Boots"
+        },
+        "description": ["",{"text":"Thies Boots Have Gone Through Many Trils And Are Still Shiny New"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:SkyPixels21/Pants",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

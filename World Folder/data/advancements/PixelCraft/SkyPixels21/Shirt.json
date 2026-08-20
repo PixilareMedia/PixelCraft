@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:diamond_chestplate"
+        },
+        "title": {
+            "text": "A Cool Shirt"
+        },
+        "description": ["",{"text":"This Is A Cool Shirt. RIGHT!!!"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:SkyPixels21/Hat",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:cactus"
+        },
+        "title": {
+            "text": "Cactus"
+        },
+        "description": ["",{"text":"Cactus Farming"},{"text":"\nGamerGabriel","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:Iruka77/ReedsFarm",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull"
+        },
+        "title": {
+            "text": "1 First Death"
+        },
+        "description": ["",{"text":"You Obtained Your First Death!!"},{"text":"\nmidna_87","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:midna_87/root",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

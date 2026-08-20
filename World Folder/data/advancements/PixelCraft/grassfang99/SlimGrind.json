@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:slime_ball"
+        },
+        "title": {
+            "text": "Slime Grind"
+        },
+        "description": ["",{"text":"This Is A Stick Situation"},{"text":"\n?","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:grassfang99/GunpowderGrind",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

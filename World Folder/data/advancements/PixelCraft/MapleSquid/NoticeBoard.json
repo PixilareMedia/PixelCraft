@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:sign"
+        },
+        "title": {
+            "text": "The Notice Board"
+        },
+        "description": ["",{"text":"Where Some Thing Are Anounced"},{"text":"\nMapleSquid","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:MapleSquid/root",
+	"criteria":{
+		"mine_coal": {
+               "trigger": "minecraft:impossible"
+			}
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

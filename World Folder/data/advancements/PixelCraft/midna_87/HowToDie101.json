@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull"
+        },
+        "title": {
+            "text": "How To Die 101"
+        },
+        "description": ["",{"text":"This is Your 101st Death, Welcome To How To Die 101"},{"text":"\nmidna_87","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:midna_87/64thDeath",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

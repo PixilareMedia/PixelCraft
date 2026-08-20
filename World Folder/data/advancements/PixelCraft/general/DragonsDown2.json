@@ -1,0 +1,23 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull",
+			"data": 5
+        },
+        "title": {
+            "text": "64 Dragons Down"
+        },
+        "description": ["",{"text":"WTF AM I DOING WITH MY LIFE I HAVE TOO MUCH SPARE TIME"}],
+		"frame": "challenge"
+	},
+	"parent":"PixelCraft:general/WithersDown2",
+	"criteria":{
+		"example": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

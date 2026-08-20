@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "title": {
+            "text": "Holy Xp!!!"
+        },
+        "description": ["",{"text":"Thats A Metric Crap Ton Of XP"}],
+		"frame": "challenge"
+	},
+	"parent":"PixelCraft:general/DragonsDown2",
+	"criteria":{
+		"example": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:start_general"
+	}
+}

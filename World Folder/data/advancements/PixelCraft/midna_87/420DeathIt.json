@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull"
+        },
+        "title": {
+            "text": "420 Deaths Its"
+        },
+        "description": ["",{"text":"This is Your 420th Death, 420 Blaze It"},{"text":"\nmidna_87","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:midna_87/UndeadFleat222",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

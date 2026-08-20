@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:golden_apple",
+			"data":0
+        },
+        "title": {
+            "text":"Let the fun begin!"
+        },
+        "description": {
+            "text": "Are you ready to take on all these challenges?"
+        },
+        "background": "minecraft:textures/blocks/planks_big_oak.png",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "instant": {
+            "trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function":"PixelCraft:setup"
+	}
+}

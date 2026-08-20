@@ -1,0 +1,329 @@
+{
+	"display":{
+		"icon": {
+            "item": "minecraft:golden_apple",
+			"data":1
+        },
+        "title": {
+            "text": "A True Pixel"
+        },
+        "description": {
+            "text": "Finish all the pixel challenges"
+        },
+		"hidden":false,
+		"frame":"challenge"
+	},
+	"parent":"PixelCraft:root",
+	
+	"criteria":{
+		"start_pixelcraft":{
+			"trigger": "minecraft:impossible"
+		},
+		"start_general":{
+			"trigger": "minecraft:impossible"
+		},
+		"start_herobrain_gamer":{
+			"trigger": "minecraft:impossible"
+		},
+		"start_electicty":{
+			"trigger": "minecraft:impossible"
+		},
+		"start_midna_87":{
+			"trigger": "minecraft:impossible"
+		},
+		"start_iruka77":{
+			"trigger": "minecraft:impossible"
+		},
+		"start_skypixels21":{
+			"trigger": "minecraft:impossible"
+		},
+		"start_best_inthe_lobby":{
+			"trigger": "minecraft:impossible"
+		},
+		"start_grassfang99":{
+			"trigger": "minecraft:impossible"
+		},
+		"start_maplesquid":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_general1":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_general2":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_general3":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_general4":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_general5":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_general6":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_general7":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_general8":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_general9":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer1":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer2":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer3":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer4":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer5":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer6":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer7":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer8":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer9.1":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer9.2":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer9.3":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer9.4":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer9.5":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer9.6":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer9.7":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_herobrain_gamer9.8":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_electicity1":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_electicity2":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_electicity3":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_electicity4":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_electicity5":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_electicity6":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_electicity7":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_electicity8":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_electicity9":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_midna_871":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_midna_872":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_midna_873":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_midna_874":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_midna_875":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_midna_876":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_midna_877":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_midna_878":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_midna_879":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka771":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka772":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka773":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka774":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka775":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka776":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka777":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka778":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka779":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka7710":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka7711":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_iruka7712":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_skypixels211":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_skypixels212":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_skypixels213":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_skypixels214":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_skypixels215":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_skypixels216":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_skypixels217":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_skypixels218":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_skypixels219":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_best_inthe_lobby1":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_best_inthe_lobby2":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_best_inthe_lobby3":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_best_inthe_lobby4":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_best_inthe_lobby5":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_best_inthe_lobby6":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_best_inthe_lobby7":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_best_inthe_lobby8":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_best_inthe_lobby9":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_grassfang991":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_grassfang992":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_grassfang993":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_grassfang994":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_grassfang995":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_grassfang996":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_grassfang997":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_grassfang998":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_grassfang999":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid1":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid2":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid3":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid4":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid5":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid6":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid7":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid8":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid9":{
+			"trigger": "minecraft:impossible"
+		},
+		"finish_maplesquid10":{
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"function":"PixelCraft:Do_You_Want_To_Go_Again"
+	}
+}

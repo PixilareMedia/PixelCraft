@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:poisonous_potato"
+        },
+        "title": {
+            "text": "Poisonous Potato"
+        },
+        "description": ["",{"text":"Poisonous Potato Farming"},{"text":"\nGamerGabriel","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:Iruka77/ChorusFruitFarm",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

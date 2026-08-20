@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:skull"
+        },
+        "title": {
+            "text": "666 Demonic Deaths Achieved"
+        },
+        "description": ["",{"text":"This is Your 666th Death, Hail Sitain!!!"},{"text":"\nmidna_87","color":"dark_gray","italic":true}],
+		"frame": "goal"
+	},
+	"parent":"PixelCraft:midna_87/420DeathIt",
+	"criteria":{
+		"die1": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}

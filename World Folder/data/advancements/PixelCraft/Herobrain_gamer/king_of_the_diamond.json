@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "title": {
+            "text": "King of the Diamond"
+        },
+        "description": ["",{"text":"Again get back to the mines!"},{"text":"\nHerobrain_gamer","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:Herobrain_gamer/king_of_the_redstone",
+	"criteria":{
+		"mine_diamond": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:Herobrain_gamer/king_of_the_diamond"
+	}
+}

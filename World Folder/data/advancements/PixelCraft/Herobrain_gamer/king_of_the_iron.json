@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:iron_ore"
+        },
+        "title": {
+            "text": "King of the Iron"
+        },
+        "description": ["",{"text":"Get Back to the mines!"},{"text":"\nHerobrain_gamer","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:Herobrain_gamer/king_of_the_coal",
+	"criteria":{
+		"mine_iron": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:Herobrain_gamer/king_of_the_iron"
+	}
+}

@@ -1,0 +1,22 @@
+ {
+	"display":{
+		"icon": {
+            "item": "minecraft:bone_block"
+        },
+        "title": {
+            "text": "I Found A Bone"
+        },
+        "description": ["",{"text":"Now I Have A Bone To Pick With You"},{"text":"\nMapleSquid","color":"dark_gray","italic":true}],
+		"frame": "task"
+	},
+	"parent":"PixelCraft:MapleSquid/WellThen",
+	"criteria":{
+		"mine_coal": {
+               "trigger": "minecraft:impossible"
+           }
+       }
+   },
+	"rewards": {
+		"function":"PixelCraft:You_Did_It"
+	}
+}
