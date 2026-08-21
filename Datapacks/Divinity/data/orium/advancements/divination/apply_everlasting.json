@@ -1,0 +1,40 @@
+{
+	"parent": "orium:divination/apply_divinity",
+	"display": {
+		"icon": {
+			"item": "minecraft:bedrock"
+		},
+		"title": {
+			"text": "Unbreaking IV"
+		},
+		"description": {
+			"text": "Put Everlasting on an item"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"everlasting": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"nbt":"{divinities:[{id:\"orium:everlasting\"}]}",
+						"enchantments": [
+							{
+								"enchantment":"minecraft:unbreaking"
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"everlasting"
+		]
+	]
+}

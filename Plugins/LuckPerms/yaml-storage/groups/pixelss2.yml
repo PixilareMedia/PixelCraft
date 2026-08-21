@@ -1,0 +1,19 @@
+name: pixelss2
+permissions:
+- essentials.nick
+- essentials.nick.color
+- essentials.nick.format
+- essentials.nick.magic
+- essentials.sethome.multiple.pixelss2
+- essentials.teleport.timer.bypass
+- essentials.tpaall
+- staffchat.pixelss2
+- weight.5
+parents:
+- pixelss3
+prefixes:
+- '[&dPixels S2&r] ':
+    priority: 5
+meta:
+- default:
+    value: 'false'

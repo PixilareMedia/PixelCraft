@@ -1,0 +1,13 @@
+# Forge Mods for Pixel Craft Season #3
+- [Advanced Skin Customization](https://archive.org/details/advanced-skin-customization-mod)
+- [Bounding Box Outline Reloaded](https://www.curseforge.com/minecraft/mc-mods/bounding-box-outline-reloaded/files/3073124)
+- [Better Advancements](https://www.curseforge.com/minecraft/mc-mods/better-advancements/files/2812266)
+- [CraftPresence](https://www.curseforge.com/minecraft/mc-mods/craftpresence/files/2813258)
+- [VoxelMap](https://www.curseforge.com/minecraft/mc-mods/voxelmap/files/2748032)
+- [Light Overlay](https://www.curseforge.com/minecraft/mc-mods/light-overlay/files/2759455)
+- [Neat](https://www.curseforge.com/minecraft/mc-mods/neat/files/2755569)
+- [Optifine](https://optifine.net/downloads)
+- [Placebo](https://www.curseforge.com/minecraft/mc-mods/placebo/files/2830611)
+- [Shulker Tooltip](https://www.curseforge.com/minecraft/mc-mods/shulker-tooltip/files/2775973)
+- [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control/files/2775591)
+- [Worldedit](https://www.curseforge.com/minecraft/mc-mods/worldedit/files/2760377)

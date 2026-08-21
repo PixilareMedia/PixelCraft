@@ -1,0 +1,10 @@
+uuid: 802383cc-cb04-40ea-9587-4fec91de2133
+name: Butterminer200
+primary-group: default
+permissions:
+- deluxetags.tag.Overpowered
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

@@ -1,0 +1,7 @@
+NPCS:
+  '0':
+    Commands:
+    - 1~~~buyshopheadspixels~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '1':
+    Commands:
+    - 1~~~conversionshop~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

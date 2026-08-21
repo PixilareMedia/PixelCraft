@@ -1,0 +1,21 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/paper"
+    },
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1 }, "model": "item/uno/red_0" },
+		{ "predicate": { "custom_model_data": 2 }, "model": "item/uno/red_1" },
+		{ "predicate": { "custom_model_data": 3 }, "model": "item/uno/red_2" },
+		{ "predicate": { "custom_model_data": 4 }, "model": "item/uno/red_3" },
+		{ "predicate": { "custom_model_data": 5 }, "model": "item/uno/red_4" },
+		{ "predicate": { "custom_model_data": 6 }, "model": "item/uno/red_5" },
+		{ "predicate": { "custom_model_data": 7 }, "model": "item/uno/red_6" },
+		{ "predicate": { "custom_model_data": 8 }, "model": "item/uno/red_7" },
+		{ "predicate": { "custom_model_data": 9 }, "model": "item/uno/red_8" },
+		{ "predicate": { "custom_model_data": 10 }, "model": "item/uno/red_9" },
+		{ "predicate": { "custom_model_data": 11 }, "model": "item/uno/red_skip" },
+		{ "predicate": { "custom_model_data": 12 }, "model": "item/uno/red_reverse" },
+		{ "predicate": { "custom_model_data": 13 }, "model": "item/uno/red_plus_2" }
+	]
+}

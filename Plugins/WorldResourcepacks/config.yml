@@ -1,0 +1,43 @@
+# 
+# Default language
+debug: true
+default-language: en
+disable-metrics: false
+autogeneratehashes: true
+usepack-is-temporary: true
+stored-packs-override-assignments: false
+permanent-pack-remove-time: 30
+packs:
+  PCS3Essentials:
+    url: https://download.nodecdn.net/containers/nodecraft/minepack/f198fb5b0d24e1e3f9daa615ba8a0d61.zip
+    hash: 66045ad041c8bfb35ad827bc3322fa15b9ea13e9
+    format: 4
+    restricted: false
+    permission: worldresourcepacks.pack.PCS3Essentials
+  PCS3:
+    url: https://download.nodecdn.net/containers/nodecraft/minepack/d7d52dd34c2f8f1f786a10270a38030f.zip
+    hash: 3899456e36c8187d7eddff6bca18dd5252f7d877
+    format: 4
+    restricted: false
+    permission: worldresourcepacks.pack.pixelcraftseason3
+  pcs3essentials:
+    url: https://download.nodecdn.net/containers/nodecraft/minepack/f198fb5b0d24e1e3f9daa615ba8a0d61.zip
+    hash: dbd2e9072c9d430072148f00d382c8313d222fdf
+    format: 4
+    restricted: false
+    permission: worldresourcepacks.pack.PCS3Essentials
+  pcs3:
+    url: https://download.nodecdn.net/containers/nodecraft/minepack/d7d52dd34c2f8f1f786a10270a38030f.zip
+    hash: d353ec4d17aff120c3d91bd01c01574bdc5bfaa1
+    format: 4
+    restricted: false
+    permission: worldresourcepacks.pack.pixelcraftseason3
+empty:
+  url: http://cdn.moep.tv/files/Empty.zip
+  hash: 01517226212d27586ea0c5d6aff1aa5492dd2484
+global:
+  pack: pcs3essentials
+  send-delay: 10
+worlds:
+  lobby:
+    pack: pcs3essentials

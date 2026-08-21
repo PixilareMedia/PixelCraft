@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Dead Man Tell No Tail"
+        },
+        "description": {
+            "text": "Well I Supose I Really Should Be Dead But I'm Not Only 500 Times I've Been Killed"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 10000
+    },
+    "parent": "custom_things:backfromthelocker"
+}

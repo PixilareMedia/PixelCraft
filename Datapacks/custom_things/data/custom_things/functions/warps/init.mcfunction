@@ -1,0 +1,11 @@
+scoreboard objectives add spawn trigger
+scoreboard objectives add farmenderman trigger
+scoreboard objectives add farmpigman trigger
+scoreboard objectives add farmhellskeleton trigger
+scoreboard objectives add basewilliam trigger
+scoreboard objectives add basecole trigger
+scoreboard objectives add basegabriel trigger
+scoreboard objectives add baseliam trigger
+scoreboard objectives add basejames trigger
+scoreboard objectives add basenathan trigger
+scoreboard objectives add baseriley trigger

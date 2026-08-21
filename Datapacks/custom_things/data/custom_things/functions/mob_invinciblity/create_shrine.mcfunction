@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:armor_stand,distance=0..1] run data merge entity @e[type=armor_stand,limit=1,distance=0..1] {Invulnerable:0b,Invisible:1b,Tags:["Mob-Invinciblity"]}

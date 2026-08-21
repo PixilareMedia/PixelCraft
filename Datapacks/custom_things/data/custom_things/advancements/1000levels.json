@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "1000 Levels"
+        },
+        "description": {
+            "text": "I Take It You Have No Life? Am I Right?"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "custom_things:blazeit"
+}

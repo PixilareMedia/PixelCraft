@@ -1,0 +1,9 @@
+uuid: fc19ba96-638c-4cbb-99a6-2e681dd802c8
+name: Iruka77
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

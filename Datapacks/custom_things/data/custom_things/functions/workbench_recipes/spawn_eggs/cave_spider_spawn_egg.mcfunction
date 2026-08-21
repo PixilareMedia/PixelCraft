@@ -1,0 +1,8 @@
+tag @s[tag=craftedCaveSpiderSpawnEgg] add alreadyCrafted
+tag @s[tag=craftedCaveSpiderSpawnEgg] remove craftedCaveSpiderSpawnEgg
+execute if block ~ ~ ~ minecraft:dropper{Items:[{Slot:0b,id:"minecraft:spider_eye",Count:1b},{Slot:1b,id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"39173a7a-c957-4ec1-ac1a-43e5a64983df",Name:"Cave Spider",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2NDVkZmQ3N2QwOTkyMzEwN2IzNDk2ZTk0ZWViNWMzMDMyOWY5N2VmYzk2ZWQ3NmUyMjZlOTgyMjQifX19"}]}}}},{Slot:2b,id:"minecraft:spider_eye",Count:1b},{Slot:3b,id:"minecraft:spider_eye",Count:1b},{Slot:4b,id:"minecraft:spider_spawn_egg",Count:1b},{Slot:5b,id:"minecraft:spider_eye",Count:1b},{Slot:6b,id:"minecraft:spider_eye",Count:1b},{Slot:7b,id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"39173a7a-c957-4ec1-ac1a-43e5a64983df",Name:"Cave Spider",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE2NDVkZmQ3N2QwOTkyMzEwN2IzNDk2ZTk0ZWViNWMzMDMyOWY5N2VmYzk2ZWQ3NmUyMjZlOTgyMjQifX19"}]}}}},{Slot:8b,id:"minecraft:spider_eye",Count:1b}]} run tag @s add craftedCaveSpiderSpawnEgg
+execute as @s[tag=craftedCaveSpiderSpawnEgg,tag=!alreadyCrafted] run playsound minecraft:block.end_portal_frame.fill block @a ~ ~ ~
+tag @s[tag=craftedCaveSpiderSpawnEgg,tag=!alreadyCrafted] add alreadyCrafted
+execute as @s[tag=craftedCaveSpiderSpawnEgg] run function custom_things:workbench_recipes/spawn_eggs/cave_spider_spawn_egg_success
+execute as @s[tag=craftedCaveSpiderSpawnEgg] run function custom_things:workbench_recipes/spawn_eggs/cave_spider_spawn_egg
+tag @s[tag=alreadyCrafted] remove alreadyCrafted

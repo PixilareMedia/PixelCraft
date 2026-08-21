@@ -1,0 +1,59 @@
+menu_title: '&cPublic Mute Prefabs'
+open_command: publicmute
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.staff.Mute
+      deny_commands:
+      - '[message] You dont have permission to open menu: Mute'
+items:
+  '1':
+    material: paper
+    slot: 0
+    display_name: '&aMute For Advertising'
+    left_click_commands:
+    - '[player] tempmute <PlayerName> #Advertising @Advertising'
+    - '[close]'
+    right_click_commands:
+    - '[player] tempmute <PlayerName> #Advertising @Advertising'
+    - '[close]'
+  '2':
+    material: map
+    slot: 1
+    display_name: '&aMute For Spaming'
+    left_click_commands:
+    - '[player] tempmute <PlayerName> #Spaming @Spaming'
+    - '[close]'
+    right_click_commands:
+    - '[player] tempmute <PlayerName> #Spaming @Spaming'
+    - '[close]'
+  '3':
+    material: tnt
+    slot: 2
+    display_name: '&aMute For Swearing'
+    left_click_commands:
+    - '[player] tempmute <PlayerName> #Swearing @Swearing'
+    - '[close]'
+    right_click_commands:
+    - '[player] tempmute <PlayerName> #Swearing @Swearing'
+    - '[close]'
+  '4':
+    material: player_head
+    slot: 3
+    display_name: '&aMute For Impersonating Staff'
+    left_click_commands:
+    - '[player] tempmute <PlayerName> #ImpersonatingStaff @ImpersonatingStaff'
+    - '[close]'
+    right_click_commands:
+    - '[player] tempmute <PlayerName> #ImpersonatingStaff @ImpersonatingStaff'
+    - '[close]'
+  '9':
+    material: redstone_lamp
+    slot: 8
+    display_name: '&6Close'
+    left_click_commands:
+    - '[openguimenu] Mute'
+    right_click_commands:
+    - '[openguimenu] Mute'

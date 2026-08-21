@@ -1,0 +1,17 @@
+{
+    "parent": "block/block_pillar",
+    "textures": {
+        "side": "block/workbench_side",
+        "top": "block/workbench_top",
+        "bottom": "block/workbench_bottom"
+    },
+	"display":
+	{
+		"head":
+		{
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, -51.2, 0],
+			"scale":[ 2.3, 2.3, 2.3 ]
+		}
+	}
+}

@@ -1,0 +1,889 @@
+menu_title: '&5Buy Block Heads &d|| &2Balance &6$%vault_eco_balance_commas%'
+open_command: buyshopheadsblocks
+size: 36
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Shop
+      deny_commands:
+      - '[message] You dont have permission to open menu: Shop_Buy_Heads_Blocks'
+items:
+  '1':
+    material: head-Herobrain_gamer
+    slot: 0
+    display_name: '&eHerobrain_gamer''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Herobrain_gamer''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Herobrain_gamer''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Herobrain_gamers Head\"}"},SkullOwner:{Id:"dafa0653-bf9e-40bb-be4b-524c32d05ba0",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE0OWQ1ZjJkYzUyMDAxNTMyNjdlMDc5NzAyNmYwMWE3NDU3MGM2ZTk0NDQ5MGM2YjdkZmIyNmZhNzU5YzE3MiJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Herobrain_gamer''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Herobrain_gamers Head\"}"},SkullOwner:{Id:"dafa0653-bf9e-40bb-be4b-524c32d05ba0",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE0OWQ1ZjJkYzUyMDAxNTMyNjdlMDc5NzAyNmYwMWE3NDU3MGM2ZTk0NDQ5MGM2YjdkZmIyNmZhNzU5YzE3MiJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Herobrain_gamer''s Head &ffor &a$51200&f.'
+  '2':
+    material: head-GamerGabriel
+    slot: 1
+    display_name: '&eGamerGabriels''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x GamerGabriel''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x GamerGabriel''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"GamerGabriels Head\"}"},SkullOwner:{Id:"d506d91f-3303-4263-bb82-9f1af8ac1757",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEzZTRlN2MxYjY0MjdkNGYwNGUyM2I2NzI1NzY2MmUwNzk4YjQ3YmNlYjg2NWEyYWQxZjU0YmNlYTNkOTNjZSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x GamerGabriel''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"GamerGabriels Head\"}"},SkullOwner:{Id:"d506d91f-3303-4263-bb82-9f1af8ac1757",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEzZTRlN2MxYjY0MjdkNGYwNGUyM2I2NzI1NzY2MmUwNzk4YjQ3YmNlYjg2NWEyYWQxZjU0YmNlYTNkOTNjZSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x GamerGabriel''s Head &ffor &a$51200&f.'
+  '3':
+    material: head-midna_87
+    slot: 2
+    display_name: '&emidna_87''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x midna_87''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x midna_87''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"midna_87s Head\"}"},SkullOwner:{Id:"a1aa1131-1513-4fe6-b18b-b94432a63f28",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FkNWNhMjJkOTkzZGRkY2I4YzM1ZDg3Y2VlM2VhOGU0YjVlNzViYjBhODc4YzVmYmZlM2I2M2VhNjUzZDNiNSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x midna_87''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"midna_87s Head\"}"},SkullOwner:{Id:"a1aa1131-1513-4fe6-b18b-b94432a63f28",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FkNWNhMjJkOTkzZGRkY2I4YzM1ZDg3Y2VlM2VhOGU0YjVlNzViYjBhODc4YzVmYmZlM2I2M2VhNjUzZDNiNSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x midna_87''s Head &ffor &a$51200&f.'
+  '4':
+    material: head-IItsBradyy
+    slot: 3
+    display_name: '&eIItsBradyy''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x IItsBradyy''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x IItsBradyy''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"IItsBradyys Head\"}"},SkullOwner:{Id:"cbf8c206-c8b9-4c2e-99ce-87b95a1345cf",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYyMjYwNjY5ODNjY2YxMDcyNjIwZWU4OWQ0ZDMxNmUzYjdjNWMyMzE4NWNmN2ZlZWJmMjBlM2EyNjBhMDQxZCJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x IItsBradyy''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"IItsBradyys Head\"}"},SkullOwner:{Id:"cbf8c206-c8b9-4c2e-99ce-87b95a1345cf",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDYyMjYwNjY5ODNjY2YxMDcyNjIwZWU4OWQ0ZDMxNmUzYjdjNWMyMzE4NWNmN2ZlZWJmMjBlM2EyNjBhMDQxZCJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x IItsBradyy''s Head &ffor &a$51200&f.'
+  '5':
+    material: head-SkyPixels21
+    slot: 4
+    display_name: '&eSkyPixels21''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x SkyPixels21''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x SkyPixels21''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"SkyPixels21s Head\"}"},SkullOwner:{Id:"58b83430-1751-465a-9ef9-045f3ae15d08",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE4YTI0OGFkODhlYjc5NTIxZWJmYjYzMzAyNDg5NDAzMjU0ZDg1MGYwODlkOWMyYWNkMjI1MmMyMjNhM2Q0In19fQ=="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x SkyPixels21''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"SkyPixels21s Head\"}"},SkullOwner:{Id:"58b83430-1751-465a-9ef9-045f3ae15d08",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGE4YTI0OGFkODhlYjc5NTIxZWJmYjYzMzAyNDg5NDAzMjU0ZDg1MGYwODlkOWMyYWNkMjI1MmMyMjNhM2Q0In19fQ=="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x SkyPixels21''s Head &ffor &a$51200&f.'
+  '6':
+    material: head-_Blaze_
+    slot: 5
+    display_name: '&e_Blaze_''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x _Blaze_''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x _Blaze_''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"_Blaze_s Head\"}"},SkullOwner:{Id:"daa31df6-0fe1-4ab4-bbc4-8c348f07151f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNiZGFkNzA5YTg3MGE3OTg4OTMzYzAzNWNlZGVhMjRjYzlhMGYyYWNiNTgyNGNmOTI1OGE3NDQ5OGIzM2MwOSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x _Blaze_''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"_Blaze_s Head\"}"},SkullOwner:{Id:"daa31df6-0fe1-4ab4-bbc4-8c348f07151f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNiZGFkNzA5YTg3MGE3OTg4OTMzYzAzNWNlZGVhMjRjYzlhMGYyYWNiNTgyNGNmOTI1OGE3NDQ5OGIzM2MwOSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x _Blaze_''s Head &ffor &a$51200&f.'
+  '7':
+    material: head-Iruka77
+    slot: 6
+    display_name: '&eIruka77''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Iruka77''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Iruka77''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Iruka77s Head\"}"},SkullOwner:{Id:"0c56020e-c1e4-4a63-90bd-3499fc125e1e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhMWMzZDZiMDkzNzc1Mjc0MTNmMzc4NTA5YTk2M2E0NjdiM2UyNjZlYjA4YzA5ZjhhMTE0ODUwOWI0MjZiZiJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Iruka77''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Iruka77s Head\"}"},SkullOwner:{Id:"0c56020e-c1e4-4a63-90bd-3499fc125e1e",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdhMWMzZDZiMDkzNzc1Mjc0MTNmMzc4NTA5YTk2M2E0NjdiM2UyNjZlYjA4YzA5ZjhhMTE0ODUwOWI0MjZiZiJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Iruka77''s Head &ffor &a$51200&f.'
+  '8':
+    material: head-dieing
+    slot: 7
+    display_name: '&edieing''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x dieing''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x dieing''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"dieings Head\"}"},SkullOwner:{Id:"3a57f5ce-624e-479e-8dab-168611e2a0f9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU4MTY3MGQxNTMxYzkxM2VjOGZmMWEzZDI1OGZmMDYyMjkzZWUxOTMxOGQ0NjQwZDgxZDViYWI1MGNmZGIwZSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x dieing''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"dieings Head\"}"},SkullOwner:{Id:"3a57f5ce-624e-479e-8dab-168611e2a0f9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU4MTY3MGQxNTMxYzkxM2VjOGZmMWEzZDI1OGZmMDYyMjkzZWUxOTMxOGQ0NjQwZDgxZDViYWI1MGNmZGIwZSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x dieing''s Head &ffor &a$51200&f.'
+  '9':
+    material: head-EggyLadd
+    slot: 8
+    display_name: '&eEggyLadd''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x EggyLadd''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x EggyLadd''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"EggyLadds Head\"}"},SkullOwner:{Id:"4422a14b-7b48-4c13-a424-520eb9c64b06",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBmZjk5OTc3YWI1OTRkZDhmM2I5M2Y4NjMzMWNmNDBmMmY2MmI1YmRlNGIxZDc0YTZkOTg4ZjU0ZDUzODg4In19fQ=="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x EggyLadd''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"EggyLadds Head\"}"},SkullOwner:{Id:"4422a14b-7b48-4c13-a424-520eb9c64b06",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBmZjk5OTc3YWI1OTRkZDhmM2I5M2Y4NjMzMWNmNDBmMmY2MmI1YmRlNGIxZDc0YTZkOTg4ZjU0ZDUzODg4In19fQ=="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x EggyLadd''s Head &ffor &a$51200&f.'
+  '10':
+    material: head-FiddleWorm
+    slot: 9
+    display_name: '&eFiddleWorm''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x FiddleWorm''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x FiddleWorm''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"FiddleWorms Head\"}"},SkullOwner:{Id:"38c54fb7-2904-4e11-8c49-19936f79a6c7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ3NGIyOTRmYmE2MTY1YzllYzQ5ZTU5MmU2NTliNDE2YzlkNmJiNDZhZDNiMWE3MmI4MGIyMjIzMTllMzU4ZiJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x FiddleWorm''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"FiddleWorms Head\"}"},SkullOwner:{Id:"38c54fb7-2904-4e11-8c49-19936f79a6c7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ3NGIyOTRmYmE2MTY1YzllYzQ5ZTU5MmU2NTliNDE2YzlkNmJiNDZhZDNiMWE3MmI4MGIyMjIzMTllMzU4ZiJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x FiddleWorm''s Head &ffor &a$51200&f.'
+  '11':
+    material: head-TheTrueDuality
+    slot: 10
+    display_name: '&eTheTrueDuality''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x TheTrueDuality''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x TheTrueDuality''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"TheTrueDualitys Head\"}"},SkullOwner:{Id:"f76cfc4f-53d0-4385-8cc7-915d6cbfbea2",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZmOTc0ZWQ1ZGM3ZDEwM2VkMGE0ZDIyY2YwZGMyNmUxYWQwNTE5ZTIyY2UyOTJlY2IyODk4YTQ2OGUxMjUzNSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x TheTrueDuality''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"TheTrueDualitys Head\"}"},SkullOwner:{Id:"f76cfc4f-53d0-4385-8cc7-915d6cbfbea2",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjZmOTc0ZWQ1ZGM3ZDEwM2VkMGE0ZDIyY2YwZGMyNmUxYWQwNTE5ZTIyY2UyOTJlY2IyODk4YTQ2OGUxMjUzNSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x TheTrueDuality''s Head &ffor &a$51200&f.'
+  '12':
+    material: head-Butterminer200
+    slot: 11
+    display_name: '&eButterminer200''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Butterminer200''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Butterminer200''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Butterminer200s Head\"}"},SkullOwner:{Id:"c7986445-050d-461f-b8f9-b91c75b64fca",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlMWU1OTQwNDc4NDFhNWJhZDU4ODJmMjg5NDdkZTg2ZTIyYTUwYTYzYjU5M2NiYjQ1YmIwOWEyOTYyZThiYiJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Butterminer200''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Butterminer200s Head\"}"},SkullOwner:{Id:"c7986445-050d-461f-b8f9-b91c75b64fca",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlMWU1OTQwNDc4NDFhNWJhZDU4ODJmMjg5NDdkZTg2ZTIyYTUwYTYzYjU5M2NiYjQ1YmIwOWEyOTYyZThiYiJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Butterminer200''s Head &ffor &a$51200&f.'
+  '13':
+    material: head-sparklevamp02
+    slot: 12
+    display_name: '&esparklevamp02''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x sparklevamp02''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x sparklevamp02''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"sparklevamp02s Head\"}"},SkullOwner:{Id:"1059248b-a427-442a-be53-de7c6f4c8e97",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiZjc1MjU2OTNhN2IwNjMwOWZiNjkyYjg2ZTgxYTA4ZGViNDRkMTA0MjczMWViYjdjNzVlZWZjODQ2ZjZhMCJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x sparklevamp02''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"sparklevamp02s Head\"}"},SkullOwner:{Id:"1059248b-a427-442a-be53-de7c6f4c8e97",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2JiZjc1MjU2OTNhN2IwNjMwOWZiNjkyYjg2ZTgxYTA4ZGViNDRkMTA0MjczMWViYjdjNzVlZWZjODQ2ZjZhMCJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x sparklevamp02''s Head &ffor &a$51200&f.'
+  '14':
+    material: head-Livvie24
+    slot: 13
+    display_name: '&eLivvie24''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Livvie24''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Livvie24''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Livvie24s Head\"}"},SkullOwner:{Id:"20e691e4-d477-438d-9ae9-444069ef8a00",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYyZTMyNTNhNjQ3ZjEyZGRmZWVkZWFkM2UzZDZlNTU4YzE2ZDZmNTY3Yzc3MzI3OTA1NDhiOGVjNmI5YmM2NyJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Livvie24''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Livvie24s Head\"}"},SkullOwner:{Id:"20e691e4-d477-438d-9ae9-444069ef8a00",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWYyZTMyNTNhNjQ3ZjEyZGRmZWVkZWFkM2UzZDZlNTU4YzE2ZDZmNTY3Yzc3MzI3OTA1NDhiOGVjNmI5YmM2NyJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Livvie24''s Head &ffor &a$51200&f.'
+  '15':
+    material: head-Marco_Lillian
+    slot: 14
+    display_name: '&eMarco_Lillian''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Marco_Lillian''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Marco_Lillian''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Marco_Lillians Head\"}"},SkullOwner:{Id:"948693ba-670a-4b9d-b948-400c938c9117",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUzM2NmMTJlZjNkYmYxZWJjOWYzNzg5NWIyNDA0MzllOTNkYzkwMzY3NDkyZjUxMTIwYjkwZDVlNmE4MDI4OCJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Marco_Lillian''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Marco_Lillians Head\"}"},SkullOwner:{Id:"948693ba-670a-4b9d-b948-400c938c9117",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUzM2NmMTJlZjNkYmYxZWJjOWYzNzg5NWIyNDA0MzllOTNkYzkwMzY3NDkyZjUxMTIwYjkwZDVlNmE4MDI4OCJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Marco_Lillian''s Head &ffor &a$51200&f.'
+  '16':
+    material: head-CatSandWich999
+    slot: 15
+    display_name: '&eCatSandWich999''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x CatSandWich999''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x CatSandWich999''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"CatSandWich999s Head\"}"},SkullOwner:{Id:"6a4e733c-a339-4617-8d18-4918346d636d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMxNjYyOThjOWVhMTdhZmJiNGI0MTFjYzQxY2VkZGUyMWFlNTFiNzEwYjc2Y2FlODczOTQwNjJmOTZjYWJiIn19fQ=="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x CatSandWich999''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"CatSandWich999s Head\"}"},SkullOwner:{Id:"6a4e733c-a339-4617-8d18-4918346d636d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGMxNjYyOThjOWVhMTdhZmJiNGI0MTFjYzQxY2VkZGUyMWFlNTFiNzEwYjc2Y2FlODczOTQwNjJmOTZjYWJiIn19fQ=="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x CatSandWich999''s Head &ffor &a$51200&f.'
+  '17':
+    material: head-zerofang666
+    slot: 16
+    display_name: '&ezerofang666''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x zerofang666''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x zerofang666''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"zerofang666s Head\"}"},SkullOwner:{Id:"731b0c66-7650-472c-9cc5-1a750ebfc9b9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVlNmFmYjViZjRlOTliZTk4OGRjZmUwOWZjMWQxNjU3MjUwODNlYzlhODg4NzQ5NGEyYTRhNDJlZmU2ZDE5NSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x zerofang666''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"zerofang666s Head\"}"},SkullOwner:{Id:"731b0c66-7650-472c-9cc5-1a750ebfc9b9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVlNmFmYjViZjRlOTliZTk4OGRjZmUwOWZjMWQxNjU3MjUwODNlYzlhODg4NzQ5NGEyYTRhNDJlZmU2ZDE5NSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x zerofang666''s Head &ffor &a$51200&f.'
+  '18':
+    material: head-AnnyongB
+    slot: 17
+    display_name: '&eAnnyongB''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x AnnyongB''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x AnnyongB''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"AnnyongBs Head\"}"},SkullOwner:{Id:"f3ee5f54-6c13-405b-9dc8-2446e2f165ec",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJkZGJlMGIxZGQyMTZlNjc1ZWVmMTRlYjYxZTdkNmRkZjA1M2Q1MjMwNWExN2NkMDNjNjdlOTljYTg1ZjU0NiJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x AnnyongB''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"AnnyongBs Head\"}"},SkullOwner:{Id:"f3ee5f54-6c13-405b-9dc8-2446e2f165ec",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWJkZGJlMGIxZGQyMTZlNjc1ZWVmMTRlYjYxZTdkNmRkZjA1M2Q1MjMwNWExN2NkMDNjNjdlOTljYTg1ZjU0NiJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x AnnyongB''s Head &ffor &a$51200&f.'
+  '19':
+    material: head-UBAF_Inferno
+    slot: 18
+    display_name: '&eUBAF_Inferno''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x UBAF_Inferno''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x UBAF_Inferno''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"UBAF_Infernos Head\"}"},SkullOwner:{Id:"227d219c-4bf6-428a-9930-0b5072b54a4c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3NWUxZDc5ZGE0NWZjNTJjNjUxYWQ4M2M2NGIxM2I3YjNhNWUwNDU4MjY5YjdhNjEzY2Q1NjYzNmZlY2JkMCJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x UBAF_Inferno''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"UBAF_Infernos Head\"}"},SkullOwner:{Id:"227d219c-4bf6-428a-9930-0b5072b54a4c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3NWUxZDc5ZGE0NWZjNTJjNjUxYWQ4M2M2NGIxM2I3YjNhNWUwNDU4MjY5YjdhNjEzY2Q1NjYzNmZlY2JkMCJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x UBAF_Inferno''s Head &ffor &a$51200&f.'
+  '20':
+    material: head-wolfcat01
+    slot: 19
+    display_name: '&ewolfcat01''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x wolfcat01''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x wolfcat01''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"wolfcat01s Head\"}"},SkullOwner:{Id:"3b2bba5a-22a3-4748-bb63-d7e6717fd09a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk3YmY1Mjc0NDg0ZTZmMWRjYjI5M2ZhNWU5ZmRlYzRhYTllMjBkNDU1MGRmMGYxZWI3YzY5MzU4MDVjNWFlIn19fQ=="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x wolfcat01''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"wolfcat01s Head\"}"},SkullOwner:{Id:"3b2bba5a-22a3-4748-bb63-d7e6717fd09a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk3YmY1Mjc0NDg0ZTZmMWRjYjI5M2ZhNWU5ZmRlYzRhYTllMjBkNDU1MGRmMGYxZWI3YzY5MzU4MDVjNWFlIn19fQ=="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x wolfcat01''s Head &ffor &a$51200&f.'
+  '21':
+    material: head-_Pengu__
+    slot: 20
+    display_name: '&e_Pengu__''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x _Pengu__''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x _Pengu__''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"_Pengu__s Head\"}"},SkullOwner:{Id:"6858b0d5-72bc-4f3f-8c6e-489eec1ba1be",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMwMzU1MGE3YWU4ZWVjZTkxOWJkYjU4MjliNzg2ZWQ2NmRlMTQzZDAwMzUzOTY4NDU1MTAyMWE4Y2RmMjk3YSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x _Pengu__''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"_Pengu__s Head\"}"},SkullOwner:{Id:"6858b0d5-72bc-4f3f-8c6e-489eec1ba1be",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzMwMzU1MGE3YWU4ZWVjZTkxOWJkYjU4MjliNzg2ZWQ2NmRlMTQzZDAwMzUzOTY4NDU1MTAyMWE4Y2RmMjk3YSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x _Pengu__''s Head &ffor &a$51200&f.'
+  '22':
+    material: head-willongnose
+    slot: 21
+    display_name: '&ewillongnose''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x willongnose''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x willongnose''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"willongnoses Head\"}"},SkullOwner:{Id:"601e70d5-505f-43a3-aa67-31a4fc05992a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMyOTc4MjM2OGI2N2QzZjBiMjQ1NGNhZDZiOTZlNTRjYjliMjVmNWRmOGE4NzU1NzIwMzFmMjZlZWFhZDRhOSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x willongnose''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"willongnoses Head\"}"},SkullOwner:{Id:"601e70d5-505f-43a3-aa67-31a4fc05992a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGMyOTc4MjM2OGI2N2QzZjBiMjQ1NGNhZDZiOTZlNTRjYjliMjVmNWRmOGE4NzU1NzIwMzFmMjZlZWFhZDRhOSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x willongnose''s Head &ffor &a$51200&f.'
+  '23':
+    material: head-SW_MC
+    slot: 22
+    display_name: '&eSW_MC''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x SW_MC''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x SW_MC''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"SW_MCs Head\"}"},SkullOwner:{Id:"6f31e8c3-44a0-4b7b-ba66-1e46854e4a7c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU0YzhmZjljY2FiNDIwOGM1YTExZTY0NzZmYmI0MjZjZmZmMWQzMTQxMTg0YjE0NjYxMDhmNDkxNDQ0NjZmYyJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x SW_MC''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"SW_MCs Head\"}"},SkullOwner:{Id:"6f31e8c3-44a0-4b7b-ba66-1e46854e4a7c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTU0YzhmZjljY2FiNDIwOGM1YTExZTY0NzZmYmI0MjZjZmZmMWQzMTQxMTg0YjE0NjYxMDhmNDkxNDQ0NjZmYyJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x SW_MC''s Head &ffor &a$51200&f.'
+  '24':
+    material: head-IDontToggle__
+    slot: 23
+    display_name: '&eIDontToggle__''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x IDontToggle__''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x IDontToggle__''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"IDontToggle__s Head\"}"},SkullOwner:{Id:"9197c779-7afa-47b5-9542-ebd3fb6b6362",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FlNzkxZDk5YWQzOTU2YTQwNDQ2ZGY2Mjc5MDc3MGM4ZjQ2YjRlNWNhN2EwMTNmOWExNDZkZWJhNzk4NWM4ZCJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x IDontToggle__''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"IDontToggle__s Head\"}"},SkullOwner:{Id:"9197c779-7afa-47b5-9542-ebd3fb6b6362",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2FlNzkxZDk5YWQzOTU2YTQwNDQ2ZGY2Mjc5MDc3MGM4ZjQ2YjRlNWNhN2EwMTNmOWExNDZkZWJhNzk4NWM4ZCJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x IDontToggle__''s Head &ffor &a$51200&f.'
+  '25':
+    material: head-WolvesWing
+    slot: 24
+    display_name: '&eWolvesWing''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x WolvesWing''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x WolvesWing''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"WolvesWings Head\"}"},SkullOwner:{Id:"9c0b51d5-c22d-46db-b256-0b1ed46cd492",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE3ZjAzMGM5YjdjZDdjNmE5NGMzZTM4MmVmMmEwZDRiYzI3N2E0MmI1YWRhNDg4YjBiZjU2MTU5MGZhMTE4NSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x WolvesWing''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"WolvesWings Head\"}"},SkullOwner:{Id:"9c0b51d5-c22d-46db-b256-0b1ed46cd492",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmE3ZjAzMGM5YjdjZDdjNmE5NGMzZTM4MmVmMmEwZDRiYzI3N2E0MmI1YWRhNDg4YjBiZjU2MTU5MGZhMTE4NSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x WolvesWing''s Head &ffor &a$51200&f.'
+  '26':
+    material: head-Frost780
+    slot: 25
+    display_name: '&eFrost780''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Frost780''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Frost780''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Frost780s Head\"}"},SkullOwner:{Id:"d14f7aef-4329-4c87-83dd-0fdc2c28a6dc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4MTA4OGExNzk0M2QwNDE2YjM3YjhiMDE1NzZmYzhkZTdmZWZkNGZkY2I5YTlkNTRhY2Q0OThhMDU0ZWExOSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Frost780''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Frost780s Head\"}"},SkullOwner:{Id:"d14f7aef-4329-4c87-83dd-0fdc2c28a6dc",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4MTA4OGExNzk0M2QwNDE2YjM3YjhiMDE1NzZmYzhkZTdmZWZkNGZkY2I5YTlkNTRhY2Q0OThhMDU0ZWExOSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Frost780''s Head &ffor &a$51200&f.'
+  '27':
+    material: head-BurningOrphans
+    slot: 26
+    display_name: '&eBurningOrphans''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x BurningOrphans''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x BurningOrphans''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"BurningOrphans Head\"}"},SkullOwner:{Id:"846c366f-3f3f-4601-b865-584edfa8bfc3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODViYzk0Yzc5ZTcyNGM0ODViZDQ0NGU1NTdmYmEzNjViMWZjM2YzNGQ5ZjMzMWJlYTY5MGNhZjdmNjhiNTkyMSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x BurningOrphans''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"BurningOrphans Head\"}"},SkullOwner:{Id:"846c366f-3f3f-4601-b865-584edfa8bfc3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODViYzk0Yzc5ZTcyNGM0ODViZDQ0NGU1NTdmYmEzNjViMWZjM2YzNGQ5ZjMzMWJlYTY5MGNhZjdmNjhiNTkyMSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x BurningOrphans''s Head &ffor &a$51200&f.'
+  '28':
+    material: head-igomigo
+    slot: 27
+    display_name: '&eigomigo''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x igomigo''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x igomigo''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"igomigos Head\"}"},SkullOwner:{Id:"d023601e-2b76-4b48-9323-777d0f3c43e3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y5OTYyY2JiN2RkYmNlYzNhNGRlMjc1ZGRjZmZlN2RiNzg5ODA2Y2UwMDE5ODEyZmRmYTc5OTBjMDljZWFmYSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x igomigo''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"igomigos Head\"}"},SkullOwner:{Id:"d023601e-2b76-4b48-9323-777d0f3c43e3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y5OTYyY2JiN2RkYmNlYzNhNGRlMjc1ZGRjZmZlN2RiNzg5ODA2Y2UwMDE5ODEyZmRmYTc5OTBjMDljZWFmYSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x igomigo''s Head &ffor &a$51200&f.'
+  '29':
+    material: head-Quintal2012
+    slot: 28
+    display_name: '&eQuintal2012''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Quintal2012''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Quintal2012''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Quintal2012s Head\"}"},SkullOwner:{Id:"7e864baa-7455-406a-b728-88a1394c378d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAyMmUzOWNlMDMzZTQ1MmU0YjQ0OTdhNWViMDFmZDU0MTI1ODUyNDI1YzE1ZjQ0NTU5MTg3MjQ5MTgyMmY0NyJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Quintal2012''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{display:{Name:"{\"text\":\"Quintal2012s Head\"}"},SkullOwner:{Id:"7e864baa-7455-406a-b728-88a1394c378d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAyMmUzOWNlMDMzZTQ1MmU0YjQ0OTdhNWViMDFmZDU0MTI1ODUyNDI1YzE1ZjQ0NTU5MTg3MjQ5MTgyMmY0NyJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Quintal2012''s Head &ffor &a$51200&f.'
+  '29':
+    material: head-MikesPrivateHoez
+    slot: 28
+    display_name: '&eMikesPrivateHoez''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x MikesPrivateHoez''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x MikesPrivateHoez''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{Name:"{\"text\":\"MikesPrivateHoezs Head\"}"},SkullOwner:{Id:"d023601e-2b76-4b48-9323-777d0f3c43e3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y5OTYyY2JiN2RkYmNlYzNhNGRlMjc1ZGRjZmZlN2RiNzg5ODA2Y2UwMDE5ODEyZmRmYTc5OTBjMDljZWFmYSJ9fX0="}]}}} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x MikesPrivateHoez''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{Name:"{\"text\":\"MikesPrivateHoezs Head\"}"},SkullOwner:{Id:"d023601e-2b76-4b48-9323-777d0f3c43e3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y5OTYyY2JiN2RkYmNlYzNhNGRlMjc1ZGRjZmZlN2RiNzg5ODA2Y2UwMDE5ODEyZmRmYTc5OTBjMDljZWFmYSJ9fX0="}]}}} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x MikesPrivateHoez''s Head &ffor &a$51200&f.'
+  '36':
+    material: redstone_lamp
+    slot: 35
+    display_name: '&6Close'
+    left_click_commands:
+    - '[openguimenu] Shop_Buy_Heads'
+    right_click_commands:
+    - '[openguimenu] Shop_Buy_Heads'

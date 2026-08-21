@@ -1,0 +1,46 @@
+name: mod
+permissions:
+- OpenInv.anychest
+- OpenInv.crossword
+- OpenInv.openender
+- OpenInv.openenderall
+- OpenInv.openinv
+- OpenInv.silent
+- ab.help
+- ab.history
+- ab.kick.use
+- ab.mute.temp
+- ab.mute.undo
+- coreprotect.co
+- coreprotect.core
+- coreprotect.coreprotect
+- coreprotect.inspect
+- coreprotect.lookup
+- discordsrv.silentjoin
+- discordsrv.silentquit
+- essentials.sethome.multiple.mod
+- essentials.tp.others
+- essentials.tpo
+- essentials.vanish
+- essentials.vanish.see
+- minecraft.command.selector
+- pixelcraft.staff.Kick
+- pixelcraft.staff.Mute
+- pixelcraft.staff.Server
+- skinsrestorer.admincommand
+- skinsrestorer.admincommand.props
+- skinsrestorer.admincommand.status
+- skinsrestorer.command.update.other
+- staff.join
+- staff.online
+- staffchat.mod
+- staffchat.staff
+- weight.5
+parents:
+- pixelss1
+prefixes:
+- '&0[&2Mod&0] &c':
+    priority: 5
+meta:
+- default:
+    value: 'false'

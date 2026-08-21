@@ -1,0 +1,59 @@
+menu_title: '&cSilent Kick Prefabs'
+open_command: silentkick
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.staff.Kick
+      deny_commands:
+      - '[message] You dont have permission to open menu: Kick'
+items:
+  '1':
+    material: obsidian
+    slot: 0
+    display_name: '&aKick For Being Annoying'
+    left_click_commands:
+    - '[player] advancedban:kick <PlayerName> -s @Annoying'
+    - '[close]'
+    right_click_commands:
+    - '[player] advancedban:kick <PlayerName> -s @Annoying'
+    - '[close]'
+  '2':
+    material: player_head
+    slot: 1
+    display_name: '&aKick For Impersonating Staff'
+    left_click_commands:
+    - '[player] advancedban:kick <PlayerName> -s @Impersonating_Staff'
+    - '[close]'
+    right_click_commands:
+    - '[player] advancedban:kick <PlayerName> -s @Impersonating_Staff'
+    - '[close]'
+  '3':
+    material: nautilus_shell
+    slot: 2
+    display_name: '&aKick For Asking To Be Un Mutted'
+    left_click_commands:
+    - '[player] advancedban:kick <PlayerName> -s @MsgStaffToUnMuteYou'
+    - '[close]'
+    right_click_commands:
+    - '[player] advancedban:kick <PlayerName> -s @MsgStaffToUnMuteYou'
+    - '[close]'
+  '4':
+    material: barrier
+    slot: 3
+    display_name: '&aKickall'
+    left_click_commands:
+    - '[player] kickall'
+    - '[close]'
+    right_click_commands:
+    - '[player] kickall'
+    - '[close]'
+  '9':
+    material: redstone_lamp
+    slot: 8
+    display_name: '&6Close'
+    left_click_commands:
+    - '[openguimenu] Kick'
+    right_click_commands:
+    - '[openguimenu] Kick'

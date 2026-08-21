@@ -1,0 +1,13 @@
+uuid: 23cc19ab-6b90-4139-8f7a-7e76d5cb3267
+name: GeorgeWBush1946
+primary-group: default
+permissions:
+- deluxetags.tag.Abused
+- deluxetags.tag.Money
+- essentials.nick
+- essentials.nick.color
+- essentials.nick.format
+- essentials.nick.magic
+- essentials.sethome.multiple.upgrade1
+parents:
+- default

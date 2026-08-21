@@ -1,0 +1,8 @@
+uuid: 91983e64-aca1-4cc9-a0fb-fdfbdee94513
+name: AnnyongB
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss3

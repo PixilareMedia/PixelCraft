@@ -1,0 +1,8 @@
+uuid: 603f9ea4-a88f-439c-9e85-8c670a310d4a
+name: SW_MC
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss3

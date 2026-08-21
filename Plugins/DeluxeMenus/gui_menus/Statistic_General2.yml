@@ -1,0 +1,122 @@
+menu_title: '&5Your &6General Statistics'
+open_command: StatisticGeneral2
+size: 18
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic_General2'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '10':
+    material: emerald
+    slot: 9
+    display_name: '&7Talked To Villager'
+    lore:
+    - '&8* &a%statistic_talked_to_villager%'
+  '11':
+    material: skeleton_skull
+    slot: 10
+    display_name: '&7Time Since Death'
+    lore:
+    - '&8* &a%statistic_time_since_death%'
+  '12':
+    material: emerald_block
+    slot: 11
+    display_name: '&7Traded With Villager'
+    lore:
+    - '&8* &a%statistic_traded_with_villager%'
+  '13':
+    material: trapped_chest
+    slot: 12
+    display_name: '&7Trapped Chest Triggered'
+    lore:
+    - '&8* &a%statistic_trapped_chest_triggered%'
+  '14':
+    material: dirt
+    slot: 13
+    display_name: '&7Walk One cm'
+    lore:
+    - '&8* &a%statistic_walk_one_cm%'
+  '15':
+    material: red_bed
+    slot: 14
+    display_name: '&7Sleep In Bed'
+    lore:
+    - '&8* &a%statistic_sleep_in_bed%'
+  '16':
+    material: glass
+    slot: 15
+    display_name: '&7Sneak Time'
+    lore:
+    - '&8* &a%statistic_sneak_time%'
+  '17':
+    material: elytra
+    slot: 16
+    display_name: '&7Aviate One cm'
+    lore:
+    - '&8* &a%statistic_aviate_one_cm%'

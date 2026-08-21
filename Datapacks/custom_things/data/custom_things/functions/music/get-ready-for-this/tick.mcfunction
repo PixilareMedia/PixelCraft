@@ -1,0 +1,1 @@
+execute as @a[tag=play1319523359] run function custom_things:music/get-ready-for-this/playing

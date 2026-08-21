@@ -1,0 +1,18 @@
+{
+  "item.minecraft.knowledge_book": "Wrench",
+  "debug.copy_location.help": "F3 + C = Copy location as /tp command, hold F3 + C to capture a panoramic of the game",
+  "debug.crash.message": "F3 + C is held down. This will take a panoramic of the game unless released.",
+  "debug.crash.warning": "Taking panoramic in %s...",
+  "item.minecraft.music_disc_13.desc": "Flash Funk (Marshmello Remix)",
+  "item.minecraft.music_disc_cat.desc": "The Big Bang Theory Theme",
+  "item.minecraft.music_disc_blocks.desc": "Theme",
+  "item.minecraft.music_disc_chirp.desc": "Cistrolat - Sapphire (feat. Kédo Rebelle)",
+  "item.minecraft.music_disc_far.desc": "AdhesiveWombat - StormCrusher",
+  "item.minecraft.music_disc_mall.desc": "Razihel - Skybreaker",
+  "item.minecraft.music_disc_mellohi.desc": "Monstercat Christmas Album 2012",
+  "item.minecraft.music_disc_stal.desc": "Remember The Heroes",
+  "item.minecraft.music_disc_strad.desc": "FCD - Breaking Silence",
+  "item.minecraft.music_disc_ward.desc": "Mine All Day",
+  "item.minecraft.music_disc_11.desc": "Jeopardy Think Song",
+  "item.minecraft.music_disc_wait.desc": "Crafted Musiuc - Growing Grass (v2)"
+}

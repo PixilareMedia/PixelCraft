@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 64
+    block: iron_ore
+display:
+  name: "&9Mine Iron 3"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 64 iron ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 64 Iron Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $200."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/64 iron ore mined."
+  type: "iron_ore"
+rewards:
+  - "eco give {player} 200"
+options:
+  category: "Mining"
+  requires:
+    - "mineironore2"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 3

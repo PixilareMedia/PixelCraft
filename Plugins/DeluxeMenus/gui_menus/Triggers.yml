@@ -1,0 +1,75 @@
+menu_title: '&aThe Triggers'
+open_command: triggers
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Triggers
+      deny_commands:
+      - '[message] You dont have permission to open menu: Triggers'
+items:
+  '1':
+    material: compass
+    slot: 0
+    display_name: '&aCordinats Hotbar Toggle'
+    left_click_commands:
+    - '[player] trigger ch_toggle'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger ch_toggle'
+    - '[close]'
+  '2':
+    material: obsidian
+    slot: 1
+    display_name: '&aNether Portal Calc Standing In Overworld'
+    left_click_commands:
+    - '[player] trigger nc_inOverworld'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger nc_inOverworld'
+    - '[close]'
+  '3':
+    material: netherrack
+    slot: 2
+    display_name: '&aNether Portal Calc Standing In Nether'
+    left_click_commands:
+    - '[player] trigger nc_inNether'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger nc_inNether'
+    - '[close]'
+  '4':
+    material: wheat_seeds
+    slot: 3
+    display_name: '&aSeed'
+    left_click_commands:
+    - '[player] trigger seed'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger seed'
+    - '[close]'
+  '5':
+    material: note_block
+    slot: 4
+    display_name: '&aMusic'
+    left_click_commands:
+    - '[openguimenu] Music'
+    right_click_commands:
+    - '[openguimenu] Music'
+  '6':
+    material: diamond_hoe
+    slot: 5
+    display_name: '&aRandomTick'
+    left_click_commands:
+    - '[openguimenu] RandomTick'
+    right_click_commands:
+    - '[openguimenu] RandomTick'
+  '7':
+    material: redstone_lamp
+    slot: 6
+    display_name: '&6Close'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

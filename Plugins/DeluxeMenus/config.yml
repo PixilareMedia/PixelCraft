@@ -1,0 +1,112 @@
+# DeluxeMenus 1.13.0-Release main configuration file
+# 
+# A full wiki on how to use this plugin can be found at:
+# https://github.com/help-chat/DeluxeMenus/wiki
+
+debug: false
+check_updates: true
+gui_menus:
+  Players:
+    file: Players.yml
+  Players2:
+    file: Players2.yml
+  Toggle:
+    file: Toggle.yml
+  Triggers:
+    file: Triggers.yml
+  RandomTick:
+    file: RandomTick.yml
+  Info:
+    file: Info.yml
+  Help:
+    file: Help.yml
+  Help2:
+    file: Help2.yml
+  Help3:
+    file: Help3.yml
+  Music:
+    file: Music.yml
+  Warps:
+    file: Warps.yml
+  Ban:
+    file: Ban.yml
+  BanSilent:
+    file: BanSilent.yml
+  BanPublic:
+    file: BanPublic.yml
+  Kick:
+    file: Kick.yml
+  KickSilent:
+    file: KickSilent.yml
+  KickPublic:
+    file: KickPublic.yml
+  Mute:
+    file: Mute.yml
+  MuteSilent:
+    file: MuteSilent.yml
+  MutePublic:
+    file: MutePublic.yml
+  Server:
+    file: Server.yml
+  Statistic:
+    file: Statistic.yml
+  Statistic_General:
+    file: Statistic_General.yml
+  Statistic_General2:
+    file: Statistic_General2.yml
+  Statistic_Items:
+    file: Statistic_Items.yml
+  Statistic_Items2:
+    file: Statistic_Items2.yml
+  Statistic_Items3:
+    file: Statistic_Items3.yml
+  Statistic_Items4:
+    file: Statistic_Items4.yml
+  Statistic_Items5:
+    file: Statistic_Items5.yml
+  Statistic_Items6:
+    file: Statistic_Items6.yml
+  Statistic_Items7:
+    file: Statistic_Items7.yml
+  Statistic_Items8:
+    file: Statistic_Items8.yml
+  Statistic_Items9:
+    file: Statistic_Items9.yml
+  Statistic_Items10:
+    file: Statistic_Items10.yml
+  Statistic_Items11:
+    file: Statistic_Items11.yml
+  Statistic_Items12:
+    file: Statistic_Items12.yml
+  Statistic_Items13:
+    file: Statistic_Items13.yml
+  Statistic_Items14:
+    file: Statistic_Items14.yml
+  Statistic_Items15:
+    file: Statistic_Items15.yml
+  Statistic_Items16:
+    file: Statistic_Items16.yml
+  Statistic_Items17:
+    file: Statistic_Items17.yml
+  Statistic_Items18:
+    file: Statistic_Items18.yml
+  Statistic_Items19:
+    file: Statistic_Items19.yml
+  Statistic_Items20:
+    file: Statistic_Items20.yml
+  Statistic_Mobs:
+    file: Statistic_Mobs.yml
+  Statistic_Mobs2:
+    file: Statistic_Mobs2.yml
+  Staff:
+    file: Staff.yml
+  Shop:
+    file: Shop.yml
+  Shop_Conversion:
+    file: Shop_Conversion.yml
+  Shop_Buy:
+    file: Shop_Buy.yml
+  Shop_Buy_Heads:
+    file: Shop_Buy_Heads.yml
+  Shop_Buy_Heads_Pixels:
+    file: Shop_Buy_Heads_Pixels.yml

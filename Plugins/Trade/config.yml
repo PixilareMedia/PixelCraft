@@ -1,0 +1,32 @@
+Prefix: '&7[&cTrade&7] '
+PermissionTrade: trade.player
+PermissionReload: trade.admin
+Messages:
+  Trade: '%prefix%&7/&7trade &c<playerName> &7| &cTrade with Player'
+  Reload: '%prefix%&7/&7trade &creload &7| &cReload the Configuration'
+  TradeRequest: '%prefix%&7Trade request has been sent to &a%player%&7!'
+  TradeRequestAlreadySent: '%prefix%&7Trade request has been already sent to &a%player%&7!'
+  TradeRequestOtherLine1: '%prefix%&7Trade request has been sent from &a%player%&7!'
+  TradeRequestOtherLine2: '%prefix%&7Accept it using &c/trade %player%&7!'
+  TradeRequestAccepted: '%prefix%&7Trade request has been accepted from &a%player%&7!'
+  TradeRequestOtherAccepted: '%prefix%&7You accepted the trade request from &a%player%&7!'
+  TradeRequestTimeOver: '%prefix%&7Trade request with &c%player% &7has been removed,
+    time over&7!'
+  TradeOtherWorld: '%prefix%&7Trade Request can''t be sent, Player is on other World&7!'
+  TradeHighRadius: '%prefix%&7Trade Request failed, Player is too far away&7!'
+  NoSelfTrade: '%prefix%&cYou can''t trade with yourself!'
+  TradeCancelled: '%prefix%&cInventory has been closed, trade has been cancelled!'
+  PlayerDoesNotExist: '%prefix%&cThe entered Player does not exist!'
+  Reloaded: '%prefix%&eConfiguration &7has been reloaded.'
+TradeSettings:
+  BlockRadius: 1000000
+  AllowedTime: 20000
+  InventoryTitle: You                  Other
+  Items:
+    Accept: '&aClick here to accept the Trade!'
+    Decline: '&cClick here to decline the Trade!'
+    Status:
+      Empty: '&7Status Pending..'
+      Accepted: '&aAccepted!'
+      Declined: '&cDeclined!'
+      Traded: '&b > Traded <'

@@ -1,0 +1,35 @@
+menu_title: '&cMute Prefabs'
+open_command: mute
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.staff.Mute
+      deny_commands:
+      - '[message] You dont have permission to open menu: Mute'
+items:
+  '3':
+    material: bell
+    slot: 2
+    display_name: '&aPublic Mute'
+    left_click_commands:
+    - '[openguimenu] MutePublic'
+    right_click_commands:
+    - '[openguimenu] MutePublic'
+  '5':
+    material: redstone_lamp
+    slot: 4
+    display_name: '&6Close'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '7':
+    material: map
+    slot: 6
+    display_name: '&aSilent Mute'
+    left_click_commands:
+    - '[openguimenu] MuteSilent'
+    right_click_commands:
+    - '[openguimenu] MuteSilent'

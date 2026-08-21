@@ -1,0 +1,44 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&7Support Crate'
+  Preview-Name: '&7Support Crate Preview'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 25
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lMonthly Crate&7.'
+  Item: CHEST
+  Glowing: false
+  Name: '&e&lSupport Chest'
+  Lore:
+  - '&7This crate contains support items.'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  Preview:
+    Toggle: true
+    ChestLines: 3
+    Glass:
+      Toggle: true
+      Item: YELLOW_STAINED_GLASS_PANE
+  PhysicalKey:
+    Name: '&e&lSupport Crate &c&lKey'
+    Lore:
+    - '&7A special Key'
+    - '&7For a special Crate.'
+    Item: TRIPWIRE_HOOK
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&e&l$1,000'
+      DisplayItem: SUNFLOWER
+      DisplayAmount: 1
+      Lore:
+      - '&7Make it rain a lot of Money.'
+      - '&6&lChance: &c&l100%'
+      MaxRange: 100
+      Chance: 100
+      Firework: true
+      Commands:
+      - eco give %Player% 1000
+      Messages:
+      - '&7You just won &a$1,000&7.'

@@ -1,0 +1,9 @@
+uuid: f42b4c98-a6c3-43d0-b225-b4ce98d5aa75
+name: SkyPixels21
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

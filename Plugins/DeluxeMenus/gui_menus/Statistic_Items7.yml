@@ -1,0 +1,479 @@
+menu_title: '&5Your &6Items Statistics'
+open_command: StatisticItems7
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic_Item'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items6'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items6'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items8'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items8'
+  '10':
+    material: hopper
+    slot: 9
+    display_name: '&7Hopper'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:hopper%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:hopper%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:hopper%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:hopper%'
+  '11':
+    material: chiseled_quartz_block
+    slot: 10
+    display_name: '&7Chiseled Quartz Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:chiseled_quartz_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:chiseled_quartz_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:chiseled_quartz_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:chiseled_quartz_block%'
+  '12':
+    material: quartz_block
+    slot: 11
+    display_name: '&7Quartz Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:quartz_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:quartz_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:quartz_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:quartz_block%'
+  '13':
+    material: quartz_pillar
+    slot: 12
+    display_name: '&7Quartz Pillar'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:quartz_pillar%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:quartz_pillar%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:quartz_pillar%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:quartz_pillar%'
+  '14':
+    material: quartz_stairs
+    slot: 13
+    display_name: '&7Quartz Stairs'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:quartz_stairs%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:quartz_stairs%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:quartz_stairs%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:quartz_stairs%'
+  '15':
+    material: activator_rail
+    slot: 14
+    display_name: '&7Activator Rail'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:activator_rail%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:activator_rail%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:activator_rail%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:activator_rail%'
+  '16':
+    material: dropper
+    slot: 15
+    display_name: '&7Dropper'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dropper%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dropper%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dropper%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dropper%'
+  '17':
+    material: white_terracotta
+    slot: 16
+    display_name: '&7White Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:white_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:white_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:white_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:white_terracotta%'
+  '18':
+    material: orange_terracotta
+    slot: 17
+    display_name: '&7Ornage Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:orange_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:orange_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:orange_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:orange_terracotta%'
+  '19':
+    material: magenta_terracotta
+    slot: 18
+    display_name: '&7Magenta Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:magenta_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:magenta_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:magenta_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:magenta_terracotta%'
+  '20':
+    material: light_blue_terracotta
+    slot: 19
+    display_name: '&7Light Blue Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_blue_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_blue_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_blue_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_blue_terracotta%'
+  '21':
+    material: yellow_terracotta
+    slot: 20
+    display_name: '&7Yellow Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:yellow_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:yellow_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:yellow_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:yellow_terracotta%'
+  '22':
+    material: lime_terracotta
+    slot: 21
+    display_name: '&7Lime Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:lime_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:lime_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:lime_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:lime_terracotta%'
+  '23':
+    material: pink_terracotta
+    slot: 22
+    display_name: '&7Pink Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:pink_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:pink_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:pink_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:pink_terracotta%'
+  '24':
+    material: gray_terracotta
+    slot: 23
+    display_name: '&7Gray Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:gray_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:gray_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:gray_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:gray_terracotta%'
+  '25':
+    material: light_gray_terracotta
+    slot: 24
+    display_name: '&7Light Gray Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_gray_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_gray_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_gray_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_gray_terracotta%'
+  '26':
+    material: cyan_terracotta
+    slot: 25
+    display_name: '&7Cyan Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cyan_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cyan_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cyan_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cyan_terracotta%'
+  '27':
+    material: purple_terracotta
+    slot: 26
+    display_name: '&7Purple Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:purple_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:purple_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:purple_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:purple_terracotta%'
+  '28':
+    material: blue_terracotta
+    slot: 27
+    display_name: '&7Blue Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:blue_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:blue_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:blue_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:blue_terracotta%'
+  '29':
+    material: brown_terracotta
+    slot: 28
+    display_name: '&7Brown Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:brown_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:brown_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:brown_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:brown_terracotta%'
+  '30':
+    material: green_terracotta
+    slot: 29
+    display_name: '&7Green Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:green_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:green_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:green_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:green_terracotta%'
+  '31':
+    material: red_terracotta
+    slot: 30
+    display_name: '&7Red Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:red_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:red_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:red_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:red_terracotta%'
+  '32':
+    material: black_terracotta
+    slot: 31
+    display_name: '&7Black Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:black_terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:black_terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:black_terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:black_terracotta%'
+  '33':
+    material: iron_trapdoor
+    slot: 32
+    display_name: '&7Iron Trapdoor'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:iron_trapdoor%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:iron_trapdoor%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:iron_trapdoor%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:iron_trapdoor%'
+  '34':
+    material: hay_block
+    slot: 33
+    display_name: '&7Hay Bale'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:hay_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:hay_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:hay_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:hay_block%'
+  '35':
+    material: white_carpet
+    slot: 34
+    display_name: '&7White Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:white_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:white_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:white_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:white_carpet%'
+  '36':
+    material: orange_carpet
+    slot: 35
+    display_name: '&7Ornage Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:orange_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:orange_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:orange_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:orange_carpet%'
+  '37':
+    material: magenta_carpet
+    slot: 36
+    display_name: '&7Magenta Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:magenta_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:magenta_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:magenta_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:magenta_carpet%'
+  '38':
+    material: light_blue_carpet
+    slot: 37
+    display_name: '&7Light Blue Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_blue_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_blue_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_blue_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_blue_carpet%'
+  '39':
+    material: yellow_carpet
+    slot: 38
+    display_name: '&7Yellow Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:yellow_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:yellow_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:yellow_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:yellow_carpet%'
+  '40':
+    material: lime_carpet
+    slot: 39
+    display_name: '&7Lime Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:lime_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:lime_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:lime_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:lime_carpet%'
+  '41':
+    material: pink_carpet
+    slot: 40
+    display_name: '&7Pink Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:pink_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:pink_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:pink_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:pink_carpet%'
+  '42':
+    material: gray_carpet
+    slot: 41
+    display_name: '&7Gray Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:gray_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:gray_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:gray_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:gray_carpet%'
+  '43':
+    material: light_gray_carpet
+    slot: 42
+    display_name: '&7Light Gray Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_gray_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_gray_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_gray_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_gray_carpet%'
+  '44':
+    material: cyan_carpet
+    slot: 43
+    display_name: '&7Cyan Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cyan_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cyan_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cyan_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cyan_carpet%'
+  '45':
+    material: purple_carpet
+    slot: 44
+    display_name: '&7Purple Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:purple_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:purple_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:purple_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:purple_carpet%'
+  '46':
+    material: blue_carpet
+    slot: 45
+    display_name: '&7Blue Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:blue_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:blue_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:blue_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:blue_carpet%'
+  '47':
+    material: brown_carpet
+    slot: 46
+    display_name: '&7Brown Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:brown_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:brown_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:brown_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:brown_carpet%'
+  '48':
+    material: green_carpet
+    slot: 47
+    display_name: '&7Green Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:green_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:green_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:green_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:green_carpet%'
+  '49':
+    material: red_carpet
+    slot: 48
+    display_name: '&7Red Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:red_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:red_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:red_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:red_carpet%'
+  '50':
+    material: black_carpet
+    slot: 49
+    display_name: '&7Black Carpet'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:black_carpet%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:black_carpet%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:black_carpet%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:black_carpet%'
+  '51':
+    material: terracotta
+    slot: 50
+    display_name: '&7Terracotta'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:terracotta%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:terracotta%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:terracotta%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:terracotta%'
+  '52':
+    material: coal_block
+    slot: 51
+    display_name: '&7Coal Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:coal_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:coal_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:coal_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:coal_block%'
+  '53':
+    material: packed_ice
+    slot: 52
+    display_name: '&7Packed Ice'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:packed_ice%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:packed_ice%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:packed_ice%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:packed_ice%'
+  '54':
+    material: acacia_stairs
+    slot: 53
+    display_name: '&7Acacia Stairs'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:acacia_stairs%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:acacia_stairs%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:acacia_stairs%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:acacia_stairs%'

@@ -1,0 +1,259 @@
+%YAML 1.1
+---
+icons: {
+    }
+sets:
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Markers
+        markers:
+            marker_5:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 63.0
+                icon: house
+                y: 77.0
+                z: 603.0
+                label: FiddleWorm Base
+            marker_6:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 180.0
+                icon: house
+                y: 88.0
+                z: 801.0
+                label: 'xqcL Base #1'
+            marker_7:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 259.0
+                icon: house
+                y: 81.0
+                z: 782.0
+                label: SKstarbreaker Base
+            marker_8:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 233.0
+                icon: house
+                y: 81.0
+                z: 841.0
+                label: ShnozGoblin Base
+            marker_9:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 888.0
+                icon: house
+                y: 74.0
+                z: 2067.0
+                label: TheTrueDuality Village Base
+            marker_12:
+                world: Pixel Craft (S3)
+                markup: false
+                x: -8864.0
+                icon: house
+                y: 64.0
+                z: -979.0
+                label: Herobrain_gamer Base
+            marker_13:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 39116.0
+                icon: house
+                y: 110.0
+                z: 36764.0
+                label: _Macspy_ Base
+            marker_10:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 594.0
+                icon: house
+                y: 31.0
+                z: 2888.0
+                label: TheTrueDuality Ocean Base
+            marker_11:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 180.0
+                icon: default
+                y: 68.0
+                z: 3393.0
+                label: Diamond_Miner245 Base
+            marker_1:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 811.0
+                icon: house
+                y: 79.0
+                z: -652.0
+                label: GamerGabriel Base
+            marker_30:
+                world: Pixel Craft (S3)
+                markup: false
+                x: -132.0
+                icon: default
+                y: 64.0
+                z: -1096.0
+                label: MasterZent Base
+            marker_2:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 577.0
+                icon: house
+                y: 85.0
+                z: -523.0
+                label: WolvesWing Base
+            marker_3:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 602.0
+                icon: house
+                y: 64.0
+                z: 40.0
+                label: Butterminer200 Base
+            marker_4:
+                world: Pixel Craft (S3)
+                markup: false
+                x: -658.0
+                icon: house
+                y: 81.0
+                z: 145.0
+                label: Feller Base
+            marker_18:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 39188.0
+                icon: house
+                y: 80.0
+                z: 36882.0
+                label: dmanPL Base
+            marker_19:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 39126.0
+                icon: house
+                y: 112.0
+                z: 37188.0
+                label: 'GeorgeWBush1946 Base #2'
+            marker_16:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 39055.0
+                icon: house
+                y: 82.0
+                z: 36822.0
+                label: 7r1 Base
+            marker_17:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 39090.0
+                icon: house
+                y: 109.0
+                z: 36903.0
+                label: TypicalDude Base
+            marker_14:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 39056.0
+                icon: house
+                y: 97.0
+                z: 36768.0
+                label: Foughtful Base
+            marker_15:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 39002.0
+                icon: house
+                y: 74.0
+                z: 36752.0
+                label: minecrfteouc Base
+            marker_23:
+                world: Pixel Craft (S3)
+                markup: false
+                x: -6085.0
+                icon: house
+                y: 38.0
+                z: 2694.0
+                label: midna_87 Underwater Base
+            marker_24:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 1039.0
+                icon: default
+                y: 78.0
+                z: -852.0
+                label: zackman1291 Base
+            marker_21:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 5265.0
+                icon: house
+                y: 75.0
+                z: 1563.0
+                label: EggyLadd Base
+            marker_22:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 1288.0
+                icon: house
+                y: 107.0
+                z: 165.0
+                label: midna_87 Jungle Base
+            marker_20:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 97810.0
+                icon: house
+                y: 67.0
+                z: 80335.0
+                label: 'xqcL Base #1'
+            marker_29:
+                world: Pixel Craft (S3)
+                markup: false
+                x: -201.0
+                icon: default
+                y: 104.0
+                z: -203.0
+                label: Zoreon_Zen Base
+            marker_27:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 269.0
+                icon: default
+                y: 66.0
+                z: -418.0
+                label: Chroifala Base
+            marker_28:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 90.0
+                icon: default
+                y: 93.0
+                z: -268.0
+                label: Chroifala Base
+            marker_25:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 185.0
+                icon: default
+                y: 75.0
+                z: -244.0
+                label: KatieBear88 Base
+            marker_26:
+                world: Pixel Craft (S3)
+                markup: false
+                x: 195.0
+                icon: default
+                y: 73.0
+                z: -325.0
+                label: Bear_Mohawk Base
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:armor_stand,tag=Mob-Invinciblity,distance=0..3] run kill @e[type=minecraft:armor_stand,tag=Mob-Invinciblity]

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:lime_stained_glass_pane",
+    "minecraft:red_stained_glass_pane",
+    "minecraft:barrier",
+    "minecraft:blaze_powder"
+  ]
+}

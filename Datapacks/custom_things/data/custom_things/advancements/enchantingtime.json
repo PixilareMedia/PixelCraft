@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Enchanting Time"
+        },
+        "description": {
+            "text": "You Have 30 Levels Go Enchant Something"
+        },
+        "icon": {
+            "item": "minecraft:enchanting_table"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 30
+    },
+    "parent": "custom_things:morelevels"
+}

@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 64
+    block: emerald_ore
+display:
+  name: "&aMine Emerald 3"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 64 emerald ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 64 Emerald Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $950."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/64 emerald ore mined."
+  type: "emerald_ore"
+rewards:
+  - "eco give {player} 950"
+options:
+  category: "Mining"
+  requires:
+    - "mineemeraldore2"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 3

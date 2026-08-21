@@ -1,0 +1,10 @@
+uuid: 1f5a8782-79f2-4314-bd16-17fc3b084490
+name: GamerGabriel
+primary-group: default
+permissions:
+- deluxetags.tag.Season1
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- dadmin
+- default

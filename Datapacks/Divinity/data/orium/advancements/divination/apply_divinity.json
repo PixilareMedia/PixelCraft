@@ -1,0 +1,28 @@
+{
+	"parent": "orium:divination/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:enchanting_table"
+		},
+		"title": {
+			"text": "Ethereal Enchanting"
+		},
+		"description": {
+			"text": "Apply a divinity to an item"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"impossible"
+		]
+	]
+}

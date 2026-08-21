@@ -1,0 +1,479 @@
+menu_title: '&5Your &6Items Statistics'
+open_command: StatisticItems16
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic_Item'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items15'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items15'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items17'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items17'
+  '10':
+    material: nether_wart
+    slot: 9
+    display_name: '&7Nether Wart'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:nether_wart%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:nether_wart%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:nether_wart%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:nether_wart%'
+  '11':
+    material: potion
+    slot: 10
+    display_name: '&7Water Bottle'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:potion%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:potion%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:potion%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:potion%'
+  '12':
+    material: glass_bottle
+    slot: 11
+    display_name: '&7Glass Bottle'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:glass_bottle%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:glass_bottle%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:glass_bottle%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:glass_bottle%'
+  '13':
+    material: spider_eye
+    slot: 12
+    display_name: '&7Spider Eye'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:spider_eye%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:spider_eye%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:spider_eye%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:spider_eye%'
+  '14':
+    material: fermented_spider_eye
+    slot: 13
+    display_name: '&7Fermented Spider Eye'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:fermented_spider_eye%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:fermented_spider_eye%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:fermented_spider_eye%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:fermented_spider_eye%'
+  '15':
+    material: blaze_powder
+    slot: 14
+    display_name: '&7Blaze Powder'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:blaze_powder%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:blaze_powder%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:blaze_powder%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:blaze_powder%'
+  '16':
+    material: magma_cream
+    slot: 15
+    display_name: '&7Magma Cream'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:magma_cream%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:magma_cream%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:magma_cream%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:magma_cream%'
+  '17':
+    material: brewing_stand
+    slot: 16
+    display_name: '&7Brewing Stand'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:brewing_stand%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:brewing_stand%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:brewing_stand%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:brewing_stand%'
+  '18':
+    material: cauldron
+    slot: 17
+    display_name: '&7Cauldron'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cauldron%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cauldron%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cauldron%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cauldron%'
+  '19':
+    material: ender_eye
+    slot: 18
+    display_name: '&7Eye of Ender'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:ender_eye%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:ender_eye%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:ender_eye%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:ender_eye%'
+  '20':
+    material: glistering_melon_slice
+    slot: 19
+    display_name: '&7Glistering Melon Slice'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:glistering_melon_slice%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:glistering_melon_slice%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:glistering_melon_slice%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:glistering_melon_slice%'
+  '21':
+    material: bat_spawn_egg
+    slot: 20
+    display_name: '&7Bat Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:bat_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:bat_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:bat_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:bat_spawn_egg%'
+  '22':
+    material: blaze_spawn_egg
+    slot: 21
+    display_name: '&7Blaze Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:blaze_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:blaze_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:blaze_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:blaze_spawn_egg%'
+  '23':
+    material: cat_spawn_egg
+    slot: 22
+    display_name: '&7Cat Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cat_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cat_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cat_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cat_spawn_egg%'
+  '24':
+    material: cave_spider_spawn_egg
+    slot: 23
+    display_name: '&7Cave Spider Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cave_spider_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cave_spider_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cave_spider_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cave_spider_spawn_egg%'
+  '25':
+    material: chicken_spawn_egg
+    slot: 24
+    display_name: '&7Chicken Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:chicken_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:chicken_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:chicken_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:chicken_spawn_egg%'
+  '26':
+    material: cod_spawn_egg
+    slot: 25
+    display_name: '&7Cod Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cod_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cod_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cod_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cod_spawn_egg%'
+  '27':
+    material: cow_spawn_egg
+    slot: 26
+    display_name: '&7Cow Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cow_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cow_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cow_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cow_spawn_egg%'
+  '28':
+    material: creeper_spawn_egg
+    slot: 27
+    display_name: '&7Creeper Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:creeper_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:creeper_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:creeper_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:creeper_spawn_egg%'
+  '29':
+    material: dolphin_spawn_egg
+    slot: 28
+    display_name: '&7Dolphin Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dolphin_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dolphin_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dolphin_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dolphin_spawn_egg%'
+  '30':
+    material: donkey_spawn_egg
+    slot: 29
+    display_name: '&7Donkey Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:donkey_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:donkey_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:donkey_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:donkey_spawn_egg%'
+  '31':
+    material: drowned_spawn_egg
+    slot: 30
+    display_name: '&7Drowned Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:drowned_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:drowned_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:drowned_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:drowned_spawn_egg%'
+  '32':
+    material: elder_guardian_spawn_egg
+    slot: 31
+    display_name: '&7Elder Guardian Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:elder_guardian_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:elder_guardian_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:elder_guardian_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:elder_guardian_spawn_egg%'
+  '33':
+    material: enderman_spawn_egg
+    slot: 32
+    display_name: '&7Enderman Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:enderman_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:enderman_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:enderman_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:enderman_spawn_egg%'
+  '34':
+    material: endermite_spawn_egg
+    slot: 33
+    display_name: '&7Endermite Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:endermite_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:endermite_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:endermite_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:endermite_spawn_egg%'
+  '35':
+    material: evoker_spawn_egg
+    slot: 34
+    display_name: '&7Evoker Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:evoker_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:evoker_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:evoker_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:evoker_spawn_egg%'
+  '36':
+    material: fox_spawn_egg
+    slot: 35
+    display_name: '&7Fox Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:fox_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:fox_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:fox_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:fox_spawn_egg%'
+  '37':
+    material: ghast_spawn_egg
+    slot: 36
+    display_name: '&7Ghast Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:ghast_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:ghast_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:ghast_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:ghast_spawn_egg%'
+  '38':
+    material: guardian_spawn_egg
+    slot: 37
+    display_name: '&7Guardian Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:guardian_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:guardian_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:guardian_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:guardian_spawn_egg%'
+  '39':
+    material: horse_spawn_egg
+    slot: 38
+    display_name: '&7Horse Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:horse_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:horse_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:horse_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:horse_spawn_egg%'
+  '40':
+    material: husk_spawn_egg
+    slot: 39
+    display_name: '&7husk Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:husk_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:husk_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:husk_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:husk_spawn_egg%'
+  '41':
+    material: llama_spawn_egg
+    slot: 40
+    display_name: '&7Llam Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:llama_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:llama_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:llama_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:llama_spawn_egg%'
+  '42':
+    material: magma_cube_spawn_egg
+    slot: 41
+    display_name: '&7Magma Cube Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:magma_cube_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:magma_cube_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:magma_cube_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:magma_cube_spawn_egg%'
+  '43':
+    material: mooshroom_spawn_egg
+    slot: 42
+    display_name: '&7Mooshroom Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:mooshroom_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:mooshroom_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:mooshroom_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:mooshroom_spawn_egg%'
+  '44':
+    material: mule_spawn_egg
+    slot: 43
+    display_name: '&7Mule Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:mule_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:mule_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:mule_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:mule_spawn_egg%'
+  '45':
+    material: ocelot_spawn_egg
+    slot: 44
+    display_name: '&7Ocelot Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:ocelot_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:ocelot_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:ocelot_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:ocelot_spawn_egg%'
+  '46':
+    material: panda_spawn_egg
+    slot: 45
+    display_name: '&7Panda Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:panda_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:panda_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:panda_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:panda_spawn_egg%'
+  '47':
+    material: parrot_spawn_egg
+    slot: 46
+    display_name: '&7Parrot Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:parrot_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:parrot_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:parrot_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:parrot_spawn_egg%'
+  '48':
+    material: phantom_spawn_egg
+    slot: 47
+    display_name: '&7Phantom Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:phantom_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:phantom_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:phantom_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:phantom_spawn_egg%'
+  '49':
+    material: pig_spawn_egg
+    slot: 48
+    display_name: '&7Pig Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:pig_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:pig_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:pig_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:pig_spawn_egg%'
+  '50':
+    material: pillager_spawn_egg
+    slot: 49
+    display_name: '&7Pillager Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:pillager_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:pillager_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:pillager_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:pillager_spawn_egg%'
+  '51':
+    material: polar_bear_spawn_egg
+    slot: 50
+    display_name: '&7Polar Bear Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:polar_bear_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:polar_bear_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:polar_bear_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:polar_bear_spawn_egg%'
+  '52':
+    material: pufferfish_spawn_egg
+    slot: 51
+    display_name: '&7Pufferfish Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:pufferfish_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:pufferfish_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:pufferfish_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:pufferfish_spawn_egg%'
+  '53':
+    material: rabbit_spawn_egg
+    slot: 52
+    display_name: '&7Rabbit Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:rabbit_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:rabbit_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:rabbit_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:rabbit_spawn_egg%'
+  '54':
+    material: ravager_spawn_egg
+    slot: 53
+    display_name: '&7Ravager Spawn Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:ravager_spawn_egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:ravager_spawn_egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:ravager_spawn_egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:ravager_spawn_egg%'

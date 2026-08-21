@@ -1,0 +1,479 @@
+menu_title: '&5Your &6Items Statistics'
+open_command: StatisticItems14
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic_Item'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items13'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items13'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items15'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items15'
+  '10':
+    material: bucket
+    slot: 9
+    display_name: '&7Bucket'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:bucket%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:bucket%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:bucket%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:bucket%'
+  '11':
+    material: water_bucket
+    slot: 10
+    display_name: '&7Water Bucket'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:water_bucket%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:water_bucket%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:water_bucket%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:water_bucket%'
+  '12':
+    material: lava_bucket
+    slot: 11
+    display_name: '&7Lava Bucket'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:lava_bucket%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:lava_bucket%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:lava_bucket%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:lava_bucket%'
+  '13':
+    material: minecart
+    slot: 12
+    display_name: '&7Minecart'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:minecart%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:minecart%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:minecart%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:minecart%'
+  '14':
+    material: saddle
+    slot: 13
+    display_name: '&7Saddle'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:saddle%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:saddle%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:saddle%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:saddle%'
+  '15':
+    material: redstone
+    slot: 14
+    display_name: '&7Redstone Dust'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:redstone%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:redstone%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:redstone%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:redstone%'
+  '16':
+    material: snowball
+    slot: 15
+    display_name: '&7Snowball'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:snowball%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:snowball%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:snowball%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:snowball%'
+  '17':
+    material: oak_boat
+    slot: 16
+    display_name: '&7Oak Boat'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:oak_boat%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:oak_boat%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:oak_boat%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:oak_boat%'
+  '18':
+    material: leather
+    slot: 17
+    display_name: '&7Leather'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:leather%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:leather%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:leather%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:leather%'
+  '19':
+    material: milk_bucket
+    slot: 18
+    display_name: '&7Milk Bucket'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:milk_bucket%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:milk_bucket%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:milk_bucket%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:milk_bucket%'
+  '20':
+    material: pufferfish_bucket
+    slot: 19
+    display_name: '&7Bucket of Pufferfish'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:pufferfish_bucket%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:pufferfish_bucket%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:pufferfish_bucket%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:pufferfish_bucket%'
+  '21':
+    material: salmon_bucket
+    slot: 20
+    display_name: '&7Bucket of Salmon'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:salmon_bucket%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:salmon_bucket%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:salmon_bucket%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:salmon_bucket%'
+  '22':
+    material: cod_bucket
+    slot: 21
+    display_name: '&7Bucket of Cod'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cod_bucket%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cod_bucket%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cod_bucket%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cod_bucket%'
+  '23':
+    material: tropical_fish_bucket
+    slot: 22
+    display_name: '&7Bucket of Tropical Fish'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:tropical_fish_bucket%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:tropical_fish_bucket%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:tropical_fish_bucket%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:tropical_fish_bucket%'
+  '24':
+    material: brick
+    slot: 23
+    display_name: '&7Brick'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:brick%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:brick%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:brick%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:brick%'
+  '25':
+    material: clay_ball
+    slot: 24
+    display_name: '&7Clay'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:clay_ball%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:clay_ball%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:clay_ball%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:clay_ball%'
+  '26':
+    material: sugar_cane
+    slot: 25
+    display_name: '&7Sugar Cane'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:sugar_cane%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:sugar_cane%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:sugar_cane%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:sugar_cane%'
+  '27':
+    material: kelp
+    slot: 26
+    display_name: '&7Kelp'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:kelp%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:kelp%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:kelp%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:kelp%'
+  '28':
+    material: dried_kelp_block
+    slot: 27
+    display_name: '&7Dried Kelp Block'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:dried_kelp_block%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:dried_kelp_block%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:dried_kelp_block%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:dried_kelp_block%'
+  '29':
+    material: bamboo
+    slot: 28
+    display_name: '&7Bamboo'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:bamboo%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:bamboo%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:bamboo%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:bamboo%'
+  '30':
+    material: paper
+    slot: 29
+    display_name: '&7Paper'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:paper%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:paper%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:paper%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:paper%'
+  '31':
+    material: book
+    slot: 30
+    display_name: '&7Book'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:book%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:book%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:book%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:book%'
+  '32':
+    material: slime_ball
+    slot: 31
+    display_name: '&7Slime Ball'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:slime_ball%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:slime_ball%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:slime_ball%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:slime_ball%'
+  '33':
+    material: chest_minecart
+    slot: 32
+    display_name: '&7Minecart with Chest'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:chest_minecart%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:chest_minecart%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:chest_minecart%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:chest_minecart%'
+  '34':
+    material: furnace_minecart
+    slot: 33
+    display_name: '&7Minecart with Furnace'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:furnace_minecart%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:furnace_minecart%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:furnace_minecart%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:furnace_minecart%'
+  '35':
+    material: egg
+    slot: 34
+    display_name: '&7Egg'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:egg%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:egg%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:egg%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:egg%'
+  '36':
+    material: compass
+    slot: 35
+    display_name: '&7Compass'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:compass%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:compass%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:compass%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:compass%'
+  '37':
+    material: fishing_rod
+    slot: 36
+    display_name: '&7Fishing Rod'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:fishing_rod%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:fishing_rod%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:fishing_rod%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:fishing_rod%'
+  '38':
+    material: clock
+    slot: 37
+    display_name: '&7Clock'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:clock%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:clock%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:clock%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:clock%'
+  '39':
+    material: glowstone_dust
+    slot: 38
+    display_name: '&7Glowstone Dust'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:glowstone_dust%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:glowstone_dust%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:glowstone_dust%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:glowstone_dust%'
+  '40':
+    material: cod
+    slot: 39
+    display_name: '&7Raw Cod'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cod%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cod%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cod%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cod%'
+  '41':
+    material: salmon
+    slot: 40
+    display_name: '&7Raw Salmon'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:salmon%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:salmon%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:salmon%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:salmon%'
+  '42':
+    material: tropical_fish
+    slot: 41
+    display_name: '&7Tropical Fish'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:tropical_fish%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:tropical_fish%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:tropical_fish%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:tropical_fish%'
+  '43':
+    material: pufferfish
+    slot: 42
+    display_name: '&7Pufferfish'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:pufferfish%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:pufferfish%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:pufferfish%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:pufferfish%'
+  '44':
+    material: cooked_cod
+    slot: 43
+    display_name: '&7Cooked Cod'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cooked_cod%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cooked_cod%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cooked_cod%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cooked_cod%'
+  '45':
+    material: cooked_salmon
+    slot: 44
+    display_name: '&7Cooked Salmon'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cooked_salmon%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cooked_salmon%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cooked_salmon%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cooked_salmon%'
+  '46':
+    material: ink_sac
+    slot: 45
+    display_name: '&7Ink Sac'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:ink_sac%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:ink_sac%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:ink_sac%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:ink_sac%'
+  '47':
+    material: red_dye
+    slot: 46
+    display_name: '&7Red Dye'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:red_dye%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:red_dye%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:red_dye%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:red_dye%'
+  '48':
+    material: green_dye
+    slot: 47
+    display_name: '&7Green Dye'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:green_dye%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:green_dye%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:green_dye%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:green_dye%'
+  '49':
+    material: cocoa_beans
+    slot: 48
+    display_name: '&7Cocoa Beans'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cocoa_beans%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cocoa_beans%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cocoa_beans%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cocoa_beans%'
+  '50':
+    material: lapis_lazuli
+    slot: 49
+    display_name: '&7Lapis Lazuli'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:lapis_lazuli%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:lapis_lazuli%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:lapis_lazuli%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:lapis_lazuli%'
+  '51':
+    material: purple_dye
+    slot: 50
+    display_name: '&7Purple Dye'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:purple_dye%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:purple_dye%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:purple_dye%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:purple_dye%'
+  '52':
+    material: cyan_dye
+    slot: 51
+    display_name: '&7Cyan Dye'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:cyan_dye%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:cyan_dye%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:cyan_dye%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:cyan_dye%'
+  '53':
+    material: light_gray_dye
+    slot: 52
+    display_name: '&7Light Gray Dye'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:light_gray_dye%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:light_gray_dye%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:light_gray_dye%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:light_gray_dye%'
+  '54':
+    material: gray_dye
+    slot: 53
+    display_name: '&7Gray Dye'
+    lore:
+    - '&8* &7Times Mined &8* &a%statistic_mine_block:gray_dye%'
+    - '&8* &7Times Broken &8* &a%statistic_break_item:gray_dye%'
+    - '&8* &7Times Crafted &8* &a%statistic_craft_item:gray_dye%'
+    - '&8* &7Times Used &8* &a%statistic_use_item:gray_dye%'

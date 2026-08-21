@@ -1,0 +1,8 @@
+uuid: 2f45e605-ce5f-4db6-a5f9-c27b190705e4
+name: Quintal2012
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss3

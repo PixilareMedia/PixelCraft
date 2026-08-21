@@ -1,0 +1,9 @@
+uuid: a6128257-d54b-4050-b0e3-659398331b8a
+name: CatSandWich999
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

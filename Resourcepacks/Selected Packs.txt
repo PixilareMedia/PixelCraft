@@ -1,0 +1,8 @@
+Vanilla Tweaks Resource Pack
+Version: 1.14
+Packs:
+	Wrench
+	Custom Enchants
+	Diamond Elytra
+	Uno Mini Game
+	Custom Music

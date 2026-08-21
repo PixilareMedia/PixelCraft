@@ -1,0 +1,12 @@
+CheckItem
+DeluxeTags
+DiscordSRV
+Essentials
+GriefPrevention
+Javascript
+Player
+Plugin
+ScoreboardObjectives
+Server
+Statistic
+Vault

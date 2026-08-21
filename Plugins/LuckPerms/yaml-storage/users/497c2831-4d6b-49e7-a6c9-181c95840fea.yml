@@ -1,0 +1,9 @@
+uuid: 497c2831-4d6b-49e7-a6c9-181c95840fea
+name: _Blaze_
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

@@ -1,0 +1,196 @@
+# Pixel Craft Season #3
+Minecraft Version [1.14.3 (Vanilla Server)](https://piston-data.mojang.com/v1/objects/3737db93722a9e39eeada7c27e7aca28b144ffa7/server.jar) to [1.15.2 (Paper Server)](https://fill-data.papermc.io/v1/objects/0747f570ebc7e3c12adfe4d35599ea583920c3dd6c05f7069e458209e3ba57d5/paper-1.15.2-354.jar)
+
+This season ran from June 29th 2019 to June 29th 2020
+
+You can download the [Starting Map](https://cdn.roebuck.dev/user/pixilare-media/pixel-series/pixel-craft/season-3/worlds/pixel-craft-season-3-starting-map.zip) or [Ending Map](https://cdn.roebuck.dev/user/pixilare-media/pixel-series/pixel-craft/season-3/worlds/pixel-craft-season-3-ending-map.zip) to explore if you want.
+
+## Info
+Season #3 was a fun season that well yes it techincally lasted 1 full year most members had stopped playing in December 2019 but the biggest thing that I think we took away from this season is try and play near each other, and don't add things that change the game way too much to make it feel like a modded world.
+
+## Server Configuration
+### Gamerules
+- `commandBlockOutput = false`
+- `logAdminCommands = false`
+- `doFireTick = false`
+- `keepInventory = true`
+### Server.properties
+- `level-type = default`
+- `difficulty = normal`
+- `enable-command-block = true`
+- `view-distance = 8`
+- `level-seed = 3395206916991588350`
+
+## Internal Assets
+- Data Packs
+  - 21 Advancements
+  - "Note Block" Music
+  - Warps
+  - Coloured Names & Custom Tags
+  - Custom Head Traders
+- Crafting Tweaks
+  - Armored Elytra
+  - Craftable Saddles
+  - Spawn Egg Crafting
+
+## External Assets
+- Data Packs by [VanillaTweaks](https://vanillatweaks.net/picker/datapacks/)
+  - AFK Display
+  - Anti-Creeper Grief
+  - Anti-Enderman Grief
+  - Anti-Ghast Grief
+  - Double Shulker Shells
+  - Dragon Drops Elytra
+  - Graves
+  - More Mob Heads
+  - Multiplayer Sleep
+  - Silence Mobs
+  - Thunder Shrine
+  - Track Raw Statistics
+  - Track Statistics
+  - Nether Portal Coords
+  - Pillager Tools
+  - Coordinates HUD
+  - Spawning Spheres
+  - Armor Statues by [VanillaTweaks](https://vanillatweaks.net/picker/datapacks/) & [Phssthpok](https://twitter.com/MCPhssthpok) & [MukiTanuki](https://twitter.com/MukiTanuki)
+  - Redstone Rotation Wrench by [VanillaTweaks](https://vanillatweaks.net/picker/datapacks/) & [Goopy25](https://www.planetminecraft.com/member/mothbox)
+  - Terracotta Rotation Wrench by [VanillaTweaks](https://vanillatweaks.net/picker/datapacks/) & [Goopy25](https://www.planetminecraft.com/member/mothbox)
+  - [Orium](https://www.planetminecraft.com/mod/orium-1-0-advanced-resource-processing-and-item-enchanting/) by [SilverFoxSpectre](https://www.planetminecraft.com/member/silverfoxspectre/)
+  - [Technical Enchant](https://www.planetminecraft.com/data-pack/enchant-datapack-1-13/) by [Hardel](https://www.planetminecraft.com/member/hardel/)
+  - [Bible in Minecraft](https://github.com/DrHaid/bible-in-minecraft) by [DrHaid](https://github.com/DrHaid)
+  - [Veinminer](https://github.com/Elemend/Vein-Miner-Unified) by [Elemend](https://github.com/Elemend)
+- Crafting Tweaks by [VanillaTweaks](https://vanillatweaks.net/picker/crafting-tweaks/)
+  - 12 Trapdoors
+  - 4 Bark Blocks
+  - Wool to String
+  - Uncraftable Ice (Blue Ice to Packed Ice)
+  - Sandstone Dyeing (Sandstone to Red Sandstone)
+  - Uncraftable Nether Wart Block
+  - Universal Dyeing
+  - Renewable Coral Block (3x3 Grid)
+  - More Stairs Crafting
+  - Back To Blocks (Stairs / Slabs Back Into Blocks)
+  - Rotten Flesh To Leather
+  - Coal To Ink Sacs
+  - More Bricks Crafting
+  - Craftable Gravel
+  - Dropper To Dispenser
+  - Craftable Horse Armor
+  - Craftable Name Tags
+- Resource Packs
+  - Rotation Wrench for Redstone & Terracotta Rotation Wrench Data Pack
+  - Sounds
+    - Flash Funk (Marshmello Remix) [Disc 13]
+    - The Big Bang Theory Theme [Disc Cat]
+    - Theme [Disc Blocks]
+    - Cistrolat - Sapphire (feat. Kédo Rebelle) [Disc Chirp]
+    - AdhesiveWombat - StormCrusher [Disc Far]
+    - Razihel - Skybreaker [Disc Mall]
+    - Monstercat Christmas Album 2012 [Disc Mellohi]
+    - Remember The Heroes [Disc Stal]
+    - FCD - Breaking Silence [Disc Strad]
+    - Mine All Day [Disc Ward]
+    - Jeopardy Think Song [Disc 11]
+    - Crafted Musiuc - Growing Grass (v2) [Disc Wait]
+- Plugins
+  - [AdvancedBan](https://www.spigotmc.org/resources/advancedbans.93736/)
+  - [BBOutlineReloaded](https://dev.bukkit.org/projects/bounding-box-outline-reloaded)
+  - [BeastWithdraw](https://www.spigotmc.org/resources/beastwithdraw-multy-withdraw.13896/)
+  - [ChestShop](https://www.spigotmc.org/resources/chestshop.114417/)
+  - [Citizens](https://www.spigotmc.org/resources/citizens.13811/)
+  - [CommandNPC](https://www.spigotmc.org/resources/commandnpc.40295/)
+  - [CommandPrompter](https://www.spigotmc.org/resources/commandprompter.47772/)
+  - [CoreProtect](https://www.spigotmc.org/resources/coreprotect-community-edition.8631/)
+  - [DeluxeMenus](https://www.spigotmc.org/resources/deluxemenus.11734/)
+  - [DeluxeTags](https://www.spigotmc.org/resources/deluxetags.4390/)
+  - [DiscordSRV](https://www.spigotmc.org/resources/discordsrv.18494/)
+  - [DisplayItem](https://www.spigotmc.org/resources/displayitem-abandoned.28931/)
+  - [Dynmap-Essentials](https://dev.bukkit.org/projects/dynmap-essentialsx)
+  - [Dynmap-WG](https://dev.bukkit.org/projects/dynmap-worldguard)
+  - [Dynmap](https://www.spigotmc.org/resources/dynmap%C2%AE.274/)
+  - [EssentialsX](https://github.com/essentialsx/essentials)
+  - [EssentialsXChat](https://github.com/essentialsx/essentials)
+  - [EssentialsXSpawn](https://github.com/essentialsx/essentials)
+  - [GriefPrevention](https://www.spigotmc.org/resources/griefprevention.1884/)
+  - [GriefPreventionDynmap](https://dev.bukkit.org/projects/dynmap-griefprevention)
+  - [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
+  - [Maintenance](https://hangar.papermc.io/kennytv/Maintenance)
+  - [OpenInv](https://dev.bukkit.org/projects/openinv)
+  - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
+  - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
+  - [PvPToggle](https://www.spigotmc.org/resources/pvptoggle.80533/)
+  - [RifleChairs](https://www.spigotmc.org/resources/rifles-chairs-abandoned.58809/)
+  - [SkinsRestorer](https://www.spigotmc.org/resources/skinsrestorer.2124/)
+  - [SuperStaffChat](https://www.spigotmc.org/resources/%E2%9C%AA-superstaffchat-universal-spigot-bungeecord-1-8-8-1-21-x-%E2%9C%AA.54423/)
+  - [TAB](https://www.spigotmc.org/resources/tab.57806/)
+  - [Vault](https://www.spigotmc.org/resources/vault.34315/)
+  - [VeinMiner](https://www.spigotmc.org/resources/veinminer.12038/)
+  - [WorldBorder](https://www.spigotmc.org/resources/worldborder-1-13-x-1-20-x.111156/)
+  - [WorldEdit](https://dev.bukkit.org/projects/worldedit)
+  - [WorldGuard](https://dev.bukkit.org/projects/worldguard)
+  - [WorldResourcepacks](https://www.spigotmc.org/resources/world-resourcepacks.18950/)
+
+## Whitelisted Players
+- [Herobrain_gamer](https://pixelseries.xyz/u/#ViiUZ)
+- [GamerGabriel](https://pixelseries.xyz/u/#RRExg)
+- [Eggyladd](https://pixelseries.xyz/u/#d7NN2)
+- [TheTrueDuality](https://pixelseries.xyz/u/#rIKR5)
+- [zackman1291](https://pixelseries.xyz/u/#93WPf)
+- [midna_87](https://pixelseries.xyz/u/#ZMmfF)
+- [HellSubjection](https://pixelseries.xyz/u/#2fNaQ)
+- [Butterminer200](https://pixelseries.xyz/u/#U8G9u)
+- [KatieBear88](https://pixelseries.xyz/u/#5tYwQ)
+- [Bear_Mohawk](https://pixelseries.xyz/u/#HNm6J)
+- [Stranqe_People](https://pixelseries.xyz/u/#Vjrek)
+- [KWulf1668](https://pixelseries.xyz/u/#wx6NQ)
+- [Chroifala](https://pixelseries.xyz/u/#E6Bin)
+- [MasterZent](https://pixelseries.xyz/u/#8HJMR)
+- [BruningOrphans](https://pixelseries.xyz/u/#Mpx9h)
+- [FiddleWorm](https://pixelseries.xyz/u/#Qd8Yf)
+- [AnnyongB](https://pixelseries.xyz/u/#bvtPL)
+- [SKstarbreaker](https://pixelseries.xyz/u/#xNGjG)
+- [GeorgeWBush1946](https://pixelseries.xyz/u/#7rHqZ)
+- [xqcL](https://pixelseries.xyz/u/#ADxsS)
+- [Zyfur](https://pixelseries.xyz/u/#XHb1F)
+- [\_Pengu__](https://pixelseries.xyz/u/#ATOym)
+- [chuzubb](https://pixelseries.xyz/u/#qMHbw)
+- [Kaidonn](https://pixelseries.xyz/u/#ARZw2)
+- [igomigo](https://pixelseries.xyz/u/#zBb29)
+- [muttonbuster8](https://pixelseries.xyz/u/#vFnD2)
+- [McLuckers](https://pixelseries.xyz/u/#MpNml)
+- [Foughtful](https://pixelseries.xyz/u/#8smDC)
+- [awoah](https://pixelseries.xyz/u/#uvjUH)
+- [TypicalDude](https://pixelseries.xyz/u/#wOXZ8)
+- [7r1](https://pixelseries.xyz/u/#ZJ2wX)
+- [Pskett](https://pixelseries.xyz/u/#730Bw)
+- [franko27](https://pixelseries.xyz/u/#Es6tF)
+- [ThatOtherPeep](https://pixelseries.xyz/u/#Gae3q)
+- [Diamond_Miner245](https://pixelseries.xyz/u/#NmRdw)
+- [BlueDiamondBoy11](https://pixelseries.xyz/u/#UE8Zm)
+- [Gevans](https://pixelseries.xyz/u/#btHoV)
+- [ArmoredExplosive](https://pixelseries.xyz/u/#bvo9N)
+- [\_Macspy_](https://pixelseries.xyz/u/#LHkMJ)
+- [dmanPL](https://pixelseries.xyz/u/#lC5Fi)
+- [BugoutBoi](https://pixelseries.xyz/u/#FaQfL)
+- [Rnad](https://pixelseries.xyz/u/#epuAC)
+- [Frost780](https://pixelseries.xyz/u/#sQUky)
+- [KigMD](https://pixelseries.xyz/u/#Q80Hf)
+- [jamacias19](https://pixelseries.xyz/u/#7izDv)
+- [Zoreon_Zen](https://pixelseries.xyz/u/#zwTpp)
+- [IDontToggle__](https://pixelseries.xyz/u/#8HEQD)
+- [IItsBradyy](https://pixelseries.xyz/u/#4Qx21)
+- [Iruka77](https://pixelseries.xyz/u/#0dM1P)
+- [Livvie24](https://pixelseries.xyz/u/#1WmHX)
+- [LukeTheMemeGod](https://pixelseries.xyz/u/#MpNml)
+- [Marco_Lillian](https://pixelseries.xyz/u/#VFBmt)
+- [MikesPrivateHoez](https://pixelseries.xyz/u/#zNhht)
+- [minecarftepic](https://pixelseries.xyz/u/#eRiWs)
+- [Nik_Storey](https://pixelseries.xyz/u/#taN1L)
+- [seonbwii](https://pixelseries.xyz/u/#tlitb)
+- [SkyPixels21](https://pixelseries.xyz/u/#cUA4n)
+- [sparklevamp02](https://pixelseries.xyz/u/#N7w5O)
+- [WolvesWing](https://pixelseries.xyz/u/#0lo0g)
+- [dieing](https://pixelseries.xyz/u/#Dd0KQ)
+- [CatSandWich999](https://pixelseries.xyz/u/#OxCaJ)
+- [BurningOrphans](https://pixelseries.xyz/u/#Mpx9h)
+- [grassfang99](https://pixelseries.xyz/u/#gLV0Y)

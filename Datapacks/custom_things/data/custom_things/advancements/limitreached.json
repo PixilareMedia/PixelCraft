@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Limit Reached"
+        },
+        "description": {
+            "text": "Why The Hell Do You Need 21863 Levels Of Xp? So By My Saying So You Have No Life At All"
+        },
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 21863
+    },
+    "parent": "custom_things:over9000"
+}

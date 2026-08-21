@@ -1,0 +1,11 @@
+{
+	"parent":"block/block_model",
+    "textures": {
+        "north": "#side",
+        "east": "#side",
+        "south": "#side",
+        "west": "#side",
+        "top": "#top",
+        "bottom": "#bottom"
+    }
+}

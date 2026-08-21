@@ -1,0 +1,83 @@
+menu_title: '&bNoteblock &9Music &d|| &aCoins %objective_scorep_musicm%'
+open_command: music
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Music
+      deny_commands:
+      - '[message] You dont have permission to open menu: Music'
+items:
+  '1':
+    material: music_disc_stal
+    slot: 0
+    display_name: '&cAll Star'
+    lore:
+    - '&aPlay All Star In Noteblocks'
+    left_click_commands:
+    - '[player] trigger music set 3'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger music set 3'
+    - '[close]'
+  '2':
+    material: music_disc_stal
+    slot: 1
+    display_name: '&cCopacabana'
+    lore:
+    - '&aPlay Copacabana In Noteblocks'
+    left_click_commands:
+    - '[player] trigger music set 4'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger music set 4'
+    - '[close]'
+  '3':
+    material: music_disc_stal
+    slot: 2
+    display_name: '&cGet Ready For This'
+    lore:
+    - '&aPlay Get Ready For This In Noteblocks'
+    left_click_commands:
+    - '[player] trigger music set 5'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger music set 5'
+    - '[close]'
+  '4':
+    material: music_disc_stal
+    slot: 3
+    display_name: '&cHes A Pirate'
+    lore:
+    - '&aPlay Hes A Pirate In Noteblocks'
+    left_click_commands:
+    - '[player] trigger music set 6'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger music set 6'
+    - '[close]'
+  '5':
+    material: music_disc_stal
+    slot: 4
+    display_name: '&cNyan Cat'
+    lore:
+    - '&aPlay Nyan Cat In Noteblocks'
+    left_click_commands:
+    - '[player] trigger music set 7'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger music set 7'
+    - '[close]'
+  '6':
+    material: music_disc_stal
+    slot: 5
+    display_name: '&cViva La Vida'
+    lore:
+    - '&aPlay Viva La Vida In Noteblocks'
+    left_click_commands:
+    - '[player] trigger music set 8'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger music set 8'
+    - '[close]'

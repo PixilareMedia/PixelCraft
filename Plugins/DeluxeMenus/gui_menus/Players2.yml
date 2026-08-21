@@ -1,0 +1,51 @@
+menu_title: '&aThe Players'
+open_command: 2player
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Players
+      deny_commands:
+      - '[message] You dont have permission to open menu: Players'
+items:
+  '1':
+    material: hopper
+    slot: 0
+    display_name: '&aPrevious Page'
+    left_click_commands:
+    - '[openguimenu] Players'
+    right_click_commands:
+    - '[openguimenu] Players'
+  '2':
+    material: head-___Pewdiepie___
+    slot: 1
+    display_name: '&a___Pewdiepie___'
+    lore:
+    - 'Name: %otherplayer_getname____Pewdiepie___%'
+    - 'Displayname: %otherplayer_displayname____Pewdiepie___%'
+    - 'UUID: %otherplayer_uuid____Pewdiepie___%'
+    - 'Heath: %otherplayer_health____Pewdiepie___%'
+    - 'Ping: %player_ping____Pewdiepie___%'
+    left_click_commands:
+    - '[player] seen ___Pewdiepie___'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen ___Pewdiepie___'
+    - '[close]'
+  '3':
+    material: head-Notch
+    slot: 2
+    display_name: '&aNotch'
+    lore:
+    - 'Name: %otherplayer_getname_Notch%'
+    - 'Displayname: %otherplayer_displayname_Notch%'
+    - 'UUID: %otherplayer_uuid_Notch%'
+    - 'Heath: %otherplayer_health_Notch%'
+    - 'Ping: %player_ping_Notch%'
+    left_click_commands:
+    - '[player] seen Notch'
+    - '[close]'
+    right_click_commands:
+    - '[player] seen Notch'
+    - '[close]'

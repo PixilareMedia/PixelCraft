@@ -1,0 +1,389 @@
+menu_title: '&5Your &6Mobs Statistics'
+open_command: StatisticMobs
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Statistic
+      deny_commands:
+      - '[message] You dont have permission to open menu: Statistic'
+items:
+  '1':
+    material: redstone_torch
+    slot: 0
+    display_name: '&cBack'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items20'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items20'
+  '2':
+    material: gray_stained_glass_pane
+    slot: 1
+    display_name: '&7'
+  '3':
+    material: head;%player_name%
+    slot: 2
+    display_name: '&aAbout You'
+    lore:
+    - '&8* &7Join Date &8* &a%player_first_join_date%'
+    - '&8* &7IP &8* &a%player_ip%'
+    - '&8* &7UUID &8* &a%player_uuid%'
+    - '&8* &7Name &8* &a%player_name%'
+    - '&8* &7Displayname &8* &a%player_displayname%'
+    - '&8* &7Tag &8* &a%deluxetags_tag%'
+  '4':
+    material: grass_block
+    slot: 3
+    display_name: '&6General'
+    left_click_commands:
+    - '[openguimenu] Statistic_General'
+    right_click_commands:
+    - '[openguimenu] Statistic_General'
+  '5':
+    material: gray_stained_glass_pane
+    slot: 4
+    display_name: '&7'
+  '6':
+    material: diamond
+    slot: 5
+    display_name: '&bItems'
+    left_click_commands:
+    - '[openguimenu] Statistic_Items'
+    right_click_commands:
+    - '[openguimenu] Statistic_Items'
+  '7':
+    material: phantom_spawn_egg
+    slot: 6
+    display_name: '&9Mobs'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs'
+  '8':
+    material: gray_stained_glass_pane
+    slot: 7
+    display_name: '&7'
+  '9':
+    material: torch
+    slot: 8
+    display_name: '&eNext'
+    left_click_commands:
+    - '[openguimenu] Statistic_Mobs2'
+    right_click_commands:
+    - '[openguimenu] Statistic_Mobs2'
+  '10':
+    material: bat_spawn_egg
+    slot: 9
+    display_name: '&7Bat'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:bat%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:bat%'
+  '11':
+    material: blaze_spawn_egg
+    slot: 10
+    display_name: '&7Blaze'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:blaze%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:blaze%'
+  '12':
+    material: cat_spawn_egg
+    slot: 11
+    display_name: '&7Cat'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:cat%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:cat%'
+  '13':
+    material: cave_spider_spawn_egg
+    slot: 12
+    display_name: '&7Cave Spider'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:cave_spider%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:cave_spider%'
+  '14':
+    material: chicken_spawn_egg
+    slot: 13
+    display_name: '&7Chicken'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:chicken%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:chicken%'
+  '15':
+    material: cod_spawn_egg
+    slot: 14
+    display_name: '&7Cod'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:cod%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:cod%'
+  '16':
+    material: cow_spawn_egg
+    slot: 15
+    display_name: '&7Cow'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:cow%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:cow%'
+  '17':
+    material: creeper_spawn_egg
+    slot: 16
+    display_name: '&7Creeper'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:creeper%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:creeper%'
+  '18':
+    material: dolphin_spawn_egg
+    slot: 17
+    display_name: '&7Dolphin'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:dolphin%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:dolphin%'
+  '19':
+    material: donkey_spawn_egg
+    slot: 18
+    display_name: '&7Donkey'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:donkey%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:donkey%'
+  '20':
+    material: drowned_spawn_egg
+    slot: 19
+    display_name: '&7Drowned'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:drowned%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:drowned%'
+  '21':
+    material: elder_guardian_spawn_egg
+    slot: 20
+    display_name: '&7Elder Guardian'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:elder_guardian%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:elder_guardian%'
+  '22':
+    material: enderman_spawn_egg
+    slot: 21
+    display_name: '&7Enderman'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:enderman%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:enderman%'
+  '23':
+    material: endermite_spawn_egg
+    slot: 22
+    display_name: '&7Endermite'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:endermite%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:endermite%'
+  '24':
+    material: evoker_spawn_egg
+    slot: 23
+    display_name: '&7Evoker'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:evoker%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:evoker%'
+  '25':
+    material: fox_spawn_egg
+    slot: 24
+    display_name: '&7Fox'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:fox%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:fox%'
+  '26':
+    material: ghast_spawn_egg
+    slot: 25
+    display_name: '&7Ghast'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:ghast%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:ghast%'
+  '27':
+    material: guardian_spawn_egg
+    slot: 26
+    display_name: '&7Guardian'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:guardian%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:guardian%'
+  '28':
+    material: horse_spawn_egg
+    slot: 27
+    display_name: '&7Horse'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:horse%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:horse%'
+  '29':
+    material: husk_spawn_egg
+    slot: 28
+    display_name: '&7Husk'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:husk%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:husk%'
+  '30':
+    material: llama_spawn_egg
+    slot: 29
+    display_name: '&7Llama'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:llama%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:llama%'
+  '31':
+    material: magma_cube_spawn_egg
+    slot: 30
+    display_name: '&7Magma Cube'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:magma_cube%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:magma_cube%'
+  '32':
+    material: mooshroom_spawn_egg
+    slot: 31
+    display_name: '&7Mooshroom'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:mooshroom%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:mooshroom%'
+  '33':
+    material: mule_spawn_egg
+    slot: 32
+    display_name: '&7Mule'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:mule%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:mule%'
+  '34':
+    material: ocelot_spawn_egg
+    slot: 33
+    display_name: '&7Ocelot'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:ocelot%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:ocelot%'
+  '35':
+    material: panda_spawn_egg
+    slot: 34
+    display_name: '&7Panda'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:panda%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:panda%'
+  '36':
+    material: parrot_spawn_egg
+    slot: 35
+    display_name: '&7Parrot'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:parrot%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:parrot%'
+  '37':
+    material: phantom_spawn_egg
+    slot: 36
+    display_name: '&7Phantom'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:phantom%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:phantom%'
+  '38':
+    material: pig_spawn_egg
+    slot: 37
+    display_name: '&7Pig'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:pig%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:pig%'
+  '39':
+    material: pillager_spawn_egg
+    slot: 38
+    display_name: '&7Pillager'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:pillager%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:pillager%'
+  '40':
+    material: polar_bear_spawn_egg
+    slot: 39
+    display_name: '&7Polar Bear'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:polar_bear%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:polar_bear%'
+  '41':
+    material: pufferfish_spawn_egg
+    slot: 40
+    display_name: '&7Pufferfish'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:pufferfish%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:pufferfish%'
+  '42':
+    material: rabbit_spawn_egg
+    slot: 41
+    display_name: '&7Rabbit'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:rabbit%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:rabbit%'
+  '43':
+    material: ravager_spawn_egg
+    slot: 42
+    display_name: '&7Ravager'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:ravager%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:ravager%'
+  '44':
+    material: salmon_spawn_egg
+    slot: 43
+    display_name: '&7Salmon'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:salmon%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:salmon%'
+  '45':
+    material: sheep_spawn_egg
+    slot: 44
+    display_name: '&7Sheep'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:sheep%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:sheep%'
+  '46':
+    material: shulker_spawn_egg
+    slot: 45
+    display_name: '&7Shulker'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:shulker%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:shulker%'
+  '47':
+    material: silverfish_spawn_egg
+    slot: 46
+    display_name: '&7Silverfish'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:silverfish%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:silverfish%'
+  '48':
+    material: skeleton_spawn_egg
+    slot: 47
+    display_name: '&7Skeleton'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:skeleton%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:skeleton%'
+  '49':
+    material: skeleton_horse_spawn_egg
+    slot: 48
+    display_name: '&7Skeleton Horse'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:skeleton_horse%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:skeleton_horse%'
+  '50':
+    material: slime_spawn_egg
+    slot: 49
+    display_name: '&7Slime'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:slime%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:slime%'
+  '51':
+    material: spider_spawn_egg
+    slot: 50
+    display_name: '&7Spider'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:spider%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:spider%'
+  '52':
+    material: squid_spawn_egg
+    slot: 51
+    display_name: '&7Squid'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:squid%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:squid%'
+  '53':
+    material: stray_spawn_egg
+    slot: 52
+    display_name: '&7Stray'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:stray%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:stray%'
+  '54':
+    material: trader_llama_spawn_egg
+    slot: 53
+    display_name: '&7Trader Llama'
+    lore:
+    - '&8* &7You Have Killed &8* &a%statistic_kill_entity:trader_llama%'
+    - '&8* &7You Have Died &8* &a%statistic_entity_killed_by:trader_llama%'

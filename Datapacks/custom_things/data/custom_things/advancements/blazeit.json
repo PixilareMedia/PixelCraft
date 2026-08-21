@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Blaze It"
+        },
+        "description": {
+            "text": "Well Someone Get Te Weed We've Got 420 Levels"
+        },
+        "icon": {
+            "item": "minecraft:grass"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 420
+    },
+    "parent": "custom_things:noscope"
+}

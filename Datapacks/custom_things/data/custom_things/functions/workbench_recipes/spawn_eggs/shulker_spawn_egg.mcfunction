@@ -1,0 +1,8 @@
+tag @s[tag=craftedShulkerSpawnEgg] add alreadyCrafted
+tag @s[tag=craftedShulkerSpawnEgg] remove craftedShulkerSpawnEgg
+execute if block ~ ~ ~ minecraft:dropper{Items:[{Slot:0b,id:"minecraft:shulker_shell",Count:1b},{Slot:1b,id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"cda568d7-46da-4468-a46a-4c1ed73faf53",Name:"Shulker",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU3MzgzMmUyNzJmODg0NGM0NzY4NDZiYzQyNGEzNDMyZmI2OThjNThlNmVmMmE5ODcxYzdkMjlhZWVhNyJ9fX0="}]}}}},{Slot:2b,id:"minecraft:shulker_shell",Count:1b},{Slot:3b,id:"minecraft:shulker_shell",Count:1b},{Slot:4b,id:"minecraft:egg",Count:1b,tag:{display:{Name:"{\"text\":\"Base Spawn Egg\"}"},CustomModelData:1}},{Slot:5b,id:"minecraft:shulker_shell",Count:1b},{Slot:6b,id:"minecraft:shulker_shell",Count:1b},{Slot:7b,id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"cda568d7-46da-4468-a46a-4c1ed73faf53",Name:"Shulker",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU3MzgzMmUyNzJmODg0NGM0NzY4NDZiYzQyNGEzNDMyZmI2OThjNThlNmVmMmE5ODcxYzdkMjlhZWVhNyJ9fX0="}]}}}},{Slot:8b,id:"minecraft:shulker_shell",Count:1b}]} run tag @s add craftedShulkerSpawnEgg
+execute as @s[tag=craftedShulkerSpawnEgg,tag=!alreadyCrafted] run playsound minecraft:block.end_portal_frame.fill block @a ~ ~ ~
+tag @s[tag=craftedShulkerSpawnEgg,tag=!alreadyCrafted] add alreadyCrafted
+execute as @s[tag=craftedShulkerSpawnEgg] run function custom_things:workbench_recipes/spawn_eggs/shulker_spawn_egg_success
+execute as @s[tag=craftedShulkerSpawnEgg] run function custom_things:workbench_recipes/spawn_eggs/shulker_spawn_egg
+tag @s[tag=alreadyCrafted] remove alreadyCrafted

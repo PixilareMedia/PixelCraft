@@ -1,0 +1,26 @@
+uuid: c8d6aeb2-caa6-4381-8815-330fe2677c98
+name: Herobrain_gamer
+primary-group: default
+permissions:
+- chestshop.othername.access.*:
+    value: false
+- luckperms.*
+- bukkit.command.op.give
+- bukkit.command.plugins
+- bukkit.command.version
+- deluxetags.tag.OutOfIdeas
+- deluxetags.tag.Season1
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+- essentials.afk.kickexempt
+- essentials.balancetop.exclude:
+    value: false
+- essentials.silentjoin
+- essentials.silentjoin.vanish
+- essentials.silentquit
+- essentials.vanish.effect:
+    value: false
+- minecraft.command.op
+parents:
+- default
+- dev

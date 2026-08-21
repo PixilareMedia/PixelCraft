@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 256
+    block: diorite
+display:
+  name: "&7Mine Diorite 6"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 256 diorite."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 256 Diorite."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $250."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/256 diorite mined."
+  type: "diorite"
+rewards:
+  - "eco give {player} 250"
+options:
+  category: "Mining"
+  requires:
+    - "minediorite5"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 6

@@ -1,0 +1,2 @@
+scoreboard objectives remove randomtick
+scoreboard objectives remove randomtickc

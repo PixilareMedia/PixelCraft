@@ -1,0 +1,889 @@
+menu_title: '&5Buy Pixel Heads &d|| &2Balance &6$%vault_eco_balance_commas%'
+open_command: buypixelsheads
+size: 36
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Shop
+      deny_commands:
+      - '[message] You dont have permission to open menu: Shop_Buy_Heads_Pixels'
+items:
+  '1':
+    material: head-Herobrain_gamer
+    slot: 0
+    display_name: '&eHerobrain_gamer''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Herobrain_gamer''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Herobrain_gamer''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Herobrain_gamer} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Herobrain_gamer''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Herobrain_gamer} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Herobrain_gamer''s Head &ffor &a$51200&f.'
+  '2':
+    material: head-GamerGabriel
+    slot: 1
+    display_name: '&eGamerGabriels''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x GamerGabriel''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x GamerGabriel''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:GamerGabriel} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x GamerGabriel''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:GamerGabriel} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x GamerGabriel''s Head &ffor &a$51200&f.'
+  '3':
+    material: head-midna_87
+    slot: 2
+    display_name: '&emidna_87''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x midna_87''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x midna_87''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:midna_87} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x midna_87''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:midna_87} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x midna_87''s Head &ffor &a$51200&f.'
+  '4':
+    material: head-IItsBradyy
+    slot: 3
+    display_name: '&eIItsBradyy''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x IItsBradyy''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x IItsBradyy''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:IItsBradyy} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x IItsBradyy''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:IItsBradyy} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x IItsBradyy''s Head &ffor &a$51200&f.'
+  '5':
+    material: head-SkyPixels21
+    slot: 4
+    display_name: '&eSkyPixels21''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x SkyPixels21''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x SkyPixels21''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:SkyPixels21} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x SkyPixels21''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:SkyPixels21} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x SkyPixels21''s Head &ffor &a$51200&f.'
+  '6':
+    material: head-_Blaze_
+    slot: 5
+    display_name: '&e_Blaze_''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x _Blaze_''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x _Blaze_''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:_Blaze_} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x _Blaze_''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:_Blaze_} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x _Blaze_''s Head &ffor &a$51200&f.'
+  '7':
+    material: head-Iruka77
+    slot: 6
+    display_name: '&eIruka77''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Iruka77''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Iruka77''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Iruka77} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Iruka77''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Iruka77} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Iruka77''s Head &ffor &a$51200&f.'
+  '8':
+    material: head-dieing
+    slot: 7
+    display_name: '&edieing''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x dieing''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x dieing''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:dieing} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x dieing''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:dieing} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x dieing''s Head &ffor &a$51200&f.'
+  '9':
+    material: head-EggyLadd
+    slot: 8
+    display_name: '&eEggyLadd''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x EggyLadd''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x EggyLadd''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:EggyLadd} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x EggyLadd''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:EggyLadd} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x EggyLadd''s Head &ffor &a$51200&f.'
+  '10':
+    material: head-FiddleWorm
+    slot: 9
+    display_name: '&eFiddleWorm''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x FiddleWorm''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x FiddleWorm''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:FiddleWorm} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x FiddleWorm''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:FiddleWorm} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x FiddleWorm''s Head &ffor &a$51200&f.'
+  '11':
+    material: head-TheTrueDuality
+    slot: 10
+    display_name: '&eTheTrueDuality''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x TheTrueDuality''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x TheTrueDuality''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:TheTrueDuality} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x TheTrueDuality''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:TheTrueDuality} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x TheTrueDuality''s Head &ffor &a$51200&f.'
+  '12':
+    material: head-Butterminer200
+    slot: 11
+    display_name: '&eButterminer200''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Butterminer200''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Butterminer200''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Butterminer200} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Butterminer200''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Butterminer200} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Butterminer200''s Head &ffor &a$51200&f.'
+  '13':
+    material: head-sparklevamp02
+    slot: 12
+    display_name: '&esparklevamp02''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x sparklevamp02''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x sparklevamp02''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:sparklevamp02} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x sparklevamp02''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:sparklevamp02} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x sparklevamp02''s Head &ffor &a$51200&f.'
+  '14':
+    material: head-Livvie24
+    slot: 13
+    display_name: '&eLivvie24''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Livvie24''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Livvie24''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Livvie24} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Livvie24''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Livvie24} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Livvie24''s Head &ffor &a$51200&f.'
+  '15':
+    material: head-Marco_Lillian
+    slot: 14
+    display_name: '&eMarco_Lillian''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Marco_Lillian''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Marco_Lillian''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Marco_Lillian} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Marco_Lillian''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Marco_Lillian} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Marco_Lillian''s Head &ffor &a$51200&f.'
+  '16':
+    material: head-CatSandWich999
+    slot: 15
+    display_name: '&eCatSandWich999''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x CatSandWich999''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x CatSandWich999''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:CatSandWich999} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x CatSandWich999''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:CatSandWich999} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x CatSandWich999''s Head &ffor &a$51200&f.'
+  '17':
+    material: head-zerofang666
+    slot: 16
+    display_name: '&ezerofang666''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x zerofang666''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x zerofang666''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:zerofang666} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x zerofang666''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:zerofang666} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x zerofang666''s Head &ffor &a$51200&f.'
+  '18':
+    material: head-AnnyongB
+    slot: 17
+    display_name: '&eAnnyongB''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x AnnyongB''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x AnnyongB''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:AnnyongB} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x AnnyongB''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:AnnyongB} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x AnnyongB''s Head &ffor &a$51200&f.'
+  '19':
+    material: head-InfernoStrike53
+    slot: 18
+    display_name: '&eInfernoStrike53''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x InfernoStrike53''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x InfernoStrike53''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:InfernoStrike53} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x InfernoStrike53''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:InfernoStrike53} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x InfernoStrike53''s Head &ffor &a$51200&f.'
+  '20':
+    material: head-wolfcat01
+    slot: 19
+    display_name: '&ewolfcat01''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x wolfcat01''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x wolfcat01''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:wolfcat01} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x wolfcat01''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:wolfcat01} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x wolfcat01''s Head &ffor &a$51200&f.'
+  '21':
+    material: head-_Pengu__
+    slot: 20
+    display_name: '&e_Pengu__''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x _Pengu__''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x _Pengu__''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:_Pengu__} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x _Pengu__''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:_Pengu__} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x _Pengu__''s Head &ffor &a$51200&f.'
+  '22':
+    material: head-willongnose
+    slot: 21
+    display_name: '&ewillongnose''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x willongnose''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x willongnose''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:willongnose} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x willongnose''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:willongnose} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x willongnose''s Head &ffor &a$51200&f.'
+  '23':
+    material: head-SW_MC
+    slot: 22
+    display_name: '&eSW_MC''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x SW_MC''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x SW_MC''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:SW_MC} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x SW_MC''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:SW_MC} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x SW_MC''s Head &ffor &a$51200&f.'
+  '24':
+    material: head-IDontToggle__
+    slot: 23
+    display_name: '&eIDontToggle__''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x IDontToggle__''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x IDontToggle__''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:IDontToggle__} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x IDontToggle__''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:IDontToggle__} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x IDontToggle__''s Head &ffor &a$51200&f.'
+  '25':
+    material: head-WolvesWing
+    slot: 24
+    display_name: '&eWolvesWing''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x WolvesWing''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x WolvesWing''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:WolvesWing} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x WolvesWing''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:WolvesWing} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x WolvesWing''s Head &ffor &a$51200&f.'
+  '26':
+    material: head-Frost780
+    slot: 25
+    display_name: '&eFrost780''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Frost780''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Frost780''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Frost780} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Frost780''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Frost780} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Frost780''s Head &ffor &a$51200&f.'
+  '27':
+    material: head-BurningOrphans
+    slot: 26
+    display_name: '&eBurningOrphans''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x BurningOrphans''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x BurningOrphans''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:BurningOrphans} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x BurningOrphans''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:BurningOrphans} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x BurningOrphans''s Head &ffor &a$51200&f.'
+  '28':
+    material: head-igomigo
+    slot: 27
+    display_name: '&eigomigo''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x igomigo''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x igomigo''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:igomigo} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x igomigo''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:igomigo} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x igomigo''s Head &ffor &a$51200&f.'
+  '29':
+    material: head-Quintal2012
+    slot: 28
+    display_name: '&eQuintal2012''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x Quintal2012''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x Quintal2012''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Quintal2012} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Quintal2012''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:Quintal2012} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Quintal2012''s Head &ffor &a$51200&f.'
+  '30':
+    material: head-MikesPrivateHoez
+    slot: 29
+    display_name: '&eMikesPrivateHoez''s Head'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f1600'
+    - '&8* &7Buy 32 for: &a$&f51200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 1600
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$1600 &fto buy &c1 x MikesPrivateHoez''s Head&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 51200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$51200 &fto buy &c32 x MikesPrivateHoez''s Head&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 1600'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:MikesPrivateHoez} 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x MikesPrivateHoez''s Head &ffor &a$1600&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 51200'
+    - '[console] minecraft:give %player_name% minecraft:player_head{SkullOwner:MikesPrivateHoez} 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x MikesPrivateHoez''s Head &ffor &a$51200&f.'
+  '36':
+    material: redstone_lamp
+    slot: 35
+    display_name: '&6Close'
+    left_click_commands:
+    - '[openguimenu] Shop_Buy_Heads'
+    right_click_commands:
+    - '[openguimenu] Shop_Buy_Heads'

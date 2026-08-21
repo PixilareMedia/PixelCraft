@@ -1,0 +1,8 @@
+uuid: b0a3ad29-e68c-49f5-9664-b8009394fb68
+name: wolfcat01
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- admin
+- default

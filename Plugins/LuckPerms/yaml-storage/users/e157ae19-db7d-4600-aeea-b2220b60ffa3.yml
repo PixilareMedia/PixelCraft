@@ -1,0 +1,11 @@
+uuid: e157ae19-db7d-4600-aeea-b2220b60ffa3
+name: midna_87
+primary-group: default
+permissions:
+- deluxetags.tag.Season1
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+- deluxetags.tag.TheMidnight
+parents:
+- default
+- pixelss1

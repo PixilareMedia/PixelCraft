@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 32
+    block: lapis_ore
+display:
+  name: "&9Mine Lapis 2"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 32 lapis ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 32 Lapis Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $200."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/32 lapis ore mined."
+  type: "lapis_ore"
+rewards:
+  - "eco give {player} 200"
+options:
+  category: "Mining"
+  requires:
+    - "minelapisore1"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 2

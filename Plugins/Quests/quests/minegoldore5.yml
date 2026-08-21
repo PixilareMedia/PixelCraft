@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 192
+    block: gold_ore
+display:
+  name: "&6Mine Gold 5"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 192 gold ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 192 Gold Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $700."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/192 gold ore mined."
+  type: "iron_ore"
+rewards:
+  - "eco give {player} 700"
+options:
+  category: "Mining"
+  requires:
+    - "minegoldore4"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 5

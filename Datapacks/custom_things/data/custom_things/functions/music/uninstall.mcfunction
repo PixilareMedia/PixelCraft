@@ -1,0 +1,2 @@
+scoreboard objectives remove music
+scoreboard objectives remove musicm

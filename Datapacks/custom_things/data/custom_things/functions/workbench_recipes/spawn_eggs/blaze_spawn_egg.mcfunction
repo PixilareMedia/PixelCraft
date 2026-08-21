@@ -1,0 +1,8 @@
+tag @s[tag=craftedBlazeSpawnEgg] add alreadyCrafted
+tag @s[tag=craftedBlazeSpawnEgg] remove craftedBlazeSpawnEgg
+execute if block ~ ~ ~ minecraft:dropper{Items:[{Slot:0b,id:"minecraft:blaze_rod",Count:1b},{Slot:1b,id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"7ceb88b2-7f5f-4399-abb9-7068251baa9d",Name:"Blaze",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ=="}]}}}},{Slot:2b,id:"minecraft:blaze_rod",Count:1b},{Slot:3b,id:"minecraft:blaze_rod",Count:1b},{Slot:4b,id:"minecraft:egg",Count:1b,tag:{display:{Name:"{\"text\":\"Base Spawn Egg\"}"},CustomModelData:1}},{Slot:5b,id:"minecraft:blaze_rod",Count:1b},{Slot:6b,id:"minecraft:blaze_rod",Count:1b},{Slot:7b,id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"7ceb88b2-7f5f-4399-abb9-7068251baa9d",Name:"Blaze",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc4ZWYyZTRjZjJjNDFhMmQxNGJmZGU5Y2FmZjEwMjE5ZjViMWJmNWIzNWE0OWViNTFjNjQ2Nzg4MmNiNWYwIn19fQ=="}]}}}},{Slot:8b,id:"minecraft:blaze_rod",Count:1b}]} run tag @s add craftedBlazeSpawnEgg
+execute as @s[tag=craftedBlazeSpawnEgg,tag=!alreadyCrafted] run playsound minecraft:block.end_portal_frame.fill block @a ~ ~ ~
+tag @s[tag=craftedBlazeSpawnEgg,tag=!alreadyCrafted] add alreadyCrafted
+execute as @s[tag=craftedBlazeSpawnEgg] run function custom_things:workbench_recipes/spawn_eggs/blaze_spawn_egg_success
+execute as @s[tag=craftedBlazeSpawnEgg] run function custom_things:workbench_recipes/spawn_eggs/blaze_spawn_egg
+tag @s[tag=alreadyCrafted] remove alreadyCrafted

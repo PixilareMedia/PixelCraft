@@ -1,0 +1,8 @@
+uuid: 5e7dafca-ac46-47b0-a6f2-c0fd2ccfff60
+name: Frost780
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss3

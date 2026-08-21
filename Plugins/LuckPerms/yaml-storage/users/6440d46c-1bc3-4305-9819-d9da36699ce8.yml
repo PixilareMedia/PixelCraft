@@ -1,0 +1,8 @@
+uuid: 6440d46c-1bc3-4305-9819-d9da36699ce8
+name: _Pengu__
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss3

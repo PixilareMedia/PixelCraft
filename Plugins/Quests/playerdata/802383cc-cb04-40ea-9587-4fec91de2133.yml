@@ -1,0 +1,280 @@
+quest-progress:
+  minediorite3:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572034858094
+    task-progress:
+      mining:
+        completed: true
+        progress: 64
+  minediorite4:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572034933094
+    task-progress:
+      mining:
+        completed: true
+        progress: 128
+  minediorite5:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572034988094
+    task-progress:
+      mining:
+        completed: true
+        progress: 192
+  minediorite1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572034825094
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  minediorite2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572034848094
+    task-progress:
+      mining:
+        completed: true
+        progress: 32
+  minequartzore3:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1571974637128
+    task-progress:
+      mining:
+        completed: true
+        progress: 64
+  minequartzore2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1571974557810
+    task-progress:
+      mining:
+        completed: true
+        progress: 32
+  minequartzore1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1571973500488
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  minelapisore1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035100094
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  minelapisore3:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035784094
+    task-progress:
+      mining:
+        completed: true
+        progress: 64
+  minelapisore2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035718094
+    task-progress:
+      mining:
+        completed: true
+        progress: 32
+  mineironore1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572047059137
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  minegoldore1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572047147094
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  mineandesite3:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035018094
+    task-progress:
+      mining:
+        completed: true
+        progress: 64
+  mineandesite2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035004094
+    task-progress:
+      mining:
+        completed: true
+        progress: 32
+  mineandesite1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572034994094
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  mineandesite4:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035083094
+    task-progress:
+      mining:
+        completed: true
+        progress: 128
+  minequartzore6:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1571975310878
+    task-progress:
+      mining:
+        completed: true
+        progress: 256
+  minequartzore5:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1571974937288
+    task-progress:
+      mining:
+        completed: true
+        progress: 192
+  minequartzore4:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1571974741088
+    task-progress:
+      mining:
+        completed: true
+        progress: 128
+  minegranite1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035163094
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  minegranite2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035178094
+    task-progress:
+      mining:
+        completed: true
+        progress: 32
+  mineredstoneore1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035252094
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  minecoalore3:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572036082094
+    task-progress:
+      mining:
+        completed: true
+        progress: 64
+  minecoalore2:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572035199094
+    task-progress:
+      mining:
+        completed: true
+        progress: 32
+  minecoalore1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572034779094
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  minecoalore6:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572036477094
+    task-progress:
+      mining:
+        completed: true
+        progress: 256
+  minecoalore5:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572036325094
+    task-progress:
+      mining:
+        completed: true
+        progress: 192
+  minecoalore4:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1572036170094
+    task-progress:
+      mining:
+        completed: true
+        progress: 128
+  minediamondore1:
+    started: false
+    completed: true
+    completed-before: true
+    completion-date: 1573406514447
+    task-progress:
+      mining:
+        completed: true
+        progress: 4
+  minediamondore2:
+    started: true
+    completed: false
+    completed-before: false
+    completion-date: 0
+    task-progress:
+      mining:
+        completed: false
+        progress: 22

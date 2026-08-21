@@ -1,0 +1,8 @@
+uuid: 42eb5aef-7300-41e9-b8cc-66287ce874ed
+name: igomigo
+primary-group: default
+permissions:
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss3

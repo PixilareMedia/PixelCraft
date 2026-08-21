@@ -1,0 +1,35 @@
+menu_title: '&cKick Prefabs'
+open_command: kick
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.staff.Kick
+      deny_commands:
+      - '[message] You dont have permission to open menu: Kick'
+items:
+  '3':
+    material: bell
+    slot: 2
+    display_name: '&aPublic Kick'
+    left_click_commands:
+    - '[openguimenu] KickPublic'
+    right_click_commands:
+    - '[openguimenu] KickPublic'
+  '5':
+    material: redstone_lamp
+    slot: 4
+    display_name: '&6Close'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'
+  '7':
+    material: map
+    slot: 6
+    display_name: '&aSilent kick'
+    left_click_commands:
+    - '[openguimenu] KickSilent'
+    right_click_commands:
+    - '[openguimenu] KickSilent'

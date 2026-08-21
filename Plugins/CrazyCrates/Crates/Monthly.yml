@@ -1,0 +1,165 @@
+Crate:
+  CrateType: CSGO
+  CrateName: '&7Monthly Crate'
+  Preview-Name: '&7Monthly Crate Preview'
+  StartingKeys: 0
+  InGUI: true
+  Slot: 21
+  OpeningBroadCast: false
+  BroadCast: '%Prefix%&6&l%Player% &7is opening a &e&lMonthly Crate&7.'
+  Item: CHEST
+  Glowing: false
+  Name: '&e&lMonthly Chest'
+  Lore:
+  - '&7This crate contains monthly items.'
+  - '&7Items from this crate are permanent.'
+  - '&7You have &6%Keys% keys &7to open this crate with.'
+  - '&7&l(&e&l!&7&l) Right click to view rewards.'
+  Preview:
+    Toggle: true
+    ChestLines: 3
+    Glass:
+      Toggle: true
+      Item: YELLOW_STAINED_GLASS_PANE
+  PhysicalKey:
+    Name: '&e&lMonthly Crate &c&lKey'
+    Lore:
+    - '&7A special Key'
+    - '&7For a special Crate.'
+    Item: TRIPWIRE_HOOK
+    Glowing: true
+  Prizes:
+    '1':
+      DisplayName: '&e&l$1,000'
+      DisplayItem: SUNFLOWER
+      DisplayAmount: 1
+      Lore:
+      - '&7Make it rain a lot of Money.'
+      - '&6&lChance: &c&l92%'
+      MaxRange: 100
+      Chance: 92
+      Firework: true
+      Commands:
+      - eco give %Player% 1000
+      Messages:
+      - '&7You just won &a$1,000&7.'
+    '2':
+      DisplayName: '&d&lNick'
+      DisplayItem: NAME_TAG
+      DisplayAmount: 1
+      Lore:
+      - '&7Change Your Displayname'
+      - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - pex user %Player% add essentials.nick
+      - pex user %Player% add essentials.nick.color
+      - pex user %Player% add essentials.nick.magic
+      - pex user %Player% add essentials.nick.format
+      Messages:
+      - '&7You just won &a/nick&7.'
+    '3':
+      DisplayName: '&6&lExtinguish'
+      DisplayItem: FLINT_AND_STEEL
+      DisplayAmount: 1
+      Lore:
+      - '&7Put Yourself Out When On Fire'
+      - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - pex user %Player% add essentials.ext
+      Messages:
+      - '&7You just won &a/ext&7.'
+    '4':
+      DisplayName: '&2&lFeed'
+      DisplayItem: COOKED_BEEF
+      DisplayAmount: 1
+      Lore:
+      - '&7Feed Yourself'
+      - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - pex user %Player% add essentials.feed
+      - pex user %Player% add essentials.feed.others
+      Messages:
+      - '&7You just won &a/feed&7.'
+    '5':
+      DisplayName: '&a&lCraft'
+      DisplayItem: CRAFTING_TABLE
+      DisplayAmount: 1
+      Lore:
+      - '&7Have A Virtual Workbench'
+      - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - pex user %Player% add essentials.workbench
+      Messages:
+      - '&7You just won &a/craft&7.'
+    '6':
+      DisplayName: '&7&lEnderchest'
+      DisplayItem: ENDER_CHEST
+      DisplayAmount: 1
+      Lore:
+      - '&7Have A Virtual Ender Chest'
+      - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - pex user %Player% add essentials.enderchest
+      Messages:
+      - '&7You just won &a/ec&7.'
+    '7':
+      DisplayName: '&5&lHeal'
+      DisplayItem: ENCHANTED_GOLDEN_APPLE
+      DisplayAmount: 1
+      Lore:
+      - '&7Heal Yourself On The Go'
+      - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - pex user %Player% add essentials.heal
+      - pex user %Player% add essentials.heal.others
+      Messages:
+      - '&7You just won &a/ec&7.'
+    '8':
+      DisplayName: '&8&lRepair'
+      DisplayItem: ANVIL
+      DisplayAmount: 1
+      Lore:
+      - '&7Repair What Is In Your Hand'
+      - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - pex user %Player% add essentials.repair
+      - pex user %Player% add essentials.repair.armor
+      - pex user %Player% add essentials.repair.enchanted
+      Messages:
+      - '&7You just won &a/repair&7.'
+    '9':
+      DisplayName: '&b&lFly'
+      DisplayItem: ELYTRA
+      DisplayAmount: 1
+      Lore:
+      - '&7Fly Around The Server'
+      - '&6&lChance: &c&l1%'
+      MaxRange: 100
+      Chance: 1
+      Firework: true
+      Commands:
+      - pex user %Player% add essentials.fly
+      - pex user %Player% add essentials.fly.safelogin
+      Messages:
+      - '&7You just won &a/fly&7.'

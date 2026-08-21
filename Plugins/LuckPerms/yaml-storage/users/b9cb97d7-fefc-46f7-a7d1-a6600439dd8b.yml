@@ -1,0 +1,9 @@
+uuid: b9cb97d7-fefc-46f7-a7d1-a6600439dd8b
+name: sparklevamp02
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

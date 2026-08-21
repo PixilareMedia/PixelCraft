@@ -1,0 +1,129 @@
+menu_title: '&aThe Random Tick Speed'
+open_command: randomtick
+size: 18
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.RandomTick
+      deny_commands:
+      - '[message] You dont have permission to open menu: RandomTick'
+items:
+  '1':
+    material: grass
+    slot: 0
+    display_name: '&aDefault'
+    left_click_commands:
+    - '[player] trigger randomtick set 3'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 3'
+    - '[close]'
+  '2':
+    material: wheat_seeds
+    slot: 1
+    display_name: '&a10 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 10'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 10'
+    - '[close]'
+  '3':
+    material: melon
+    slot: 2
+    display_name: '&a20 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 20'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 20'
+    - '[close]'
+  '4':
+    material: pumpkin
+    slot: 3
+    display_name: '&a30 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 30'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 30'
+    - '[close]'
+  '5':
+    material: carrot
+    slot: 4
+    display_name: '&a40 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 40'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 40'
+    - '[close]'
+  '6':
+    material: potato
+    slot: 5
+    display_name: '&a50 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 50'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 50'
+    - '[close]'
+  '7':
+    material: beetroot
+    slot: 6
+    display_name: '&a60 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 60'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 60'
+    - '[close]'
+  '8':
+    material: apple
+    slot: 7
+    display_name: '&a70 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 70'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 70'
+    - '[close]'
+  '9':
+    material: sugar_cane
+    slot: 8
+    display_name: '&a80 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 80'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 80'
+    - '[close]'
+  '10':
+    material: bamboo
+    slot: 9
+    display_name: '&a90 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 90'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 90'
+    - '[close]'
+  '11':
+    material: cactus
+    slot: 10
+    display_name: '&a100 Random Ticks'
+    left_click_commands:
+    - '[player] trigger randomtick set 100'
+    - '[close]'
+    right_click_commands:
+    - '[player] trigger randomtick set 100'
+    - '[close]'
+  '18':
+    material: redstone_lamp
+    slot: 17
+    display_name: '&6Close'
+    left_click_commands:
+    - '[close]'
+    right_click_commands:
+    - '[close]'

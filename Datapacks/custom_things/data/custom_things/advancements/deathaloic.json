@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Deathaloic"
+        },
+        "description": {
+            "text": "Dude You Really Should Not Be Dieing This Many Times (50)"
+        },
+        "icon": {
+            "item": "minecraft:coarse_dirt"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    },
+    "parent": "custom_things:dead"
+}

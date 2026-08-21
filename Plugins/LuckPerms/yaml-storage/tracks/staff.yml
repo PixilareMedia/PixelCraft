@@ -1,0 +1,7 @@
+name: staff
+groups:
+- default
+- mod
+- admin
+- dadmin
+- dev

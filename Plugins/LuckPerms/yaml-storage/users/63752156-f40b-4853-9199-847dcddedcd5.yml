@@ -1,0 +1,9 @@
+uuid: 63752156-f40b-4853-9199-847dcddedcd5
+name: ZeroFang666
+primary-group: default
+permissions:
+- deluxetags.tag.Season2
+- deluxetags.tag.Season3
+parents:
+- default
+- pixelss2

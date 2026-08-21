@@ -1,0 +1,32 @@
+{
+  "core": {
+    "notifications": true
+  },
+  "advanced": {
+    "recordingPath": "./replay_recordings/",
+    "downloadPath": "./replay_downloads/",
+    "renderPath": "./replay_videos/",
+    "skipPostRenderGui": false,
+    "askForOpenEye": true,
+    "skipPostScreenshotGui": false
+  },
+  "recording": {
+    "recordSingleplayer": false,
+    "recordServer": false,
+    "indicator": true,
+    "autoStartRecording": true,
+    "autoPostProcess": true
+  },
+  "replay": {
+    "showChat": true,
+    "showServerIPs": true,
+    "camera": "replaymod.camera.classic"
+  },
+  "online": {
+    "skipLoginPrompt": false
+  },
+  "simplepathing": {
+    "pathpreview": false,
+    "interpolator": "replaymod.gui.editkeyframe.interpolator.catmullrom.name"
+  }
+}

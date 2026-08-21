@@ -1,0 +1,28 @@
+name: pixelss3
+permissions:
+- OpenInv.exempt
+- essentials.enderchest
+- essentials.ext
+- essentials.fly
+- essentials.fly.safelogin
+- essentials.repair
+- essentials.repair.armor
+- essentials.repair.enchanted
+- essentials.sethome.multiple.pixelss3
+- essentials.sethome.multiple.upgrade1
+- essentials.sethome.multiple.upgrade2
+- essentials.sethome.multiple.upgrade3
+- essentials.sethome.multiple.upgrade4
+- essentials.teleport.timer.move
+- essentials.workbench
+- staffchat.pixels
+- staffchat.pixelss3
+- weight.5
+parents:
+- default
+prefixes:
+- '[&dPixels S3&r] ':
+    priority: 5
+meta:
+- default:
+    value: 'false'

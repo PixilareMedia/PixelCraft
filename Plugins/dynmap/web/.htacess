@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond   %{HTTP_HOST}   !^http://66.70.132.128:8034/$         [NC]
+RewriteRule   (.*)           http://map.pixelcraft.club/$1  [L,R=301]

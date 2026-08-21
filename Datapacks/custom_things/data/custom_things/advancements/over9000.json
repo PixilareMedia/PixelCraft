@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Its Over 9000"
+        },
+        "description": {
+            "text": "Well It Semes That Your Power Level Is Over 9000"
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ],
+    "rewards": {
+        "experience": 9001
+    },
+    "parent": "custom_things:1000levels"
+}

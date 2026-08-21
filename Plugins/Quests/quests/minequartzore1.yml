@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 4
+    block: nether_quartz_ore
+display:
+  name: "&fMine Quartz 1"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 4 quartz ore."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 4 Quartz Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $50."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/4 quartz ore mined."
+  type: "nether_quartz_ore"
+rewards:
+  - "eco give {player} 50"
+options:
+  category: "Mining"
+  requires:
+    - ""
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 1

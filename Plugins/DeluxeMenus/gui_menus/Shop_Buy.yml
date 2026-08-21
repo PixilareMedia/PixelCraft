@@ -1,0 +1,56 @@
+menu_title: '&5Buy Shop &d|| &2Balance &6$%vault_eco_balance_commas%'
+open_command: buyshop
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.player.Shop
+      deny_commands:
+      - '[message] You dont have permission to open menu: Shop_Buy'
+items:
+  '1':
+    material: note_block
+    slot: 0
+    display_name: '&9Music Money'
+    lore:
+    - '&8* &7Buy 1 for: &a$&f100'
+    - '&8* &7Buy 32 for: &a$&f3200'
+    left_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 100
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$100 &fto buy &c1 x Music Money&f.'
+    right_click_requirement:
+      requirements:
+        diamond_sell:
+          type: has money
+          amount: 3200
+          deny_commands:
+          - '[message] &4Shop &8> &fYou need &c$3200 &fto buy &c32 x Music Money&f.'
+    left_click_commands:
+    - '[console] eco take %player_name% 100'
+    - '[console] scoreboard players add %player_name% musicm 1'
+    - '[message] &2Shop &8> &fYou bought &a1 x Music Money &ffor &a$100&f.'
+    right_click_commands:
+    - '[console] eco take %player_name% 3200'
+    - '[console] scoreboard players add %player_name% musicm 32'
+    - '[message] &2Shop &8> &fYou bought &a32 x Music Money &ffor &a$3200&f.'
+  '5':
+    material: redstone_lamp
+    slot: 4
+    display_name: '&6Close'
+    left_click_commands:
+    - '[openguimenu] Shop'
+    right_click_commands:
+    - '[openguimenu] Shop'
+  '9':
+    material: player_head
+    slot: 8
+    display_name: '&2Heads'
+    left_click_commands:
+    - '[openguimenu] Shop_Buy_Heads'
+    right_click_commands:
+    - '[openguimenu] Shop_Buy_Heads'

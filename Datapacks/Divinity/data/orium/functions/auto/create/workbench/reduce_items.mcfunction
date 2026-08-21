@@ -1,0 +1,9 @@
+execute store result block ~ ~ ~ Items[8].Count int 0.99 run data get block ~ ~ ~ Items[8].Count
+execute store result block ~ ~ ~ Items[7].Count int 0.99 run data get block ~ ~ ~ Items[7].Count
+execute store result block ~ ~ ~ Items[6].Count int 0.99 run data get block ~ ~ ~ Items[6].Count
+execute store result block ~ ~ ~ Items[5].Count int 0.99 run data get block ~ ~ ~ Items[5].Count
+execute store result block ~ ~ ~ Items[4].Count int 0.99 run data get block ~ ~ ~ Items[4].Count
+execute store result block ~ ~ ~ Items[3].Count int 0.99 run data get block ~ ~ ~ Items[3].Count
+execute store result block ~ ~ ~ Items[2].Count int 0.99 run data get block ~ ~ ~ Items[2].Count
+execute store result block ~ ~ ~ Items[1].Count int 0.99 run data get block ~ ~ ~ Items[1].Count
+execute store result block ~ ~ ~ Items[0].Count int 0.99 run data get block ~ ~ ~ Items[0].Count

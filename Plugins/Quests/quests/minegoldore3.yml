@@ -1,0 +1,32 @@
+tasks:
+  mining:
+    type: "blockbreakcertain"
+    amount: 64
+    block: gold_ore
+display:
+  name: "&6Mine Gold 3"
+  lore-normal:
+    - "&cHere is were you are suppose to"
+    - "&cfind 64 gold ores."
+    - ""
+    - "&7This quest requires you to:"
+    - "&7 - Mine 64 Gold Ore."
+    - ""
+    - "&7Rewards:"
+    - "&7 - $250."
+  lore-started:
+    - ""
+    - "&7Your current progression:"
+    - "&7 - {mining:progress}/64 gold ore mined."
+  type: "gold_ore"
+rewards:
+  - "eco give {player} 250"
+options:
+  category: "Mining"
+  requires:
+    - "minegoldore2"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 3

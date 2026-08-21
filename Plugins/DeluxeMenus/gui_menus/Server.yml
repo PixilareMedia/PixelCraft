@@ -1,0 +1,47 @@
+menu_title: '&cServer Stats'
+open_command: server
+size: 9
+open_requirement:
+  requirements:
+    permission:
+      type: has permission
+      permission: pixelcraft.staff.Server
+      deny_commands:
+      - '[message] You dont have permission to open menu: Mute'
+items:
+  '2':
+    material: grass_block
+    slot: 1
+    display_name: '&aGeneral'
+    lore:
+    - '&8* &7Version &8* &7%server_version%'
+    - '&8* &7Unique Joins &8* &7%server_unique_joins%'
+    - '&8* &7Uptime &8* &7%server_uptime%'
+    - '&8* &7Whitelist ? &8* &7%server_has_whitelist%'
+  '4':
+    material: player_head
+    slot: 3
+    display_name: '&aOnline Players'
+    lore:
+    - '&8* &7Max &8* &7%server_max_players%'
+    - '&8* &7Total &8* &7%server_online%'
+    - '&8* &7Overworld &8* &7%server_online_Pixel Craft (S3)%'
+    - '&8* &7Nether &8* &7%server_online_Pixel Craft (S3)_nether%'
+    - '&8* &7End &8* &7%server_online_Pixel Craft (S3)_the_end%'
+  '6':
+    material: dark_prismarine_slab
+    slot: 5
+    display_name: '&aRam'
+    lore:
+    - '&8* &7Used &8* &7%server_ram_used%'
+    - '&8* &7Free &8* &7%server_ram_free%'
+    - '&8* &7Total &8* &7%server_ram_total%'
+  '8':
+    material: elytra
+    slot: 7
+    display_name: '&aTPS'
+    lore:
+    - '&8* &7TPS &8* &7%server_tps%'
+    - '&8* &7TPS 1m &8* &7%server_tps_1_colored%'
+    - '&8* &7TPS 5m &8* &7%server_tps_5_colored%'
+    - '&8* &7TPS 15m &8* &7%server_tps_15_colored%'
