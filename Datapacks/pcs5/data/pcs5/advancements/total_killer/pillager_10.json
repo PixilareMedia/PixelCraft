@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Pillagers So Many. . ."
+        },
+        "description": {
+            "text": "Kill your 500th Pillager"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFlZTZiYjM3Y2JmYzkyYjBkODZkYjVhZGE0NzkwYzY0ZmY0NDY4ZDY4Yjg0OTQyZmRlMDQ0MDVlOGVmNTMzMyJ9fX0=\"}]},Id:[I;449435050,1190088049,-1334360732,942410307]},display:{Name:'{\"text\":\"Pillager\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/pillager_10"
+    },
+    "parent": "pcs5:total_killer/pillager_9"
+}

@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_miner/sand_1=false},scores={bm_sand=1..}] run advancement grant @a[advancements={pcs5:total_miner/sand_1=false},scores={bm_sand=1..}] only pcs5:total_miner/sand_1
+execute if entity @a[advancements={pcs5:total_miner/sand_2=false},scores={bm_sand=5..}] run advancement grant @a[advancements={pcs5:total_miner/sand_2=false},scores={bm_sand=5..}] only pcs5:total_miner/sand_2
+execute if entity @a[advancements={pcs5:total_miner/sand_3=false},scores={bm_sand=25..}] run advancement grant @a[advancements={pcs5:total_miner/sand_3=false},scores={bm_sand=25..}] only pcs5:total_miner/sand_3
+execute if entity @a[advancements={pcs5:total_miner/sand_4=false},scores={bm_sand=50..}] run advancement grant @a[advancements={pcs5:total_miner/sand_4=false},scores={bm_sand=50..}] only pcs5:total_miner/sand_4
+execute if entity @a[advancements={pcs5:total_miner/sand_5=false},scores={bm_sand=75..}] run advancement grant @a[advancements={pcs5:total_miner/sand_5=false},scores={bm_sand=75..}] only pcs5:total_miner/sand_5
+execute if entity @a[advancements={pcs5:total_miner/sand_6=false},scores={bm_sand=100..}] run advancement grant @a[advancements={pcs5:total_miner/sand_6=false},scores={bm_sand=100..}] only pcs5:total_miner/sand_6
+execute if entity @a[advancements={pcs5:total_miner/sand_7=false},scores={bm_sand=150..}] run advancement grant @a[advancements={pcs5:total_miner/sand_7=false},scores={bm_sand=150..}] only pcs5:total_miner/sand_7
+execute if entity @a[advancements={pcs5:total_miner/sand_8=false},scores={bm_sand=200..}] run advancement grant @a[advancements={pcs5:total_miner/sand_8=false},scores={bm_sand=200..}] only pcs5:total_miner/sand_8
+execute if entity @a[advancements={pcs5:total_miner/sand_9=false},scores={bm_sand=250..}] run advancement grant @a[advancements={pcs5:total_miner/sand_9=false},scores={bm_sand=250..}] only pcs5:total_miner/sand_9
+execute if entity @a[advancements={pcs5:total_miner/sand_10=false},scores={bm_sand=500..}] run advancement grant @a[advancements={pcs5:total_miner/sand_10=false},scores={bm_sand=500..}] only pcs5:total_miner/sand_10

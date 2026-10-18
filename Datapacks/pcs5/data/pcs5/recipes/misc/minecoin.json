@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "cAc",
+        "AEA",
+        "cAc"
+    ],
+    "key": {
+        "c": {
+            "item": "minecraft:diamond"
+        },
+        "A": {
+            "item": "minecraft:gold_ingot"
+        },
+        "E": {
+            "item": "minecraft:emerald"
+        }
+    },
+    "result": {
+        "item": "minecraft:ghast_tear",
+        "count": 1,
+        "data": {
+            "display": {
+                "Name": "{\"text\":\"Minecoin\",\"color\":\"gold\",\"italic\":false}"
+            },
+            "CustomModelData": 2
+        }
+    }
+}

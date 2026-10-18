@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Clay Mining 210"
+        },
+        "description": {
+            "text": "Mine your 150th Clay"
+        },
+        "icon": {
+            "item": "minecraft:clay"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/clay_5"
+    },
+    "parent": "pcs5:total_miner/clay_4"
+}

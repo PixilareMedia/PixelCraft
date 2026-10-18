@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "1 Month of Playing"
+        },
+        "description": {
+            "text": "Ok anyone who has not made it here we are shunning you from above"
+        },
+        "icon": {
+            "item": "minecraft:paper"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/playertime_6"
+    },
+    "parent": "pcs5:main/playertime_5"
+}

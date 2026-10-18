@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Amethyst Mining 200"
+        },
+        "description": {
+            "text": "Mine your 100th Amethyst Cluster"
+        },
+        "icon": {
+            "item": "minecraft:amethyst_cluster"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/amethyst_cluster_4"
+    },
+    "parent": "pcs5:total_miner/amethyst_cluster_3"
+}

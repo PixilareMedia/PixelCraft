@@ -1,0 +1,19 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:ghast_tear",
+        "count": 1,
+        "data": {
+            "display": {
+                "Name": "{\"text\":\"Minecoin\",\"color\":\"gold\",\"italic\":false}"
+            },
+            "CustomModelData": 2
+        }
+      }
+    ],
+    "result": {
+        "item": "minecraft:diamond",
+        "count": 4
+    }
+}

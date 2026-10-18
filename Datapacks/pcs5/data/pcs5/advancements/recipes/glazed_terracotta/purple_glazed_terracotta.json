@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "pcs5:glazed_terracotta/purple_glazed_terracotta"
+    ]
+  },
+  "criteria": {
+    "has_glazed_terracotta": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "pcs5:glazed_terracotta"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "pcs5:glazed_terracotta/purple_glazed_terracotta"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_glazed_terracotta",
+      "has_the_recipe"
+    ]
+  ]
+}

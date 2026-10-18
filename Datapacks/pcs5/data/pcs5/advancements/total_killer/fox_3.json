@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Fox Murder"
+        },
+        "description": {
+            "text": "Kill your 25th Fox"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg5NTRhNDJlNjllMDg4MWFlNmQyNGQ0MjgxNDU5YzE0NGEwZDVhOTY4YWVkMzVkNmQzZDczYTNjNjVkMjZhIn19fQ==\"}]},Id:[I;595207761,2108179834,-1427491052,-1128163678]},display:{Name:'{\"text\":\"Fox\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/fox_3"
+    },
+    "parent": "pcs5:total_killer/fox_2"
+}

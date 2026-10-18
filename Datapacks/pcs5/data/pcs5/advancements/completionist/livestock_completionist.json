@@ -1,0 +1,92 @@
+{
+    "display": {
+        "title": {
+            "text": "Livestock Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Livestock advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "livestock_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_banner": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_banner_patterns": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_best_friends_forever": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_breed_all_animals": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_breed_an_animal": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_breed_for_mule": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_feather": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_fence": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_kill_an_animal": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_lead": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_leather": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_loom": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_meat": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_meats": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_rabbit_foot": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_rabbit_hide": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_ready_for_battle": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_skeleton_horse": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_smoker": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_tame_all_mobs": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_tame_horse": {
+            "trigger": "minecraft:impossible"
+        },
+        "livestock_use_shears": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/livestock_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

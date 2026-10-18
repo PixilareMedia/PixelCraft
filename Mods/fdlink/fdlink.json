@@ -1,0 +1,73 @@
+{
+  "token": "",
+  "chatChannels": [
+    ""
+  ],
+  "logChannels": [
+    ""
+  ],
+  "webhook": {
+    "url": "",
+    "mentions": {
+      "everyone": false,
+      "roles": false,
+      "users": true
+    }
+  },
+  "ignoreBots": true,
+  "activityUpdateInterval": 60,
+  "minecraftToDiscord": {
+    "general": {
+      "enableDebugLogs": false
+    },
+    "chatChannels": {
+      "commandPrefix": "-",
+      "allowDiscordCommands": false,
+      "serverStartingMessage": true,
+      "serverStartMessage": true,
+      "serverStopMessage": true,
+      "serverStoppingMessage": true,
+      "customChannelDescription": true,
+      "minecraftToDiscordTag": false,
+      "minecraftToDiscordDiscriminator": false,
+      "playerMessages": true,
+      "teamPlayerMessages": true,
+      "joinAndLeaveMessages": true,
+      "advancementMessages": true,
+      "challengeMessages": true,
+      "goalMessages": true,
+      "deathMessages": true,
+      "sendMeCommand": true,
+      "sendSayCommand": true,
+      "adminMessages": false,
+      "atATellRaw": false,
+      "achievementMessages": true
+    },
+    "logChannels": {
+      "serverStartingMessage": true,
+      "serverStartMessage": true,
+      "serverStopMessage": true,
+      "serverStoppingMessage": true,
+      "customChannelDescription": true,
+      "minecraftToDiscordTag": false,
+      "minecraftToDiscordDiscriminator": false,
+      "playerMessages": false,
+      "teamPlayerMessages": false,
+      "joinAndLeaveMessages": true,
+      "advancementMessages": false,
+      "challengeMessages": false,
+      "goalMessages": false,
+      "deathMessages": true,
+      "sendMeCommand": true,
+      "sendSayCommand": true,
+      "adminMessages": true,
+      "atATellRaw": false,
+      "achievementMessages": true
+    }
+  },
+  "discordToMinecraft": {
+    "pingLongVersion": false
+  },
+  "emojiMap": [],
+  "version": 9
+}

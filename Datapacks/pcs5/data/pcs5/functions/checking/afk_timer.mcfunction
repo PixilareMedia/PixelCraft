@@ -1,0 +1,1 @@
+execute if entity @s[team=afkDis.afk] run scoreboard players add @s ts_AFKTick 1

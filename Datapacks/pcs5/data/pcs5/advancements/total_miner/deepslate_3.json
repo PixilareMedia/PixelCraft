@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Deepslate Mining 150"
+        },
+        "description": {
+            "text": "Mine your 50th Deepslate"
+        },
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/deepslate_3"
+    },
+    "parent": "pcs5:total_miner/deepslate_2"
+}

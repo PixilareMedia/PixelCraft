@@ -1,0 +1,98 @@
+{
+    "display": {
+        "title": {
+            "text": "Nether Structures Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Nether Structures advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nether_structures_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_all_effects": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_all_potions": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_bastion": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_blaze_rod": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_brew_potion": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_brewing_stand": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_create_beacon": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_create_full_beacon": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_easier_challenge": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_extend_potion": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_fortress": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_gilded_blackstone": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_loot_all_bastions": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_loot_bastion": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_nether_fossil": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_nether_wart": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_piglin_banner": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_piglin_brute_hurt": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_pigstep": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_splash_witch": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_strong_potion": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_summon_wither": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_wither_rose": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_structures_wither_skull": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/nether_structures_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

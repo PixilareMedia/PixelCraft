@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Zombies Falling"
+        },
+        "description": {
+            "text": "Kill your 75th Zombie"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/zombie_5"
+    },
+    "parent": "pcs5:total_killer/zombie_4"
+}

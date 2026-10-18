@@ -1,0 +1,71 @@
+{
+    "display": {
+        "title": {
+            "text": "The Rainbow Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in The Rainbow advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "collection_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_all_dye": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_banner": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_bed": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_carpet": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_concrete": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_concrete_powder": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_coral": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_coral_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_coral_fan": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_glass": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_glass_pane": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_glazed_terracotta": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_shulker_boxes": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_terracotta": {
+            "trigger": "minecraft:impossible"
+        },
+        "collection_wool": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/collection_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

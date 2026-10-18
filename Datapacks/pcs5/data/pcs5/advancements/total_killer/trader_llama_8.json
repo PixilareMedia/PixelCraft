@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "COMP Trader Llama 200"
+        },
+        "description": {
+            "text": "Kill your 200th Trader Llama"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTg5YTJlYjE3NzA1ZmU3MTU0YWIwNDFlNWM3NmEwOGQ0MTU0NmEzMWJhMjBlYTMwNjBlM2VjOGVkYzEwNDEyYyJ9fX0=\"}]},Id:[I;-1193140515,-1034205581,-1778227599,8343688]},display:{Name:'{\"text\":\"Trader Llama (creamy)\"}'}}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/trader_llama_8"
+    },
+    "parent": "pcs5:total_killer/trader_llama_7"
+}

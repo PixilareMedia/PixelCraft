@@ -1,0 +1,7 @@
+{
+  "main": {
+    "disableNetherPortals": false,
+    "disableEndPortals": false,
+    "disableEndGateways": false
+  }
+}

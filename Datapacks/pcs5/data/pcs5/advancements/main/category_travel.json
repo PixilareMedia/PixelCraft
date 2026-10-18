@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Traveling"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:firework_rocket"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/category_travel"
+    },
+    "parent": "pcs5:main/root"
+}

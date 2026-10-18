@@ -1,0 +1,104 @@
+{
+    "display": {
+        "title": {
+            "text": "Combat Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Combat advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "combat_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_all_music_discs": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_arbalistic": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_awake_7_days": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_bow": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_deflect_arrow": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_eat_zombie_flesh": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_golden_apple": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_kill_all_monsters": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_kill_monster": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_make_sword": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_monster_head": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_monster_head_64": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_music_disc": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_ol_betsy": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_overpowered": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_perfect_crossbow": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_phantom_pains": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_plane_walker": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_ready_to_fire": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_shield": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_shoot_firework": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_skeleton_duel": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_slow_falling": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_special_arrow": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_spectral_arrow": {
+            "trigger": "minecraft:impossible"
+        },
+        "combat_two_birds_one_arrow": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/combat_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

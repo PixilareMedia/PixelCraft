@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Soul Sand Mining 246"
+        },
+        "description": {
+            "text": "Mine your 300th Soul Sand"
+        },
+        "icon": {
+            "item": "minecraft:soul_sand"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/soul_sand_8"
+    },
+    "parent": "pcs5:total_miner/soul_sand_7"
+}

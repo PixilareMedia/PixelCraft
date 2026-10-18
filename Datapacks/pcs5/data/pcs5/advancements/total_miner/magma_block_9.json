@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Magma Block Mining 300"
+        },
+        "description": {
+            "text": "Mine your 400th Magma Block"
+        },
+        "icon": {
+            "item": "minecraft:magma_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/magma_block_9"
+    },
+    "parent": "pcs5:total_miner/magma_block_8"
+}

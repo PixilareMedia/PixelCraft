@@ -1,0 +1,89 @@
+{
+    "display": {
+        "title": {
+            "text": "Village Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Village advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "village_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_all_villages": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_bell": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_build_iron_golem": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_complete_catalogue": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_complete_trade": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_cure_zombie_villager": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_defeat_raid": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_dimension_raid": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_global_economy": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_hard_raid": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_have_bad_omen": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_kill_pillager": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_kill_ravager": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_killed_by_golem": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_ominous_banner": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_pillaged": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_pillager_outpost": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_start_raid": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_tame_stray": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_trade_master": {
+            "trigger": "minecraft:impossible"
+        },
+        "village_villager_kill": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/village_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

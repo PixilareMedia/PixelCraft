@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "NICE!"
+        },
+        "description": {
+            "text": "Reach 69 Levels."
+        },
+        "icon": {
+            "item": "minecraft:egg"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/levels_3"
+    },
+    "parent": "pcs5:main/levels_2"
+}

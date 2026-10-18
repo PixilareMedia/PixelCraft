@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/mule_1=false},scores={k_mule=1..}] run advancement grant @a[advancements={pcs5:total_killer/mule_1=false},scores={k_mule=1..}] only pcs5:total_killer/mule_1
+execute if entity @a[advancements={pcs5:total_killer/mule_2=false},scores={k_mule=5..}] run advancement grant @a[advancements={pcs5:total_killer/mule_2=false},scores={k_mule=5..}] only pcs5:total_killer/mule_2
+execute if entity @a[advancements={pcs5:total_killer/mule_3=false},scores={k_mule=25..}] run advancement grant @a[advancements={pcs5:total_killer/mule_3=false},scores={k_mule=25..}] only pcs5:total_killer/mule_3
+execute if entity @a[advancements={pcs5:total_killer/mule_4=false},scores={k_mule=50..}] run advancement grant @a[advancements={pcs5:total_killer/mule_4=false},scores={k_mule=50..}] only pcs5:total_killer/mule_4
+execute if entity @a[advancements={pcs5:total_killer/mule_5=false},scores={k_mule=75..}] run advancement grant @a[advancements={pcs5:total_killer/mule_5=false},scores={k_mule=75..}] only pcs5:total_killer/mule_5
+execute if entity @a[advancements={pcs5:total_killer/mule_6=false},scores={k_mule=100..}] run advancement grant @a[advancements={pcs5:total_killer/mule_6=false},scores={k_mule=100..}] only pcs5:total_killer/mule_6
+execute if entity @a[advancements={pcs5:total_killer/mule_7=false},scores={k_mule=150..}] run advancement grant @a[advancements={pcs5:total_killer/mule_7=false},scores={k_mule=150..}] only pcs5:total_killer/mule_7
+execute if entity @a[advancements={pcs5:total_killer/mule_8=false},scores={k_mule=200..}] run advancement grant @a[advancements={pcs5:total_killer/mule_8=false},scores={k_mule=200..}] only pcs5:total_killer/mule_8
+execute if entity @a[advancements={pcs5:total_killer/mule_9=false},scores={k_mule=250..}] run advancement grant @a[advancements={pcs5:total_killer/mule_9=false},scores={k_mule=250..}] only pcs5:total_killer/mule_9
+execute if entity @a[advancements={pcs5:total_killer/mule_10=false},scores={k_mule=500..}] run advancement grant @a[advancements={pcs5:total_killer/mule_10=false},scores={k_mule=500..}] only pcs5:total_killer/mule_10

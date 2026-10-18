@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "The True Psychopath"
+        },
+        "description": {
+            "text": "They've killed 1234 people making this person on of the most feared people in the world"
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/murder_10"
+    },
+    "parent": "pcs5:main/murder_9"
+}

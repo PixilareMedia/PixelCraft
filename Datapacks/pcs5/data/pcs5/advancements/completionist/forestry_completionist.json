@@ -1,0 +1,80 @@
+{
+    "display": {
+        "title": {
+            "text": "Forestry Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Forestry advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "forestry_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_axe": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_barrel": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_bowl": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_campfire": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_charcoal_have": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_chest": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_door": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_ladder": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_leaves": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_perfect_axe": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_planks": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_plant_sapling": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_poke_poke": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_sapling": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_strip_wood": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_stripped_log_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_trapdoor": {
+            "trigger": "minecraft:impossible"
+        },
+        "forestry_wood": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/forestry_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

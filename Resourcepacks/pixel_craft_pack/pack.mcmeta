@@ -1,0 +1,11 @@
+{
+  "pack": {
+    "pack_format": 8,
+    "description": [
+      {"text":"Pixel Crafts S5 ","color":"dark_purple"},
+      {"text":"Essentials Pack ","color":"green"},
+	  {"text":"v1.1 ","color":"gray"},
+	  {"text":"www.pixilaremedia.com","color":"dark_gray"}
+    ]
+  }
+}

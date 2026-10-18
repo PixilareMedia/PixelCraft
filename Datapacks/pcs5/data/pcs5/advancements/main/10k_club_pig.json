@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Pig 10K Club"
+        },
+        "description": {
+            "text": "You have ridden your lunch over 10K blocks"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/10k_club_pig"
+    },
+    "parent": "pcs5:main/10k_club_boat"
+}

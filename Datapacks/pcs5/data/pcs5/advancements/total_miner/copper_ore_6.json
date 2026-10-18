@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Copper Mining 214"
+        },
+        "description": {
+            "text": "Mine your 200th Copper Ore"
+        },
+        "icon": {
+            "item": "minecraft:copper_ore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/copper_ore_6"
+    },
+    "parent": "pcs5:total_miner/copper_ore_5"
+}

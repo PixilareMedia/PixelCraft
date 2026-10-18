@@ -1,0 +1,11 @@
+{
+    "values": [
+        "minecraft:bee_nest",
+        "minecraft:beehive",
+        "minecraft:honey_block",
+        "minecraft:honeycomb_block",
+        "minecraft:honey_bottle",
+        "minecraft:honeycomb",
+        "minecraft:bee_spawn_egg"
+    ]
+}

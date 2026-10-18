@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+      "#": {
+        "tag": "pcs5:glass_block"
+      },
+      "X": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "result": {
+        "item": "minecraft:red_stained_glass",
+        "count": 8
+    },
+    "group": "stained_glass"
+}

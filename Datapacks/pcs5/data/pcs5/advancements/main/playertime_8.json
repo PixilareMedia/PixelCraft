@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Pi Months of Playing"
+        },
+        "description": {
+            "text": "Why Pi months of play because I can, and stop questioning me Greg because you are fired"
+        },
+        "icon": {
+            "item": "minecraft:writable_book"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/playertime_8"
+    },
+    "parent": "pcs5:main/playertime_7"
+}

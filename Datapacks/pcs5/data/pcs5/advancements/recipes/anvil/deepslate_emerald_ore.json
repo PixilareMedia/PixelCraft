@@ -1,0 +1,43 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "pcs5:anvil/deepslate_emerald_ore"
+      ]
+    },
+    "criteria": {
+      "has_emerald_ore": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:emerald_ore"
+            }
+          ]
+        }
+      },
+      "has_cobbled_deepslate": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:cobbled_deepslate"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "pcs5:anvil/deepslate_emerald_ore"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_emerald_ore",
+        "has_cobbled_deepslate",
+        "has_the_recipe"
+      ]
+    ]
+}

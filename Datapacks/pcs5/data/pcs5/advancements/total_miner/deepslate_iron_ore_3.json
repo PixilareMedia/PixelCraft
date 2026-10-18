@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Deepslate Iron Mining 150"
+        },
+        "description": {
+            "text": "Mine your 50th Deepslate Iron Ore"
+        },
+        "icon": {
+            "item": "minecraft:deepslate_iron_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/deepslate_iron_ore_3"
+    },
+    "parent": "pcs5:total_miner/deepslate_iron_ore_2"
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Important Stats"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:debug_stick"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/category_stats"
+    },
+    "parent": "pcs5:main/root"
+}

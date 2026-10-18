@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Tropical Fishs Falling"
+        },
+        "description": {
+            "text": "Kill your 75th Tropical Fish"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZkZDVlNmFkZGI1NmFjYmM2OTRlYTRiYTU5MjNiMWIyNTY4ODE3OGZlZmZhNzIyOTAyOTllMjUwNWM5NzI4MSJ9fX0=\"}]},Id:[I;-132883870,-1696183701,-2101532548,178925883]},display:{Name:'{\"text\":\"Tropical Fish (tomato clownfish)\"}'}}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/tropical_fish_5"
+    },
+    "parent": "pcs5:total_killer/tropical_fish_4"
+}

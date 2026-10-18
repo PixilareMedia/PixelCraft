@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_miner/dirt_1=false},scores={bm_dirt=1..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_1=false},scores={bm_dirt=1..}] only pcs5:total_miner/dirt_1
+execute if entity @a[advancements={pcs5:total_miner/dirt_2=false},scores={bm_dirt=5..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_2=false},scores={bm_dirt=5..}] only pcs5:total_miner/dirt_2
+execute if entity @a[advancements={pcs5:total_miner/dirt_3=false},scores={bm_dirt=25..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_3=false},scores={bm_dirt=25..}] only pcs5:total_miner/dirt_3
+execute if entity @a[advancements={pcs5:total_miner/dirt_4=false},scores={bm_dirt=50..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_4=false},scores={bm_dirt=50..}] only pcs5:total_miner/dirt_4
+execute if entity @a[advancements={pcs5:total_miner/dirt_5=false},scores={bm_dirt=75..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_5=false},scores={bm_dirt=75..}] only pcs5:total_miner/dirt_5
+execute if entity @a[advancements={pcs5:total_miner/dirt_6=false},scores={bm_dirt=100..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_6=false},scores={bm_dirt=100..}] only pcs5:total_miner/dirt_6
+execute if entity @a[advancements={pcs5:total_miner/dirt_7=false},scores={bm_dirt=150..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_7=false},scores={bm_dirt=150..}] only pcs5:total_miner/dirt_7
+execute if entity @a[advancements={pcs5:total_miner/dirt_8=false},scores={bm_dirt=200..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_8=false},scores={bm_dirt=200..}] only pcs5:total_miner/dirt_8
+execute if entity @a[advancements={pcs5:total_miner/dirt_9=false},scores={bm_dirt=250..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_9=false},scores={bm_dirt=250..}] only pcs5:total_miner/dirt_9
+execute if entity @a[advancements={pcs5:total_miner/dirt_10=false},scores={bm_dirt=500..}] run advancement grant @a[advancements={pcs5:total_miner/dirt_10=false},scores={bm_dirt=500..}] only pcs5:total_miner/dirt_10

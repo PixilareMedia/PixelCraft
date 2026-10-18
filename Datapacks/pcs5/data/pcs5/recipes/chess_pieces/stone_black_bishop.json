@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:player_head",
+            "data": {
+                "display": {
+                    "Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Stone Black Knight\"}"
+                },
+                "SkullOwner": {
+                    "Id": [-42264205,1794591380,-1852759977,1500319587],
+                    "Properties": {
+                        "textures": [
+                            {
+                                "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzUyNDJmNGNiMDE3ZWRjNDc4ODk3ZTVkMGY1YjhmMmE2ZjVlZWNjZmM4NjVmNGZmNzIyNzZiZmI5ZDIyMWQ1In19fQ=="
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:player_head",
+        "data": {
+            "display": {
+                "Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Stone Black Bishop\"}"
+            },
+            "SkullOwner": {
+                "Id": [2046286474,1647331308,-1784453695,-1148200777],
+                "Properties": {
+                    "textures": [
+                        {
+                            "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNiY2UxMmVhN2UyMjFkOWVjZDkxMzUzYjVhOTIxNWFmM2ZiNTM1NzBmN2JmM2VjNDc0YTc2NzVhMTRmZDIifX19"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

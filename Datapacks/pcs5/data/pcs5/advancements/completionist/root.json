@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Completionist"
+        },
+        "description": {
+            "text": "This advancement is null and void don't get you hopes up"
+        },
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bedrock.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/root"
+    }
+}

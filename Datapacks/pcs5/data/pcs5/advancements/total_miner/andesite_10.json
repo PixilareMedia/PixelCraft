@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Andesite Mining 301"
+        },
+        "description": {
+            "text": "Mine your 500th Andesite"
+        },
+        "icon": {
+            "item": "minecraft:andesite"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/andesite_10"
+    },
+    "parent": "pcs5:total_miner/andesite_9"
+}

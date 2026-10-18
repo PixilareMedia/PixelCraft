@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Deepslate Copper Mining 101"
+        },
+        "description": {
+            "text": "Mine your first bit of Deepslate Copper Ore"
+        },
+        "icon": {
+            "item": "minecraft:deepslate_copper_ore"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/deepslate_copper_ore_1"
+    },
+    "parent": "pcs5:total_miner/category_ores"
+}

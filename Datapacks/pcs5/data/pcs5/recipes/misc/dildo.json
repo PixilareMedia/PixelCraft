@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        " # ",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:pink_wool"
+        }
+    },
+    "result": {
+        "item": "minecraft:ghast_tear",
+        "count": 1,
+        "data": {
+            "display": {
+                "Name": "{\"text\":\"Dildo\",\"color\":\"light_purple\",\"italic\":false}"
+            },
+            "CustomModelData": 200
+        }
+    }
+}

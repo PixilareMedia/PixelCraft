@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:main/death_1=false},scores={ts_Deaths=1..}] run advancement grant @a[advancements={pcs5:main/death_1=false},scores={ts_Deaths=1..}] only pcs5:main/death_1
+execute if entity @a[advancements={pcs5:main/death_2=false},scores={ts_Deaths=50..}] run advancement grant @a[advancements={pcs5:main/death_2=false},scores={ts_Deaths=50..}] only pcs5:main/death_2
+execute if entity @a[advancements={pcs5:main/death_3=false},scores={ts_Deaths=100..}] run advancement grant @a[advancements={pcs5:main/death_3=false},scores={ts_Deaths=100..}] only pcs5:main/death_3
+execute if entity @a[advancements={pcs5:main/death_4=false},scores={ts_Deaths=123..}] run advancement grant @a[advancements={pcs5:main/death_4=false},scores={ts_Deaths=123..}] only pcs5:main/death_4
+execute if entity @a[advancements={pcs5:main/death_5=false},scores={ts_Deaths=360..}] run advancement grant @a[advancements={pcs5:main/death_5=false},scores={ts_Deaths=360..}] only pcs5:main/death_5
+execute if entity @a[advancements={pcs5:main/death_6=false},scores={ts_Deaths=420..}] run advancement grant @a[advancements={pcs5:main/death_6=false},scores={ts_Deaths=420..}] only pcs5:main/death_6
+execute if entity @a[advancements={pcs5:main/death_7=false},scores={ts_Deaths=500..}] run advancement grant @a[advancements={pcs5:main/death_7=false},scores={ts_Deaths=500..}] only pcs5:main/death_7
+execute if entity @a[advancements={pcs5:main/death_8=false},scores={ts_Deaths=666..}] run advancement grant @a[advancements={pcs5:main/death_8=false},scores={ts_Deaths=666..}] only pcs5:main/death_8
+execute if entity @a[advancements={pcs5:main/death_9=false},scores={ts_Deaths=1000..}] run advancement grant @a[advancements={pcs5:main/death_9=false},scores={ts_Deaths=1000..}] only pcs5:main/death_9
+execute if entity @a[advancements={pcs5:main/death_10=false},scores={ts_Deaths=1234..}] run advancement grant @a[advancements={pcs5:main/death_10=false},scores={ts_Deaths=1234..}] only pcs5:main/death_10

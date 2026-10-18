@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Tuff Mining 214"
+        },
+        "description": {
+            "text": "Mine your 200th Tuff"
+        },
+        "icon": {
+            "item": "minecraft:tuff"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/tuff_6"
+    },
+    "parent": "pcs5:total_miner/tuff_5"
+}

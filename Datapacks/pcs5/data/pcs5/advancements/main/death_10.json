@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Sorry How Many Deaths Is That?"
+        },
+        "description": {
+            "text": "Question why did you decide on going this mush farther? I must know the answers of why you died 1234 times"
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/death_10"
+    },
+    "parent": "pcs5:main/death_9"
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Deepslate Copper Mining 301"
+        },
+        "description": {
+            "text": "Mine your 500th Deepslate Copper Ore"
+        },
+        "icon": {
+            "item": "minecraft:deepslate_copper_ore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/deepslate_copper_ore_10"
+    },
+    "parent": "pcs5:total_miner/deepslate_copper_ore_9"
+}

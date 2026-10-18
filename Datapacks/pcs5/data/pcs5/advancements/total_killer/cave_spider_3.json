@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Cave Spider Murder"
+        },
+        "description": {
+            "text": "Kill your 25th Cave Spider"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNkMThkYWQwYmQ5MGYwMmFjMDg3NTRhNzUzNThiMWMyN2RhNTc5YjNjYTM1YjY5ZTZiYjEwYTdhNWMyZGJkYSJ9fX0=\"}]},Id:[I;-716279928,-786611544,-1565122951,-1861647076]},display:{Name:'{\"text\":\"Cave Spider\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/cave_spider_3"
+    },
+    "parent": "pcs5:total_killer/cave_spider_2"
+}

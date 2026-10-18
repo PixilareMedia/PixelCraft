@@ -1,0 +1,110 @@
+{
+    "display": {
+        "title": {
+            "text": "Caving Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Caving advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "caving_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_all_ores": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_all_stones": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_amethyst_block_find": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_amethyst_cluster": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_amethyst_shard": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_at_diamond_level": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_bat_kill": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_bedrock_level": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_blast_machine": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_copper": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_dripstone_hurt": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_flint": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_flint_and_steel": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_in_gravel": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_kill_cave_spider": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_lava_level": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_lichen_light": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_lightning_rod": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_mine_spawner": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_mineshaft": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_mushroom_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_mushrooms": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_spyglass": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_suspicious_stew": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_lightning_villager": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_spyglass_dragon": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_spyglass_ghast": {
+            "trigger": "minecraft:impossible"
+        },
+        "caving_spyglass_parrot": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/caving_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

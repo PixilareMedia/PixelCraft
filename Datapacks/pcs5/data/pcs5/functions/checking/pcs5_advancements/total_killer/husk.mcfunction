@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/husk_1=false},scores={k_husk=1..}] run advancement grant @a[advancements={pcs5:total_killer/husk_1=false},scores={k_husk=1..}] only pcs5:total_killer/husk_1
+execute if entity @a[advancements={pcs5:total_killer/husk_2=false},scores={k_husk=5..}] run advancement grant @a[advancements={pcs5:total_killer/husk_2=false},scores={k_husk=5..}] only pcs5:total_killer/husk_2
+execute if entity @a[advancements={pcs5:total_killer/husk_3=false},scores={k_husk=25..}] run advancement grant @a[advancements={pcs5:total_killer/husk_3=false},scores={k_husk=25..}] only pcs5:total_killer/husk_3
+execute if entity @a[advancements={pcs5:total_killer/husk_4=false},scores={k_husk=50..}] run advancement grant @a[advancements={pcs5:total_killer/husk_4=false},scores={k_husk=50..}] only pcs5:total_killer/husk_4
+execute if entity @a[advancements={pcs5:total_killer/husk_5=false},scores={k_husk=75..}] run advancement grant @a[advancements={pcs5:total_killer/husk_5=false},scores={k_husk=75..}] only pcs5:total_killer/husk_5
+execute if entity @a[advancements={pcs5:total_killer/husk_6=false},scores={k_husk=100..}] run advancement grant @a[advancements={pcs5:total_killer/husk_6=false},scores={k_husk=100..}] only pcs5:total_killer/husk_6
+execute if entity @a[advancements={pcs5:total_killer/husk_7=false},scores={k_husk=150..}] run advancement grant @a[advancements={pcs5:total_killer/husk_7=false},scores={k_husk=150..}] only pcs5:total_killer/husk_7
+execute if entity @a[advancements={pcs5:total_killer/husk_8=false},scores={k_husk=200..}] run advancement grant @a[advancements={pcs5:total_killer/husk_8=false},scores={k_husk=200..}] only pcs5:total_killer/husk_8
+execute if entity @a[advancements={pcs5:total_killer/husk_9=false},scores={k_husk=250..}] run advancement grant @a[advancements={pcs5:total_killer/husk_9=false},scores={k_husk=250..}] only pcs5:total_killer/husk_9
+execute if entity @a[advancements={pcs5:total_killer/husk_10=false},scores={k_husk=500..}] run advancement grant @a[advancements={pcs5:total_killer/husk_10=false},scores={k_husk=500..}] only pcs5:total_killer/husk_10

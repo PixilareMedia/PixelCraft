@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Ender Dragons All Around"
+        },
+        "description": {
+            "text": "Kill your 50th Ender Dragon"
+        },
+        "icon": {
+            "item": "minecraft:dragon_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/ender_dragon_4"
+    },
+    "parent": "pcs5:total_killer/ender_dragon_3"
+}

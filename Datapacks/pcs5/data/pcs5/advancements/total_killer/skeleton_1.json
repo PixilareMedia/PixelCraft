@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Skeletons 101"
+        },
+        "description": {
+            "text": "Kill your first Skeleton"
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/skeleton_1"
+    },
+    "parent": "pcs5:total_killer/category_hostial"
+}

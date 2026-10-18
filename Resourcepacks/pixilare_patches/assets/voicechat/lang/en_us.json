@@ -1,0 +1,14 @@
+{
+  "gui.voicechat.voice_chat.title": "\u00a7fVoice Chat\u00a7r",
+  "gui.voicechat.voice_chat_settings.title": "\u00a7fVoice Chat Settings\u00a7r",
+  "gui.voicechat.adjust_volume.title": "\u00a7fAdjust Player Volumes\u00a7r",
+  "gui.voicechat.select_microphone.title": "\u00a7fSelect Microphone\u00a7r",
+  "gui.voicechat.select_speaker.title": "\u00a7fSelect Speaker\u00a7r",
+  "gui.voicechat.group.title": "\u00a7fGroup Chat\u00a7r",
+  "gui.voicechat.join_create_group.title": "\u00a7fJoin or Create Group\u00a7r",
+  "message.voicechat.no_player": "\u00a7fNo other players online\u00a7r",
+  "message.voicechat.join_create_group": "\u00a7fJoin or Create Group\u00a7r",
+  "message.voicechat.group_name": "\u00a7fGroup name\u00a7r",
+  "message.voicechat.join_group": "\u00a7fJoin a group\u00a7r",
+  "message.voicechat.adjust_volume_player": "\u00a7fAdjust volume of %s\u00a7r"
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Serial Killer"
+        },
+        "description": {
+            "text": "Man are you ever going to run out of swords? Also 500 kills you should stop now"
+        },
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/murder_7"
+    },
+    "parent": "pcs5:main/murder_6"
+}

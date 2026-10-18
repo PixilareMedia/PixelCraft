@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/fox_1=false},scores={k_fox=1..}] run advancement grant @a[advancements={pcs5:total_killer/fox_1=false},scores={k_fox=1..}] only pcs5:total_killer/fox_1
+execute if entity @a[advancements={pcs5:total_killer/fox_2=false},scores={k_fox=5..}] run advancement grant @a[advancements={pcs5:total_killer/fox_2=false},scores={k_fox=5..}] only pcs5:total_killer/fox_2
+execute if entity @a[advancements={pcs5:total_killer/fox_3=false},scores={k_fox=25..}] run advancement grant @a[advancements={pcs5:total_killer/fox_3=false},scores={k_fox=25..}] only pcs5:total_killer/fox_3
+execute if entity @a[advancements={pcs5:total_killer/fox_4=false},scores={k_fox=50..}] run advancement grant @a[advancements={pcs5:total_killer/fox_4=false},scores={k_fox=50..}] only pcs5:total_killer/fox_4
+execute if entity @a[advancements={pcs5:total_killer/fox_5=false},scores={k_fox=75..}] run advancement grant @a[advancements={pcs5:total_killer/fox_5=false},scores={k_fox=75..}] only pcs5:total_killer/fox_5
+execute if entity @a[advancements={pcs5:total_killer/fox_6=false},scores={k_fox=100..}] run advancement grant @a[advancements={pcs5:total_killer/fox_6=false},scores={k_fox=100..}] only pcs5:total_killer/fox_6
+execute if entity @a[advancements={pcs5:total_killer/fox_7=false},scores={k_fox=150..}] run advancement grant @a[advancements={pcs5:total_killer/fox_7=false},scores={k_fox=150..}] only pcs5:total_killer/fox_7
+execute if entity @a[advancements={pcs5:total_killer/fox_8=false},scores={k_fox=200..}] run advancement grant @a[advancements={pcs5:total_killer/fox_8=false},scores={k_fox=200..}] only pcs5:total_killer/fox_8
+execute if entity @a[advancements={pcs5:total_killer/fox_9=false},scores={k_fox=250..}] run advancement grant @a[advancements={pcs5:total_killer/fox_9=false},scores={k_fox=250..}] only pcs5:total_killer/fox_9
+execute if entity @a[advancements={pcs5:total_killer/fox_10=false},scores={k_fox=500..}] run advancement grant @a[advancements={pcs5:total_killer/fox_10=false},scores={k_fox=500..}] only pcs5:total_killer/fox_10

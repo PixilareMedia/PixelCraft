@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Bees Falling"
+        },
+        "description": {
+            "text": "Kill your 75th Bee"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTlhYzE2ZjI5NmI0NjFkMDVlYTA3ODVkNDc3MDMzZTUyNzM1OGI0ZjMwYzI2NmFhMDJmMDIwMTU3ZmZjYTczNiJ9fX0=\"}]},Id:[I;1999906402,-2005908390,-2036338514,-247436483]},display:{Name:'{\"text\":\"Bee\"}'}}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/bee_5"
+    },
+    "parent": "pcs5:total_killer/bee_4"
+}

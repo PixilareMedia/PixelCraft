@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:player_head",
+            "data": {
+                "display": {
+                    "Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Stone Black King\"}"
+                },
+                "SkullOwner": {
+                    "Id": [-1958957810,-1282980788,-2146230452,965512266],
+                    "Properties": {
+                        "textures": [
+                            {
+                                "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FhNWNhYWYxMTNiYTMzNWY4ODc1YmJiMDQxNmQ4N2U3NzA3OTMyYTZkY2M1NTdjY2YzODlmNWE3ZmEifX19"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:player_head",
+        "data": {
+            "display": {
+                "Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Stone Black Queen\"}"
+            },
+            "SkullOwner": {
+                "Id": [-247285507,76431521,-1222521142,875643271],
+                "Properties": {
+                    "textures": [
+                        {
+                            "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWM3ZjUzMjIzZThkOWEwOWU5MTMyZGQyNzI4ZTRiNjMzNTQ3NzkxM2IzOTFkNWIyMjRiMmM2MmJiNmE3NTIifX19"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

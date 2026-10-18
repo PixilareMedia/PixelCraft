@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Dripstone Block Mining 214"
+        },
+        "description": {
+            "text": "Mine your 200th Dripstone Block"
+        },
+        "icon": {
+            "item": "minecraft:dripstone_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/dripstone_block_6"
+    },
+    "parent": "pcs5:total_miner/dripstone_block_5"
+}

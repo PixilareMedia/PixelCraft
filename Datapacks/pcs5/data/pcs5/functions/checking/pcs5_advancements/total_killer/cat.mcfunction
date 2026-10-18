@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/cat_1=false},scores={k_cat=1..}] run advancement grant @a[advancements={pcs5:total_killer/cat_1=false},scores={k_cat=1..}] only pcs5:total_killer/cat_1
+execute if entity @a[advancements={pcs5:total_killer/cat_2=false},scores={k_cat=5..}] run advancement grant @a[advancements={pcs5:total_killer/cat_2=false},scores={k_cat=5..}] only pcs5:total_killer/cat_2
+execute if entity @a[advancements={pcs5:total_killer/cat_3=false},scores={k_cat=25..}] run advancement grant @a[advancements={pcs5:total_killer/cat_3=false},scores={k_cat=25..}] only pcs5:total_killer/cat_3
+execute if entity @a[advancements={pcs5:total_killer/cat_4=false},scores={k_cat=50..}] run advancement grant @a[advancements={pcs5:total_killer/cat_4=false},scores={k_cat=50..}] only pcs5:total_killer/cat_4
+execute if entity @a[advancements={pcs5:total_killer/cat_5=false},scores={k_cat=75..}] run advancement grant @a[advancements={pcs5:total_killer/cat_5=false},scores={k_cat=75..}] only pcs5:total_killer/cat_5
+execute if entity @a[advancements={pcs5:total_killer/cat_6=false},scores={k_cat=100..}] run advancement grant @a[advancements={pcs5:total_killer/cat_6=false},scores={k_cat=100..}] only pcs5:total_killer/cat_6
+execute if entity @a[advancements={pcs5:total_killer/cat_7=false},scores={k_cat=150..}] run advancement grant @a[advancements={pcs5:total_killer/cat_7=false},scores={k_cat=150..}] only pcs5:total_killer/cat_7
+execute if entity @a[advancements={pcs5:total_killer/cat_8=false},scores={k_cat=200..}] run advancement grant @a[advancements={pcs5:total_killer/cat_8=false},scores={k_cat=200..}] only pcs5:total_killer/cat_8
+execute if entity @a[advancements={pcs5:total_killer/cat_9=false},scores={k_cat=250..}] run advancement grant @a[advancements={pcs5:total_killer/cat_9=false},scores={k_cat=250..}] only pcs5:total_killer/cat_9
+execute if entity @a[advancements={pcs5:total_killer/cat_10=false},scores={k_cat=500..}] run advancement grant @a[advancements={pcs5:total_killer/cat_10=false},scores={k_cat=500..}] only pcs5:total_killer/cat_10

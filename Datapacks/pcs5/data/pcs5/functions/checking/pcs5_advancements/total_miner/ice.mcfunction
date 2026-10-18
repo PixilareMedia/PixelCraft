@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_miner/ice_1=false},scores={bm_ice=1..}] run advancement grant @a[advancements={pcs5:total_miner/ice_1=false},scores={bm_ice=1..}] only pcs5:total_miner/ice_1
+execute if entity @a[advancements={pcs5:total_miner/ice_2=false},scores={bm_ice=5..}] run advancement grant @a[advancements={pcs5:total_miner/ice_2=false},scores={bm_ice=5..}] only pcs5:total_miner/ice_2
+execute if entity @a[advancements={pcs5:total_miner/ice_3=false},scores={bm_ice=25..}] run advancement grant @a[advancements={pcs5:total_miner/ice_3=false},scores={bm_ice=25..}] only pcs5:total_miner/ice_3
+execute if entity @a[advancements={pcs5:total_miner/ice_4=false},scores={bm_ice=50..}] run advancement grant @a[advancements={pcs5:total_miner/ice_4=false},scores={bm_ice=50..}] only pcs5:total_miner/ice_4
+execute if entity @a[advancements={pcs5:total_miner/ice_5=false},scores={bm_ice=75..}] run advancement grant @a[advancements={pcs5:total_miner/ice_5=false},scores={bm_ice=75..}] only pcs5:total_miner/ice_5
+execute if entity @a[advancements={pcs5:total_miner/ice_6=false},scores={bm_ice=100..}] run advancement grant @a[advancements={pcs5:total_miner/ice_6=false},scores={bm_ice=100..}] only pcs5:total_miner/ice_6
+execute if entity @a[advancements={pcs5:total_miner/ice_7=false},scores={bm_ice=150..}] run advancement grant @a[advancements={pcs5:total_miner/ice_7=false},scores={bm_ice=150..}] only pcs5:total_miner/ice_7
+execute if entity @a[advancements={pcs5:total_miner/ice_8=false},scores={bm_ice=200..}] run advancement grant @a[advancements={pcs5:total_miner/ice_8=false},scores={bm_ice=200..}] only pcs5:total_miner/ice_8
+execute if entity @a[advancements={pcs5:total_miner/ice_9=false},scores={bm_ice=250..}] run advancement grant @a[advancements={pcs5:total_miner/ice_9=false},scores={bm_ice=250..}] only pcs5:total_miner/ice_9
+execute if entity @a[advancements={pcs5:total_miner/ice_10=false},scores={bm_ice=500..}] run advancement grant @a[advancements={pcs5:total_miner/ice_10=false},scores={bm_ice=500..}] only pcs5:total_miner/ice_10

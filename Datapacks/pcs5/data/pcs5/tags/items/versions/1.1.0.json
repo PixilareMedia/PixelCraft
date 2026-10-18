@@ -1,0 +1,24 @@
+{
+    "values": [
+        "minecraft:mooshroom_spawn_egg",
+        "minecraft:creeper_spawn_egg",
+        "minecraft:skeleton_spawn_egg",
+        "minecraft:spider_spawn_egg",
+        "minecraft:zombie_spawn_egg",
+        "minecraft:slime_spawn_egg",
+        "minecraft:ghast_spawn_egg",
+        "minecraft:villager_spawn_egg",
+        "minecraft:zombified_piglin_spawn_egg",
+        "minecraft:enderman_spawn_egg",
+        "minecraft:pig_spawn_egg",
+        "minecraft:cave_spider_spawn_egg",
+        "minecraft:sheep_spawn_egg",
+        "minecraft:silverfish_spawn_egg",
+        "minecraft:cow_spawn_egg",
+        "minecraft:blaze_spawn_egg",
+        "minecraft:chicken_spawn_egg",
+        "minecraft:magma_cube_spawn_egg",
+        "minecraft:squid_spawn_egg",
+        "minecraft:wolf_spawn_egg"
+    ]
+}

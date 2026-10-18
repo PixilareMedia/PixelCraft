@@ -1,0 +1,19 @@
+{
+    "values": [
+        "minecraft:purpur_block",
+        "minecraft:purpur_pillar",
+        "minecraft:purpur_stairs",
+        "minecraft:purpur_slab",
+        "minecraft:end_stone_bricks",
+        "minecraft:chorus_plant",
+        "minecraft:chorus_flower",
+        "minecraft:dragon_head",
+        "minecraft:end_rod",
+        "minecraft:dirt_path",
+        "minecraft:structure_block",
+        "minecraft:beetroots",
+        "minecraft:chain_command_block",
+        "minecraft:repeating_command_block",
+        "minecraft:end_gateway"
+    ]
+}

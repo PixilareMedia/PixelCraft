@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Deepslate Lapis Lazuli Mining 300"
+        },
+        "description": {
+            "text": "Mine your 400th Deepslate Lapis Lazuli Ore"
+        },
+        "icon": {
+            "item": "minecraft:deepslate_lapis_ore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/deepslate_lapis_ore_9"
+    },
+    "parent": "pcs5:total_miner/deepslate_lapis_ore_8"
+}

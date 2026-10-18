@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Nether Gold Mining 301"
+        },
+        "description": {
+            "text": "Mine your 500th Nether Gold Ore"
+        },
+        "icon": {
+            "item": "minecraft:nether_gold_ore"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/nether_gold_ore_10"
+    },
+    "parent": "pcs5:total_miner/nether_gold_ore_9"
+}

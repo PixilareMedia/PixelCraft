@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Grass Block Mining 214"
+        },
+        "description": {
+            "text": "Mine your 200th Grass Block"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/grass_block_6"
+    },
+    "parent": "pcs5:total_miner/grass_block_5"
+}

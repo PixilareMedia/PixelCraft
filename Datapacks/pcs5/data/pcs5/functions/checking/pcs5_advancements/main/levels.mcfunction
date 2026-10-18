@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:main/levels_1=false},scores={ts_Levels=1..}] run advancement grant @a[advancements={pcs5:main/levels_1=false},scores={ts_Levels=1..}] only pcs5:main/levels_1
+execute if entity @a[advancements={pcs5:main/levels_2=false},scores={ts_Levels=30..}] run advancement grant @a[advancements={pcs5:main/levels_2=false},scores={ts_Levels=30..}] only pcs5:main/levels_2
+execute if entity @a[advancements={pcs5:main/levels_3=false},scores={ts_Levels=69..}] run advancement grant @a[advancements={pcs5:main/levels_3=false},scores={ts_Levels=69..}] only pcs5:main/levels_3
+execute if entity @a[advancements={pcs5:main/levels_4=false},scores={ts_Levels=360..}] run advancement grant @a[advancements={pcs5:main/levels_4=false},scores={ts_Levels=360..}] only pcs5:main/levels_4
+execute if entity @a[advancements={pcs5:main/levels_5=false},scores={ts_Levels=420..}] run advancement grant @a[advancements={pcs5:main/levels_5=false},scores={ts_Levels=420..}] only pcs5:main/levels_5
+execute if entity @a[advancements={pcs5:main/levels_6=false},scores={ts_Levels=666..}] run advancement grant @a[advancements={pcs5:main/levels_6=false},scores={ts_Levels=666..}] only pcs5:main/levels_6
+execute if entity @a[advancements={pcs5:main/levels_7=false},scores={ts_Levels=1000..}] run advancement grant @a[advancements={pcs5:main/levels_7=false},scores={ts_Levels=1000..}] only pcs5:main/levels_7
+execute if entity @a[advancements={pcs5:main/levels_8=false},scores={ts_Levels=1234..}] run advancement grant @a[advancements={pcs5:main/levels_8=false},scores={ts_Levels=1234..}] only pcs5:main/levels_8
+execute if entity @a[advancements={pcs5:main/levels_9=false},scores={ts_Levels=9001..}] run advancement grant @a[advancements={pcs5:main/levels_9=false},scores={ts_Levels=9001..}] only pcs5:main/levels_9
+execute if entity @a[advancements={pcs5:main/levels_10=false},scores={ts_Levels=21863..}] run advancement grant @a[advancements={pcs5:main/levels_10=false},scores={ts_Levels=21863..}] only pcs5:main/levels_10

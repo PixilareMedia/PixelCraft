@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:main/murder_1=false},scores={ts_PlayerKills=1..}] run advancement grant @a[advancements={pcs5:main/murder_1=false},scores={ts_PlayerKills=1..}] only pcs5:main/murder_1
+execute if entity @a[advancements={pcs5:main/murder_2=false},scores={ts_PlayerKills=50..}] run advancement grant @a[advancements={pcs5:main/murder_2=false},scores={ts_PlayerKills=50..}] only pcs5:main/murder_2
+execute if entity @a[advancements={pcs5:main/murder_3=false},scores={ts_PlayerKills=100..}] run advancement grant @a[advancements={pcs5:main/murder_3=false},scores={ts_PlayerKills=100..}] only pcs5:main/murder_3
+execute if entity @a[advancements={pcs5:main/murder_4=false},scores={ts_PlayerKills=123..}] run advancement grant @a[advancements={pcs5:main/murder_4=false},scores={ts_PlayerKills=123..}] only pcs5:main/murder_4
+execute if entity @a[advancements={pcs5:main/murder_5=false},scores={ts_PlayerKills=360..}] run advancement grant @a[advancements={pcs5:main/murder_5=false},scores={ts_PlayerKills=360..}] only pcs5:main/murder_5
+execute if entity @a[advancements={pcs5:main/murder_6=false},scores={ts_PlayerKills=420..}] run advancement grant @a[advancements={pcs5:main/murder_6=false},scores={ts_PlayerKills=420..}] only pcs5:main/murder_6
+execute if entity @a[advancements={pcs5:main/murder_7=false},scores={ts_PlayerKills=500..}] run advancement grant @a[advancements={pcs5:main/murder_7=false},scores={ts_PlayerKills=500..}] only pcs5:main/murder_7
+execute if entity @a[advancements={pcs5:main/murder_8=false},scores={ts_PlayerKills=666..}] run advancement grant @a[advancements={pcs5:main/murder_8=false},scores={ts_PlayerKills=666..}] only pcs5:main/murder_8
+execute if entity @a[advancements={pcs5:main/murder_9=false},scores={ts_PlayerKills=1000..}] run advancement grant @a[advancements={pcs5:main/murder_9=false},scores={ts_PlayerKills=1000..}] only pcs5:main/murder_9
+execute if entity @a[advancements={pcs5:main/murder_10=false},scores={ts_PlayerKills=1234..}] run advancement grant @a[advancements={pcs5:main/murder_10=false},scores={ts_PlayerKills=1234..}] only pcs5:main/murder_10

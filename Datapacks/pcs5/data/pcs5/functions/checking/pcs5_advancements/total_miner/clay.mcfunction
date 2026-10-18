@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_miner/clay_1=false},scores={bm_clay=1..}] run advancement grant @a[advancements={pcs5:total_miner/clay_1=false},scores={bm_clay=1..}] only pcs5:total_miner/clay_1
+execute if entity @a[advancements={pcs5:total_miner/clay_2=false},scores={bm_clay=5..}] run advancement grant @a[advancements={pcs5:total_miner/clay_2=false},scores={bm_clay=5..}] only pcs5:total_miner/clay_2
+execute if entity @a[advancements={pcs5:total_miner/clay_3=false},scores={bm_clay=25..}] run advancement grant @a[advancements={pcs5:total_miner/clay_3=false},scores={bm_clay=25..}] only pcs5:total_miner/clay_3
+execute if entity @a[advancements={pcs5:total_miner/clay_4=false},scores={bm_clay=50..}] run advancement grant @a[advancements={pcs5:total_miner/clay_4=false},scores={bm_clay=50..}] only pcs5:total_miner/clay_4
+execute if entity @a[advancements={pcs5:total_miner/clay_5=false},scores={bm_clay=75..}] run advancement grant @a[advancements={pcs5:total_miner/clay_5=false},scores={bm_clay=75..}] only pcs5:total_miner/clay_5
+execute if entity @a[advancements={pcs5:total_miner/clay_6=false},scores={bm_clay=100..}] run advancement grant @a[advancements={pcs5:total_miner/clay_6=false},scores={bm_clay=100..}] only pcs5:total_miner/clay_6
+execute if entity @a[advancements={pcs5:total_miner/clay_7=false},scores={bm_clay=150..}] run advancement grant @a[advancements={pcs5:total_miner/clay_7=false},scores={bm_clay=150..}] only pcs5:total_miner/clay_7
+execute if entity @a[advancements={pcs5:total_miner/clay_8=false},scores={bm_clay=200..}] run advancement grant @a[advancements={pcs5:total_miner/clay_8=false},scores={bm_clay=200..}] only pcs5:total_miner/clay_8
+execute if entity @a[advancements={pcs5:total_miner/clay_9=false},scores={bm_clay=250..}] run advancement grant @a[advancements={pcs5:total_miner/clay_9=false},scores={bm_clay=250..}] only pcs5:total_miner/clay_9
+execute if entity @a[advancements={pcs5:total_miner/clay_10=false},scores={bm_clay=500..}] run advancement grant @a[advancements={pcs5:total_miner/clay_10=false},scores={bm_clay=500..}] only pcs5:total_miner/clay_10

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Master 10K Club"
+        },
+        "description": {
+            "text": "You have Mastered all the 10K Clubs"
+        },
+        "icon": {
+            "item": "minecraft:fire_charge"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/10k_club_master"
+    },
+    "parent": "pcs5:main/10k_club_elytra"
+}

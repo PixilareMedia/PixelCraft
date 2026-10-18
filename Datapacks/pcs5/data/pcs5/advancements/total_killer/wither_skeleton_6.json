@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Wither Skeletons Are Running"
+        },
+        "description": {
+            "text": "Kill your 100th Wither Skeleton"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/wither_skeleton_6"
+    },
+    "parent": "pcs5:total_killer/wither_skeleton_5"
+}

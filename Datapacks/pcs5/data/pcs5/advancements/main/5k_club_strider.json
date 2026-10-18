@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Strider 5K Club"
+        },
+        "description": {
+            "text": "You have stridden over 5K blocks"
+        },
+        "icon": {
+            "item": "minecraft:warped_fungus_on_a_stick"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/5k_club_strider"
+    },
+    "parent": "pcs5:main/5k_club_minecart"
+}

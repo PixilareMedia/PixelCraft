@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Cobblestone Mining 200"
+        },
+        "description": {
+            "text": "Mine your 100th Cobblestone"
+        },
+        "icon": {
+            "item": "minecraft:cobblestone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/cobblestone_4"
+    },
+    "parent": "pcs5:total_miner/cobblestone_3"
+}

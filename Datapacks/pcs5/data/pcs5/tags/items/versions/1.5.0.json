@@ -1,0 +1,23 @@
+{
+    "values": [
+        "minecraft:activator_rail",
+        "minecraft:redstone_block",
+        "minecraft:daylight_detector",
+        "minecraft:dropper",
+        "minecraft:hopper",
+        "minecraft:comparator",
+        "minecraft:trapped_chest",
+        "minecraft:light_weighted_pressure_plate",
+        "minecraft:heavy_weighted_pressure_plate",
+        "minecraft:nether_quartz_ore",
+        "minecraft:quartz_block",
+        "minecraft:quartz_slab",
+        "minecraft:quartz_stairs",
+        "minecraft:chiseled_quartz_block",
+        "minecraft:quartz_pillar",
+        "minecraft:nether_brick",
+        "minecraft:quartz",
+        "minecraft:tnt_minecart",
+        "minecraft:hopper_minecart"
+    ]
+}

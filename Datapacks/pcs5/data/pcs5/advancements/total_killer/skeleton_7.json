@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Skeletons Hitman"
+        },
+        "description": {
+            "text": "Kill your 150th Skeleton"
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/skeleton_7"
+    },
+    "parent": "pcs5:total_killer/skeleton_6"
+}

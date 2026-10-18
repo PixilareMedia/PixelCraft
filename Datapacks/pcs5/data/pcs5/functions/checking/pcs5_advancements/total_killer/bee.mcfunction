@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/bee_1=false},scores={k_bee=1..}] run advancement grant @a[advancements={pcs5:total_killer/bee_1=false},scores={k_bee=1..}] only pcs5:total_killer/bee_1
+execute if entity @a[advancements={pcs5:total_killer/bee_2=false},scores={k_bee=5..}] run advancement grant @a[advancements={pcs5:total_killer/bee_2=false},scores={k_bee=5..}] only pcs5:total_killer/bee_2
+execute if entity @a[advancements={pcs5:total_killer/bee_3=false},scores={k_bee=25..}] run advancement grant @a[advancements={pcs5:total_killer/bee_3=false},scores={k_bee=25..}] only pcs5:total_killer/bee_3
+execute if entity @a[advancements={pcs5:total_killer/bee_4=false},scores={k_bee=50..}] run advancement grant @a[advancements={pcs5:total_killer/bee_4=false},scores={k_bee=50..}] only pcs5:total_killer/bee_4
+execute if entity @a[advancements={pcs5:total_killer/bee_5=false},scores={k_bee=75..}] run advancement grant @a[advancements={pcs5:total_killer/bee_5=false},scores={k_bee=75..}] only pcs5:total_killer/bee_5
+execute if entity @a[advancements={pcs5:total_killer/bee_6=false},scores={k_bee=100..}] run advancement grant @a[advancements={pcs5:total_killer/bee_6=false},scores={k_bee=100..}] only pcs5:total_killer/bee_6
+execute if entity @a[advancements={pcs5:total_killer/bee_7=false},scores={k_bee=150..}] run advancement grant @a[advancements={pcs5:total_killer/bee_7=false},scores={k_bee=150..}] only pcs5:total_killer/bee_7
+execute if entity @a[advancements={pcs5:total_killer/bee_8=false},scores={k_bee=200..}] run advancement grant @a[advancements={pcs5:total_killer/bee_8=false},scores={k_bee=200..}] only pcs5:total_killer/bee_8
+execute if entity @a[advancements={pcs5:total_killer/bee_9=false},scores={k_bee=250..}] run advancement grant @a[advancements={pcs5:total_killer/bee_9=false},scores={k_bee=250..}] only pcs5:total_killer/bee_9
+execute if entity @a[advancements={pcs5:total_killer/bee_10=false},scores={k_bee=500..}] run advancement grant @a[advancements={pcs5:total_killer/bee_10=false},scores={k_bee=500..}] only pcs5:total_killer/bee_10

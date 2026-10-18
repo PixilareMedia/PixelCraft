@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "National Condemnation"
+        },
+        "description": {
+            "text": "You have been condemned by the nation for killing 666 people and probably count still"
+        },
+        "icon": {
+            "item": "minecraft:bone_meal"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/murder_8"
+    },
+    "parent": "pcs5:main/murder_7"
+}

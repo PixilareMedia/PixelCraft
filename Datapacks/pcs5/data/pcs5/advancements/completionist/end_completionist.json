@@ -1,0 +1,86 @@
+{
+    "display": {
+        "title": {
+            "text": "End Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the End advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "end_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_all_purpur": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_broken_elytra": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_chorus_fruit": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_dragon_egg": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_dragon_head": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_elytra": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_ender_chest": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_endermite": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_kill_dragon": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_level_4000": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_levitate": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_lingering_potion": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_shniper": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_shulker_box": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_unnatural": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_void": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_dragon_breath": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_enter_end_gateway": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_find_end_city": {
+            "trigger": "minecraft:impossible"
+        },
+        "end_respawn_dragon": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/end_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/vex_1=false},scores={k_vex=1..}] run advancement grant @a[advancements={pcs5:total_killer/vex_1=false},scores={k_vex=1..}] only pcs5:total_killer/vex_1
+execute if entity @a[advancements={pcs5:total_killer/vex_2=false},scores={k_vex=5..}] run advancement grant @a[advancements={pcs5:total_killer/vex_2=false},scores={k_vex=5..}] only pcs5:total_killer/vex_2
+execute if entity @a[advancements={pcs5:total_killer/vex_3=false},scores={k_vex=25..}] run advancement grant @a[advancements={pcs5:total_killer/vex_3=false},scores={k_vex=25..}] only pcs5:total_killer/vex_3
+execute if entity @a[advancements={pcs5:total_killer/vex_4=false},scores={k_vex=50..}] run advancement grant @a[advancements={pcs5:total_killer/vex_4=false},scores={k_vex=50..}] only pcs5:total_killer/vex_4
+execute if entity @a[advancements={pcs5:total_killer/vex_5=false},scores={k_vex=75..}] run advancement grant @a[advancements={pcs5:total_killer/vex_5=false},scores={k_vex=75..}] only pcs5:total_killer/vex_5
+execute if entity @a[advancements={pcs5:total_killer/vex_6=false},scores={k_vex=100..}] run advancement grant @a[advancements={pcs5:total_killer/vex_6=false},scores={k_vex=100..}] only pcs5:total_killer/vex_6
+execute if entity @a[advancements={pcs5:total_killer/vex_7=false},scores={k_vex=150..}] run advancement grant @a[advancements={pcs5:total_killer/vex_7=false},scores={k_vex=150..}] only pcs5:total_killer/vex_7
+execute if entity @a[advancements={pcs5:total_killer/vex_8=false},scores={k_vex=200..}] run advancement grant @a[advancements={pcs5:total_killer/vex_8=false},scores={k_vex=200..}] only pcs5:total_killer/vex_8
+execute if entity @a[advancements={pcs5:total_killer/vex_9=false},scores={k_vex=250..}] run advancement grant @a[advancements={pcs5:total_killer/vex_9=false},scores={k_vex=250..}] only pcs5:total_killer/vex_9
+execute if entity @a[advancements={pcs5:total_killer/vex_10=false},scores={k_vex=500..}] run advancement grant @a[advancements={pcs5:total_killer/vex_10=false},scores={k_vex=500..}] only pcs5:total_killer/vex_10

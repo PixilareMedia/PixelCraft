@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_miner/tuff_1=false},scores={bm_tuff=1..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_1=false},scores={bm_tuff=1..}] only pcs5:total_miner/tuff_1
+execute if entity @a[advancements={pcs5:total_miner/tuff_2=false},scores={bm_tuff=5..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_2=false},scores={bm_tuff=5..}] only pcs5:total_miner/tuff_2
+execute if entity @a[advancements={pcs5:total_miner/tuff_3=false},scores={bm_tuff=25..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_3=false},scores={bm_tuff=25..}] only pcs5:total_miner/tuff_3
+execute if entity @a[advancements={pcs5:total_miner/tuff_4=false},scores={bm_tuff=50..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_4=false},scores={bm_tuff=50..}] only pcs5:total_miner/tuff_4
+execute if entity @a[advancements={pcs5:total_miner/tuff_5=false},scores={bm_tuff=75..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_5=false},scores={bm_tuff=75..}] only pcs5:total_miner/tuff_5
+execute if entity @a[advancements={pcs5:total_miner/tuff_6=false},scores={bm_tuff=100..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_6=false},scores={bm_tuff=100..}] only pcs5:total_miner/tuff_6
+execute if entity @a[advancements={pcs5:total_miner/tuff_7=false},scores={bm_tuff=150..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_7=false},scores={bm_tuff=150..}] only pcs5:total_miner/tuff_7
+execute if entity @a[advancements={pcs5:total_miner/tuff_8=false},scores={bm_tuff=200..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_8=false},scores={bm_tuff=200..}] only pcs5:total_miner/tuff_8
+execute if entity @a[advancements={pcs5:total_miner/tuff_9=false},scores={bm_tuff=250..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_9=false},scores={bm_tuff=250..}] only pcs5:total_miner/tuff_9
+execute if entity @a[advancements={pcs5:total_miner/tuff_10=false},scores={bm_tuff=500..}] run advancement grant @a[advancements={pcs5:total_miner/tuff_10=false},scores={bm_tuff=500..}] only pcs5:total_miner/tuff_10

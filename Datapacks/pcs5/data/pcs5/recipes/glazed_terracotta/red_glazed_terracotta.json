@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "glazed_terracotta",
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "tag": "pcs5:glazed_terracotta"
+      },
+      "X": {
+        "item": "minecraft:red_dye"
+      }
+    },
+    "result": {
+      "item": "minecraft:red_glazed_terracotta",
+      "count": 8
+    }
+}

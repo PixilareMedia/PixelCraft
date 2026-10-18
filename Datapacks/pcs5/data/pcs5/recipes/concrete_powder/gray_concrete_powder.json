@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+      "#": {
+        "tag": "pcs5:concrete_powder"
+      },
+      "X": {
+        "item": "minecraft:gray_dye"
+      }
+    },
+    "result": {
+        "item": "minecraft:gray_concrete_powder",
+        "count": 8
+    },
+    "group": "concrete_powder_dye"
+}

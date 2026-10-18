@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "No Scope"
+        },
+        "description": {
+            "text": "360 No Scoped those levels"
+        },
+        "icon": {
+            "item": "minecraft:crossbow"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/levels_4"
+    },
+    "parent": "pcs5:main/levels_3"
+}

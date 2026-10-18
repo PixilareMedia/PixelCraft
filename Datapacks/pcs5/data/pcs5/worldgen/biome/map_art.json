@@ -1,0 +1,19 @@
+{
+  "temperature": 0.9,
+  "downfall": 1,
+  "precipitation": "none",
+  "temperature_modifier": "none",
+  "category": "mushroom",
+  "effects": {
+    "sky_color": 7842047,
+    "fog_color": 12638463,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 5090361,
+    "foliage_color": 5090361
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

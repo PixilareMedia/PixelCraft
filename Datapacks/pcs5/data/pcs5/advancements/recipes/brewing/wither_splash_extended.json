@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "pcs5:brewing/wither_splash_extended"
+      ]
+    },
+    "criteria": {
+      "has_potion": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:potion"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "pcs5:brewing/wither_splash_extended"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_potion",
+        "has_the_recipe"
+      ]
+    ]
+}

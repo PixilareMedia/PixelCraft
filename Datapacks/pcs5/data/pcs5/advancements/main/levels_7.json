@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "1K Levels Gang"
+        },
+        "description": {
+            "text": "Welcome to the 1k Levels gang we've got, Billy and Timmy there both assholes and your first task is to kill them."
+        },
+        "icon": {
+            "item": "minecraft:diamond"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/levels_7"
+    },
+    "parent": "pcs5:main/levels_6"
+}

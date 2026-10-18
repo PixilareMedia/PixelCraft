@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "PvP / PvE"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:shield"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/category_pvppve"
+    },
+    "parent": "pcs5:main/root"
+}

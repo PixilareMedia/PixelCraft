@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "pcp",
+        "cac",
+        "pcp"
+    ],
+    "key": {
+        "p": {
+            "item": "minecraft:pink_tulip"
+        },
+        "c": {
+            "item": "minecraft:moss_carpet"
+        },
+        "a": {
+            "item": "minecraft:flowering_azalea_leaves"
+        }
+    },
+    "result": {
+        "item": "minecraft:spore_blossom",
+        "count": 1
+    }
+}

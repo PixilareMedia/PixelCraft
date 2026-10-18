@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Zombie Murder"
+        },
+        "description": {
+            "text": "Kill your 25th Zombie"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/zombie_3"
+    },
+    "parent": "pcs5:total_killer/zombie_2"
+}

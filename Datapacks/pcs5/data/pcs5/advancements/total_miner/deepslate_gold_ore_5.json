@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Deepslate Gold Mining 210"
+        },
+        "description": {
+            "text": "Mine your 150th Deepslate Gold Ore"
+        },
+        "icon": {
+            "item": "minecraft:deepslate_gold_ore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/deepslate_gold_ore_5"
+    },
+    "parent": "pcs5:total_miner/deepslate_gold_ore_4"
+}

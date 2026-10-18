@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "6 Months of Playing"
+        },
+        "description": {
+            "text": "I take it your enjoying playing on our server that's good were here to support you and your crazy builds"
+        },
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/playertime_9"
+    },
+    "parent": "pcs5:main/playertime_8"
+}

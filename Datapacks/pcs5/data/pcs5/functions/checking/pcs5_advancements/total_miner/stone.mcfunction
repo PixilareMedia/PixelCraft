@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_miner/stone_1=false},scores={bm_stone=1..}] run advancement grant @a[advancements={pcs5:total_miner/stone_1=false},scores={bm_stone=1..}] only pcs5:total_miner/stone_1
+execute if entity @a[advancements={pcs5:total_miner/stone_2=false},scores={bm_stone=5..}] run advancement grant @a[advancements={pcs5:total_miner/stone_2=false},scores={bm_stone=5..}] only pcs5:total_miner/stone_2
+execute if entity @a[advancements={pcs5:total_miner/stone_3=false},scores={bm_stone=25..}] run advancement grant @a[advancements={pcs5:total_miner/stone_3=false},scores={bm_stone=25..}] only pcs5:total_miner/stone_3
+execute if entity @a[advancements={pcs5:total_miner/stone_4=false},scores={bm_stone=50..}] run advancement grant @a[advancements={pcs5:total_miner/stone_4=false},scores={bm_stone=50..}] only pcs5:total_miner/stone_4
+execute if entity @a[advancements={pcs5:total_miner/stone_5=false},scores={bm_stone=75..}] run advancement grant @a[advancements={pcs5:total_miner/stone_5=false},scores={bm_stone=75..}] only pcs5:total_miner/stone_5
+execute if entity @a[advancements={pcs5:total_miner/stone_6=false},scores={bm_stone=100..}] run advancement grant @a[advancements={pcs5:total_miner/stone_6=false},scores={bm_stone=100..}] only pcs5:total_miner/stone_6
+execute if entity @a[advancements={pcs5:total_miner/stone_7=false},scores={bm_stone=150..}] run advancement grant @a[advancements={pcs5:total_miner/stone_7=false},scores={bm_stone=150..}] only pcs5:total_miner/stone_7
+execute if entity @a[advancements={pcs5:total_miner/stone_8=false},scores={bm_stone=200..}] run advancement grant @a[advancements={pcs5:total_miner/stone_8=false},scores={bm_stone=200..}] only pcs5:total_miner/stone_8
+execute if entity @a[advancements={pcs5:total_miner/stone_9=false},scores={bm_stone=250..}] run advancement grant @a[advancements={pcs5:total_miner/stone_9=false},scores={bm_stone=250..}] only pcs5:total_miner/stone_9
+execute if entity @a[advancements={pcs5:total_miner/stone_10=false},scores={bm_stone=500..}] run advancement grant @a[advancements={pcs5:total_miner/stone_10=false},scores={bm_stone=500..}] only pcs5:total_miner/stone_10

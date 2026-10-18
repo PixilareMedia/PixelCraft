@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "1 Hour of Playing"
+        },
+        "description": {
+            "text": "They have played for 1 Hour"
+        },
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/playertime_1"
+    },
+    "parent": "pcs5:main/category_stats"
+}

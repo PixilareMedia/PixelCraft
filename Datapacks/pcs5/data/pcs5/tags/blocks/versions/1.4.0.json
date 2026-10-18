@@ -1,0 +1,32 @@
+{
+    "values": [
+        "minecraft:command_block",
+        "minecraft:beacon",
+        "minecraft:anvil",
+        "minecraft:chipped_anvil",
+        "minecraft:damaged_anvil",
+        "minecraft:flower_pot",
+        "minecraft:cobblestone_wall",
+        "minecraft:mossy_cobblestone_wall",
+        "minecraft:skeleton_skull",
+        "minecraft:wither_skeleton_skull",
+        "minecraft:zombie_head",
+        "minecraft:player_head",
+        "minecraft:creeper_head",
+        "minecraft:oak_button",
+        "minecraft:nether_brick_slab",
+        "minecraft:potatoes",
+        "minecraft:carrots",
+        "minecraft:potted_oak_sapling",
+        "minecraft:potted_spruce_sapling",
+        "minecraft:potted_birch_sapling",
+        "minecraft:potted_jungle_sapling",
+        "minecraft:potted_dandelion",
+        "minecraft:potted_poppy",
+        "minecraft:potted_red_mushroom",
+        "minecraft:potted_brown_mushroom",
+        "minecraft:potted_dead_bush",
+        "minecraft:potted_fern",
+        "minecraft:potted_cactus"
+    ]
+}

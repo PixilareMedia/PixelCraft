@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Its Over 9000!!!!!!!!!!!!!!!"
+        },
+        "description": {
+            "text": "Get 9001 Levels just to flex your total power over this world."
+        },
+        "icon": {
+            "item": "minecraft:netherite_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/levels_9"
+    },
+    "parent": "pcs5:main/levels_8"
+}

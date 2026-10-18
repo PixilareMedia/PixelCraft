@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Master 5K Club"
+        },
+        "description": {
+            "text": "You have Mastered all the 5K Clubs"
+        },
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/5k_club_master"
+    },
+    "parent": "pcs5:main/5k_club_elytra"
+}

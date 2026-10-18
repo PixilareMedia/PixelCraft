@@ -1,0 +1,41 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:player_head",
+            "data": {
+                "display": {
+                    "Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Stone White Pawn\"}"
+                },
+                "SkullOwner": {
+                    "Id": [-1347636326,-458798403,-1149012330,1027640897],
+                    "Properties": {
+                        "textures": [
+                            {
+                                "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWExNmZmNjBmZmZmMWI5MjJlZDE1NDdhY2E0NDFmYTNjMTQ4Y2M3ZTZjMzcyMTY2MWM5MGVhMWMxMDFmYTg0MSJ9fX0="
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "result": {
+        "item": "minecraft:player_head",
+        "data": {
+            "display": {
+                "Name": "{\"italic\":false,\"color\":\"white\",\"text\":\"Stone White Rook\"}"
+            },
+            "SkullOwner": {
+                "Id": [-1487844067,1633503289,-1374041499,1276367978],
+                "Properties": {
+                    "textures": [
+                        {
+                            "Value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBlZDQ4MWQxYjhkODNmNDcyNzMxZTNmYzNjOWI5NTFhMWVjNWU5ZDUzOTU1NDNkNThlMWRmNWEyZTNmM2QifX19"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

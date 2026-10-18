@@ -1,0 +1,188 @@
+{
+    "display": {
+        "title": {
+            "text": "Exploration Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Exploration advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "exploration_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_badlands": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_badlands_mineshaft": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_biomes_explore_all": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_blue_ice": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_book_and_quill": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_breed_foxes": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_breed_pandas": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_buy_map": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_cartography_table": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_cocoa_beans": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_dark_forest": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_dead_bush": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_desert": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_desert_pyramids": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_drowned_by_llama": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_emerald_ore": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_enter_structure": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_evoker_fangs": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_fix_portal": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_husk": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_ice": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_igloo": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_igloo_zombie": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_in_all_structures": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_jungle_in": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_jungle_pyramid": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_jungle_tree": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_lectern": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_lily_pad": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_llama": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_mansion": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_map_create": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_mooshroom": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_mountain": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_mushroom_fields_in": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_packed_ice": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_poison_parrot": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_postmortal": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_powder_snow": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_sandstorm": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_slime": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_snow_biome": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_stray": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_swamp_find": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_sweet_berries": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_taiga": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_tame_parrot": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_trader_traded": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_vex": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_witch_hut": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_write_book": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_float_goat": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_walk_powder_snow": {
+            "trigger": "minecraft:impossible"
+        },
+        "exploration_goat_ram": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/exploration_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

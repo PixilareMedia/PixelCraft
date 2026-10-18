@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Coal Mining 222"
+        },
+        "description": {
+            "text": "Mine your 250th Coal Ore"
+        },
+        "icon": {
+            "item": "minecraft:coal_ore"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/coal_ore_7"
+    },
+    "parent": "pcs5:total_miner/coal_ore_6"
+}

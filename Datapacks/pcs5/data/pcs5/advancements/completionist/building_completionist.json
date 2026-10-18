@@ -1,0 +1,104 @@
+{
+    "display": {
+        "title": {
+            "text": "Building Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Building advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "building_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_all_slabs": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_all_stairs": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_all_walls": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_armor_stand": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_brick": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_bricks": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_clay_have": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_copper": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_end_rod": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_flower_pot": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_glowstone": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_item_frame": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_lantern_light": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_oxidized_copper": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_painting_paint": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_redstone_lamp": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_scaffolds": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_sea_lantern": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_shroomlight": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_sign_write": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_stonecutter_have": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_terracotta": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_torch": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_wax_on": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_wax_off": {
+            "trigger": "minecraft:impossible"
+        },
+        "building_glow_sign": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/building_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

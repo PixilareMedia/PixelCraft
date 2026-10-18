@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "COMP Creeper 200"
+        },
+        "description": {
+            "text": "Kill your 200th Creeper"
+        },
+        "icon": {
+            "item": "minecraft:creeper_head"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/creeper_8"
+    },
+    "parent": "pcs5:total_killer/creeper_7"
+}

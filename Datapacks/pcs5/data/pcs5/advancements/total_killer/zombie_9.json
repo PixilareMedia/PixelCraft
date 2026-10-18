@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Zombies Who Needs Rotten Flesh?"
+        },
+        "description": {
+            "text": "Kill your 250th Zombie"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/zombie_9"
+    },
+    "parent": "pcs5:total_killer/zombie_8"
+}

@@ -1,0 +1,35 @@
+{
+    "parent": "block/command_block",
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "item/custom/unobtainables/end_gateway"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "item/custom/unobtainables/end_portal"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 3
+            },
+            "model": "item/custom/unobtainables/nether_portal_x_axis"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 4
+            },
+            "model": "item/custom/unobtainables/nether_portal_z_axis"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 5
+            },
+            "model": "item/custom/unobtainables/spawner_minecart"
+        }
+    ]
+}

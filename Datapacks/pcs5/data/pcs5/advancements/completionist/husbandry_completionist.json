@@ -1,0 +1,104 @@
+{
+    "display": {
+        "title": {
+            "text": "Husbandry Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Husbandry advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "husbandry_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_all_flowers": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_balanced_diet": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_bread": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_breed_bees": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_build_snow_golem": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_cactus": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_cake": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_carved_pumpkin": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_composter": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_cure_poison": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_desperate_times": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_dessert": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_have_one_flower": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_hold_reeds": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_jack_o_lantern": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_light_candle_cake": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_obtain_netherite_hoe": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_plant_all_seeds": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_plant_everything": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_plant_seed": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_pumpkin": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_pumpkin_pie": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_safely_harvest_honey": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_silk_touch_nest": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_thanksgiving": {
+            "trigger": "minecraft:impossible"
+        },
+        "husbandry_time_to_farm": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/husbandry_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

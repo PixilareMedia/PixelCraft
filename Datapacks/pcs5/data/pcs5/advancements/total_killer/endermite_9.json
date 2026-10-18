@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Endermites Who Needs XP?"
+        },
+        "description": {
+            "text": "Kill your 250th Endermite"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJjN2I5ZDM2ZmI5MmI2YmYyOTJiZTczZDMyYzZjNWIwZWNjMjViNDQzMjNhNTQxZmFlMWYxZTY3ZTM5M2EzZSJ9fX0=\"}]},Id:[I;-1356981155,-1011923515,-1813307092,709382968]},display:{Name:'{\"text\":\"Endermite\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/endermite_9"
+    },
+    "parent": "pcs5:total_killer/endermite_8"
+}

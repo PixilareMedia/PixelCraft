@@ -1,0 +1,116 @@
+{
+    "display": {
+        "title": {
+            "text": "Story Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Story advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "story_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_all_enchantments": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_all_tools": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_anvil": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_buy_book": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_clock": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_compass": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_diamond_blocks": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_disenchanted": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_enchant_item": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_enter_the_end": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_enter_the_nether": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_fire_aspect": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_follow_ender_eye": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_form_obsidian": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_furnace": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_iron_tools": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_lava_bucket": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_mending": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_mine_diamond": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_mine_stone": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_overkill": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_perfect_armor": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_perfect_bow": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_perfect_pickaxe": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_perfect_sword": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_place_bookshelf": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_shiny_gear": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_smelt_iron": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_upgrade_tools": {
+            "trigger": "minecraft:impossible"
+        },
+        "story_vbtain_armor": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/story_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

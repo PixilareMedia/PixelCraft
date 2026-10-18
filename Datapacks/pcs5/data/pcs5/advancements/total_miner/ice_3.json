@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Ice Gathering 150"
+        },
+        "description": {
+            "text": "Mine your 50th Ice"
+        },
+        "icon": {
+            "item": "minecraft:ice"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/ice_3"
+    },
+    "parent": "pcs5:total_miner/ice_2"
+}

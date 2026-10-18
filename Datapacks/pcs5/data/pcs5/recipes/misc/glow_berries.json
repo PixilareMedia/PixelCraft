@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ivi",
+        "gsg",
+        "ivi"
+    ],
+    "key": {
+        "s": {
+            "item": "minecraft:sweet_berries"
+        },
+        "g": {
+            "item": "minecraft:glow_lichen"
+        },
+        "v": {
+            "item": "minecraft:vine"
+        },
+        "i": {
+            "item": "minecraft:glow_ink_sac"
+        }
+    },
+    "result": {
+        "item": "minecraft:glow_berries",
+        "count": 1
+    }
+}

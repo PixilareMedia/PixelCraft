@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Polar Bears So Many. . ."
+        },
+        "description": {
+            "text": "Kill your 500th Polar Bear"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Q1ZDYwYTRkNzBlYzEzNmE2NTg1MDdjZTgyZTM0NDNjZGFhMzk1OGQ3ZmNhM2Q5Mzc2NTE3YzdkYjRlNjk1ZCJ9fX0=\"}]},Id:[I;854297185,1852198397,-2024901503,419435689]},display:{Name:'{\"text\":\"Polar Bear\"}'}}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/polar_bear_10"
+    },
+    "parent": "pcs5:total_killer/polar_bear_9"
+}

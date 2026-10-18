@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Zombies Hitman"
+        },
+        "description": {
+            "text": "Kill your 150th Zombie"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/zombie_7"
+    },
+    "parent": "pcs5:total_killer/zombie_6"
+}

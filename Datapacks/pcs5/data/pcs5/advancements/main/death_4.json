@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "How Not To Die"
+        },
+        "description": {
+            "text": "Don't do what this person did the past 123 times"
+        },
+        "icon": {
+            "item": "minecraft:podzol"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/death_4"
+    },
+    "parent": "pcs5:main/death_3"
+}

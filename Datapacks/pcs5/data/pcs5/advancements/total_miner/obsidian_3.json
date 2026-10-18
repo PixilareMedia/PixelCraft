@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Obsidian Mining 150"
+        },
+        "description": {
+            "text": "Mine your 50th Obsidian"
+        },
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/obsidian_3"
+    },
+    "parent": "pcs5:total_miner/obsidian_2"
+}

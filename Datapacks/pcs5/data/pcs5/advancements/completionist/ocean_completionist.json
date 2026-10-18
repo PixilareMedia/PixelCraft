@@ -1,0 +1,167 @@
+{
+    "display": {
+        "title": {
+            "text": "Ocean Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Ocean advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "ocean_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_all_oceans": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_axolotl_bucket": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_boat": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_breed_turtles": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_bubble_column": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_conduit_power": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_cook_fish": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_coral": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_coral_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_coral_fan": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_dead_coral": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_depth_strider": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_dolphins_grace": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_dried_kelp": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_dried_kelp_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_drowned": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_dry_sponge": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_elder_guardian": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_fish_buckets": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_fishy_business": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_frost_walker": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_glow_ink": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_green_in_the_blue": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_heart_and_soul": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_hidden_booty": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_ink": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_kelp": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_leather_boots": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_monument": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_mudkip": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_ocean_ruins": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_perfect_fishing_rod": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_perfect_trident": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_playing_god": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_real_fish": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_riptide": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_scute": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_sea_pickles": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_shipwreck": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_tactical_fishing": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_tall_tale": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_throw_trident": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_tropical_aquarist": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_turtle_egg": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_turtle_shell": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_very_very_frightening": {
+            "trigger": "minecraft:impossible"
+        },
+        "ocean_kill_axolotl_target": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/ocean_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

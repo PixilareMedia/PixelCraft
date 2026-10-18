@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/pig_1=false},scores={k_pig=1..}] run advancement grant @a[advancements={pcs5:total_killer/pig_1=false},scores={k_pig=1..}] only pcs5:total_killer/pig_1
+execute if entity @a[advancements={pcs5:total_killer/pig_2=false},scores={k_pig=5..}] run advancement grant @a[advancements={pcs5:total_killer/pig_2=false},scores={k_pig=5..}] only pcs5:total_killer/pig_2
+execute if entity @a[advancements={pcs5:total_killer/pig_3=false},scores={k_pig=25..}] run advancement grant @a[advancements={pcs5:total_killer/pig_3=false},scores={k_pig=25..}] only pcs5:total_killer/pig_3
+execute if entity @a[advancements={pcs5:total_killer/pig_4=false},scores={k_pig=50..}] run advancement grant @a[advancements={pcs5:total_killer/pig_4=false},scores={k_pig=50..}] only pcs5:total_killer/pig_4
+execute if entity @a[advancements={pcs5:total_killer/pig_5=false},scores={k_pig=75..}] run advancement grant @a[advancements={pcs5:total_killer/pig_5=false},scores={k_pig=75..}] only pcs5:total_killer/pig_5
+execute if entity @a[advancements={pcs5:total_killer/pig_6=false},scores={k_pig=100..}] run advancement grant @a[advancements={pcs5:total_killer/pig_6=false},scores={k_pig=100..}] only pcs5:total_killer/pig_6
+execute if entity @a[advancements={pcs5:total_killer/pig_7=false},scores={k_pig=150..}] run advancement grant @a[advancements={pcs5:total_killer/pig_7=false},scores={k_pig=150..}] only pcs5:total_killer/pig_7
+execute if entity @a[advancements={pcs5:total_killer/pig_8=false},scores={k_pig=200..}] run advancement grant @a[advancements={pcs5:total_killer/pig_8=false},scores={k_pig=200..}] only pcs5:total_killer/pig_8
+execute if entity @a[advancements={pcs5:total_killer/pig_9=false},scores={k_pig=250..}] run advancement grant @a[advancements={pcs5:total_killer/pig_9=false},scores={k_pig=250..}] only pcs5:total_killer/pig_9
+execute if entity @a[advancements={pcs5:total_killer/pig_10=false},scores={k_pig=500..}] run advancement grant @a[advancements={pcs5:total_killer/pig_10=false},scores={k_pig=500..}] only pcs5:total_killer/pig_10

@@ -1,0 +1,2135 @@
+{
+    "display": {
+        "title": {
+            "text": "Total Killer Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Total Killer advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "totalkiller_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_category_hostial": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_blaze_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_creeper_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_drowned_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_elder_guardian_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ender_dragon_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_endermite_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_evoker_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ghast_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_guardian_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_hoglin_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_husk_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_magma_cube_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_phantom_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_brute_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pillager_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ravager_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_shulker_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_silverfish_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_slime_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_stray_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vex_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_vindicator_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_witch_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wither_skeleton_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zoglin_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombie_villager_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_category_neutral": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bee_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cave_spider_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_dolphin_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_enderman_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_iron_golem_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_goat_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_llama_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_panda_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_piglin_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_polar_bear_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_spider_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_trader_llama_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wolf_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_zombified_piglin_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_category_peaceful": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_axolotl_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_bat_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cat_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_chicken_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cod_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_cow_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_donkey_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_fox_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_glow_squid_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_horse_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mooshroom_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_mule_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_ocelot_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_parrot_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pig_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_pufferfish_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_rabbit_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_salmon_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_sheep_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_skeleton_horse_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_snow_golem_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_turtle_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_squid_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_strider_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_tropical_fish_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_villager_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "totalkiller_wandering_trader_10": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/totalkiller_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

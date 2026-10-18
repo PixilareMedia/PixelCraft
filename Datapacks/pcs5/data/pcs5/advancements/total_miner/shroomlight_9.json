@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Shroomlight Mining 300"
+        },
+        "description": {
+            "text": "Mine your 400th Shroomlight"
+        },
+        "icon": {
+            "item": "minecraft:shroomlight"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/shroomlight_9"
+    },
+    "parent": "pcs5:total_miner/shroomlight_8"
+}

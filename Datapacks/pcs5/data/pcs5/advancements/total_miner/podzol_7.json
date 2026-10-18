@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Podzol Mining 222"
+        },
+        "description": {
+            "text": "Mine your 250th Podzol"
+        },
+        "icon": {
+            "item": "minecraft:podzol"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/podzol_7"
+    },
+    "parent": "pcs5:total_miner/podzol_6"
+}

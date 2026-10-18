@@ -1,0 +1,98 @@
+{
+    "display": {
+        "title": {
+            "text": "Redstone Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Redstone advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "redstone_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_bullseye": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_button": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_comparator": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_daylight_detector": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_detector_rail": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_dispenser": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_dropper": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_honey_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_hopper": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_hopper_minecart": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_lever_use": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_note_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_observer": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_payback": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_piston": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_pressure_plate": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_redstone_torch": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_repeater": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_slime_block": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_sticky_piston": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_tnt": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_tnt_minecart": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_trapped_chest": {
+            "trigger": "minecraft:impossible"
+        },
+        "redstone_tripwire": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/redstone_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Dripstone Block Mining 101"
+        },
+        "description": {
+            "text": "Mine your first bit of Dripstone Block"
+        },
+        "icon": {
+            "item": "minecraft:dripstone_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/dripstone_block_1"
+    },
+    "parent": "pcs5:total_miner/category_ground"
+}

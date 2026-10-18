@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/cow_1=false},scores={k_cow=1..}] run advancement grant @a[advancements={pcs5:total_killer/cow_1=false},scores={k_cow=1..}] only pcs5:total_killer/cow_1
+execute if entity @a[advancements={pcs5:total_killer/cow_2=false},scores={k_cow=5..}] run advancement grant @a[advancements={pcs5:total_killer/cow_2=false},scores={k_cow=5..}] only pcs5:total_killer/cow_2
+execute if entity @a[advancements={pcs5:total_killer/cow_3=false},scores={k_cow=25..}] run advancement grant @a[advancements={pcs5:total_killer/cow_3=false},scores={k_cow=25..}] only pcs5:total_killer/cow_3
+execute if entity @a[advancements={pcs5:total_killer/cow_4=false},scores={k_cow=50..}] run advancement grant @a[advancements={pcs5:total_killer/cow_4=false},scores={k_cow=50..}] only pcs5:total_killer/cow_4
+execute if entity @a[advancements={pcs5:total_killer/cow_5=false},scores={k_cow=75..}] run advancement grant @a[advancements={pcs5:total_killer/cow_5=false},scores={k_cow=75..}] only pcs5:total_killer/cow_5
+execute if entity @a[advancements={pcs5:total_killer/cow_6=false},scores={k_cow=100..}] run advancement grant @a[advancements={pcs5:total_killer/cow_6=false},scores={k_cow=100..}] only pcs5:total_killer/cow_6
+execute if entity @a[advancements={pcs5:total_killer/cow_7=false},scores={k_cow=150..}] run advancement grant @a[advancements={pcs5:total_killer/cow_7=false},scores={k_cow=150..}] only pcs5:total_killer/cow_7
+execute if entity @a[advancements={pcs5:total_killer/cow_8=false},scores={k_cow=200..}] run advancement grant @a[advancements={pcs5:total_killer/cow_8=false},scores={k_cow=200..}] only pcs5:total_killer/cow_8
+execute if entity @a[advancements={pcs5:total_killer/cow_9=false},scores={k_cow=250..}] run advancement grant @a[advancements={pcs5:total_killer/cow_9=false},scores={k_cow=250..}] only pcs5:total_killer/cow_9
+execute if entity @a[advancements={pcs5:total_killer/cow_10=false},scores={k_cow=500..}] run advancement grant @a[advancements={pcs5:total_killer/cow_10=false},scores={k_cow=500..}] only pcs5:total_killer/cow_10

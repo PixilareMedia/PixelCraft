@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Hum S8tn Is That You?"
+        },
+        "description": {
+            "text": "They've summoned S8tn due to them dieing 666 times. Also please for the love of [REDACTED] stop dieing"
+        },
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/death_8"
+    },
+    "parent": "pcs5:main/death_7"
+}

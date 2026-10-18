@@ -1,0 +1,248 @@
+{
+    "display": {
+        "title": {
+            "text": "Pixel Craft Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Pixel Craft Season #5 advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "pcs5_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_category_pvppve": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_category_random": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_category_stats": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_category_travel": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_death_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_murder_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_levels_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_playertime_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_1": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_2": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_3": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_4": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_5": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_6": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_7": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_8": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_9": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_items_box_10": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_walk": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_fall": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_swim": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_boat": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_pig": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_horse": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_minecart": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_strider": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_elytra": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_5k_club_master": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_walk": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_fall": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_swim": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_boat": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_pig": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_horse": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_minecart": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_strider": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_elytra": {
+            "trigger": "minecraft:impossible"
+        },
+        "pcs5_10k_club_master": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/pixelcraft_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

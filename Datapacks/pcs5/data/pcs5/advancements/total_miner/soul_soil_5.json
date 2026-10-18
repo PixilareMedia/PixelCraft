@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Soul Soil Mining 210"
+        },
+        "description": {
+            "text": "Mine your 150th Soul Soil"
+        },
+        "icon": {
+            "item": "minecraft:soul_soil"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/soul_soil_5"
+    },
+    "parent": "pcs5:total_miner/soul_soil_4"
+}

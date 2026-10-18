@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/bat_1=false},scores={k_bat=1..}] run advancement grant @a[advancements={pcs5:total_killer/bat_1=false},scores={k_bat=1..}] only pcs5:total_killer/bat_1
+execute if entity @a[advancements={pcs5:total_killer/bat_2=false},scores={k_bat=5..}] run advancement grant @a[advancements={pcs5:total_killer/bat_2=false},scores={k_bat=5..}] only pcs5:total_killer/bat_2
+execute if entity @a[advancements={pcs5:total_killer/bat_3=false},scores={k_bat=25..}] run advancement grant @a[advancements={pcs5:total_killer/bat_3=false},scores={k_bat=25..}] only pcs5:total_killer/bat_3
+execute if entity @a[advancements={pcs5:total_killer/bat_4=false},scores={k_bat=50..}] run advancement grant @a[advancements={pcs5:total_killer/bat_4=false},scores={k_bat=50..}] only pcs5:total_killer/bat_4
+execute if entity @a[advancements={pcs5:total_killer/bat_5=false},scores={k_bat=75..}] run advancement grant @a[advancements={pcs5:total_killer/bat_5=false},scores={k_bat=75..}] only pcs5:total_killer/bat_5
+execute if entity @a[advancements={pcs5:total_killer/bat_6=false},scores={k_bat=100..}] run advancement grant @a[advancements={pcs5:total_killer/bat_6=false},scores={k_bat=100..}] only pcs5:total_killer/bat_6
+execute if entity @a[advancements={pcs5:total_killer/bat_7=false},scores={k_bat=150..}] run advancement grant @a[advancements={pcs5:total_killer/bat_7=false},scores={k_bat=150..}] only pcs5:total_killer/bat_7
+execute if entity @a[advancements={pcs5:total_killer/bat_8=false},scores={k_bat=200..}] run advancement grant @a[advancements={pcs5:total_killer/bat_8=false},scores={k_bat=200..}] only pcs5:total_killer/bat_8
+execute if entity @a[advancements={pcs5:total_killer/bat_9=false},scores={k_bat=250..}] run advancement grant @a[advancements={pcs5:total_killer/bat_9=false},scores={k_bat=250..}] only pcs5:total_killer/bat_9
+execute if entity @a[advancements={pcs5:total_killer/bat_10=false},scores={k_bat=500..}] run advancement grant @a[advancements={pcs5:total_killer/bat_10=false},scores={k_bat=500..}] only pcs5:total_killer/bat_10

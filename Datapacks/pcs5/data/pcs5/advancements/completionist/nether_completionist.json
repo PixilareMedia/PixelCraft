@@ -1,0 +1,113 @@
+{
+    "display": {
+        "title": {
+            "text": "Nether Completionist"
+        },
+        "description": {
+            "text": "You completed all the Advancements in the Nether advancement tab"
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "nether_root": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_above_nether": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_all_netherite": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_basalt_delta": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_charge_respawn_anchor": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_crimson_forest": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_distract_piglin": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_explore_nether": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_fast_travel": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_fire_resistance": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_ghastly_butcher": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_ice": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_magma_cube": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_nether_gold_ore": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_netherite": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_netherite_armor": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_netherite_blocks": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_obtain_ancient_debris": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_obtain_crying_obsidian": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_quartz_crystal": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_return_to_sender": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_ride_strider": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_soul_sand": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_soul_sand_valley": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_soul_speed": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_strider_stack": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_uneasy_alliance": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_use_lodestone": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_when_hogs_fly": {
+            "trigger": "minecraft:impossible"
+        },
+        "nether_zombified_piglin": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/completionist/nether_completionist"
+    },
+    "parent": "pcs5:completionist/root"
+}

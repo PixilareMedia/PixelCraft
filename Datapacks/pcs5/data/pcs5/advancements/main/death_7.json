@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Dead Man Tells No Tail"
+        },
+        "description": {
+            "text": "IS that a Pirates Of The Caribbean reference? Also why did you have to die 500 times!!!!"
+        },
+        "icon": {
+            "item": "minecraft:mossy_cobblestone_wall"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/death_7"
+    },
+    "parent": "pcs5:main/death_6"
+}

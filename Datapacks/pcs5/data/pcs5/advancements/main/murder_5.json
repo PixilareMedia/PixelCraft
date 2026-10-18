@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Quick Scope"
+        },
+        "description": {
+            "text": "Only Quick Scopes for the past hundred ish kills. Kill 360 people"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/murder_5"
+    },
+    "parent": "pcs5:main/murder_4"
+}

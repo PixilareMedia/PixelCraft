@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Basalt Mining 301"
+        },
+        "description": {
+            "text": "Mine your 500th Basalt"
+        },
+        "icon": {
+            "item": "minecraft:basalt"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/basalt_10"
+    },
+    "parent": "pcs5:total_miner/basalt_9"
+}

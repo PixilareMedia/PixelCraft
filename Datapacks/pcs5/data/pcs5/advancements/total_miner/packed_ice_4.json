@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Packed Ice Gathering 200"
+        },
+        "description": {
+            "text": "Mine your 100th Packed Ice"
+        },
+        "icon": {
+            "item": "minecraft:packed_ice"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/packed_ice_4"
+    },
+    "parent": "pcs5:total_miner/packed_ice_3"
+}

@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+      "recipes": [
+        "pcs5:misc/dispenser_alternate"
+      ]
+    },
+    "criteria": {
+      "has_dropper": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "item": "minecraft:dropper"
+            }
+          ]
+        }
+      },
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "pcs5:misc/dispenser_alternate"
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_dropper",
+        "has_the_recipe"
+      ]
+    ]
+}

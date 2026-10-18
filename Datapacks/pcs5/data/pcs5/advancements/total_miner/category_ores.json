@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Ores"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "item": "minecraft:diamond_ore"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_miner/category_ores"
+    },
+    "parent": "pcs5:total_miner/root"
+}

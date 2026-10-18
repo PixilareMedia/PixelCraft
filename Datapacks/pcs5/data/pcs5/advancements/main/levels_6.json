@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Used To Summon A Man"
+        },
+        "description": {
+            "text": "Gain 666 Levels and use them to summon s8tn"
+        },
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/pixelcraft/levels_6"
+    },
+    "parent": "pcs5:main/levels_5"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SSS",
+        "L#W"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:clay_ball"
+        },
+        "S": {
+            "item": "minecraft:oak_slab"
+        },
+        "L": {
+            "item": "minecraft:lava_bucket",
+            "remainder": { 
+                "item": "minecraft:bucket"
+            }
+        },
+        "W": {
+            "item": "minecraft:water_bucket",
+            "remainder": { 
+                "item": "minecraft:bucket"
+            }
+        }
+    },
+    "result": {
+        "item": "minecraft:petrified_oak_slab",
+        "count": 6
+    }
+}

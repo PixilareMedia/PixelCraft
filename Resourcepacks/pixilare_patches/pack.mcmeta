@@ -1,0 +1,11 @@
+{
+  "pack": {
+    "pack_format": 8,
+    "description": [
+      {"text":"Pixilare Media's ","color":"dark_purple"},
+      {"text":"Tweaks Pack ","color":"green"},
+	  {"text":"v2.8 ","color":"gray"},
+	  {"text":"www.pixilaremedia.com","color":"dark_gray"}
+    ]
+  }
+}

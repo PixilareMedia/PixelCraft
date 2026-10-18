@@ -1,0 +1,10 @@
+execute if entity @a[advancements={pcs5:total_killer/cod_1=false},scores={k_cod=1..}] run advancement grant @a[advancements={pcs5:total_killer/cod_1=false},scores={k_cod=1..}] only pcs5:total_killer/cod_1
+execute if entity @a[advancements={pcs5:total_killer/cod_2=false},scores={k_cod=5..}] run advancement grant @a[advancements={pcs5:total_killer/cod_2=false},scores={k_cod=5..}] only pcs5:total_killer/cod_2
+execute if entity @a[advancements={pcs5:total_killer/cod_3=false},scores={k_cod=25..}] run advancement grant @a[advancements={pcs5:total_killer/cod_3=false},scores={k_cod=25..}] only pcs5:total_killer/cod_3
+execute if entity @a[advancements={pcs5:total_killer/cod_4=false},scores={k_cod=50..}] run advancement grant @a[advancements={pcs5:total_killer/cod_4=false},scores={k_cod=50..}] only pcs5:total_killer/cod_4
+execute if entity @a[advancements={pcs5:total_killer/cod_5=false},scores={k_cod=75..}] run advancement grant @a[advancements={pcs5:total_killer/cod_5=false},scores={k_cod=75..}] only pcs5:total_killer/cod_5
+execute if entity @a[advancements={pcs5:total_killer/cod_6=false},scores={k_cod=100..}] run advancement grant @a[advancements={pcs5:total_killer/cod_6=false},scores={k_cod=100..}] only pcs5:total_killer/cod_6
+execute if entity @a[advancements={pcs5:total_killer/cod_7=false},scores={k_cod=150..}] run advancement grant @a[advancements={pcs5:total_killer/cod_7=false},scores={k_cod=150..}] only pcs5:total_killer/cod_7
+execute if entity @a[advancements={pcs5:total_killer/cod_8=false},scores={k_cod=200..}] run advancement grant @a[advancements={pcs5:total_killer/cod_8=false},scores={k_cod=200..}] only pcs5:total_killer/cod_8
+execute if entity @a[advancements={pcs5:total_killer/cod_9=false},scores={k_cod=250..}] run advancement grant @a[advancements={pcs5:total_killer/cod_9=false},scores={k_cod=250..}] only pcs5:total_killer/cod_9
+execute if entity @a[advancements={pcs5:total_killer/cod_10=false},scores={k_cod=500..}] run advancement grant @a[advancements={pcs5:total_killer/cod_10=false},scores={k_cod=500..}] only pcs5:total_killer/cod_10

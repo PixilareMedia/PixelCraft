@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Cows 101"
+        },
+        "description": {
+            "text": "Kill your first Cow"
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2RmYTBhYzM3YmFiYTJhYTI5MGU0ZmFlZTQxOWE2MTNjZDYxMTdmYTU2OGU3MDlkOTAzNzQ3NTNjMDMyZGNiMCJ9fX0=\"}]},Id:[I;-559698266,-962900245,-1709699529,-1829095512]},display:{Name:'{\"text\":\"Cow\"}'}}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "scoreboard": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "pcs5:advancements/total_killer/cow_1"
+    },
+    "parent": "pcs5:total_killer/category_peaceful"
+}

@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/ghast_tear"
+	},
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 0
+            },
+            "model": "minecraft:item/custom/minecraft/ghast_tear"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1
+            },
+            "model": "minecraft:item/custom/server/pixilare"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 2
+            },
+            "model": "minecraft:item/custom/server/minecoin"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 100
+            },
+            "model": "minecraft:item/custom/herobrain_gamer/fancy_pants_casino_token"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 200
+            },
+            "model": "minecraft:item/custom/sex/dildo"
+        }
+    ]
+}

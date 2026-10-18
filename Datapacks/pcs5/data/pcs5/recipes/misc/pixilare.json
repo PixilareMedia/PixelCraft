@@ -1,0 +1,29 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "cAc",
+        "AEA",
+        "cAc"
+    ],
+    "key": {
+        "c": {
+            "item": "minecraft:copper_ingot"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "E": {
+            "item": "minecraft:emerald_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:ghast_tear",
+        "count": 1,
+        "data": {
+            "display": {
+                "Name": "{\"text\":\"Pixilare\",\"color\":\"gold\",\"italic\":false}"
+            },
+            "CustomModelData": 1
+        }
+    }
+}
