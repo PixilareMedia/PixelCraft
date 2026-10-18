@@ -1,0 +1,27 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Its Over 9000!!!!!!!!!!!!"
+        },
+        "description": {
+            "text": "Get 9001 Levels just to flex your total power on this server."
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 1000
+    },
+    "parent": "pcs4:1k_levels_club"
+}

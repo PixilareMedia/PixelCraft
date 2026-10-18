@@ -1,0 +1,25 @@
+whitelist add EggyLadd
+whitelist add MasterZent
+whitelist add Tiwborn
+whitelist add noodleuwu
+whitelist add SKstarbreaker
+whitelist add Kaiju_Pool115
+whitelist add Herobrain_gamer
+whitelist add TheFinalDuality
+whitelist add Chroifala
+whitelist add midna_87
+whitelist add xqcL
+whitelist add Bear_Mohawk
+whitelist add KWulf1668
+whitelist add KatieBear88
+whitelist add Butterminer200
+whitelist add GeorgeWBush1946
+whitelist add seonbwii
+whitelist add IItsBradyy
+whitelist add zackman1291
+whitelist add Gardonn
+whitelist add HellSubjection
+whitelist add Stranqe_People
+whitelist add DIVADESTROYER01
+whitelist add BurningOrphans
+whitelist reload

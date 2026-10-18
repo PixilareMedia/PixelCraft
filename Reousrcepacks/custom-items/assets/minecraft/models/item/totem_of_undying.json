@@ -1,0 +1,50 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/totem_of_undying"
+    },
+	"overrides": [
+        {
+            "predicate": {
+				"custom_model_data": 0
+            },
+            "model": "minecraft:item/totem_of_undying"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 1
+            },
+            "model": "minecraft:item/custom/many_miniature_minis_totems/bee"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 2
+            },
+            "model": "minecraft:item/custom/many_miniature_minis_totems/frogie"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 3
+            },
+            "model": "minecraft:item/custom/many_miniature_minis_totems/mooshroom"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 4
+            },
+            "model": "minecraft:item/custom/many_miniature_minis_totems/moobloom"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 5
+            },
+            "model": "minecraft:item/custom/many_miniature_minis_totems/ender_dragon"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 6
+            },
+            "model": "minecraft:item/custom/many_miniature_minis_totems/wither"
+        }
+	]
+}

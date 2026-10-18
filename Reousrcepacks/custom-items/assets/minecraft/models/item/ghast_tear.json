@@ -1,0 +1,116 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/ghast_tear"
+	},
+	"overrides": [
+        {
+            "predicate": {
+				"custom_model_data": 0
+            },
+            "model": "minecraft:item/ghast_tear"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 1
+            },
+            "model": "minecraft:item/custom/diamond_shard"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 2
+            },
+            "model": "minecraft:item/custom/sex_items/dildo"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 3
+            },
+            "model": "minecraft:item/custom/zackman_items/vault_door_button"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 4
+            },
+            "model": "minecraft:item/custom/many_miniature_minis/bee"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 5
+            },
+            "model": "minecraft:item/custom/many_miniature_minis/nether_portal"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 6
+            },
+            "model": "minecraft:item/custom/many_miniature_minis/end_portal"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 7
+            },
+            "model": "minecraft:item/custom/many_miniature_minis/frogie"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 8
+            },
+            "model": "minecraft:item/custom/many_miniature_minis/mooshroom"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 9
+            },
+            "model": "minecraft:item/custom/many_miniature_minis/moobloom"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 10
+            },
+            "model": "minecraft:item/custom/many_miniature_minis/ender_dragon"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 11
+            },
+            "model": "minecraft:item/custom/many_miniature_minis/wither"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 12
+            },
+            "model": "minecraft:item/custom/poster/ahego"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 13
+            },
+            "model": "minecraft:item/custom/poster/mha"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 14
+            },
+            "model": "minecraft:item/custom/poster/ph"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 15
+            },
+            "model": "minecraft:item/custom/poster/todaroki"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 16
+            },
+            "model": "minecraft:item/custom/poster/procrastinator"
+        },
+        {
+            "predicate": {
+				"custom_model_data": 17
+            },
+            "model": "minecraft:item/custom/bodypillow/anime_swords_man_1"
+        }
+	]
+}

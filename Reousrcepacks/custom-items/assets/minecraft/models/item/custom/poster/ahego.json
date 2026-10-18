@@ -1,0 +1,61 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "item/poster/ahego",
+		"particle": "item/poster/ahego"
+	},
+	"elements": [
+		{
+			"from": [-8, 0, 7.5],
+			"to": [24, 32, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 7.75]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.5, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 0.5, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0.5], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [19, 0, 0],
+			"translation": [0, 1, 0.5],
+			"scale": [0.16, 0.16, 0.16]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [19, 0, 0],
+			"translation": [0, 1, 0.5],
+			"scale": [0.16, 0.16, 0.16]
+		},
+		"firstperson_righthand": {
+			"rotation": [-9, 0, 0],
+			"translation": [0.5, 0, 0],
+			"scale": [0.29, 0.29, 0.29]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-9, 0, 0],
+			"translation": [0.5, 0, 0],
+			"scale": [0.29, 0.29, 0.29]
+		},
+		"ground": {
+			"translation": [0, -0.5, 0],
+			"scale": [0.37, 0.37, 0.37]
+		},
+		"gui": {
+			"rotation": [20, 33, 0],
+			"translation": [0, -3, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"translation": [0, -3.25, -6.5],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"fixed": {
+			"translation": [0, -24.5, 0],
+			"scale": [2.84, 2.84, 2.84]
+		}
+	}
+}

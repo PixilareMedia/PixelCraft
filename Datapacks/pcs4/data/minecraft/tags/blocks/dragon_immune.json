@@ -1,0 +1,21 @@
+{
+    "replace": false,
+    "values": [
+      "#minecraft:fire",
+      "#minecraft:shulker_boxes",
+      "minecraft:purpur_block",
+      "minecraft:purpur_pillar",
+      "minecraft:purpur_slab",
+      "minecraft:purpur_stairs",
+      "minecraft:chorus_plant",
+      "minecraft:chorus_flower",
+      "minecraft:enchanting_table",
+      "minecraft:lodestone",
+      "minecraft:end_stone_bricks",
+      "minecraft:end_stone_brick_wall",
+      "minecraft:end_stone_brick_stairs",
+      "minecraft:end_stone_brick_slab",
+      "minecraft:ender_chest",
+      "minecraft:end_rod"
+    ]
+  }
